@@ -1,60 +1,28 @@
 ---
 layout: page
-title: "About Haacked"
+title: "About Ugo Lattanzi"
 date: 2005-10-15 -0800
 comments: false
-disqus_identifier: 10811
 categories: [personal]
 sharing: false
 ---
 
 ## Who I am
 
-[![Me and Cody](http://farm2.static.flickr.com/1166/720440046_7bec55b6f0_m.jpg)](http://www.flickr.com/photos/haacked/720440046/ "Photo Sharing")In
-case you were wondering, not that I have any reason to believe you were,
-*Haacked* is *not* my real name.
+![Me](https://0.gravatar.com/avatar/91dc93f70aa2c457a41657437194933a?r=x&s=200)
 
-In the offline world, *(which some prefer to call the “real world”)*,
-people tend to call me [Phil Haack](http://haacked.com/ "home page")
-*(pronounced, you guessed it, “hack”)* — unless of course they are
-calling me more colorful names as is sometimes deserved.
+**Ugo Lattanzi** è un tecnico specializzato nello sviluppo di applicazioni enterprise, nello specifico di applicazioni web, applicazioni service oriented e, in generale, di tutti quei contesti in cui è richiesta una forte scalabilità. 
 
-*Haacked* is simply my [blogger
-handle](http://haacked.com/archive/2005/03/12/what-is-your-blogger-handle.aspx "What’s your blogger handle?")
-*(creative, eh?)*. I also go by [@haacked](http://twitter.com/haacked)
-on Twitter
+Forte dell’esperienza maturata negli ultimi anni, oggi si avvale di competenze riguardanti principalmente tecnologie quali ASP.NET, NodeJs, Web API, SignalR, HTML5 Windows Communication Foundation, NService bus etc etc.
 
-## What I do
+Proprio dalla passione per il web e per le attività svolte Microsoft gli ha riconosciuto l’award **MVP (Most Valuable Professional)** in questa tecnologia.
 
-I work at [GitHub](http://github.com/) doing whatever I can to
-make it even more awesome.
+La sua attività nasce nel mondo multimedia: gli inizi di carriera lo vedono infatti consulente per alcune delle principali aziende del centro Italia; Da circa 10 anni si dedica invece totalmente alla programmazione web e a tutto ciò che le ruota intorno.
 
-## Why I do it
+Dal 2013 ricopre il ruolo di Head of Technologies in [Gaia](http://www.gaia.is.it "Gaia").
 
-Ever since I first laid my hands on [my first
-computer](http://haacked.com/archive/2005/06/06/my-first-computer.aspx "This was my first computer"),
-a TRS-80, *aka Trash 80*, I’ve loved computers and all the wonderful
-things you can make them do such as printing `Care to play a game?` in
-an infinite loop.
+Dal 2007 al 2010 ricopre il ruolo di responsabile dell’area Microsoft e Technical Manager di MTV Italia per l’area software e web application.
 
-While I love my day job, I also have a passion for managing and
-developing Open Source projects. There’s something immensely satisfying
-in working with developers all over the world on a common goal, and then
-sharing that product with all comers.
+Dal 2006 al 2009 è content manager di ASPItalia.com e Technical Contributor del network; partecipa come speaker ai Community Days (luglio 2008) e ai Wpc / Tech Days (dicembre 2008).
 
-## What I do for fun
-
-![Sand Sharks](/images/SandSharks.jpg)What is it about American culture
-that causes us to ask people *What do you do?* and mean *What is your
-occupation?* rather than *What do you do for fun?*. And here I go
-propagating that mindset by putting this section last.
-
-Oh well. Read my blog for a while and you’ll find I’m fanatical about
-playing soccer.
-
-Living in beautiful Bellevue, WA, I take every occasion to go hiking and
-camping. I’ve also been to [Burning Man](http://haacked.com/archive/2004/07/18/burningmanphotopedia.aspx/ "Burningman Photos")
-three times, and would love to make it a habit if I could.
-
-The picture above is from my first time at Burning Man, paddling away
-from sand sharks.
+E’ autore di diverse pubblicazioni, Webcast, Speaker per importanti conferenze italiane e ad oggi, risulta un regolare frequentatore delle più importanti community italiane e non.
