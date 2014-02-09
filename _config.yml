@@ -9,8 +9,6 @@ subtitle: ...and more
 gravatar_url: https://0.gravatar.com/avatar/91dc93f70aa2c457a41657437194933a
 subscribe_rss: http://feeds.feedburner.com/imperugo
 
-permalink: /blog/post/:title/
-
 # Github repositories
 github_user: imperugo
 github_repo_url: https://github.com/imperugo/imperugo-it/
@@ -34,7 +32,7 @@ google_analytics_tracking_id: UA-8212043-1
 markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
-permalink: /archive/:year/:month/:day/:title/
+permalink: /blog/post/:title/
 paginate: 20
 paginate_path: "page/:num"
 category_dir: categories
