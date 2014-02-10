@@ -13,6 +13,6 @@ categories:
 - Various
 tags:
 - Recruiting
-comments: []
+comments: true
 ---
 <p>Recentemente sono stato contattato per due posizioni aperte come Web Developer in zona Milano, se qualcuno di voi è interessato mi può contattare liberamente da <a title="Contact Me" href="http://tostring.it/contacts" target="_blank">qui</a>. </p>

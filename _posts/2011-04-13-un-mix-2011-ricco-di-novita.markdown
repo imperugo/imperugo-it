@@ -18,7 +18,7 @@ tags:
 - Scaffolding
 - ASP.NET
 - HTML5
-comments: []
+comments: true
 ---
 <a href="http://www.tostring.it/UserFiles/imperugo/MIX11_BB_SeeYouAt_2_thumb_2.gif"><img style="background-image: none; margin: 0px 10px 10px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border-width: 0px;" title="MIX11_BB_SeeYouAt_2_thumb" alt="MIX11_BB_SeeYouAt_2_thumb" src="http://www.tostring.it/UserFiles/imperugo/MIX11_BB_SeeYouAt_2_thumb_thumb.gif" width="153" height="240" align="left" border="0" /></a>Si è conclusa da poche ore la prima giornata del <a title="Mix 2011" href="http://visitmix.com/" target="_blank" rel="nofollow"><strong>MIX11</strong></a>, e le novità di cui parlare sono già tante. Essendo io un web addicted mi soffermerò principalmente sulle novità riguardanti il mondo “www”, quindi per le novità su WP7 dovrete leggere <a title="Il Blog di Lorenzo Barbieri" href="http://geniodelmale.info/" target="_blank" rel="nofollow">altrove</a> <img class="wlEmoticon wlEmoticon-smile" style="border-style: none;" alt="Smile" src="http://www.tostring.it/UserFiles/imperugo/wlEmoticon-smile_2_5.png" />.
 

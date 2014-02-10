@@ -14,7 +14,7 @@ categories:
 tags:
 - MVC
 - Webcast
-comments: []
+comments: true
 ---
 <p>
 	Ieri &egrave; stato pubblicato un mio webcast su MVC intitolato &ldquo;<strong><em>ASP.NET MVC 2: Security</em></strong>&rdquo; sul portale <a href="http://www.microsoft.com/italy/beit/Default.aspx">BEIT</a> di Microsoft.</p>

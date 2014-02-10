@@ -15,7 +15,7 @@ tags:
 - Visual Studio
 - Unit Test
 - Tools
-comments: []
+comments: true
 ---
 <p>
 	Ametto la mia totale ignoranza a riguardo, ma purtroppo ho scoperto solo ieri l&rsquo;esistenza di <a href="http://msdn.microsoft.com/en-us/library/e74a18c4(VS.71).aspx#cpgrffusionlogviewerfuslogvwexeanchor8" rel="nofollow" target="_blank" title="Assembly Binding Log Viewer (Fuslogvw.exe)">questo</a> tool (fighissimo) che mi ha permesso di risolvere un problema in pochi istanti; ma partiamo con ordine.</p>

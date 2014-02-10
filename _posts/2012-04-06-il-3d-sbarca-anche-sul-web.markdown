@@ -14,7 +14,7 @@ categories:
 tags:
 - Browser
 - Firefox
-comments: []
+comments: true
 ---
 <p>
 	Questa volta non stiamo parlando di animazioni 3D per il web, bens&igrave; per lo sviluppatore e non servono gli occhialini J.</p>

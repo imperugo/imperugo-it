@@ -15,7 +15,7 @@ tags:
 - MVC
 - ViewEngine
 - SparkViewEngine
-comments: []
+comments: true
 ---
 <p>Nel post <a title="SparkViewEngine: If, else, elseif" href="http://tostring.it/blog/post/sparkviewengine-conditional_elements_if_else_elseif" target="_blank">precedente</a> ho mostrato come è possibile ridurre il numero di righe di codice presenti all’interno della skin quando ci si trova a dover gestire dei blocchi di if per la visualizzazione di porzioni di Html. Ovviamente all’interno delle nostre Views non ci troviamo soltanto ad utilizzare i vari if/elseif/else, ma sicuramente andremo a creare delle iterazioni che ci permettono di mostrare un set di contenuti, come potrebbe essere l’elenco delle ultime news.</p>  <p>L’approccio è lo stesso, ed in questi due blocchi di codice (engine classic e spark) possiamo notare come è possibile evitare la sintassi di apertura e di chiusura del ciclo:</p>  {% raw %}<pre class="brush: xml;">&lt;%for (int i = 0; i &lt; Model.Categories.Count; i++){%&gt;
     &lt;li class=&quot;category&quot;&gt;

@@ -15,7 +15,7 @@ tags:
 - Open Search
 - Browser
 - Dexter
-comments: []
+comments: true
 ---
 Nel weekend scorso ho deciso di implementare l’<a title="Open Search Official Site" href="http://www.opensearch.org/Home" target="_blank" rel="nofollow">OpenSearch</a> all’interno del mio blog in modo da offrire un servizio in più ed imparare una cosa nuova.
 In pratica lo scopo era di creare un provider di ricerca per i principali browser di navigazione come Internet Explorer, Firefox e Chrome.

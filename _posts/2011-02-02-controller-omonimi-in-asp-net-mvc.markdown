@@ -15,7 +15,7 @@ tags:
 - MVC
 - Routing
 - ASP.NET
-comments: []
+comments: true
 ---
 <p>Oggi mi è capitato di dover gestire una nuova problematica in un’applicazione <a title="ASP.NET MVC Posts" href="http://www.tostring.it/tags/archive/mvc" target="_blank">ASP.NET MVC</a>. Nello specifico mi trovavo nella condizione di avere due controller con lo stesso nome; il primo era all’interno della struttura principale dell’applicazione, il secondo dentro un Area di MVC.</p>  <p>Il problema è identificabile e risolvibile a livello di routing; di fatto se si prova a guardare i seguenti controller (dai namespace è facilmente identificabile l’area):</p>  {% raw %}<pre class="brush: csharp;">namespace Dexter.Web.UI.Areas.Admin.Controllers {
   public class HomeController : BackOfficeControllerBase {

@@ -14,7 +14,7 @@ categories:
 tags:
 - Webnetconf12
 - Webdev
-comments: []
+comments: true
 ---
 <p>
 	Dopo l&rsquo;annuncio, prima via Twitter e poi tramite il blog di <a href="http://codeclimber.net.nz/" rel="nofollow" target="_blank" title="Simone Chiaretta's blog">Simone</a>, eccomi qui a &ldquo;sponsorizzare&rdquo; la mia prima conferenza da organizzatore e non da speaker.</p>

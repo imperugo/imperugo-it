@@ -14,7 +14,7 @@ categories:
 tags:
 - MVC
 - Filter
-comments: []
+comments: true
 ---
 <p>Già dalla prima release di<strong> ASPNET </strong><a title="ASP.NET MVC" href="http://tostring.it/tags/archive/mvc" target="_blank"><strong>MVC</strong></a> è stato introdotto il concetto di <strong>Action Filter</strong>, ossia un attributo che può decorare sia una singola Action o che addirittura un intero Controller. </p>  <p>Lo scopo di questi Filter è quello di <strong>aggiungere funzionalità che spesso ci troveremmo a scrivere con molta frequenza</strong>, o addirittura per ogni singola chiamata; per capire il concetto è sufficiente pensare ad una serie di Action che dovranno essere accessibili soltanto agli utenti loggati. Se provate ad immaginare questo scenario, un possibile risultato potrebbe essere questo:</p>  {% raw %}<pre class="brush: csharp;">public class HomeController : Controller {
     public ActionResult Index ( ) {

@@ -15,7 +15,7 @@ tags:
 - MVC
 - Configurazione
 - Exception
-comments: []
+comments: true
 ---
 <p>
 	Anche se il titolo &egrave; un po&rsquo; fuorviante, devo dire che il messaggio &ldquo;Invalid viewstate&rdquo; &egrave; apparso realmente; ma procediamo con ordine. <br />

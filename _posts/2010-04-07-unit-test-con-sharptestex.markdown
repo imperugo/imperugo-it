@@ -14,7 +14,7 @@ categories:
 tags:
 - Unit Test
 - SharpTestEx
-comments: []
+comments: true
 ---
 <p>Ultimamente, lavorando in <a title="Dexter Blog Engine" href="http://dexterblogengine.codeplex.com/" rel="nofollow" target="_blank">Dexter</a>, ho deciso di metter su un po’ di test; diciamo pure che le buone intenzioni ci sono, e come prima cosa ho deciso di testare tutto ciò che di nuovo introduco (al momento ho messo solo 108 test, ma spero aumentino velocemente). Ovviamente primo test primo “problema” :). Come prima cosa avevo la necessità di testare un metodo tipo il seguente:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">public class Foo
 {

@@ -15,7 +15,7 @@ tags:
 - Configurazione
 - IIS
 - IIS 7.5
-comments: []
+comments: true
 ---
 <p>
 	<a href="http://tostring.it/tags/archive/iis" target="_blank" title="Internet Information Service posts">Internet Information Service</a> (IIS) versione 7.x offre la possibilit&agrave; di configurare il proprio sito un po&rsquo; pi&ugrave; in autonomia rispetto alle versioni precedenti.</p>

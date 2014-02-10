@@ -15,7 +15,7 @@ tags:
 - MVC
 - Logging
 - Filter
-comments: []
+comments: true
 ---
 <p>In un post precedente (vedi <a title="Gli Action Filter ed i Global Filter di ASPNET MVC" href="http://www.tostring.it/blog/post/gli-action-filter-ed-i-global-filter-di-aspnet-mvc/" target="_blank">qui</a>) ho già introdotto il concetto di <a title="Action Filter posts" href="http://www.tostring.it/tags/archive/Filter" target="_blank">ActionFilter</a> e alcune opportunità che ci offre. In questo post vorrei mostrare come realizzarne uno custom per loggare le eccezioni.     <br />Per prima cosa è bene sapere che ogni ActionFilter deve ereditare da FilterAttribute, che è la classe base per tutti i Filter che si utilizzano in ASPNET <a title="ASP.NET MVC" href="http://tostring.it/tags/archive/mvc" target="_blank">MVC</a> e, se si vogliono catturare tutti gli errori non gestiti, è necessario implementare anche l’interfaccia IExceptionFilter.</p>  <p>Lo snippet seguente mostra l’implementazione dell’ActionFilter:</p>  {% raw %}<pre class="brush: csharp;">public class LoggerFilterAttribute : FilterAttribute, IExceptionFilter {
     readonly ILogger logger;

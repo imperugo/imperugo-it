@@ -15,7 +15,7 @@ tags:
 - MVC
 - Razor
 - ViewEngine
-comments: []
+comments: true
 ---
 <p>Su segnalazione del buon <a title="Andrea Balducci" href="https://twitter.com/#!/andreabalducci" rel="nofollow" target="_blank">Andrea</a>, ho scoperto che, oltre ai “<a title="What’s new in Razor v2" href="http://tostring.it/blog/post/whats-new-in-razor-v2/" target="_blank">conditional attributes</a>”, <a title="Razor&#39;s post" href="http://tostring.it/tags/archive/razor" rel="tag" target="_blank">Razor</a> introduce un’altra novità chiamata “<strong>Tilde Slash</strong>” ossia “~/”.</p>
 

@@ -14,6 +14,6 @@ categories:
 tags:
 - Certification
 - Exam
-comments: []
+comments: true
 ---
 <p>Esame <strong>Designing &amp; Developing Web Applications using Microsoft .NET Framewrok 4.0</strong> passato!</p>  <p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" class="wlDisabledImage" title="image" border="0" alt="image" src="http://tostring.it/UserFiles/imperugo/image.png" width="547" height="150" /></p>  <br />  <p>Peccato non aver potuto dare l’altro <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-sadsmile" alt="Sad smile" src="http://tostring.it/UserFiles/imperugo/wlEmoticonsadsmile.png" /></p>

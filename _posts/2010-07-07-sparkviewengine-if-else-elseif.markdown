@@ -15,7 +15,7 @@ tags:
 - MVC
 - ViewEngine
 - SparkViewEngine
-comments: []
+comments: true
 ---
 <p>Una delle cose che trovo più belle di Spark è la possibilità di ridurre, a volte anche dimezzare, il numero di righe di codice presenti all’interno delle nostre View. </p>  <p>Fortunatamente con MVC molta della logica non esiste più, a parte quella riguardante la visualizzazione o meno di un blocco di html, il cambiamento di un css in base ad una condizione, oppure l’iterazione di una collection; in soldoni non dovremmo avere molto codice all’interno se non delle if/else, dei for.</p>  <p>Supponiamo di avere un codice come il seguente:</p>  {% raw %}<pre class="brush: xml;">&lt;%if (Model.RecentPost.Count &gt; 0){%&gt;
 &lt;li&gt;

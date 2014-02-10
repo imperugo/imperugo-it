@@ -14,7 +14,7 @@ categories:
 tags:
 - C#
 - Async
-comments: []
+comments: true
 ---
 <p>Il bello di avere un <a title="Mauro Servienti&#39;s Blog" href="http://topics.it/" rel="nofollow" target="_blank">collega</a> MVP su C#, ma ancor prima devMaskio, è che quando hai un dubbio sul linguaggio lui sa subito risponderti e spesso con una soluzione al tuo problema.     <br />Sorvolando la domanda ed il perchè è nata, l’idea era quella di evitare la noiosa costruzione di apposite classi di “<strong><em>state</em></strong>” per invocare metodi in asincroni.     <br />Osservando la parte pragmatica del problema, prima della versione 4.0 del <a title=".NET Framework Search" href="http://www.imperugo.tostring.it/tags/archive/.net" target="_blank">.NET Framework</a> quello che dovevamo fare per invocare un metodo asincrono era più o meno questo:</p>  {% raw %}<pre class="brush: csharp;">internal class Program
 {

@@ -14,7 +14,7 @@ categories:
 tags:
 - Windows Phone
 - Book
-comments: []
+comments: true
 ---
 Ultimamente ho ritrovato un po’ la passione ed il tempo per lavorare sul blog, specie quello italiano.  Devo ammettere che è passato davvero molto dall’ultima volta che ho scritto, e di cose ne sono successe: un ruolo nuovo a lavoro e un bambino fantastico.
 

@@ -17,7 +17,7 @@ tags:
 - JQuery
 - Security
 - Json
-comments: []
+comments: true
 ---
 <p>Con la release di <a href="http://www.imperugo.tostring.it/tags/archive/mvc">ASP.NET MVC</a> 2 è stata introdotta una “breaking change”, direi corretta e necessaria, che va ad influenzare il comportamente di un JsonResult; nello specifico, la nuova release non permette di interrogare una action che restituisce le informazioni in formato JSon tramite il JSonResult se l’invocazione è stata fatta in GET anziché POST.</p>  <p>Prima di allarmarci è necessario dire che è possibile ancora invocare la Action in GET; di fatto la scritta breaking change era tra virgolette, e possiamo in qualsiasi momento ripristinare il comportamento della release precedente in questo modo:</p>  {% raw %}<pre class="brush: csharp;">public ActionResult JsonAction()
 {

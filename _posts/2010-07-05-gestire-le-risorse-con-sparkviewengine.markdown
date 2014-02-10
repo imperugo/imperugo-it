@@ -15,7 +15,7 @@ tags:
 - ViewEngine
 - SparkViewEngine
 - Dexter
-comments: []
+comments: true
 ---
 <p>Già nel post <a title="SparkViewEngine Kick Off" href="http://tostring.it/blog/post/sparkviewengine-kick-off" target="_blank">precedente</a> ho introdotto <a title="SparkViewEngine" href="http://sparkviewengine.com/" rel="nofollow" target="_blank">SparkViewEngine</a>; in questo voglio mostrare un’interessante feature che apre diversi scenari di mantenibilità e di “servizio”, come nel caso di <a title="Dexter Blog Engine Category" href="http://www.imperugo.tostring.it/categories/archive/Dexter" target="_blank">Dexter</a> che mostrerò più avanti.</p>  <p>Sicuramente ci sarà capitato molto spesso di dover “hostare” le nostre applicazioni all’interno di una virtual directory, e magari di doverle spostare successivamente sulla root di un sito e viceversa: spesso questo risulta scomodo in quanto può comportare alcune modifiche ai percorsi dei file di risorse (immagini, css, javascript, etc). Se proviamo a guardare il lato pratico, un codice html simile a questo:</p>  {% raw %}<pre class="brush: xml;">&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;/Styles/Site.css&quot; /&gt;</pre>{% endraw %}
 

@@ -16,7 +16,7 @@ tags:
 - MVC
 - Security
 - ASP.NET 4.0
-comments: []
+comments: true
 ---
 <p>Con il <a title=".NET Framework 4.0" href="http://imperugo.tostring.it/tags/archive/.net+framework+4.0" target="_blank">.NET Framework 4.0</a> è stato introdotto l’AutoEncode per i codeblocks di <a title="ASP.NET" href="http://imperugo.tostring.it/categories/archive/ASP.NET" target="_blank">ASP.NET</a>/<a title="Category: MVC" href="http://tostring.it/Categories/Archive/MVC" target="_blank">MVC</a>, come già detto <a title="AutoEncode in ASP.NET 4.0" href="http://tostring.it/blog/post/autoencode-in-aspnet-40" target="_blank">qui</a>; proprio in quel post concludevo dicendo:</p>  <blockquote>   <p>Sarebbe bello poter specificare un provider per cambiare il sistema di encoding, e magari anche sostituire l’HtmlEncode della classe HttpUtility con quello della Anti-XSS.</p> </blockquote>  <p>ed ho scoperto da poco che la cosa è realmente fattibile.</p>  <p>Per realizzare ciò il lavoro è piuttosto semplice, sono sufficienti pochi passaggi per poter estendere l’HtmlEncode offerto dalla classe <a title="HttpUtility Calss" href="http://msdn.microsoft.com/en-us/library/system.web.httputility.aspx" rel="nofollow" target="_blank">HttpUtility</a> con quello più affidabile offerto dalla AntiXss Library.</p>  <p>Per prima cosa è necessario creare una classe che eredita da <em>System.Web.Util.HttpEncoder</em> e che effettua l’override degli opportuni metodi, sostituendo ed implementando l’HtmlEnoding con l’AntiXss Library, come mostrato di seguito:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">public class AutoEncodeWithAntiXss : HttpEncoder
 {

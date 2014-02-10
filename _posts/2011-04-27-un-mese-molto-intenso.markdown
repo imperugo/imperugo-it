@@ -15,7 +15,7 @@ tags:
 - MVC
 - Orchard
 - HTML5
-comments: []
+comments: true
 ---
 Quattro sessioni in tre eventi;
 Da Milano alle Marche e ritorno;

@@ -14,7 +14,7 @@ categories:
 tags:
 - Extension Methods
 - HttpHandler
-comments: []
+comments: true
 ---
 <p>Stufo dei soliti switch per recuperare il content type di un file, mi sono deciso a dare una sbirciata in rete per verificare se esistesse un qualcosa che mi potesse restituire il content type dato un file name.    <br />Ovviamente, come quasi sempre in questi casi, qualcun’altro si è posto la mia stessa domanda ed ha trovato una soluzione a tale problema <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smile" src="http://www.tostring.it/UserFiles/imperugo/wlEmoticon-smile_2_2.png" />.</p>  <p>Di fatto, nel <a title=".NET Framework psots" href="http://www.tostring.it/tags/archive/.net" target="_blank">.NET Framework</a> è possibile utilizzare la classe Registry per andare a recuperare la nostra informazione, come mostrato dall’extension method seguente:</p>  {% raw %}<pre class="brush: csharp;">/// &lt;summary&gt;
 ///     Retrieve the mimetype for the specified filename.

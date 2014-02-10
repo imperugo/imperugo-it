@@ -15,7 +15,7 @@ tags:
 - MVC
 - Razor
 - ViewEngine
-comments: []
+comments: true
 ---
 <p>Nel rilascio di <a title="ASP.NET MVC" href="http://tostring.it/tags/archive/mvc">ASP.NET MVC</a> 4 è inclusa anche la nuova release dell’ormai diffusissimo Razor View Engine. Per chi non lo sapesse <a title="Razor&#39;s post" href="http://tostring.it/tags/archive/razor" rel="tag" target="_blank">Razor</a> è un “framework” che offre la possibilità di scrivere il codice presente nelle view con una sintassi differente da quella delle classiche pagine ASP.NET. </p>
 

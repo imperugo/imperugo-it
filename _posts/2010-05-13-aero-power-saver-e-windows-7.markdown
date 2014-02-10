@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - Windows 7
-comments: []
+comments: true
 ---
 <p>
 	Se, per qualche strano motivo, quando cambiate la modalit&agrave; di utilizzo del vostro portatile impostandola in &ldquo;Power Saver&rdquo;, Aero rimane attivo invece di disabilitare alcuni effetti, come la trasparenza (causando un ovvio consumo di batteria in pi&ugrave;), potete risolvere il problema seguendo passo passo i seguenti step:</p>

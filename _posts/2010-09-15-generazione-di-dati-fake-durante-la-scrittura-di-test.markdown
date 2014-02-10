@@ -13,7 +13,7 @@ categories:
 - .NET
 tags:
 - Testing
-comments: []
+comments: true
 ---
 <p>Spessissimo, quando mi trovo a dover scrivere dei test, ho la necessità di creare delle istanze di classi contenenti dei dati finti, in modo da verificarne il corretto funzionamento.</p>  <p>Di fatto, se proviamo ad immaginare di dover testare un metodo ForEach per una classe IEnumerable(vedi <a title="ForEach in un IEnumerable" href="http://tostring.it/blog/post/foreach-ienumerable-of-t" target="_blank">qui</a>), sicuramente nel test dobbiamo creare una lista contente gli elementi da iterare.     <br />Anche se semplice, la creazione di un set di informazioni finte, anche tramite classi “helper”, può risultare una fase noiosa e ripetitiva.     <br />Grazie ad un consiglio di Fabio ho provato questo framework, che ci aiuta tantissimo nella creazione di liste - ma anche di singole istanze - con dati fake.</p>  <p>Il funzionamento è piuttosto banale ed intuitivo: di fatto si ha una composizione fluent che ci permette di coprire i principali scenari.</p>  <p>Per capire il suo potenziale provate ad immaginare di dover creare una lista di 10 elementi…con <a title="NBuilder Home Page" href="http://nbuilder.org" rel="nofollow" target="_blank">NBuilder</a> si può ottenere lo stesso risultato con una sola riga di codice! J</p>  {% raw %}<pre class="brush: csharp;">var posts = Builder&lt;Post&gt;.CreateListOfSize(10).Build();</pre>{% endraw %}
 

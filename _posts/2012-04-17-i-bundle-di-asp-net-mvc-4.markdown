@@ -15,7 +15,7 @@ tags:
 - MVC
 - Ottimizzazione
 - Beta
-comments: []
+comments: true
 ---
 L’ultima release (attualmente in beta) di <a title="ASP.NET MVC" href="http://tostring.it/tags/archive/mvc">ASP.NET MVC</a>, di cui abbiamo visto alcune novità <a title="What's new in Razor" href="http://tostring.it/blog/post/whats-new-in-razor-v2/" target="_blank">qui</a> e <a title="Il tilde in Razor" href="http://tostring.it/blog/post/whats-new-in-razor-v2/" target="_blank">qui</a>, introduce veramente molte feature interessanti, una delle quali è rappresentata dai Bundle.
 Ormai noi tutti conosciamo l’importanza di ridurre al minimo il numero di richieste dal client verso il server. Quando parliamo di riduzione delle richieste, includiamo un po’ tutto: dai fogli di stile, ai javascript, e magari anche i dati tramite l’utilizzo di AJAX.

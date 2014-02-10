@@ -15,7 +15,7 @@ tags:
 - Visual Studio 2010
 - Unit Test
 - SharpTestEx
-comments: []
+comments: true
 ---
 <p>Già dal post precedente si capiva che ho avuto problemi con SharpTestEx e <a title="Visual Studio 2010" href="http://tostring.it/tags/archive/visual+studio+2010" target="_blank">Visual Studio 2010</a>. Nello specifico il problema era dovuto al fatto che il Framework di testing cercava di caricare un’assembly non presente nel mio computer, in quanto disponibile con Visual Studio 2008 che non ho avuto ancora il tempo di installare (maggiori info <a title="SharpTestEx - Test fails is Visual Studio 2008 is not installed." href="http://sharptestex.codeplex.com/WorkItem/View.aspx?WorkItemId=5995" rel="nofollow" target="_blank">qui</a>).</p>  <p>Detto ciò, dopo uno scambio di email con il disponibilissimo <a title="Fabio Maulo&#39;s blog" href="http://fabiomaulo.blogspot.com/" rel="nofollow" target="_blank">Fabio Maulo</a>, siamo giunti a due soluzioni possibili:</p>  <ol>   <li>Scaricare e ricompilare il progetto; </li>    <li>Effettuare un redirect del binding; </li> </ol>  <p>Per ovvi motivi di tempo ho optato per la seconda soluzione, già spiegata nel bug di codeplex, ma che riporto qui di seguito:</p>  {% raw %}<pre class="brush: xml;">&lt;runtime&gt;
     &lt;assemblyBinding xmlns=&quot;urn:schemas-microsoft-com:asm.v1&quot;&gt;

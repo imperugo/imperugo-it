@@ -14,7 +14,7 @@ categories:
 tags:
 - Risorse
 - HTML
-comments: []
+comments: true
 ---
 <p>Quando ci troviamo a navigare pagine web con connessione protetta - e per connessione protetta intendo tramite il protocollo https - ed alcune delle sue risorse (immagini, javascript, css, etc) non puntano ad un indirizzo sicuro, rischiamo di avere una fastidiosa notifica da parte del browser che ci obbliga a dare il consenso per mostrare i contenuti non sicuri.</p>  <p>Diamo un occhio all’html seguente per capire meglio di cosa stiamo parlando:</p>  {% raw %}<pre class="brush: xml;">    
     

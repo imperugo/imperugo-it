@@ -17,7 +17,7 @@ tags:
 - Oracle
 - ORM
 - Database
-comments: []
+comments: true
 ---
 <p>Dopo mesi di assenza, finalmente trovo di nuovo il tempo di “bloggare”, e la mia intenzione, questa volta, è di parlare di <a title="Posts su NHibernate" href="http://www.tostring.it/categories/archive/nhibernate/">NHibernate</a> (fresco di GA), di cui sto facendo un uso abbastanza “spinto” in un progetto.     <br />Nello specifico ho avuto l’esigenza di dover gestire con NHibernate la creazione del database - e fin qui nulla di speciale - ma con l’obbligo di creare anche delle funzioni SQL per i vari databases supportati.</p>  <p>Uno dei principali requirements dell’applicazione è il supporto a ben <strong>tre versioni differenti di Sql Server</strong> più <strong>due di Oracle</strong>; per come sono strutturati il dominio ed il database, per poter effettuare determinate queries ho dovuto far uso di alcune funzioni lato database, in quanto non riproducibili tramite Object Query Language.</p>  <p>Fortunatamente NHibernate permette di utilizzare delle funzioni SQL Custom all’interno delle proprie queries sia se si fa uso di HQL, sia di Criteria API che di Linq.    <br />Il loro utilizzo è veramente semplice; per prima cosa è necessario creare un proprio dialect, che erediti da quello più adatto al nostro database, e registrare le funzioni all’interno del suo costruttore, come mostrato dal codice seguente:</p>  {% raw %}<pre class="brush: csharp;">internal class SqlServer2008Dialect : MsSql2008Dialect {
     

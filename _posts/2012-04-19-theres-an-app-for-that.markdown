@@ -14,7 +14,7 @@ categories:
 tags:
 - Windows Phone
 - Blog
-comments: []
+comments: true
 ---
 <p>
 	Negli ultimi tempi, non essendo riuscito a bloggare con constanza a causa dei molti impegni, non ho avuto modo di comunicare l&rsquo;esistenza di un&rsquo;applicazione di tostring.it per Windows Phone.</p>

@@ -16,7 +16,7 @@ tags:
 - Security
 - Exception
 - Farm
-comments: []
+comments: true
 ---
 <p>È un po’ che ho “in canna” questo post, ma l’ultimo periodo è stato veramente intenso e non mi ha concesso molto tempo per poter postare.</p>  <p>L’argomento in questione è l’utilizzo dell’attributo (o l’helper) AntiForgeryToken sul porting di applicazioni MVC2, che può causare non pochi problemi in fase di deploy di applicazioni distribuite.</p>  <p>Nello specifico si rischia di incappare in una serie di errori 500 come quello mostrato di seguito:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">[InvalidCastException: Unable to cast object of type 'System.Web.UI.Triplet' to type 'System.Object[]'.]
    System.Web.Mvc.AntiForgeryDataSerializer.Deserialize(String serializedToken) +104
