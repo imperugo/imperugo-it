@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - Various
-comments: []
+comments: true
 ---
 <p>
 	La settimana scorsa parlavo con <a href="http://codeclimber.net.nz/default.aspx" rel="nofollow friend met co-worker colleague" target="_new" title="Simone Chiaretta's Blog">Simone</a> (<a href="http://codeclimber.net.nz/archive/2009/08/03/reducing-the-bounce-rate-of-tech-blogs-with-subtext-and.aspx" rel="nofollow" target="_blank" title="Reducing the bounce rate of tech blogs with subtext and">qui</a> trovate un suo post a riguardo) della possibilit&agrave; di integrare il motore di <a href="http://incubator.apache.org/lucene.net/" rel="nofollow" target="_blank" title="Lucene.Net project">Lucence.Net</a> come search provier per il proprio blog engine (sia io che <a href="http://codeclimber.net.nz/default.aspx" rel="nofollow friend met co-worker colleague" target="_new" title="Simone Chiaretta's Blog">Simone</a> siamo dev su due progetti differenti di BlogEngine). <br />

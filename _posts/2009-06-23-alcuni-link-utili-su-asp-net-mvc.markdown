@@ -14,7 +14,7 @@ categories:
 tags:
 - MVC
 - ASP.NET
-comments: []
+comments: true
 ---
 <p>Dati i miei ultimi post, si &egrave; sicuramente capito che sono un &ldquo;Fan&rdquo;, se cos&igrave; si pu&ograve; dire, del Framework <a rel="nofollow" target="_blank" href="http://www.asp.net/mvc">ASP.NET MVC</a> .</p>
 <p>Proprio su questo Framework posto alcuni link, a mio avviso molto utili, che possono aiutare a colmare alcune &ldquo;lacune&rdquo; di questo giovanissimo Framework, come la validazione client-side.</p>

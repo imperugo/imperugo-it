@@ -14,7 +14,7 @@ categories:
 tags:
 - Windows Communication Foundation
 - Visual Studio 2010
-comments: []
+comments: true
 ---
 <p>
 	Dato che uno &egrave; in Beta (<a href="http://imperugo.tostring.it/blog/search?q=Visual+Studio&amp;searchButton=Go" target="_blank" title="Search Visual Studio">Visual Studio</a> 2010), l&rsquo;altro in preview (WCF <a href="http://it.wikipedia.org/wiki/Rich_Internet_application" rel="nofollow" target="_blank" title="Rich Internet Application">RIA</a> Services) non ho motivi per lamentarmi, ma se vi capita questo immenso stack di errore mentre cercate di compilare ...</p>

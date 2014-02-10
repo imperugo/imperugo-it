@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - MVP Program
-comments: []
+comments: true
 ---
 <p>
 	<img align="left" alt="MVP Program" height="61" hspace="5" src="http://imperugo.tostring.it/themes/default/images/mvp.png" vspace="5" width="150" />Direi giorno specialissimo, e non solo perch&egrave; &egrave; festa per tutte le software house, scuole di informatica, ecc (vedi <a href="http://www.weloveraf.com/post/2009/10/01/Fact-7b18BB3C3A-DE44-4418-BF14-4A8953444BBB7d.aspx" rel="nofollow" target="_blank" title="www.weloveraf.com">qui</a>),&nbsp; ma soprattutto perch&egrave; ho trovato nella casella di posta una mail con un subject che mi ha lasciato senza fiato:</p>

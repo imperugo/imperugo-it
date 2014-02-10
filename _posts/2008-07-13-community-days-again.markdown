@@ -15,7 +15,7 @@ tags:
 - Windows Communication Foundation
 - Scalabilità
 - Eventi
-comments: []
+comments: true
 ---
 <p><span>&Egrave;&nbsp;un po di tempo che non mi si sente sul blog, ma sono tornato a scrivere un post per ringraziare Stefano e Daniele per avermi dato la possibilit&agrave; di tenere una sessione (la mia prima) ai Community Days. </span></p>
 <p>Poter spiegare parte della mia esperienza in MTV mi ha fatto molto piacere, e poi, chi mi conosce, sa&nbsp;quanto sono innamorato di WCF e che starei sempre l&igrave; a parlarne&nbsp;:).<br />

@@ -15,7 +15,7 @@ tags:
 - Windows 7
 - Windows
 - MSDN
-comments: []
+comments: true
 ---
 <p>Sembra ufficiale, da 13 luglio per chi possiede un abbonamento MSDN, sar&agrave; possibile effettuare il download di <strong>Windows 7 RTM</strong>.</p>
 <p><a title="Windows 7 RTM" rel="nofollow" target="_blank" href="http://geeksmack.net/microsoft/438-confirmed-windows-7-to-rtm-july-13th.html">[Fonte]</a>.</p>

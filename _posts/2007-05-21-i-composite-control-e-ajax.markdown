@@ -14,7 +14,7 @@ categories:
 tags:
 - ASP.NET
 - Controls
-comments: []
+comments: true
 ---
 <p><span>&egrave; un po' che volevo fare questo post, ma causa deadline vicinissima non ho avuto il tempo. </span></p>
 <p>Nell'ultimo periodo ho dovuto sviluppare parecchi Custom Control ed ho fatto uso abbastanza spinto del Framework Ajax di Microsoft riscontrando anche diversi bug (e il <a href="http://blogs.aspitalia.com/sm15455/">romano</a> lo sa bene), ma mi sono imbattuto in una situazione un po' &quot;strana&quot; che non &egrave; giusto definirla bug.</p>

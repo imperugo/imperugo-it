@@ -14,7 +14,7 @@ categories:
 tags:
 - Impersonate
 - MultiThreading
-comments: []
+comments: true
 ---
 <p><span>Ieri notte, insieme al mio amico Fabio, stavamo sviluppando un applicazione web non eccessivamente complessa fino a quando non si &egrave; verificato un problema di permessi. <br />
 Entro meglio nel dettaglio per far capire la cosa:<br />

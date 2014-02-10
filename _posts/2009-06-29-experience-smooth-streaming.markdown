@@ -17,7 +17,7 @@ tags:
 - Windows Server 2008
 - IIS
 - IIS Media Services
-comments: []
+comments: true
 ---
 <p>Non so da quanto tempo esista&hellip;lo scopro oggi su consiglio di <a rel="nofollow" target="_blank" href="http://blogs.aspitalia.com/cradle">Marco</a>. <strong>Smooth Streaming</strong> &egrave; una extension per <a rel="nofollow" target="_blank" href="http://www.iis.net/getstarted/IntegratedMediaPlatform">IIS Media Services</a> che consente di effettuare uno streaming &ldquo;adattativo&rdquo; verso il client in base alla banda a lui a disposizione, ed il client ovviamente dovr&agrave; essere munito del plugin di <a rel="nofollow" target="_blank" href="http://silverlight.net/">Silverlight</a>.</p>
 <p>Il risultato &egrave; veramente impressionante: riuscire a vedere un video in streaming senza effettuare buffering e con la massima qualit&agrave; ottenibile dalla propria connessione. Sbalorditivo! <br />

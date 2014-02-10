@@ -13,6 +13,6 @@ categories:
 - Various
 tags:
 - OT
-comments: []
+comments: true
 ---
 <a href="http://imperugo.tostring.it/Content/Uploaded/image/photo_2.jpg" rel="shadowbox[La-sedia-del-vero-Geek];options={counterType:'skip',continuous:true,animSequence:'sync'}"><img SinglelineIgnoreCase style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="photo" border="0" alt="photo" src="http://imperugo.tostring.it/Content/Uploaded/image/photo_thumb.jpg" width="328" height="436" /></a>     <p>In realtà ci vorrebbe il Canc, ma non c’era :(</p>

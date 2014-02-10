@@ -15,7 +15,7 @@ tags:
 - MVC
 - News
 - Beta
-comments: []
+comments: true
 ---
 <p>
 	Mentre ascolto la keynote della <a href="http://www.microsoftpdc.com/" rel="nofollow" target="_blank" title="Microsoft PDC">PDC</a> , scopro che &egrave; stata rilasciata la prima beta di <a href="http://imperugo.tostring.it/Categories/Archive/MVC" target="_blank" title="ASP.NET MVC">ASP.NET MVC</a> 2.0, di cui io e <a href="http://bitvector.tostring.it" rel="nofollow" target="_blank" title="Il Blog di Salvatore Di Fazio">Salvo</a> abbiamo mostrato alcune funzionalit&agrave; a <a href="http://imperugo.tostring.it/blog/post/community-tour-di-bologna-the-day-after" target="_blank" title="Community Tour di Bologna the day after">Bologna</a>.</p>

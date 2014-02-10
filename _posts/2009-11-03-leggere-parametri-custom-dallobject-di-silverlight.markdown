@@ -13,7 +13,7 @@ categories:
 - SILVERLIGHT
 tags:
 - Silverlight
-comments: []
+comments: true
 ---
 <p>Ultimamente sto lavorando ad una piccola applicazione in <a href="http://silverlight.net/" rel="nofollow" target="_blank">Silverlight</a>, nello specifico un wall di DeepZoom che ha il compito di mostrare le immagini caricate dagli utenti, sfruttando questa fantastica tecnologia.     <br />L’applicazione offre sì la possibilità di caricare le foto direttamente dagli utenti di una community, ma offre anche la possibilità di creare il wall lato editoriale, quindi da backoffice dell’applicativo, e di far ridistribuire sui clients soltanto l’object tag ed il <a href="http://en.wikipedia.org/wiki/Javascript_" rel="nofollow" target="_blank">javascript</a> necessario.</p>  <p>Proprio per questo tipo di richieste si può avere la necessità di aggiungere dei parametri custom all’object che si rilascia, in modo che fornisca alcune informazioni utili alla visualizzazione.</p>  <p>In pratica è sufficiente aggiungere un parametro, il cui name sarà <em><strong>initParams,</strong></em> nel tag object della pagina, con al suo interno la coppia chiave-valore che si desidera utilizzare in Silverlight, separati dalla virgola.     <br />L’esempio seguente mostra il markup dell’object.</p>  {% raw %}<pre class="brush: xml; ruler: true;">&lt;object data=&quot;data:application/x-silverlight-2,&quot; type=&quot;application/x-silverlight-2&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;
     &lt;param name=&quot;source&quot; value=&quot;ClientBin/MyApplication.xap&quot; /&gt;

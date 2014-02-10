@@ -17,7 +17,7 @@ tags:
 - ASP.NET
 - Configurazione
 - .NET
-comments: []
+comments: true
 ---
 <p>
 	L&rsquo;altro giorno mi &egrave; stato chiesto se era possibile configurare il routing di <a href="http://www.asp.net/mvc" rel="nofollow" target="_blank">ASP.NET MVC</a> tramite file di configurazione. Purtroppo al momento non ho saputo rispondere ma, dopo una breve ricerca su internet, ho trovato un articolo che spiega come crearsi una custom section nel file di configurazione, permettendo cos&igrave; di cambiare le regole di routing senza dover necessariamente ricompilare l&rsquo;applicazione.</p>

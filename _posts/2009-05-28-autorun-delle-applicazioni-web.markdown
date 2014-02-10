@@ -18,7 +18,7 @@ tags:
 - IIS 7.5
 - ASP.NET 4.0
 - .NET Framework 4.0
-comments: []
+comments: true
 ---
 <p>Con <strong>Windows Server 2008 R2</strong> e <strong>ASP.NET 4.0</strong> (entrambi in Beta) &egrave; possibile far s&igrave; che un&rsquo;applicazione web possa avviarsi automaticamente, anche se non vi &egrave; nessuna richiesta web in quel determinato istante.    <br />
 In tutte le versioni precedenti ad <strong>IIS 7.5</strong> una applicazione web inizia il suo ciclo di vita nel momento in cui viene effettuata la prima richiesta da parte di un client; ho specificato precedenti ad <strong>IIS 7.5</strong> perch&eacute;, proprio con quest&rsquo;ultima versione, &egrave; possibile fare in modo che l&rsquo;applicazione si avvii automaticamente, annullando cos&igrave; la dipendenza dalla prima richiesta web.    <br />

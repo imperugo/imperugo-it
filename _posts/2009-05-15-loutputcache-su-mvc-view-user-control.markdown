@@ -20,7 +20,7 @@ tags:
 - Controls
 - Framework
 - Cache
-comments: []
+comments: true
 ---
 <p>Personalmente faccio parecchio uso dell'<strong>OutputCache</strong>, e lo ritengo uno dei migliori sistemi di caching (in ambienti non distribuiti) che si possano utilizzare: il vantaggio consiste nel fatto che viene messo in cache il markup gi&agrave; elaborato, tagliando di netto dall'applicazione tutta la parte di elaborazione dati necessaria alla creazione della pagina, o una sua porzione; in pratica &egrave; come avere un file statico in ram!</p>
 <p>Nella maggior parte dei casi non &egrave; possibile utilizzare l'<strong>OutputCache</strong> sull'intera pagina web in quanto questa pu&ograve; contenere informazioni differenti da utente a utente, come delle porzioni di pagine visibili solo ad alcuni ruoli o la maschera di login nel caso l'utente non sia loggato; <br />

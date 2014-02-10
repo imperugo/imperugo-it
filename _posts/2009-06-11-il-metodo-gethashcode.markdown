@@ -17,7 +17,7 @@ tags:
 - Framework
 - HashCode
 - CLR
-comments: []
+comments: true
 ---
 <p>Ancora oggi noto come il metodo <strong>GetHashCode</strong> risulti un mistero per molte persone (nascerebbe la domanda: <em>Ma se non lo conosci perch&egrave; lo implementi?</em>).    <br />
 Proprio ieri mi &egrave; capitato di leggere un articolo in rete e trovare al suo interno un'implementazione del metodo <strong>GetHashCode</strong>, come il seguente:</p>

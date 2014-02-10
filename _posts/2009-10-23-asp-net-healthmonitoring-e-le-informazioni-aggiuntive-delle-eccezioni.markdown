@@ -14,7 +14,7 @@ categories:
 tags:
 - ASP.NET
 - Exception Handling
-comments: []
+comments: true
 ---
 <p>
 	L&rsquo;HealthMonitoring di <a href="http://www.asp.net" rel="nofollow" target="_blank">ASP.NET</a> &egrave; sicuramente uno strumento potentissimo per tenere traccia dello stato di salute della nostra applicazione web. Uno dei suoi principali vantaggi &egrave; che dalla versione 2.0 di ASP.NET &egrave; gi&agrave; presente con un nutrito insieme di provider che permettono di loggare informazioni in svariati repository. <br />

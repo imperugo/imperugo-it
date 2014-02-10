@@ -16,7 +16,7 @@ tags:
 - SMTP
 - .NET
 - Exception
-comments: []
+comments: true
 ---
 <p>Spesso si utilizza la mail come <strong>Log per tutti quegli errori di cui si ha l&rsquo;esigenza di avere una notifica nell&rsquo;immediato</strong>; un esempio potrebbe riguardare tutte le eccezioni che impediscono l&rsquo;utilizzo dell&rsquo;applicazione da parte degli utenti.</p>
 <p>Anche se pu&ograve; sembrare un&rsquo;operazione piuttosto semplice quella di inviare un&rsquo;eccezione via mail, bisogna ugualmente <strong>prestare attenzione</strong> in tutti quei casi in cui si utilizza la propriet&agrave; <em>Message</em> dell&rsquo;eccezione come <em>Subject</em> della mail; lo script seguente chiarisce la situazione.</p>

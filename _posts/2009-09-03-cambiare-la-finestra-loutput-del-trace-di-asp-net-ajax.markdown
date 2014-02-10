@@ -15,7 +15,7 @@ tags:
 - Trace
 - ASP.NET
 - Ajax
-comments: []
+comments: true
 ---
 <p>Fin dalla prima versione di ASP.NET esiste la possibilit&agrave; di avere un tracciato del ciclo di vita della richiesta web, per poter monitorare e comprendere al meglio ci&ograve; che accade nella nostra applicazione web.    <br />
 Personalmente lo ritengo uno strumento indispensabile quando si &egrave; nella situazione di dover lavorare su pagine web particolarmente complesse, in cui i fattori partecipanti alla costruzione dell&rsquo;output possono rendere difficile l&rsquo;individuazione di un particolare problema: proprio in questi contesti il <strong><a title="ASP.NET Trace" target="_blank" rel="nofollow" href="http://msdn.microsoft.com/en-us/library/y13fw6we(VS.71).aspx">Trace</a></strong> di <a target="_blank" rel="nofollow" href="http://www.asp.net">ASP.NET</a> pu&ograve; riverlarsi un ottimo alleato.</p>

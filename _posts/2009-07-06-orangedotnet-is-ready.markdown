@@ -16,7 +16,7 @@ tags:
 - UgiSicilia
 - Eventi
 - Community
-comments: []
+comments: true
 ---
 <p>Ok, ne ho gi&agrave; parlato in passato <a href="http://imperugo.tostring.it/Blog/Post/Un-nuovo-User-Group-NET-all-orizzonte" target="_blank">qui</a>, ma come detto dallo <a href="http://blogs.ugidotnet.org/janky" target="_blank" rel="nofollow">sciuro Sudano</a> in <a href="http://blogs.ugidotnet.org/janky/archive/2009/07/02/www.orangedotnet.org-egrave-ufficialmente-nato-lo-user-group.aspx" target="_blank" rel="nofollow">questo</a> post, &egrave; <strong>UFFICIALE</strong>.    <br />
 Alcune delle motivazioni per non mancare in questo usergroup sono gi&agrave; state dette <a href="http://blogs.ugidotnet.org/janky/archive/2009/07/02/www.orangedotnet.org-egrave-ufficialmente-nato-lo-user-group.aspx" target="_blank" rel="nofollow">qui</a> e, se non bastano a convincervi, ci sono sempre quelle di <a href="http://blogs.ugidotnet.org/SalvoDiFazio" target="_blank" rel="nofollow" title="Salvatore Di Fazio">Salvo</a> <a href="http://blogs.ugidotnet.org/SalvoDiFazio/archive/2009/07/03/orangedotnet.aspx" target="_blank" rel="nofollow" title="Salvatore Di Fazio">qui</a>.</p>

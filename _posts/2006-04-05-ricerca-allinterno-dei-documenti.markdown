@@ -14,7 +14,7 @@ categories:
 tags:
 - Lucene.Net
 - .NET
-comments: []
+comments: true
 ---
 <p><span>In questi giorni sono parecchio incasinato con il lavoro e per questo sto tralasciando un po' la comunity, (forum, blog, ecc.) e me ne scuso, d'altro canto il lavoro &egrave; sempre il lavoro. </span></p>
 <p>In particolar modo&nbsp;sto lavorando alla realizzazione di un motore di ricerca un po' diverso dal solito, ossia con la possibilit&agrave; di indicizzare dei documenti presenti all'interno del nostro sito o indicizzare pagine esterne tramite url.</p>

@@ -15,7 +15,7 @@ tags:
 - MVC
 - Blog
 - Dexter
-comments: []
+comments: true
 ---
 <p>
 	Ebbene s&igrave;, <strong>i&rsquo;m Back!</strong></p>

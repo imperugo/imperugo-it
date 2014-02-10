@@ -14,7 +14,7 @@ categories:
 tags:
 - Visual Studio
 - Addon
-comments: []
+comments: true
 ---
 <p>Personalmente trovo comodissime le <a title="Partial Class Definitions (C# Programming Guide)" href="http://msdn.microsoft.com/en-us/library/wa80x488%28VS.80%29.aspx" rel="nofollow" target="_blank">partial class</a>, sia perch&egrave; facilitano il lavoro in team, sia perch&egrave; mermettono di suddividere la stessa classe in pi&ugrave; file, fornendo cos&igrave; una maggiore leggibilit&agrave; e pulizia del codice.     <br />
 Per definire una classe come &ldquo;parziale&rdquo;, basta aggiungere la keyword <em>partial</em> prima della parola chiave <em>class</em> (vale anche per gli <em>struct</em> ovviamente) come mostrato di seguito.</p>

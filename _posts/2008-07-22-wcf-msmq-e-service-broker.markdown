@@ -15,7 +15,7 @@ tags:
 - Windows Communication Foundation
 - SOA
 - Architettura
-comments: []
+comments: true
 ---
 <p><span>Ai <a onclick="blankUrl(this.href); return false;" href="http://www.communitydays.it/">Community Days,</a> con <a onclick="blankUrl(this.href); return false;" href="http://blogs.aspitalia.com/sm15455">Stefano</a> durante la sessione &quot;Creare applicazioni web service-based con .NET 3.5&quot; abbiamo parlato di <strong>Message Queue</strong>, ma subito dopo ci &egrave; stato chiesto il perch&egrave; andare ad utilizzare <strong>Message Queue</strong> in alternativa ai <strong>Service Broker</strong> di SQL Server. </span></p>
 <p>La decisione non &egrave; affatto facile in quanto ognuno dei due ha dei punti a favore nei confronti dell'altro.</p>

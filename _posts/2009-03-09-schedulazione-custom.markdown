@@ -15,7 +15,7 @@ tags:
 - Windows Communication Foundation
 - Schedulazione
 - Configurazione
-comments: []
+comments: true
 ---
 <p>La riconciliazione notturna ormai &egrave; parte integrante delle applicazioni che mi trovo a sviluppare tutti i giorni.&nbsp;<br />
 Spessissimo mi capita di dover eseguire qualcosa (invalidazione della cache, pulizia di record sporchi, ecc) in un determinato momento, che sia questo in un'applicazione web o in un servizio.</p>

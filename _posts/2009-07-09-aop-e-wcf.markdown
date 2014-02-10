@@ -17,7 +17,7 @@ tags:
 - ASP.NET
 - Configurazione
 - AOP
-comments: []
+comments: true
 ---
 <p>Dopo il <a target="_blank" href="http://imperugo.tostring.it/Blog/Post/AOP-per-il-Bug-Fixing">post</a> precedente, in cui ho descritto l&rsquo;utilizzo di <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Aspect-oriented_programming" title="Aspect Oriented Programming">AOP</a> in un servizio WCF, ho ricevuto delle richieste relativamente al modo in cui ho realizzato questo tipo di implementazione.     <br />
 Di seguito potete trovare il codice necessario alla realizzazione di un Custom Behavior per WCF che instanzi un proxy <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Aspect-oriented_programming" title="Aspect Oriented Programming">AOP</a> in sostituzione al servizio WCF, e la rispettiva configurazione per utilizzarlo ed aggiungergli Interceptor.     <br />

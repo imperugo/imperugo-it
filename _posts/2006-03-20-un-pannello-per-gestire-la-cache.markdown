@@ -14,7 +14,7 @@ categories:
 tags:
 - ASP.NET
 - Cache
-comments: []
+comments: true
 ---
 <p>In rete ho &quot;scovato&quot; questo interessante&nbsp;<a onclick="blankUrl(this.href); return false;" style="text-decoration: none; color: rgb(34, 69, 113); " href="http://aspadvice.com/blogs/ssmith/archive/2005/12/03/Cache_Manager_Almost_Ready.aspx">link</a>&nbsp;che mostra come realizzare un pannello di controllo per la gestione della cache nelle nostre applicazioni web.<br />
 Personalmente ritengo che in fase finale non serva in quanto un'applicazione dovrebbe cancellare e creare la cache automaticamente senza intervento dell'untente, ma in fase di sviluppo pu&ograve; diventare molto utile per capire come muoversi.<br />

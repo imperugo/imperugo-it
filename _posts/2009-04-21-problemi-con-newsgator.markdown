@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - Newsgator
-comments: []
+comments: true
 ---
 <p>Purtroppo il mio feed <a href="http://feeds2.feedburner.com/imperugo" target="_blank">RSS</a> sta riscontrando dei problemi con il sito <a href="http://www.newsgator.com" target="_blank">newsgator.com</a>, di riflesso anche a chi utilizza <a href="http://www.newsgator.com/individuals/feeddemon/default.aspx" target="_blank">Feeddemon</a> come client sul proprio pc.    <br />
 Spero di risolvere a breve il problema.</p>

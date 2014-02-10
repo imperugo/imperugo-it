@@ -14,7 +14,7 @@ categories:
 tags:
 - Silverlight
 - DeepZoom
-comments: []
+comments: true
 ---
 <p>
 	Da alcuni giorni ho cominciato a lavorare ad una applicazione sviluppata in <a href="http://silverlight.net/" rel="nofollow" target="_blank">Silverlight</a> che fa uso di DeepZoom. Nello specifico viene data la possibilit&agrave; agli utenti di caricare foto in alta risoluzione che automaticamente finiscono nel wall. <br />

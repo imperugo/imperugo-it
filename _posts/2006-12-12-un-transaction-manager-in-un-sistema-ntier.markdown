@@ -14,7 +14,7 @@ categories:
 tags:
 - .NET
 - Architettura
-comments: []
+comments: true
 ---
 <p><span>Ormai &egrave; un po' di tempo che sto realizzando una piccola applicazione con architettura a tre livelli, e mi si &egrave; posto subito un problema, ossia gestire una transazione tra pi&ugrave; entity. </span></p>
 <p>Per capirci, io ho la mia entity Fattura che al suo interno ha una collection di righeFattura, la entity Cliente e la entity Fornitore (direi che per l'esempio bastano).<br />

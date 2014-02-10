@@ -16,7 +16,7 @@ tags:
 - .NET
 - IIS
 - Dexter
-comments: []
+comments: true
 ---
 <p>Nello sviluppare <a href="http://imperugo.tostring.it/About/Dexter">Dexter</a> ho avuto diversi problemi con la cache che, per cause non mie, non ne voleva sapere di andare, al contrario di quello che succede nell&rsquo;ambiente di sviluppo dove funziona alla grande.</p>
 <p>Nello specifico il problema consiste nel fatto che, spesso, gli oggetti inseriti precedentemente in cache risultano nulli, venendo quindi rimossi.</p>

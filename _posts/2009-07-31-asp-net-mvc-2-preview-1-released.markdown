@@ -17,7 +17,7 @@ tags:
 - Visual Studio 2010
 - Beta
 - ASP.NET
-comments: []
+comments: true
 ---
 <p>Da oggi &egrave; disponibile la Preview 1 della prossima versione di <strong><a target="_blank" rel="nofollow" href="http://www.asp.net/mvc">ASP.NET MVC</a></strong>, il cui download &egrave; disponibile <a target="_blank" rel="nofollow" title="ASP.NET MVC Preview 1 Download" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=d34f9eaa-fcbe-4e20-b2fd-a9a03de7d6dd&amp;displaylang=en">qui</a>.</p>
 <p>Nel <a target="_blank" rel="nofollow" title="ASP.NET MVC Preview 1 Release Note" href="http://go.microsoft.com/fwlink/?LinkID=154411">Release Notes</a> sono elencate le numerose novit&agrave; che sono state introdotte, come i <strong>Templated Helpers</strong>, le <strong>Areas</strong>, <strong>HttpPostAttribute</strong>, <strong>DataAnnotations</strong>.</p>

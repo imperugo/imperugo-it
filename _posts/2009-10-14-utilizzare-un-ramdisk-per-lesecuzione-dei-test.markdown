@@ -14,7 +14,7 @@ categories:
 tags:
 - Visual Studio
 - Testing
-comments: []
+comments: true
 ---
 <p>
 	In un paio di post di circa un mesetto fa (li trovate <a href="http://www.nablasoft.com/alkampfer/index.php/2009/08/31/speedup-visual-studio-with-ramdisk/" rel="nofollow" target="_blank" title="Speedup Visual Studio with RAMDIsk">qui</a> e <a href="http://www.nablasoft.com/alkampfer/index.php/2009/09/10/faster-database-test-with-database-in-virtual-disk/" rel="nofollow" target="_blank" title="Faster Database Test With database in Virtual Disk">qui</a>) <a href="http://www.nablasoft.com/alkampfer/" rel="nofollow met colleague" target="_new">Alkampfer</a> aveva mostrato un ottimo tip per migliorare le performances di <a href="http://imperugo.tostring.it/blog/search?q=Visual+Studio&amp;searchButton=Go" target="_blank" title="Search Visual Studio">Visual Studio</a>, spostando i files temporanei della compilazione ed il database di test in un RamDisk.</p>

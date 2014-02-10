@@ -16,7 +16,7 @@ tags:
 - .NET
 - C#
 - Framework
-comments: []
+comments: true
 ---
 <p>Per chi come me fa uso di <a target="_blank" href="http://www.nhibernate.org">NHibernate</a> per la parte di persistenza sapr&agrave; sicuramente che &egrave; necessario impostare le propriet&agrave; delle nostre entities come virtual. Questo &egrave; necessario in quanto <a target="_blank" href="http://www.nhibernate.org">NHibernate</a> per poter sfruttare a pieno le sue potenzialit&agrave;, come <a target="_blank" href="http://www.martinfowler.com/eaaCatalog/lazyLoad.html">LazyLoad</a>, crea un&rsquo;istanza di un proxy (con&nbsp;<a target="_blank" href="http://www.castleproject.org/dynamicproxy/index.html">DynamicProxy</a> di <a target="_blank" href="http://www.castleproject.org/">Castle</a>) ed inietta a runtime la logica da noi richiestra tramite mapping, fetching, ecc.</p>
 <p>Ora se il nostro strato di accesso ai dati non restituisce la entity di dominio, bens&igrave; un DTO (Data Transfer Object, ne abbiamo parlato <a target="_blank" href="http://imperugo.tostring.it/Blog/Post/DTO-IL-e-Reflection-nelle-nostre-applicazioni">qui</a>)&nbsp; vorrei che il progetto che referenzier&agrave; il nostro Data Layer non possa creare un&rsquo;istanza della entity di dominio; per far questo ci basta specificare che la entity di dominio sia di tipo internal.</p>

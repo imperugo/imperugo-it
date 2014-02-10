@@ -19,7 +19,7 @@ tags:
 - Deploy
 - Cache
 - AOP
-comments: []
+comments: true
 ---
 <p>Spesso l&rsquo;utilizzo dell&rsquo;<a href="http://en.wikipedia.org/wiki/Aspect-oriented_programming" target="_blank" rel="nofollow">Aspect Oriented Programming</a> (<strong>AOP</strong>) viene associato alla parte di <strong>Logging</strong>, e rarissimamente alla parte di <strong>Business</strong> di un&rsquo;applicazione; ovviamente il suo campo d'azione &egrave; ben pi&ugrave; grande e, giusto la scorsa settimana, mi &egrave; capitato di utilizzare l&rsquo;<strong>AOP</strong> per effettuare del <strong>Bug Fixing</strong> su un servizio <strong>WCF</strong> fornitomi da un&rsquo;azienda esterna.</p>
 <p>In una sessione insieme a <a href="http://blogs.aspitalia.com/sm15455/" target="_blank" rel="nofollow">Stefano</a> mostrai l&rsquo;approccio utilizzato in <a href="http://www.mtv.it" target="_blank" rel="nofollow">MTV.it</a> per la parte di <strong>Logging</strong> e di <strong>Rewarding</strong> nei servizi <strong>WCF</strong>; affrontammo cos&igrave; come utilizzare <strong>AOP</strong> anche per la parte di business dell&rsquo;applicazione e, sempre nella stessa sessione, mostrammo come realizzare un Custom Behaviour per WCF che permettesse di utilizzare l&rsquo;AOP senza la necessit&agrave; di ricompilare il servizio.</p>

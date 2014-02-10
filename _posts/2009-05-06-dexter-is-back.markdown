@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - Dexter
-comments: []
+comments: true
 ---
 <p>
 	Purtroppo per cause di forza maggiore (provider), il blog &egrave; stato down per circa 13 ore. <br />

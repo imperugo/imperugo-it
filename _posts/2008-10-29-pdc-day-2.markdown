@@ -14,7 +14,7 @@ categories:
 tags:
 - PDC
 - Eventi
-comments: []
+comments: true
 ---
 <p>Dopo il <a href="http://imperugo.tostring.it/Blog/Post/PDC-Day-1">primo</a> giorno i<span>l secondo &egrave; stato sicuramente caratterizzato dalla presentazione di <strong>Windows 7</strong> e <strong>Oslo</strong>. </span></p>
 <p><strong>Windows 7:</strong> <br />

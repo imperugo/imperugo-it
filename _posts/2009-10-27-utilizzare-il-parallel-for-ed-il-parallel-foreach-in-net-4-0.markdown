@@ -15,7 +15,7 @@ tags:
 - Performances
 - Parallel
 - .NET Framework 4.0
-comments: []
+comments: true
 ---
 <p>L’utilizzo del <a title="Parallel Programming" href="http://en.wikipedia.org/wiki/Parallel_computing" rel="nofollow" target="_blank">Parallel Programming</a> in <a title=".NET Framework" href="http://imperugo.tostring.it/categories/archive/.NET" target="_blank">.NET</a> 4.0 va oltre a quanto già detto <a title="Welcome Parallel Linq" href="http://imperugo.tostring.it/blog/post/welcome-parallel-linq" target="_blank">qui</a>: di fatto all’interno del namespace System.Threading.Tasks esiste una classe Parallel che permette di effettuare cicli sfruttando più Threads, in modo da abbassare il tempo necessario all’iterazione.</p>  <p>Lo snippet seguente mostra un semplicissimo ciclo di 50 elementi con e senza il Parallel For, con risultati nettamente a vantaggio dell’istruzione Parallel.For.</p>  {% raw %}<pre class="brush: csharp; ruler: true;">static void Main(string[] args)
 {

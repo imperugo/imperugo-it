@@ -17,7 +17,7 @@ tags:
 - .NET
 - Compact Framework
 - GDI
-comments: []
+comments: true
 ---
 <p><span>Che fanno insieme io, il GDI+ del Compact Framework e un Pocket Pc rinchiusi in una stanza per due giorni?? </span></p>
 <p>Beh creiamo componenti !!!!<br />

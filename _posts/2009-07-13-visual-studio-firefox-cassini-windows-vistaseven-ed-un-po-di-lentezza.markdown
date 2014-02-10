@@ -17,7 +17,7 @@ tags:
 - Windows Vista
 - Firefox
 - Cassini
-comments: []
+comments: true
 ---
 <p>Una combinazione a dir poco snervante per lo sviluppatore, che si trova a subire dei rallentamenti in fase di debug delle proprie pagine web.</p>
 <p>Ogni richiesta effettuata dal client verso il web server integrato in Visual Studio richiede un tempo che pu&ograve; arrivare fino ad un secondo per ogni elemento contenuto nella pagina e, considerando che in media una pagina ha circa 50 richieste verso il server, tra immagini, <a href="http://en.wikipedia.org/wiki/Css" target="_blank">css</a>, <a href="http://en.wikipedia.org/wiki/Javascript" target="_blank">javascript</a>, ecc., il tempo pu&ograve; salire fino a circa un minuto, e pu&ograve; andare ben oltre se si hanno pagine particolarmente ricche di contenuti e/o complesse.</p>

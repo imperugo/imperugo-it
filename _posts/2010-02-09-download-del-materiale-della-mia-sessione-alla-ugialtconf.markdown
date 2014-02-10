@@ -14,7 +14,7 @@ categories:
 tags:
 - UgiALT.net
 - Eventi
-comments: []
+comments: true
 ---
 <p>
 	Le slides ed le demo le trovate <a href="http://imperugo.tostring.it/Content/Uploaded/image/imperugo/ead0a186-d543-4419-a051-58b92e802aff.zip">qui</a>.</p>

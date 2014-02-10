@@ -25,7 +25,7 @@ tags:
 - Cache
 - Framework 4.0
 - Entity Framework
-comments: []
+comments: true
 ---
 <p>Gi&agrave; dalla presentazione alla <strong><a target="_blank" href="http://www.microsoftpdc.com/Default.aspx">PDC</a> di Los Angeles</strong> se ne parla molto e da ieri, per i possessori di un abbonamento MSDN, &egrave; possibile scaricare la <strong>Beta1</strong> del <strong>.NET Framework 4.0</strong> e <strong>Visual Studio 2010</strong>.</p>
 <p>Ovviamente le novit&agrave; sono tantissime, a partire dal tool di sviluppo che include nuove e numerosissime migliorie, fino ad arrivare ad <strong>ASP.NET</strong> passando per il totalmente nuovo <strong>WorkFlow</strong> e <strong>Windows Communication Foundation</strong> che sar&agrave; sempre pi&ugrave; presente nel mondo dello sviluppatore.</p>

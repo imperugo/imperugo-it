@@ -16,7 +16,7 @@ tags:
 - Visual Studio 2010
 - .NET Framework 4.0
 - Historical Debugger
-comments: []
+comments: true
 ---
 <p>Su <a target="_blank" rel="nofollow" title="Channel9" href="http://channel9.msdn.com">Channel9</a> &egrave; presente un interessantissimo video che introduce l&rsquo;<strong>Historical Debugger</strong> di <strong>Visual Studio 2010</strong>.</p>
 <p>IMHO &egrave; una delle feature pi&ugrave; interessanti della prossima release del tool Microsoft dedicato agli sviluppatori.</p>

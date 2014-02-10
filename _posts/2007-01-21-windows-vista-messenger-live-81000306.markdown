@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - Live
-comments: []
+comments: true
 ---
 <p><span>Questo week-end mi sono deciso, ho fatto il format del pc fisso che ho a casa e ho montato Windows Vista, tutto fantastico, Aero va alla grande, il pc schizza, ma per qualche motivo che solo lui pu&ograve; sapere&nbsp;il messenger non va, mi restituiva sempre errore 81000306. </span></p>
 <p>Per risolvere basta aprire il prompt del DOS e digitare:</p>

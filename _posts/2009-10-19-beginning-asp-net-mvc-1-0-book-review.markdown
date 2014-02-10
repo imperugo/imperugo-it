@@ -15,7 +15,7 @@ tags:
 - MVC
 - Review
 - Book
-comments: []
+comments: true
 ---
 <p>
 	<a href="http://www.amazon.com/Beginning-ASP-NET-MVC-Simone-Chiaretta/dp/047043399X/ref=sr_1_6?ie=UTF8&amp;s=books&amp;qid=1255944391&amp;sr=8-6" rel="nofollow" target="_blank" title="ASP.NET MVC 1.0"><img align="left" alt="ASP.NET MVC 1.0" border="0" height="200" src="http://imperugo.tostring.it/Content/Uploaded/image/047043399X_5.jpg" style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="047043399X" width="160" /></a> Ho appena completato la lettura del libro di <a href="http://codeclimber.net.nz/" rel="nofollow friend met colleague" target="_new">Simone</a> e <a href="http://nayyeri.net/" rel="nofollow co-worker" target="_new" title="Keyvan Nayyeri's Blog">Keyvan Nayyeri</a> - <a href="http://www.amazon.com/Beginning-ASP-NET-MVC-Simone-Chiaretta/dp/047043399X/ref=sr_1_6?ie=UTF8&amp;s=books&amp;qid=1255944391&amp;sr=8-6" rel="nofollow" target="_blank" title="Beginning ASP.NET MVC 1.0"><strong>Beginning ASP.NET MVC 1.0</strong></a> &ndash; che si &egrave; rivelato un ottimo testo, e, nonostante io non mi ritenga pi&ugrave; tanto beginner in <a href="http://imperugo.tostring.it/Categories/Archive/MVC" target="_blank" title="ASP.NET MVC">ASP.NET MVC</a>, ho avuto ugualmente modo di imparare qualcosa. <br />

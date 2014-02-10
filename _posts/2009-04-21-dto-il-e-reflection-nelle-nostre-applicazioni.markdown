@@ -22,7 +22,7 @@ tags:
 - Architettura
 - Framework
 - DTO
-comments: []
+comments: true
 ---
 <p>
 	&nbsp;</p>

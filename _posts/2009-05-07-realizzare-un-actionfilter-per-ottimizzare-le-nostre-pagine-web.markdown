@@ -17,7 +17,7 @@ tags:
 - ASP.NET
 - HttpModule
 - ActionResult
-comments: []
+comments: true
 ---
 <p>Fin dalla Preview 2 del Framework <a target="_blank" href="http://www.asp.net/mvc">ASP.NET MVC</a> sono stati introdotti gli <a target="_blank" href="http://msdn.microsoft.com/en-us/library/dd410209.aspx">ActionFilter</a>, che permettono di variare o migliorare il comportamento di un <strong>Controller </strong>o della singola <strong>Action </strong>in esso contenuta, consentendo cos&igrave; un forte riutilizzo del codice. <br />
 Il loro utilizzo &egrave; piuttosto semplice: basta decorare la Action o il Controller con l'attributo e implementare la logica nei metodi esposti dall'ActionFilter base da cui tutti ereditano. <br />

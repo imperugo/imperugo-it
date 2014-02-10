@@ -15,7 +15,7 @@ tags:
 - Visual Studio 2010
 - ASP.NET 4.0
 - Framework 4.0
-comments: []
+comments: true
 ---
 <p>Cercando di effettuare il porting di <a target="_blank" href="http://imperugo.tostring.it/About/Dexter">Dexter</a> al .NET <strong>Framework 4.0</strong> con <strong>Visual Studio 2010</strong>, mi sono accorto che non &egrave; possibile aprire l&rsquo;applicazione web basata su <a rel="nofollow" target="_blank" href="http://www.asp.net/mvc">ASP.NET MVC</a>, in quanto questo Framework non &egrave; incluso nell&rsquo;installer del nuovo <strong>Visual Studio</strong>.</p>
 <p>La motivazione la apprendo <a rel="nofollow" target="_blank" href="http://www.haacked.com/archive/2009/06/09/aspnetmvc-vs10beta1-roadmap.aspx">qui</a>,&nbsp;dal blog del PM di MVC <a rel="nofollow" target="_blank" href="http://haacked.com/">Phil Haack</a> , di cui riporto&nbsp;lo spezzone di seguito:</p>

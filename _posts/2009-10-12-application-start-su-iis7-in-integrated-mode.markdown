@@ -15,7 +15,7 @@ tags:
 - IIS
 - IIS 7.5
 - Exception
-comments: []
+comments: true
 ---
 <p>La settimana scorsa mi sono imbattuto in uno “strano” errore&#160; sollevato da <strong><a title="Internet Information Service" href="http://imperugo.tostring.it/blog/search?q=IIS&amp;searchButton=Go" target="_blank">Internet Information Service 7 (IIS7)</a></strong>: nello specifico veniva sollevata una <em><a title="System.Web.HttpException" href="http://msdn.microsoft.com/en-us/library/system.web.httpexception.aspx" rel="nofollow" target="_blank">System.Web.HttpException</a></em> con il seguente messaggio:</p>  <blockquote>   <p>Request is not available in this context</p> </blockquote>  <p>L’eccezione veniva sollevata dall’ <strong>Application_Start</strong> del <strong>Global.asax</strong>, in quanto cercavo di accedere all’<a title="HttpContext" href="http://msdn.microsoft.com/en-us/library/system.web.httpcontext.aspx" rel="nofollow" target="_blank">HttpContext</a> per effettuare il log di avvio dell’applicazione; in realtà non avevo necessità di accedere all’ HttpContext, ma il logger che utilizzavo di default ad ogni chiamata verificava che il Context non fosse nullo e nel caso aggiungeva info sull’url richiesto (Referrer, ecc), più o meno come mostrato di seguito:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">public static IExtendedLogger General
 {

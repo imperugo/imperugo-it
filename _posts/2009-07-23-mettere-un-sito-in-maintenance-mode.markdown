@@ -17,7 +17,7 @@ tags:
 - Configurazione
 - Deploy
 - HttpModule
-comments: []
+comments: true
 ---
 <p>Mentre pianificavo il deploy di una nuova versione di <a href="http://imperugo.tostring.it/About/Dexter" title="Dexter Blog Engine" target="_blank">Dexter</a>, mi &egrave; venuto in mente di realizzare un <a href="http://msdn.microsoft.com/en-us/library/zec9k340(VS.71).aspx" title="HttpModule" target="_blank">HttpModule</a> che bloccasse l&rsquo;accesso al sito a tutti clients non provenienti da un determinanto indirizzo IP, reindirizzandoli verso una pagina temporanea che comunicava all&rsquo;utente che era in corso un aggiornamento.</p>
 <p>Fin qui nulla di particolare, un semplice <a href="http://msdn.microsoft.com/en-us/library/zec9k340(VS.71).aspx" title="HttpModule" target="_blank">HttpModule</a> che&nbsp; verifica IPAddress del client e, nel caso questo non sia presente nella &ldquo;white list&rdquo;, effettua un semplice redirect.</p>

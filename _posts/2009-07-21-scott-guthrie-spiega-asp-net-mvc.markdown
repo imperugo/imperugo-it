@@ -16,7 +16,7 @@ tags:
 - Webcast
 - Media
 - ASP.NET
-comments: []
+comments: true
 ---
 <p>Di seguito potete trovare due video di una sessione tenuta da <a target="_blank" rel="nofollow" href="http://weblogs.asp.net/scottgu/" title="Scott Guthrie's Blog">Scott Guhrie</a> a Londra poche settimane fa, su <a target="_blank" rel="nofollow" href="http://www.asp.net/mvc">ASP.NET MVC</a>.</p>
 <p><a class="more" href="http://imperugo.tostring.it/blog/post/scott-guthrie-spiega-aspnet-mvc/">continue...</a></p>

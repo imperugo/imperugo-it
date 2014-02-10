@@ -15,7 +15,7 @@ tags:
 - Webcast
 - Windows Communication Foundation
 - .NET Framework 4.0
-comments: []
+comments: true
 ---
 <p>Quando si parla delle novit&agrave; introdotte dalla prossima versione di Windows Communication Foundation 4.0, non si pu&ograve; fare a meno di menzionare il WS-Discovery protocol (le specifiche le trovate <a href="http://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">qui</a>) ed il Routing.    <br />
 Mentre il WS-Discovery protocol ci permette di usufruire di servizi senza conoscerne l&rsquo;esatto endpoint, ma tramite degli appositi criteri, il Routing ci viene in aiuto in tutti quei contesti in cui si ha la necessit&agrave; di avere un sistema di Load Balancing dei servizi, gestione del versiong o si deve separare la security tramite uno layer intermedio, tra il client ed il servizio.</p>

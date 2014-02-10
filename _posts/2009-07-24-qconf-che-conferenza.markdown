@@ -16,7 +16,7 @@ tags:
 - Project Manager
 - Technical Lead
 - Architettura
-comments: []
+comments: true
 ---
 <p>Sicuramente &egrave; meno conosciuta rispetto alle pi&ugrave; famose <a target="_blank" rel="nofollow" href="http://www.microsoftpdc.com/" title="Microsoft PDC">PDC</a> o <a target="_blank" rel="nofollow" href="http://www.microsoft.com/events/teched2009/" title="Microsoft TechEd">TechEd</a>, ma non di livello inferiore; infatti per chi &egrave; appassionato di architettura e metodologie pu&ograve; incontrare nomi di tutto rispetto come i seguenti:</p>
 <ul>

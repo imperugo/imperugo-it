@@ -14,7 +14,7 @@ categories:
 tags:
 - OT
 - Dexter
-comments: []
+comments: true
 ---
 <p>
 	&nbsp;</p>

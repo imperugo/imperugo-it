@@ -16,7 +16,7 @@ tags:
 - Eventi
 - Community
 - DotDotNet
-comments: []
+comments: true
 ---
 <p>
 	Se volete approfondire <a href="http://imperugo.tostring.it/Categories/Archive/MVC" target="_blank" title="ASP.NET MVC">ASP.NET MVC</a> 2, che &egrave; presente in questa densissima release di <strong>Microsoft</strong>, possiamo incontrarci <strong>luned&igrave; 16 novembre</strong> a <strong>Bologna, </strong>dove avr&ograve; l&rsquo;opportunit&agrave; di parlare appunto di questa nuovissima release insieme a <a href="http://bitvector.tostring.it/" rel="nofollow friend met colleague" target="_new">Salvo</a>. <br />

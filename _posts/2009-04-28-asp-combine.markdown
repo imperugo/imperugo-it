@@ -16,7 +16,7 @@ tags:
 - .NET
 - Deploy
 - Ajax
-comments: []
+comments: true
 ---
 <p>Con l&rsquo;uscita del <strong>Service Pack 1</strong> per il <strong>.NET Framework 3.5</strong> &egrave; stata introdotta una nuova ed utilissima funzionalit&agrave; che permette di ridurre il numero di chiamate verso file Javascript effettuate dal browser verso il server, ottimizzando cos&igrave; il traffico e le performance della pagina.    <br />
 Ormai si fa sempre pi&ugrave; uso di <strong>Javascript</strong>, che siano queste semplici chiamate <strong>AJAX</strong> o complesse animazioni, ed il numero di librerie esistenti (<a target="_blank" href="http://jquery.com/">JQuery</a>, <a target="_blank" href="http://www.shadowbox-js.com/">ShadowBox</a>, <a target="_blank" href="http://www.prototypejs.org/">Prototype</a>, ecc) ci impone di aggiungere reference continue alle nostre pagine, riducendone cos&igrave; le performance ed aumentado il traffico di rete.    <br />

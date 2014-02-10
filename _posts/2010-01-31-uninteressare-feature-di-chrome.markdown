@@ -13,7 +13,7 @@ categories:
 - Web Dev
 tags:
 - Chrome
-comments: []
+comments: true
 ---
 <p>
 	Non so come faccia, ma il fatto che <a href="http://www.google.com" rel="nofollow" target="_blank" title="Google">Google</a> Chrome riesca ad effettuare ricerche all&rsquo;interno di un sito, sfruttando l&rsquo;engine di ricerca presente all&rsquo;interno del sito stesso e non Google search engine, &egrave; sicuramente una bella feature!</p>

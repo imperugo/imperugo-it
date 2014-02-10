@@ -15,7 +15,7 @@ tags:
 - Various
 - Controller
 - Cookie
-comments: []
+comments: true
 ---
 <p>Con il Framework <a target="_blank" href="http://www.asp.net/mvc">ASP.NET MVC</a> &egrave; stato introdotto il <a target="_blank" href="http://msdn.microsoft.com/en-us/library/system.web.mvc.controller.tempdataprovider.aspx">TempDataProvider</a> che, come fa ben intuire il suo nome, ha lo scopo di memorizzare delle informazioni temporanee tra una chiamata e la successiva. Infatti, se si prova ad immaginare un ciclo di navigazione di tre pagine (A,B e C), dalla pagina C non si pu&ograve; accedere alle informazioni aggiunte al <a target="_blank" href="http://msdn.microsoft.com/en-us/library/system.web.mvc.controller.tempdataprovider.aspx">TempDataProvider</a> della pagina A, ma solo a quelle della pagina B.</p>
 <p>Di default queste informazioni vengono memorizzate nella <strong>Session</strong> e, anche se il <a target="_blank" href="http://msdn.microsoft.com/en-us/library/system.web.mvc.controller.tempdataprovider.aspx">TempDataProvider</a> non viene utilizzato, se si prova a disabilitare la Sessione tramite l&rsquo;apposita riga del file di configurazione, verr&agrave; sollevato un&rsquo;errore dall&rsquo;applicazione tipo il seguente:</p>

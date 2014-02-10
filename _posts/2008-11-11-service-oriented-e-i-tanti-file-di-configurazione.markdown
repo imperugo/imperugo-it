@@ -15,7 +15,7 @@ tags:
 - Windows Communication Foundation
 - SOA
 - Configurazione
-comments: []
+comments: true
 ---
 <p><span>Una delle cose scomode che si ha in un'applicazione service oriented &egrave; il deploy e i numerosi file di configurazione. Se penso alla nostra attuale struttura parliamo di circa 20 servizi e di altrettanti file di configurazione. </span></p>
 <p>Molto spesso questi file di configurazione hanno parti in comune tra loro, tipo custom section, behaviors, ecc e ogni qual volta devi cambiare una di queste parti sei costretto a dover modificare decine di file di configurazione.<br />

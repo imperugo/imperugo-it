@@ -15,7 +15,7 @@ tags:
 - Nhibernate
 - NHibernateFluent
 - Mapping
-comments: []
+comments: true
 ---
 <p><a href="http://fluentnhibernate.org/" target="_blank">NHibernateFluent</a> &egrave; una valida alternativa al metodo classico (XML Based) di mappare le entity con con NHibernate.     <br />
 Nello specifico, il mapping non avviene pi&ugrave; tramite la costruzione di un XML da embeddare nel progetto, ma scrivendo semplice codice C#. Anche se tramite gli appositi XSD si pu&ograve; disporre dell&rsquo;intellisense durante la stesura dell&rsquo;XML, l&rsquo;approccio Fluent offre ulteriori vantaggi.</p>

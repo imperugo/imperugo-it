@@ -16,7 +16,7 @@ tags:
 - Nhibernate
 - NHibernateFluent
 - Mapping
-comments: []
+comments: true
 ---
 <p>
 	Era gi&agrave; nell&rsquo;aria (maggiori info <a href="http://imperugo.tostring.it/Blog/Post/Fluent-NH-10-in-RC" target="_blank" title="Fluent NH 10 in RC">qui</a>), ed infatti &egrave; disponibile la versione RTM di <a href="http://fluentnhibernate.org/" rel="nofollow" target="_blank" title="FluentNHibernate">FluentNHibernate</a> 1.0 come annunciato dal blog di NHibernate <a href="http://nhforge.org/blogs/nhibernate/archive/2009/08/29/fluent-nhibernate-1-0.aspx" rel="nofollow" target="_blank" title="Fluent NHibernate 1.0 RTM Out">qui</a>.</p>

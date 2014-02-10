@@ -16,7 +16,7 @@ tags:
 - Windows Azure
 - Azure
 - .NET Services
-comments: []
+comments: true
 ---
 <p>Apprendo dal blog di <a target="_blank" rel="nofollow" href="http://blogs.ugidotnet.org/janky" title="Giancarlo Sudano">Janky</a>, che sono usciti i prezzi ufficiali per la piattaforma <a target="_blank" rel="nofollow" href="http://www.microsoft.com/azure/default.mspx" title="Microsoft Azure">Azure</a> di Microsoft (<strong>Windows Azure</strong>, <strong>SQL Azure</strong> e dei <strong>.NET Services)</strong>.     <br />
 pi&ugrave; in dettaglio:</p>

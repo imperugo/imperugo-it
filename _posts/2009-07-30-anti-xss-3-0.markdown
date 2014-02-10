@@ -18,7 +18,7 @@ tags:
 - XSS Cross Site Scripting
 - ASP.NET
 - .NET
-comments: []
+comments: true
 ---
 <p>Da poche settimane &egrave; stata rilasciata la versione 3.0 della libreria <strong>Microsoft Anti-Cross Site Scripting,</strong> che introduce numerose novit&agrave;.     <br />
 Per chi non la conoscesse, si tratta di una libreria che facilita l&rsquo;utente nella prevenzione di attacchi di tipo <strong>XSS (Cross Site Scripting)</strong> alle proprie applicazioni web.</p>

@@ -18,7 +18,7 @@ tags:
 - .NET
 - Ajax
 - Cache
-comments: []
+comments: true
 ---
 <p>In un <a target="_blank" href="http://imperugo.tostring.it/Blog/Post/ASP-Combine">post precedente</a> avevo parlato dell&rsquo;utilit&agrave; dello <strong>Script Combine</strong> introdotto con la <strong>Service Pack 1</strong> di <a rel="nofollow" target="_blank" href="http://www.asp.net">ASP.NET</a>, che permette di ridurre le chiamate dal client verso il server riunendo pi&ugrave; files <a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/Javascript_">Javascript</a><strong> </strong>in un unico file. <br />
 Purtroppo questa tecnologia non &egrave; presente in <a rel="nofollow" target="_blank" href="http://www.asp.net/mvc">ASP.NET MVC</a>, ma &egrave; facilmente realizzabile andando a creare un <a rel="nofollow" target="_blank" href="http://msdn.microsoft.com/en-us/library/5c67a8bd%28VS.71%29.aspx">HttpHandler</a> che raggruppi in un&rsquo;unica richesta tutti i files <a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/Javascript_">Javascript</a>, ed ottimizzando il risultato tramite quella tecnica chiamata &ldquo;Minification&rdquo; (maggiori info le trovate <a target="_blank" href="http://blogs.ugidotnet.org/marcom/archive/2009/06/01/quotminificarequot-i-javascript.aspx">qui</a>.) che consiste nella rimozione degli spazi, newline, ecc dall&rsquo;output.</p>

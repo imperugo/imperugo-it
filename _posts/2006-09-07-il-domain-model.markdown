@@ -15,7 +15,7 @@ tags:
 - ORM
 - .NET
 - Architettura
-comments: []
+comments: true
 ---
 <p><span>Orami in tutte le mie applicazioni realizzo un <a onclick="blankUrl(this.href); return false;" href="http://martinfowler.com/eaacatalog/domainmodel.html"><strong>Domian Model</strong></a> sia che queste siano complesse che non. </span></p>
 <p>Ora <a onclick="blankUrl(this.href); return false;" href="http://www.martinfowler.com/">Fowler</a> ci dice:</p>

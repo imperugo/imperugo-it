@@ -14,7 +14,7 @@ categories:
 tags:
 - UgiSicilia
 - Community
-comments: []
+comments: true
 ---
 <p>Anche se in ritarto, &egrave; con estremo piacere che riporto la notizia che uno <strong>User Group .NET</strong> sta nascendo in <strong>Sicilia</strong>.     <br />
 Se pur io non sia siciliano, ma marchigiano doc, sono molto affezzionato a questa regione, in quanto due miei carissimi amici ne fanno parte ed hanno avuto la bellissima idea di creare uno <strong>UserGroup</strong> proprio l&igrave;.    <br />

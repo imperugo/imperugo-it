@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - Dexter
-comments: []
+comments: true
 ---
 <p>
 	Come gi&agrave; detto in passato, <a href="http://imperugo.tostring.it/About/Dexter" target="_blank">Dexter</a> &egrave; un blog engine sviluppato interamente in <a href="http://www.asp.net/mvc" rel="nofollow" target="_blank">ASP.NET MVC</a>, NHibernate e con altre caratteristiche interessanti che trovate elencate <a href="http://imperugo.tostring.it/About/Dexter" target="_blank" title="Dexter features">qui</a>.</p>

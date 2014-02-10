@@ -14,7 +14,7 @@ categories:
 tags:
 - Silverlight
 - .NET RIA Services
-comments: []
+comments: true
 ---
 <p>La settimana scorsa avevo pubblicato un elenco di link che spiegavano cosa sono e come si utilizzano i .NET <a title="Rich Internet Application" href="http://it.wikipedia.org/wiki/Rich_Internet_application" rel="nofollow" target="_blank">Ria</a> Services.    <br />
 Tutti i link erano basati su un percorso di <a href="http://blogs.msdn.com/brada/default.aspx">Brad Abrams</a>, che ovviamente non si &egrave; fermato ed ha pubblicato nuovi interessantissimi articoli.    <br />

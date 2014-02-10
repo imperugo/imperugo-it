@@ -14,7 +14,7 @@ categories:
 tags:
 - Deploy
 - Ajax
-comments: []
+comments: true
 ---
 <p>
 	In un post <a href="http://imperugo.tostring.it/blog/post/microsoft-ajax-cdn" target="_blank" title="Microsoft AJAX CDN (Content Delivery Network)">precedente</a> avevo parlato del <a href="http://www.microsoft.com" rel="nofollow" target="_blank" title="Microsoft Corporation">Microsoft</a>&nbsp;<a href="http://en.wikipedia.org/wiki/Ajax_(programming)" rel="nofollow" target="_blank">AJAX</a>&nbsp;<strong>CDN (Content Delivery Network), con una</strong> breve spiegazione dei problemi che questo approccio pu&ograve; portare, come quando ad esempio lo si&nbsp; utilizza in connessioni protette (https).</p>

@@ -14,7 +14,7 @@ categories:
 tags:
 - Silverlight
 - .NET RIA Services
-comments: []
+comments: true
 ---
 <p>
 	<a href="http://blogs.msdn.com/brada/default.aspx" rel="nofollow" target="_blank" title="Brad Abrams">Brad Abrams</a> &egrave; l&rsquo;autore di una serie di articoli interessantimi sui .NET <a href="http://it.wikipedia.org/wiki/Rich_Internet_application" rel="nofollow" target="_blank" title="Rich Internet Application">RIA</a> Services e <a href="http://silverlight.net/" rel="nofollow" target="_blank">SilverLight</a>. <br />

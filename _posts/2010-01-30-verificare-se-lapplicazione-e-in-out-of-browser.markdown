@@ -14,7 +14,7 @@ categories:
 tags:
 - OutOfBrowser
 - Silverlight
-comments: []
+comments: true
 ---
 <p>
 	Gi&agrave; da quanto scritto precedentemente (<a href="http://tostring.it/blog/post/life-cycle-di-unapplicazione-out-of-browser-in-silverlight-4-intro" rel="Life cycle di un’applicazione Out Of Browser in Silverlight 4 - Intro" target="_blank">qui</a>) si intuiva l&rsquo;arrivo di una serie di post su <a href="http://imperugo.tostring.it/categories/archive/Silverlight" target="_blank" title="Silverlight">Silverlight</a> 4. Sto infatti studiando la possibilit&agrave; di utilizzo di Silverlight 4 per un&rsquo;applicazione Out Of Browser che rispecchi almeno i requisiti descritti nel precedente post. <br />

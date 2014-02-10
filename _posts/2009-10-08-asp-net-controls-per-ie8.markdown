@@ -14,7 +14,7 @@ categories:
 tags:
 - News
 - Controls
-comments: []
+comments: true
 ---
 <p>
 	Da pochi giorni &egrave; stata rilasciata una serie di controlli <a href="http://www.asp.net" rel="nofollow" target="_blank">ASP.NET</a> per Internet Explorer 8.</p>

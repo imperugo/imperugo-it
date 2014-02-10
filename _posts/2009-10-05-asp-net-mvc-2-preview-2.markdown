@@ -16,7 +16,7 @@ tags:
 - News
 - Visual Studio 2010
 - ASP.NET 4.0
-comments: []
+comments: true
 ---
 <p>
 	Da pochi giorni &egrave; stata rilasciata la<strong> Preview 2 di </strong><a href="http://www.asp.net/mvc" rel="nofollow" target="_blank"><strong>ASP.NET MVC</strong></a><strong> 2</strong>, come annunciato dal Program Manager <a href="http://haacked.com/" rel="nofollow" target="_blank">Phil Haack</a> (<a href="http://haacked.com/archive/2009/10/01/asp.net-mvc-preview-2-released.aspx" target="_blank">qui</a>). <br />

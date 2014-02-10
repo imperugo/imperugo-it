@@ -14,7 +14,7 @@ categories:
 tags:
 - OutOfBrowser
 - Silverlight
-comments: []
+comments: true
 ---
 <p>Nel post precedente avevo mostrato come verificare se l’applicaizone <a title="Silverlight" href="http://imperugo.tostring.it/categories/archive/Silverlight" target="_blank">Silverlight</a> fosse installata o meno sul client. L’idea di questo post è di mostrare come installare l’applicazione tramite un pulsante custom presente all’interno della pagina ed eseguire la procedura di installazione via C#.</p>  <p>Lo snippet seguente mostra l’evento OnClick del button per l’installazione:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">private void InstallButton_Click(object sender, System.Windows.RoutedEventArgs e)
 {

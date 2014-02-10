@@ -14,7 +14,7 @@ categories:
 tags:
 - Windows
 - .NET
-comments: []
+comments: true
 ---
 <p><span>&Egrave;&nbsp;il suo limite, non &egrave; possile aggiungere un'altra folder. </span></p>
 <p>Voi gistamente direte, per quale motivo dovreste creare cos&igrave; tante folder in un'unica folder. <br />

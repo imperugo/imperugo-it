@@ -15,7 +15,7 @@ tags:
 - Windows Communication Foundation
 - Configurazione
 - Deploy
-comments: []
+comments: true
 ---
 <p><span>Su suggerimento dello <a onclick="function onclick(event) { function onclick(event) { blankUrl(this.href); return false; } }" href="http://blogs.ugidotnet.org/janky">Sciuro Sudano</a> ho dato un'occhiata a <strong>Managed Services Engine</strong> che in ambienti tipo quello descritto in questo <a onclick="function onclick(event) { function onclick(event) { blankUrl(this.href); return false; } }" href="http://blogs.aspitalia.com/imperugo/post2229/bello-lavori.aspx">post</a>, in cui si ha un alto numero di endpoint pu&ograve; essere una manna dal cielo. </span></p>
 <p>Per chi non lo conoscesse gi&agrave;, <strong>MSE</strong> (scaricabile da <a onclick="function onclick(event) { function onclick(event) { blankUrl(this.href); return false; } }" href="http://www.codeplex.com/servicesengine">CodePlex</a>), non &egrave; altro che un repository di servizi con il compito di fare da routing di tutti i client verso i vari servizi sparsi nella rete. <br />

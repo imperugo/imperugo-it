@@ -15,7 +15,7 @@ tags:
 - Visual Studio 2010
 - Beta
 - ASP.NET 4.0
-comments: []
+comments: true
 ---
 <p>
 	Non &egrave; passata neanche una settimana dall&rsquo;uscita della Beta 2 di <a href="http://imperugo.tostring.it/blog/search?q=Visual+Studio&amp;searchButton=Go" target="_blank" title="Search Visual Studio">Visual Studio</a> 2010 e sul sito <a href="http://www.microsoft.com" rel="nofollow" target="_blank" title="Microsoft Corporation">Microsoft</a> &egrave; gi&agrave; disponibile il Training Kit che include parecchio materiale, <strong>presentazioni</strong>, <strong>hands-in labs</strong> e <strong>demo</strong>.</p>

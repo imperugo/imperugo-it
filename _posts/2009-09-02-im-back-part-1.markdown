@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - Dexter
-comments: []
+comments: true
 ---
 <p>
 	Dico &ldquo;part 1&rdquo; perch&eacute; il provider non sembra essere ancora molto stabile, cmq sta di fatto che per pi&ugrave; di mezza giornata il blog &egrave; rimasto offline per problemi di routing tra il server web e la <a href="http://en.wikipedia.org/wiki/Storage_area_network" rel="nofollow" target="_blank" title="SAN (Storage area network)">SAN</a>&nbsp; contente i files.</p>

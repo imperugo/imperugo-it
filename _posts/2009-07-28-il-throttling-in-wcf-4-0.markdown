@@ -16,7 +16,7 @@ tags:
 - Beta
 - Configurazione
 - Framework 4.0
-comments: []
+comments: true
 ---
 <p>Il <a href="http://msdn.microsoft.com/en-us/library/system.servicemodel.description.servicethrottlingbehavior.aspx">Throttling</a> &egrave; quella parte di configurazione di <strong>Windows Communication Foundatio</strong>n che permette di impostare l&rsquo;impatto che il servizio WCF avr&agrave; verso il sitema operativo. Nello specifico &egrave; possibile modificare i valori dei parametri <strong>MaxConcurrentSessions</strong>, <strong>MaxConcurrentCalls&nbsp; </strong>e <strong>MaxConcurrentInstances</strong>.    <br />
 Nelle versioni antecedenti alla 4.0 i valori di default erano i seguenti:</p>

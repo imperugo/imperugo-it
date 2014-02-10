@@ -15,7 +15,7 @@ tags:
 - Deploy
 - Ajax
 - .NET Framework 4.0
-comments: []
+comments: true
 ---
 <p>
 	Da pochi giorni &egrave; stato annunciato, tramite il blog di <a href="http://weblogs.asp.net/scottgu" rel="nofollow" target="_blank" title="Scott Guthrie's Blog">Scott Guthrie</a> (<a href="http://weblogs.asp.net/scottgu/archive/2009/09/15/announcing-the-microsoft-ajax-cdn.aspx" rel="nofollow" target="_blank" title="Microsoft Ajax CDN">qui</a>),<strong> </strong><a href="http://www.microsoft.com" rel="nofollow" target="_blank" title="Microsoft Corporation"><strong>Microsoft</strong></a><strong>&nbsp;</strong><a href="http://en.wikipedia.org/wiki/Ajax_(programming)" rel="nofollow" target="_blank"><strong>AJAX</strong></a><strong> CDN (Content Delivery Network)</strong>, ossia un sistema di caching delle principali librerie AJAX utilizzate dagli sviluppatori Microsoft e non. <br />

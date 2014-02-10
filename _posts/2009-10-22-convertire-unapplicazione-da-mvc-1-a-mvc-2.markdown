@@ -15,7 +15,7 @@ tags:
 - MVC
 - Visual Studio 2010
 - Beta
-comments: []
+comments: true
 ---
 <p>
 	Ieri sera stavo valutando l&rsquo;idea di convertire <a href="http://imperugo.tostring.it/Categories/Archive/Dexter" target="_blank" title="Dexter Blog Engine">Dexter</a> dalla versione 1.0 di <a href="http://imperugo.tostring.it/Categories/Archive/MVC" target="_blank" title="ASP.NET MVC">ASP.NET MVC</a> alla versione 2.0, per poter sfruttare tutte le nuove catatteristiche offerte da <a href="http://imperugo.tostring.it/tags/archive/visual+studio+2010" target="_blank" title="Visual Studio 2010">Visual Studio 2010</a> Beta 2 che, come comunicato dal PM <a href="http://haacked.com/" rel="nofollow" target="_blank">Phil Haack</a>&nbsp;<a href="http://haacked.com/archive/2009/10/20/vs10beta2-and-aspnetmvc.aspx" rel="nofollow" target="_blank" title="VS10 Beta 2 From an ASP.NET MVC Perspective">qui</a>, non supporter&agrave; la versione 1 di <a href="http://imperugo.tostring.it/Categories/Archive/MVC" target="_blank" title="ASP.NET MVC">ASP.NET MVC</a>.</p>

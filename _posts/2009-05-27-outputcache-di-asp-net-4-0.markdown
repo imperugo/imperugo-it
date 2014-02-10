@@ -17,7 +17,7 @@ tags:
 - UserControls
 - ASP.NET 4.0
 - .NET Framework 4.0
-comments: []
+comments: true
 ---
 <p>In un <a target="_blank" href="http://imperugo.tostring.it/Blog/Post/L-OutputCache-su-MVC-View-User-Control">precedente post</a> ho parlato della comodit&agrave; e potenzialit&agrave; dell&rsquo;<strong>OutputCache di ASP.NET</strong>, e, sempre in un&rsquo;<a target="_blank" href="http://imperugo.tostring.it/Blog/Post/Alcune-novita-di-ASPNET-40">altro post</a>, ho parlato di alcune novit&agrave; che caratterizzano la nuova versione di ASP.NET che verr&agrave; rilasciata con il Framework 4.0.     <br />
 Proprio con la futura versione sar&agrave; possibile specificare un provider per l&rsquo;OutputCache che pu&ograve; essere differente tra usercontrol e usercontrol, permettendo cos&igrave; di utilizzare questo potente strumento anche in ambienti distribuiti dove la comune cache di ASP.NET non pu&ograve; arrivare.</p>

@@ -16,7 +16,7 @@ tags:
 - PowerTools
 - TeamEplorer
 - TFS
-comments: []
+comments: true
 ---
 <p>
 	Primo post su <strong>TFS</strong>, <strong>TeamExplorer</strong> e <strong>famigghia</strong>. <br />

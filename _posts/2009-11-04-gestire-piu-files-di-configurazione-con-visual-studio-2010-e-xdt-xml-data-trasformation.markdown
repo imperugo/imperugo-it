@@ -16,7 +16,7 @@ tags:
 - Visual Studio 2010
 - Beta
 - ASP.NET 4.0
-comments: []
+comments: true
 ---
 <p>
 	Appena si crea una nuova Web Application con <a href="http://imperugo.tostring.it/blog/search?q=Visual+Studio&amp;searchButton=Go" target="_blank" title="Search Visual Studio">Visual Studio</a> 2010 la prima cosa che salta all&rsquo;occhio &egrave; l&rsquo;icona a forma di triangolo posta accanto al <strong><em>web.config</em></strong>, che fa intuire la presenza di alcune voci legate allo stesso; di fatto l&rsquo;immagine seguente mostra altri due files di configurazione oltre a quello principale:</p>

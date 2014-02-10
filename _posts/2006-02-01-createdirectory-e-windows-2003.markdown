@@ -14,7 +14,7 @@ categories:
 tags:
 - Windows Server 2003
 - .NET
-comments: []
+comments: true
 ---
 <p><span>Ci sono delle cose che a volte proprio non capisco e che mi fanno imbufalire. Ho pubblicato un lavoro abbastanza semplice realizzato in .net 1.1 su un server web (tra quelli che vanno per la maggiore). Ma quando vado a provare l'applicazione mi trovo di fronte ad un bel errore nel create directory.<br />
 Lo stack mi diceva che non avevo l'autorizzazione necessaria per la creazione della cartella; vado a controllare nel mio pannello di controllo ed era tutto ok; provo a resettare i permessi, ma niente. Preso dalla disperazione chiamo il provider chiedo un controllo, ma niente da fare l'errore persiste.<br />

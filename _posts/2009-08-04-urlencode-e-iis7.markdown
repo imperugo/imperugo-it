@@ -18,7 +18,7 @@ tags:
 - Configurazione
 - IIS
 - IIS 7.5
-comments: []
+comments: true
 ---
 <p>Quando si costruiscono url dinamici in base a delle variabili di applicazione, &egrave; bene utilizzare l&rsquo;apposito metodo <strong><em>UrlEncode</em></strong> della classe statica <strong><em>HttpUtility</em></strong>, che ha il compito di effettuare il replace di tutti i caratteri non compatibili con gli url.    <br />
 <br />

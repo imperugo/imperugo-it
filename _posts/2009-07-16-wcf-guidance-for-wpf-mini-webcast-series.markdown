@@ -17,7 +17,7 @@ tags:
 - WPF
 - Proxy
 - Exception Handling
-comments: []
+comments: true
 ---
 <p>Segnalo una serie di interessantissimi webcast sulle problematiche di utilizzo di WCF in applicazioni WPF di <a target="_blank" rel="nofollow" href="http://www.dasblonde.net/" title="Michele Leroux Bustamante's Blog">Michele Leroux Bustamante</a>, autrice di diversi libri su Windows Communication Foundation e sul .NET Framework 3.5, come <a target="_blank" rel="nofollow" href="http://www.amazon.com/Learning-WCF-Hands-Michele-Bustamante/dp/0596101627/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1247691290&amp;sr=8-1" title="Learning WCF">Learning WCF</a>.     <br />
 Oltre ad essere dei bellissimi webcast, in quanto Michelle &egrave; veramente brava nello spiegare le problematiche e come affrontarle, possono risultare molto utili anche per chi non si trovi a sviluppare applicazioni WPF ma applicazioni web.</p>

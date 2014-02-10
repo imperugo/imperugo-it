@@ -16,7 +16,7 @@ tags:
 - Browser
 - ASP.NET
 - Ajax
-comments: []
+comments: true
 ---
 <p>Ormai sempre pi&ugrave; applicazioni web fanno uso della tecnologia <a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/Ajax_(programming)">AJAX</a>, in quanto essa offre numerosi vantaggi: dall&rsquo;ottimizzazione del traffico di rete ad una maggior velocit&agrave; di navigazione. L&rsquo;uso di questa tecnologia permette s&igrave; la navigazione tra contenuti differenti senza effettuare il reload della pagina, ma purtroppo toglie usabilit&agrave; al sito, in quanto l&rsquo;utente &egrave; portato ad utilizzare il bottone <strong>Back</strong> del browser per tornare al contenuto precedente, cosa che non avviene se si sta utilizzando <strong>AJAX</strong>.</p>
 <p><br />

@@ -16,7 +16,7 @@ tags:
 - Nhibernate
 - Linq
 - LinqToNHibernate
-comments: []
+comments: true
 ---
 <p>Lo ha annunciato <a title="Ayende's Blog" href="http://ayende.com" rel="nofollow" target="_blank">Ayende</a> in questo <a title="NHibernate Linq 1.0 released" href="http://ayende.com/Blog/archive/2009/07/26/nhibernate-linq-1.0-released.aspx" rel="nofollow" target="_blank">post</a>, mentre il download lo trovate <a title="Linq To NHibernate" href="http://sourceforge.net/projects/nhibernate/files/NHibernate/2.1.0.GA/NHibernate.Linq-1.0.0.GA-bin.zip/download" rel="nofollow" target="_blank">qui</a>.</p>
 <p>Ora non resta che provarlo.   <br />

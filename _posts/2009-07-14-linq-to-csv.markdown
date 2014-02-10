@@ -17,7 +17,7 @@ tags:
 - Framework
 - Esportazione
 - Csv
-comments: []
+comments: true
 ---
 <p>Non so da quanto tempo esista, ma &egrave; ormai almeno un mese che lo sto utilizzando in un progetto e devo dire che &egrave; veramente comodo e ben fatto.    <br />
 L&rsquo;idea di potersi avvalere di Linq per effettuare query e manipolazioni di dati su diversi repository, che siano questi database, CSV o oggetti in memoria, &egrave; a dir poco fantastica.</p>

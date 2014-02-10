@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - PDC
-comments: []
+comments: true
 ---
 <p>Ma tu guarda chi si incontra alla PDC2008 di Los Angeles.</p>
 <p><img width="439" height="331" alt="" src="/content/Uploaded/image/img_0608_thumb.jpg" /><span class="Apple-style-span" style="color: rgb(0, 0, 238); text-decoration: underline;"><br />

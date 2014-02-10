@@ -14,7 +14,7 @@ categories:
 tags:
 - Lucene.Net
 - .NET
-comments: []
+comments: true
 ---
 <p><span>Per chi si fosse perso il <a href="http://imperugo.tostring.it/Blog/Post/Ricerca-all-interno-dei-documenti">post</a> precedente, sto realizzando un motore di ricerca per indicizzare dei documenti. <br />
 Beh rispetto alla versione precedente posso dire di aver fatto dei bei passi in avanti, ora posso paginare (pu&ograve; sembrare una stupidata, ma vi assicuro che con dotLucene non lo &egrave;), ed avere ottime performance. <br />

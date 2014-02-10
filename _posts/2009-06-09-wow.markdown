@@ -15,7 +15,7 @@ tags:
 - UgiDotNet
 - WorkShop
 - 3.5 ed oltre
-comments: []
+comments: true
 ---
 <p>&Egrave; stata la mia espressione appena arrivati alla location del <strong>&ldquo;Workshop 3.5 e oltre&rdquo;,</strong> ed &egrave; stata la stessa espressione del momento in cui <a rel="nofollow" target="_blank" href="http://blogs.ugidotnet.org/raffaele/Default.aspx">Raf</a> ha concluso la sua super sessione.</p>
 <p>Sono stati due giorni di grande entusiamo, emozione e divertimento quelli passati insieme a tutte le persone presenti all&rsquo;evento, dagli speaker con cui ho condiviso questa esperienza, ai partecipanti con cui ho avuto modo di scambiare opinioni ed idee sulle passioni che ci accomunano.</p>

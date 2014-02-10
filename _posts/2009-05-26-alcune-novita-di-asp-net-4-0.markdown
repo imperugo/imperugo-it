@@ -20,7 +20,7 @@ tags:
 - .NET
 - ASP.NET 4.0
 - .NET Framework 4.0
-comments: []
+comments: true
 ---
 <p>Nel <a target="_blank" href="http://imperugo.tostring.it/Blog/Post/Visual-Studio-2010-e-NET-Framework-40">post precedente</a> ho riportato alcune delle principali novit&agrave; introdotte con la <strong>Beta 1</strong> del <strong>.NET Framework 4.0</strong> e <strong>Visual Studio 2010</strong>; da questo post in poi vorrei iniziare una serie di pubblicazioni che entrano un po&rsquo; pi&ugrave; in dettaglio su come possono essere utilizzate queste importanti features introdotte da Microsoft.</p>
 <p>Le novit&agrave; di <strong>ASP.NET 4.0</strong> sono divise nelle sei categorie seguenti:</p>

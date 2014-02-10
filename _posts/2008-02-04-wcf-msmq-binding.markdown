@@ -15,7 +15,7 @@ tags:
 - Windows Communication Foundation
 - Scalabilità
 - SOA
-comments: []
+comments: true
 ---
 <p><span>In quest'ultimo periodo, in azienda, stiamo organizzando e progettando delle nuove parti di un'applicativo fortemente basato su servizi. </span></p>
 <p>In questo e in molti altri scenari, si ha la necessit&agrave; di avere una forte scalabilit&agrave; e la certezza di non perdere nessun dato anche nel caso uno dei servizi si offline per manutenzione e/o problemi tecnici di qualsiasi tipo.</p>

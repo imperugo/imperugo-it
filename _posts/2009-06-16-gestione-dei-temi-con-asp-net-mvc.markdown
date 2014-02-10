@@ -18,7 +18,7 @@ tags:
 - ASP.NET
 - .NET
 - Controller
-comments: []
+comments: true
 ---
 <p>Nella prima versione di <strong>ASP.NET MVC</strong> non &egrave; presente la possibilit&agrave; di gestire i temi nelle applicazioni: ci&ograve; significa che, per tutti i siti sviluppati con questo <strong>Framework</strong> che necessitino di una forte customizzazione dell&rsquo;interfaccia web, &egrave; necessario realizzare un&rsquo;implementazione custom in grado di far ci&ograve;.</p>
 <p>Com&rsquo;&egrave; possibile apprendere dalla roadmap della versione <strong>2.0</strong> di <strong>ASP.NET MVC</strong>&nbsp;<a target="_blank" rel="nofollow" href="http://aspnet.codeplex.com/Wiki/View.aspx?title=Road%20Map&amp;referringTitle=Home">qui</a>, che sar&agrave; inglobata in <strong>ASP.NET</strong>, avr&agrave; incluso un sistema per la gestione dei temi; in attesa del rilascio, una possibile soluzione per affrontare il problema &egrave; quella di sostituire il <strong>WebFormViewEngine</strong> con uno realizzato ad hoc, in grado di cambiare la <strong>View</strong> in base al tema scelto.</p>

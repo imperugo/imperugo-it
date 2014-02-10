@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - OT
-comments: []
+comments: true
 ---
 <p>L&rsquo;altro giorno mi sono deciso a comprare un orologio per le mie scalate/sciate in montagna quindi, da bravo tecnologico, mi sono messo a fare una ricerca in rete su quale prodotto scegliere.</p>
 <p>Personalmente ero orientato su un prodotto della SUUNTO, societ&agrave; specializzata in questo tipo di apparecchiature.   <br />

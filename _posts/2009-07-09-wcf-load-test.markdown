@@ -18,7 +18,7 @@ tags:
 - Tools
 - Performances
 - Configurazione
-comments: []
+comments: true
 ---
 <p><strong>Windows Communication Foundation</strong> &egrave; sicuramente uno tra i migliori <strong>Framework</strong> sviluppati da <strong>Microsoft</strong> negli ultimi anni: offre un&rsquo;ottima estendibilit&agrave; e, allo stesso tempo, risulta facile da utilizzare per chi da subito vuole realizzare servizi senza particolari esigenze.     </p>
 <p>Una cosa su cui si discute spessissimo sono le performances ottenibili con questo Framework, e, proprio come detto dalla stessa Microsoft(su questo argomento suggerisco <a target="_blank" rel="nofollow" href="http://channel9.msdn.com/pdc2008/TL38/">questa</a> sessione di <a target="_blank" rel="nofollow" href="http://blogs.msdn.com/drnick/" title="Nicholas Allen">Nicholas Allen</a> della PDC 2008..), raggiungere ottime performances non &egrave; cosa facile ed immediata.     <br />

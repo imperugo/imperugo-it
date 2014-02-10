@@ -16,7 +16,7 @@ tags:
 - Social Network
 - Tweeter
 - FaceBook
-comments: []
+comments: true
 ---
 <p><a title="Twitter" href="http://www.twitter.com" rel="nofollow" target="_blank">Twitter</a> sta prendendo sempre pi&ugrave; piede e, seguire i continui aggiornamenti delle persone con cui sei in contatto, diventa sempre pi&ugrave; impegnativo.</p>
 <p>Fortunatamente &egrave; disponibile un Feed RSS con gli aggiornamenti di tutti i tuoi contatti; tale feed, per motivi di privacy, &egrave; visibile solo tramite autenticazione che, per chi usa come me <a title="GoogleReader" href="http://www.google.com/reader/view/" rel="nofollow" target="_blank">GoogleReader</a>, pu&ograve; risultare un problema.</p>

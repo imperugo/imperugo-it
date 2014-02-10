@@ -14,7 +14,7 @@ categories:
 tags:
 - OutOfBrowser
 - Silverlight
-comments: []
+comments: true
 ---
 <p>
 	Continuando il percorso iniziato nel post <a href="http://tostring.it/blog/post/verificare-se-lapplicazione-e-in-out-of-browser" target="_blank" title="Welcome Parallel Linq">precedente</a>, oggi vorrei affrontare la parte di setup di un&rsquo;applicazione <a href="http://imperugo.tostring.it/categories/archive/Silverlight" target="_blank" title="Silverlight">Silverlight</a>. <br />

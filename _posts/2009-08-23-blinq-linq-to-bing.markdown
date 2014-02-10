@@ -14,7 +14,7 @@ categories:
 tags:
 - Linq
 - Bing
-comments: []
+comments: true
 ---
 <p><a href="http://www.nikhilk.net">Nikhil Kothari</a>, tramite il proprio blog, ha annunciato un provider Linq che si appoggia alle ottime API di <a href="http://www.bing.com">Bing</a> per poter effettuare delle ricerche nelle proprie applicazioni.    <br />
 Nello specifico le API di <a href="http://www.bing.com">Bing</a> (ulteriori informazioni sono disponibili <a href="http://www.bing.com/developers">qui</a>) permettono di effettuare ricerche anche per tipologie di contenuti, come <strong>Web</strong>, <strong>Images</strong>, <strong>InstantAnswer</strong>, <strong>Phonebook</strong>, <strong>RelatedSearch</strong>, ecc, il tutto in comunicazione con diversi protocolli, <strong>JSON</strong>, <strong>XML</strong> e <strong>SOAP</strong>.</p>

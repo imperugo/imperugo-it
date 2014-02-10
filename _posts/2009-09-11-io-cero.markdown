@@ -15,7 +15,7 @@ tags:
 - Windows 7
 - Visual Studio 2010
 - WPF
-comments: []
+comments: true
 ---
 <p>Ne parlavo oggi con <a title="Raffaele Rialdi" rel="nofollow" target="_blank" href="http://blogs.ugidotnet.org/raffaele/Default.aspx">Raf</a> al telefono e ho avuto troppa voglia di fare questo post :-).</p>
 <p>Approfitto del post per comunicare che <a href="http://www.weloveraf.com/">http://www.weloveraf.com/</a> &egrave; tornato online ed i fact vecchi sono stati ripristinati ;).</p>

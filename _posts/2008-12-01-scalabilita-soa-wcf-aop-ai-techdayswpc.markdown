@@ -15,7 +15,7 @@ tags:
 - Windows Communication Foundation
 - Scalabilità
 - SOA
-comments: []
+comments: true
 ---
 <p><span>Per chi ha la fortuna di partecipare ai <a onclick="blankUrl(this.href); return false;" href="http://www.techdays-wpc2008.it/">TechDays 2008 / WPC</a> ed &egrave; interessato ad una sessione che mostra un caso reale di un applicazione scalabile con SOA, WCF, AOP e code Asincrone non pu&ograve; che non venire <a onclick="blankUrl(this.href); return false;" href="http://www.techdays-wpc2008.it/Session_Detail.aspx?SessionID=80">qui</a>. </span></p>
 <p>Insieme al <a onclick="blankUrl(this.href); return false;" href="http://blogs.ugidotnet.org/janky/Default.aspx">Janky</a>, stiamo ultimando il materiale e vi assicuro che di robe interessanti ce ne saranno molte e tutte realmente implementate in un progetto reale (MTV.it).</p>

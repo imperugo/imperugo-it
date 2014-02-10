@@ -16,7 +16,7 @@ tags:
 - ASP.NET
 - Ajax
 - Controls
-comments: []
+comments: true
 ---
 <p><span>&Egrave;&nbsp;un po' di tempo che non faccio post sul blog, ma oggi con <a href="http://blogs.aspitalia.com/sm15455">Stefano</a> e <a onclick="blankUrl(this.href); return false;" href="http://www.gvnn.it/">GVNN</a>, stavamo cercando di risolvere un problema in una situazione tipo la seguente: </span></p>
 <p>UserControl normalissimo con all'interno un semplice UdatePanel che al click esegue delle semplici operazioni di select ed insert sul database.<br />

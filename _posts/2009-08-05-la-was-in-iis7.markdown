@@ -21,7 +21,7 @@ tags:
 - IIS
 - Deploy
 - IIS 7.5
-comments: []
+comments: true
 ---
 <p>Con l&rsquo;uscita di <strong>Windows Vista</strong> e <strong>Windows Server 2008</strong> &egrave; stata introdotta la <strong>WAS</strong> (<strong>Windows Activation Service</strong>), che permette di &ldquo;hostare&rdquo; su <strong>IIS (Internet Information Services)</strong> servizi WCF anche per protocolli differenti dal tradizionale SOAP (<strong>basicHttpBinding</strong> e <strong>HttpBinding</strong>).    <br />
 Precedentemente a queste versioni di sistema operativo era necessario realizzare un servizio Windows che &ldquo;hostasse&rdquo; il servizio WCF, complicando cos&igrave; tutta la procedura di deploy.    <br />

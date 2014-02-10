@@ -19,7 +19,7 @@ tags:
 - Windows Server
 - Configurazione
 - IIS
-comments: []
+comments: true
 ---
 <p><a href="http://www.microsoft.com" rel="nofollow" target="_blank">Microsoft</a>, attraverso <a href="http://weblogs.asp.net/scottgu" rel="nofollow" target="_blank">Scott Guthrie</a> <a href="http://weblogs.asp.net/scottgu/archive/2009/06/03/iis-search-engine-optimization-toolkit.aspx" rel="nofollow" target="_blank">qui</a>, ha presentato la prima Beta del Search Engine Optimization     <br />
 Toolkit.    <br />

@@ -18,7 +18,7 @@ tags:
 - .NET
 - Deploy
 - Framework
-comments: []
+comments: true
 ---
 <p>Spesso, quando ci si trova a realizzare pagine web il cui risultato &egrave; fortemente legato ad una variabile come potrebbe essere un ID, si pu&ograve; avere la necessit&agrave; di effettuare un <em>Redirect</em> verso la pagina di customError specificata nel <em>web.config</em>, comunicando cos&igrave; al bot del motore di ricerca che il contenuto ricercato non &egrave; presente, e non deve quindi essere indicizzato.<br />
 La soluzione &egrave; presente nel .NET&nbsp;Framework e ci basta sollevare una HttpException specificando lo status code che si intende restituire come mostrato di seguito:</p>

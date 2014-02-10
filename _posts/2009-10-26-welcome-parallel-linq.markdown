@@ -16,7 +16,7 @@ tags:
 - Performances
 - Parallel
 - .NET Framework 4.0
-comments: []
+comments: true
 ---
 <p>
 	Il mio primo test della Beta 2 di <a href="http://imperugo.tostring.it/blog/search?q=Visual+Studio&amp;searchButton=Go" target="_blank" title="Search Visual Studio">Visual Studio</a> 2010 non riguarda <a href="http://imperugo.tostring.it/categories/archive/ASP.NET" target="_blank" title="ASP.NET">ASP.NET</a> ma il mondo del <a href="http://en.wikipedia.org/wiki/Parallel_computing" rel="nofollow" target="_blank" title="Parallel Programming">Parallel Programming</a>, e, nello specifico, del <a href="http://msdn.microsoft.com/en-us/magazine/cc163329.aspx" rel="nofollow" target="_blank" title="Parallel Linq">Parallel Linq</a>, ossia la possibilit&agrave; di utilizzare il Parallel Framework tramite la sintassi <a href="http://imperugo.tostring.it/tags/archive/linq" target="_blank" title="Linq">Linq</a>.</p>

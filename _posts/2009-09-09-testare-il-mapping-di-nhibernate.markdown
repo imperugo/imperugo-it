@@ -15,7 +15,7 @@ tags:
 - Nhibernate
 - Testing
 - Mapping
-comments: []
+comments: true
 ---
 <p>Un buon mapping &egrave; la base di un buon risultato ottenibile tramite l&rsquo;uso di un O/RM.    <br />
 Anche se in molti esempi pu&ograve; sembrare semplice effettuare il mapping, in applicazioni reali (o con particolari richieste) questo pu&ograve; essere tutt&rsquo;altro che semplice.     <br />

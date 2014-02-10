@@ -13,7 +13,7 @@ categories:
 - ASP.NET
 tags:
 - ASP.NET 4.0
-comments: []
+comments: true
 ---
 <p>Sinceramente mi ero chiesto perchè non esistesse in <a href="http://www.asp.net" rel="nofollow" target="_blank">ASP.NET</a> un qualcosa per effettuare l’encode di una stringa nel markup senza ricorrere ogni volta all’<a title="HttpUtility HtmlEncode Method" href="http://msdn.microsoft.com/en-us/library/system.web.httputility.htmlencode.aspx" rel="nofollow" target="_blank">apposito metodo</a> della classe <a title="HttpUtility Calss" href="http://msdn.microsoft.com/en-us/library/system.web.httputility.aspx" rel="nofollow" target="_blank">HttpUtility</a>; ovviamente questo non è un grandissimo problema, ma allunga i tempi di scrittura del codice e, IMHO, aggiunge verbosità allo stesso.</p>  <p>Per comodità mi sono realizzato un extension method per le stringhe che si occupa di effettuare l’encode/decode sia per l’html che per l’url, facilitando un po’ la scrittura del codice, come mostrato di seguito:</p>  {% raw %}<pre class="brush: xml; ruler: true;">&lt;!-- metodo classico --&gt;
 &lt;%= Server.HtmlEncode(myVar) %&gt;

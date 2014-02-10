@@ -15,7 +15,7 @@ tags:
 - Nhibernate
 - NHibernateFluent
 - Mapping
-comments: []
+comments: true
 ---
 <p>NHibernate tende a mappare gli <em>Enums</em> come stringhe nel database; questo a volte pu&ograve; non essere un problema, ma personalmente preferisco memorizzarli in un intero, o ancora meglio un <em>tynint</em>, infatti con questo tipo di formato si ha un netto risparmio di spazio, ma anche un vantaggio per eventuali query.</p>
 <p>NHibernate permette di cambiare il modo di persistere un tipo di oggetto del nostro domain model sul database tramite delle apposite classi; tradotto pi&ugrave; semplicemente permette di avere una classe sulla propria entity e un semplice campo nel database (ad esempio un intero o un varchar), come potrebbe essere il <em>CultureInfo</em> che, in una classe come quella mostrata di seguito, &egrave; un oggetto, mentre sul database una semplice string tipo &ldquo;en-US&rdquo;.</p>

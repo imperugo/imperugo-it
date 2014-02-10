@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - Dexter
-comments: []
+comments: true
 ---
 <p>Come ogni vero blogengine, anche <a title="Dexter Blog Engine" href="http://imperugo.tostring.it/About/Dexter" target="_blank">Dexter</a> ha un’apposita sezione per le statistiche dei propri posts. Anche se il BackOffice di Dexter non brilla per estetica e funzionalità, ho deciso di aggiungere un’interessante feature (la vera motivazione è che non avevo voglia di lavorare ad altro), che fornisce informazioni aggiuntive sul visitatore grazie all’IP di provenienza.</p>  <p><a title="GeoBytes" href="http://www.geobytes.com/" rel="nofollow" target="_blank">GeoBytes</a> è un sito che permette di attingere a diverse informazioni dato un’indirizzo IP; offre inoltre la possibilità di sfruttare queste informazioni nelle proprie applicazioni (tramite un’apposita webrequest) .     <br />In pratica è sufficiente interrogare l’indirizzo seguente (ovviamente l’indirizzo IP va cambiato) :     <br /><a href="http://www.geobytes.com/IpLocator.htm?GetLocation&amp;template=php3.txt&amp;IpAddress=93.34.55.138">http://www.geobytes.com/IpLocator.htm?GetLocation&amp;template=php3.txt&amp;IpAddress=93.34.55.138</a></p>  <p>per ottenere un’output come quello mostrato di seguito:</p>  {% raw %}<pre class="brush: xml; ruler: true;">&lt;html&gt; 
 &lt;head&gt; 

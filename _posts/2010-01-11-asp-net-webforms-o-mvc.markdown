@@ -14,7 +14,7 @@ categories:
 tags:
 - MVC
 - ASP.NET
-comments: []
+comments: true
 ---
 <p>
 	&Egrave; da molto tempo che rifletto su questo post, ed ho deciso di parlarne solo ora in quanto la seconda release di ASPNET MVC &egrave; prossima al rilascio (al momento in Release Candidate, vedi <a href="http://imperugo.tostring.it/blog/post/aspnet-mvc-2-release-candidate-is-out" target="_blank" title="ASP.NET MVC 2 Release Candidate is out">qui</a>): di riflesso, se ne comincia a parlare molto di pi&ugrave; e, ancor pi&ugrave; interessante, si comincia ad utilizzarla molto di pi&ugrave;.</p>

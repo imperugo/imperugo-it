@@ -19,7 +19,7 @@ tags:
 - Controls
 - Framework
 - Controller
-comments: []
+comments: true
 ---
 <p>Se si è abituati a sviluppare applicazioni con <a href="http://www.asp.net" rel="nofollow" target="_blank">ASP.NET</a> e si passa successivamente a sviluppare con il Framework <a href="http://www.asp.net/mvc" rel="nofollow" target="_blank">ASP.NET MVC</a>, la prima cosa di cui si sente la mancanza sono i controlli, che in MVC mancano proprio.</p>  <p>Uno tra questi è il controllo <strong>Pager</strong> che, come fa ben intuire il nome, serve per gestire la paginazione in tutte quelle parti dei siti web in cui non è possibile mostrare l’elenco completo dei contenuti in un’unica pagina.</p>  <p>Per poter creare un controllo <strong>Pager</strong> riutilizzabile in tutte le applicazion <strong>MVC</strong> based, è necessario stabilire tutto ciò che serve per poter creare questo tipo di controllo, ossia:</p>  <ul>   <li>Numero totale di pagine (<strong>TotalCount</strong>); </li>    <li>Numero di contenuti per pagina (<strong>PageSize</strong>); </li>    <li>Pagina corrente (<strong>PageIndex</strong>); </li>    <li>Parametro da utilizzare in querystring per comunicare al server la nuova pagina (<strong>ParameterName</strong>); </li> </ul>  <p>Dato che gli MVC ViewUserControl, come le MVC ViewPage, possono avere un Model da utilizzare all’interno del controllo, come prima cosa sarà necessario costruirne uno come il seguente:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">public class PagerViewModel
 {

@@ -16,7 +16,7 @@ tags:
 - ORM
 - ASP.NET
 - Architettura
-comments: []
+comments: true
 ---
 <p><span>Oggi, dopo un lungo periodo in cui mi sono sempre rifiutato di studiare <a href="http://www.hibernate.org/343.html">Nhibernate</a>, il <a href="http://blogs.ugidotnet.net/crad">crad</a> &egrave; riuscito a convicermi. Personalmente non mi &egrave; mai piaciuta l'idea di far fare tutto ad un framework senza avere il controllo su molte cose, ma davanti a fatto compiuto devo alzare le mani. :D (qui il <a href="http://blogs.ugidotnet.net/crad">crad</a> se la ride). </span></p>
 <p>Piccola premessa per chi non sa cos'&egrave; <a href="http://www.hibernate.org/343.html">Nhibernate</a>:</p>

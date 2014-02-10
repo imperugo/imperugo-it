@@ -13,7 +13,7 @@ categories:
 - Various
 tags:
 - Dexter
-comments: []
+comments: true
 ---
 <p>
 	Questa notte, causa insonnia, ho deciso di effettuare il deploy della nuova versione di <a href="http://imperugo.tostring.it/About/Dexter">Dexter</a>. <br />
