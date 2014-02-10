@@ -8,6 +8,7 @@ title: Ugo Lattanzi's tech world
 subtitle: ...and more
 gravatar_url: https://0.gravatar.com/avatar/91dc93f70aa2c457a41657437194933a
 subscribe_rss: http://feeds.feedburner.com/imperugo
+encoding: utf-8
 
 # Github repositories
 github_user: imperugo
@@ -25,14 +26,13 @@ disqus_show_comment_count: true
 google_analytics_tracking_id: UA-8212043-1
 
 
-
 #
 # Jekyll Settings
 #
 markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
-permalink: /blog/post/:title/
+permalink: /archive/:year/:month/:day/:title/
 paginate: 20
 paginate_path: "page/:num"
 category_dir: categories

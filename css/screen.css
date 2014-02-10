@@ -421,10 +421,12 @@ article .entry-content .video-container embed {
 .meta .date,
 .meta .tags,
 .meta .comments,
+.meta .categories,
 .meta .edit { padding-right: 10px }
 .meta .date:before,
 .meta .tags:before,
 .meta .comments:before,
+.meta .categories:before,
 .meta .edit:before {
     color: #ccc;
     font: 1.3em FontAwesome;
@@ -435,6 +437,7 @@ article .entry-content .video-container embed {
     .meta .date,
     .meta .tags,
     .meta .comments,
+    .meta .categories,
     .meta .edit {
         display: -moz-inline-stack;
         display: inline-block;
@@ -447,8 +450,10 @@ article .entry-content .video-container embed {
 }
 .meta .date:before { content: "\f073" }
 .meta .tags:before { content: "\f02c" }
+.meta .categories:before { content: "\f07b" }
 .meta .comments:before { content: "\f075" }
 .meta .edit:before { content: "\f044" }
+
 #content article .entry-content .archives { font-family: "Open Sans" }
 #content article .entry-content .archives .year { font-size: 1.1em }
 #content article .entry-content .archives h3.title {
