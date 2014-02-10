@@ -26,7 +26,7 @@ comments: []
 <p>Castle.DynamicProxy.Generators.GeneratorException: Type is not public, so a proxy cannot be generated. Type : imperugo.example.domain.entitybase</p>
 </blockquote>
 <p>Per ovviare a questo problema e permettere solo al proxy di Castle di poter accedere all nostra assembly ci basta modificare il file AssemblyInfo aggiungendo la seguente riga:</p>
-<pre class="brush: csharp; ruler: true; gutter: false; toolbar: false;">
-[assembly: InternalsVisibleTo(&quot;DynamicProxyGenAssembly2&quot;)]</pre>
+{% raw %}<pre class="brush: csharp; ruler: true; gutter: false; toolbar: false;">
+[assembly: InternalsVisibleTo(&quot;DynamicProxyGenAssembly2&quot;)]</pre>{% endraw %}
 <p>A questo punto tutto dovrebbe essere ok, il Data Layer non ha esposto esternamente il dominio ed NHibernate riesce a creare i suoi proxy.   <br />
 Ciauz</p>

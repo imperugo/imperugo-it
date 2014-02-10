@@ -20,7 +20,7 @@ tags:
 - HttpModule
 comments: []
 ---
-<p><a title="ASP.NET MVC Search" href="http://www.imperugo.tostring.it/tags/archive/mvc" target="_blank">ASP.NET MVC</a> ha aperto un mondo nuovo allo sviluppo di applicazioni web, ossia quello del testing. Di fatto, grazie ad MVC sono stati astratti alcuni concetti che precedentemente impedivano la testabilità delle webforms.</p>  <p>Purtroppo anche con MVC alcune cose rimangono scomode da testare, come gli HttpModule e HttpHandler; anzi, nella normale implementazione non sono proprio testabili. Cercando un po’ in rete ho scovato questo <a title="Unit Testable HttpModule and HttpHandlers" href="http://weblogs.asp.net/rashid/archive/2009/03/12/unit-testable-httpmodule-and-httphandler.aspx" rel="nofollow" target="_blank">post</a>, che mostra un approccio molto elegante su come effettuare Unit Test anche sui moduli e sugli handler, ma procediamo per gradi.</p>  <p>Con l’uscita del&#160; ServicePack 1 del <a title=".NET Framework Search" href="http://www.imperugo.tostring.it/tags/archive/.net" target="_blank">.NET Framework</a> è stata introdotta una nuova libreria, la “<strong><em>System.Web.Abstraction</em></strong>”, contenente una serie di wrapper che hanno lo scopo di impedire l’utilizzo diretto di alcune classi (come l’HttpContext) e, di conseguenza, permettono di testare del codice precedentemente non testabile (HttpModule e HttpHandler).     <br />Per far ciò è necessario creare delle classi base da cui tutti i Module/Handler andranno ad ereditare e gestire gli eventi a livello di baseclass, permettendo così un’eventuale override della classe concreta nel caso del Module, o un’implementazione nel caso dell’Httphandler. Nell’esempio seguente viene mostrata la base classe per un HttpModule:</p>  <pre class="brush: csharp;">/// &lt;summary&gt;
+<p><a title="ASP.NET MVC Search" href="http://www.imperugo.tostring.it/tags/archive/mvc" target="_blank">ASP.NET MVC</a> ha aperto un mondo nuovo allo sviluppo di applicazioni web, ossia quello del testing. Di fatto, grazie ad MVC sono stati astratti alcuni concetti che precedentemente impedivano la testabilità delle webforms.</p>  <p>Purtroppo anche con MVC alcune cose rimangono scomode da testare, come gli HttpModule e HttpHandler; anzi, nella normale implementazione non sono proprio testabili. Cercando un po’ in rete ho scovato questo <a title="Unit Testable HttpModule and HttpHandlers" href="http://weblogs.asp.net/rashid/archive/2009/03/12/unit-testable-httpmodule-and-httphandler.aspx" rel="nofollow" target="_blank">post</a>, che mostra un approccio molto elegante su come effettuare Unit Test anche sui moduli e sugli handler, ma procediamo per gradi.</p>  <p>Con l’uscita del&#160; ServicePack 1 del <a title=".NET Framework Search" href="http://www.imperugo.tostring.it/tags/archive/.net" target="_blank">.NET Framework</a> è stata introdotta una nuova libreria, la “<strong><em>System.Web.Abstraction</em></strong>”, contenente una serie di wrapper che hanno lo scopo di impedire l’utilizzo diretto di alcune classi (come l’HttpContext) e, di conseguenza, permettono di testare del codice precedentemente non testabile (HttpModule e HttpHandler).     <br />Per far ciò è necessario creare delle classi base da cui tutti i Module/Handler andranno ad ereditare e gestire gli eventi a livello di baseclass, permettendo così un’eventuale override della classe concreta nel caso del Module, o un’implementazione nel caso dell’Httphandler. Nell’esempio seguente viene mostrata la base classe per un HttpModule:</p>  {% raw %}<pre class="brush: csharp;">/// &lt;summary&gt;
 ///        The base class for the HttpModules
 /// &lt;/summary&gt;
 public abstract class BaseHttpModule : IHttpModule
@@ -70,11 +70,11 @@ public abstract class BaseHttpModule : IHttpModule
     public virtual void OnEndRequest(HttpContextBase context)
     {
     }
-}</pre>
+}</pre>{% endraw %}
 
 <p>Da qui l’implementazione di un Module (nell’esempio il ReferrerModule di <a title="Dexter Blog Engine Category" href="http://www.imperugo.tostring.it/categories/archive/Dexter" target="_blank">dexter</a> semplificato) è piuttosto banale, l’unica differenza è che invece di agganciare un evento va effettuato l’override del metodo virtual presente sulla classe base, come mostrato di seguito:</p>
 
-<pre class="brush: csharp;">public class ReferrerModule : BaseHttpModule
+{% raw %}<pre class="brush: csharp;">public class ReferrerModule : BaseHttpModule
 {
     private ILogger logger;
     private ITraceService traceService;
@@ -113,11 +113,11 @@ public abstract class BaseHttpModule : IHttpModule
         if (context.Request.UrlReferrer != null)
             TraceService.AddReferrer(url.ToString(), referrer.ToString());
     }
-}</pre>
+}</pre>{% endraw %}
 
 <p>A questo punto il test è facilmente scrivibile, come mostrato sotto:</p>
 
-<pre class="brush: csharp;">[TestMethod]
+{% raw %}<pre class="brush: csharp;">[TestMethod]
 public void OnEndRequest_WithValidRequestUrl_ShouldInvokeTheServiceMethod()
 {
     //Arrage
@@ -148,13 +148,13 @@ public void OnEndRequest_WithValidRequestUrl_ShouldInvokeTheServiceMethod()
     //TODO:Assert
     traceService.AssertWasNotCalled(x =&gt; x.AddReferrer(Arg&lt;Uri&gt;.Is.Equal(currentUrl), Arg&lt;Uri&gt;.Is.Equal(urlReferrer)));
     
-}</pre>
+}</pre>{% endraw %}
 
 <p>Come potete vedere, se si ha la necessità di iniettare delle dipendenze potete creare un secondo costruttore che accetti l’instanza della dipendenza e gestire l’eventuale null nella property di get o nel costruttore parameterless (nel mio caso ero obbligato a gestire la dipendenza dalle properties perchè non avevo ancora inizializzato l’IoC Container al momento in cui l’HttpModule viene registrato nell’applicazione, problema che in Dexter si andrà a risolvere nelle prossime release).</p>
 
 <p>Per quanto riguarda un HttpHandler l’approccio è esattamente lo stesso, classe base, metodi virtual ed override.</p>
 
-<pre class="brush: csharp;">/// &lt;summary&gt;
+{% raw %}<pre class="brush: csharp;">/// &lt;summary&gt;
 ///        The base class for the HttpHandlers
 /// &lt;/summary&gt;
 public abstract class HttpHandlerBase : IHttpHandler
@@ -188,7 +188,7 @@ public abstract class HttpHandlerBase : IHttpHandler
     /// &lt;/summary&gt;
     /// &lt;param name=&quot;context&quot;&gt;An &lt;see cref=&quot;T:System.Web.HttpContext&quot;/&gt; object that provides references to the intrinsic server objects (for example, Request, Response, Session, and Server) used to service HTTP requests.&lt;/param&gt;
     public abstract void ProcessRequest(HttpContextBase context);
-}</pre>
+}</pre>{% endraw %}
 
 <p>Buopn Testing
   <br />Ciauz</p>

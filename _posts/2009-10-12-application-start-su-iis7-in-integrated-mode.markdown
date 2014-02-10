@@ -17,7 +17,7 @@ tags:
 - Exception
 comments: []
 ---
-<p>La settimana scorsa mi sono imbattuto in uno “strano” errore&#160; sollevato da <strong><a title="Internet Information Service" href="http://imperugo.tostring.it/blog/search?q=IIS&amp;searchButton=Go" target="_blank">Internet Information Service 7 (IIS7)</a></strong>: nello specifico veniva sollevata una <em><a title="System.Web.HttpException" href="http://msdn.microsoft.com/en-us/library/system.web.httpexception.aspx" rel="nofollow" target="_blank">System.Web.HttpException</a></em> con il seguente messaggio:</p>  <blockquote>   <p>Request is not available in this context</p> </blockquote>  <p>L’eccezione veniva sollevata dall’ <strong>Application_Start</strong> del <strong>Global.asax</strong>, in quanto cercavo di accedere all’<a title="HttpContext" href="http://msdn.microsoft.com/en-us/library/system.web.httpcontext.aspx" rel="nofollow" target="_blank">HttpContext</a> per effettuare il log di avvio dell’applicazione; in realtà non avevo necessità di accedere all’ HttpContext, ma il logger che utilizzavo di default ad ogni chiamata verificava che il Context non fosse nullo e nel caso aggiungeva info sull’url richiesto (Referrer, ecc), più o meno come mostrato di seguito:</p>  <pre class="brush: csharp; ruler: true;">public static IExtendedLogger General
+<p>La settimana scorsa mi sono imbattuto in uno “strano” errore&#160; sollevato da <strong><a title="Internet Information Service" href="http://imperugo.tostring.it/blog/search?q=IIS&amp;searchButton=Go" target="_blank">Internet Information Service 7 (IIS7)</a></strong>: nello specifico veniva sollevata una <em><a title="System.Web.HttpException" href="http://msdn.microsoft.com/en-us/library/system.web.httpexception.aspx" rel="nofollow" target="_blank">System.Web.HttpException</a></em> con il seguente messaggio:</p>  <blockquote>   <p>Request is not available in this context</p> </blockquote>  <p>L’eccezione veniva sollevata dall’ <strong>Application_Start</strong> del <strong>Global.asax</strong>, in quanto cercavo di accedere all’<a title="HttpContext" href="http://msdn.microsoft.com/en-us/library/system.web.httpcontext.aspx" rel="nofollow" target="_blank">HttpContext</a> per effettuare il log di avvio dell’applicazione; in realtà non avevo necessità di accedere all’ HttpContext, ma il logger che utilizzavo di default ad ogni chiamata verificava che il Context non fosse nullo e nel caso aggiungeva info sull’url richiesto (Referrer, ecc), più o meno come mostrato di seguito:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">public static IExtendedLogger General
 {
     get
     {
@@ -43,7 +43,7 @@ private static void AddExtraInformation(IExtendedLogger logger)
         logger.ThreadProperties[&quot;ServerName&quot;] = ctx.Server.MachineName;
         logger.ThreadProperties[&quot;ThreadLanguage&quot;] = Thread.CurrentThread.CurrentCulture.DisplayName;
     }
-}</pre>
+}</pre>{% endraw %}
 
 <p>In realtà non c’è nulla di strano, di fatto lo stesso codice in un’altro webserver funzionava alla grande. “Sbingando” (cercando con <a title="Bing" href="http://www.bing.com" rel="nofollow" target="_blank">bing</a>) un po’, ho scoperto di non essere l’unico ad avere questo problema e la motivazione scatenante è dovuta da un insieme di fattori:</p>
 
@@ -60,7 +60,7 @@ private static void AddExtraInformation(IExtendedLogger logger)
 
 <p>Un’altra possibile soluzione può essere quella di “aspettare” che il metodo Application_Start sia concluso per poi accedere all’HttpContext come spiegato da <a title="Mike Volodarsky&#39;s Blog" href="http://mvolo.com/blogs/serverside/default.aspx" rel="nofollow" target="_blank">Mike Volodarsky</a> <a title="IIS7 Integrated mode: Request is not available in this context exception in Application_Start" href="http://mvolo.com/blogs/serverside/archive/2007/11/10/Integrated-mode-Request-is-not-available-in-this-context-in-Application_5F00_Start.aspx" rel="nofollow" target="_blank">qui</a> e mostrato dallo snippet seguente:</p>
 
-<pre class="brush: csharp; ruler: true;">void Application_BeginRequest(Object source, EventArgs e)
+{% raw %}<pre class="brush: csharp; ruler: true;">void Application_BeginRequest(Object source, EventArgs e)
 {
     HttpApplication app = (HttpApplication)source;
     HttpContext context = app.Context;
@@ -89,6 +89,6 @@ class FirstRequestInitialization
             s_InitializedAlready = true;
         }
     }
-}</pre>
+}</pre>{% endraw %}
 
 <p>Ciauz</p>

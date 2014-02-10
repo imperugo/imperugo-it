@@ -26,7 +26,7 @@ Per ovviare il problema mi sono venute in mente due soluzione (se ne avete altre
 </ol>
 <p>Diciamo che mi &egrave; piaciuta pi&ugrave; la seconda opzione, minor numero di file da gestire e maggior difficolt&agrave; nel realizzare la cosa :D (per la serie le cose semplici non ci piacciono).</p>
 <p>Detto ci&ograve; ne &egrave; uscita la seguente classe:</p>
-<pre title="code" class="brush: csharp; ruler: true;">
+{% raw %}<pre title="code" class="brush: csharp; ruler: true;">
 using System; 
 using System.Configuration; 
 using System.IO; 
@@ -126,11 +126,11 @@ public class MyServiceHost : ServiceHost
         if (!loaded) 
             throw new ArgumentException(&quot;ServiceElements not found in the configuration file.&quot;); 
     } 
-}</pre>
+}</pre>{% endraw %}
 <p><span id="PostView">Il modo di utilizzarlo rimane lo stesso:</span></p>
-<pre title="code" class="brush: csharp">
+{% raw %}<pre title="code" class="brush: csharp">
 ServiceHost service = new MtvServiceHost(typeof(EmailService)); 
-service.Open();</pre>
+service.Open();</pre>{% endraw %}
 <p><span>Nel file Services.config possiamo configurare tutti i servizi di cui abbiamo bisogno, ma tutto il resto del file di configurazione &egrave; comune a tutti.<br />
 Cambiamo un custom behavior comune a tutti, lo facciamo in un unico posto in un unico file!<br />
 <br />

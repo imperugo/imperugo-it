@@ -44,12 +44,12 @@ comments: []
 <p>Questo tipo di approccio &egrave; importantissimo per le pratiche <strong>SEO</strong> (<strong>Search Engine Optimization</strong>) ed andrebbe sempre utilizzando per questo tipo di redirect. <br />
 Dalla versione Beta 1 &egrave; disponibile un apposito metodo che ci permette di effettuare questo tipo di Redirect; il codice seguente mostra la differenza tra la nuovissima Beta 1 del .NET Framework 4.0 e le versioni precedenti.</p>
 <p><em>Versione antecedente al Framework 4.0:</em></p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 Response.Status = &quot;301 Moved Permanently&quot;;
-Response.AddHeader(&quot;Location&quot;,&quot;http://www.mysite.com/newurl/&quot;);</pre>
+Response.AddHeader(&quot;Location&quot;,&quot;http://www.mysite.com/newurl/&quot;);</pre>{% endraw %}
 <p><em>Versione del Framewrok 4.0:</em></p>
-<pre class="brush: csharp; ruler: true;">
-RedirectPermanent(&quot;http://www.mysite.com/newurl/&quot;);</pre>
+{% raw %}<pre class="brush: csharp; ruler: true;">
+RedirectPermanent(&quot;http://www.mysite.com/newurl/&quot;);</pre>{% endraw %}
 <p>&nbsp;</p>
 <p><b>Session State Compression: <br />
 </b>Quando si fa uso della <strong>Sessione Out Of Process</strong>, i dati che vengono inseriti in questo repository devono essere serializzati al momento del salvataggio e deserializzati al momento della lettura, per fare in modo che vengano salvati in un qualcosa che possa essere letto al di fuori del processo corrente.</p>
@@ -57,11 +57,11 @@ RedirectPermanent(&quot;http://www.mysite.com/newurl/&quot;);</pre>
 <p>Ovviamente il processo di <strong>Serializzazione/Deserializzazione</strong> ha un costo che pu&ograve; crescere se lo si aggiunge al trasporto delle informazioni da un server ad un altro; proprio quest&rsquo;ultima parte pu&ograve; essere migliorata andando a comprimere il dato, garantendo cos&igrave; una riduzione del tempo di trasporto delle informazioni.</p>
 <p>Con il .NET Framework 4.0 &egrave; stata aggiunta la possibilit&agrave; di attivare questa compressione per la Session Out Of Process. <br />
 L&rsquo;abilitazione di questa funzione avviene tramite file di configurazione, come mostrato di seguito:</p>
-<pre class="brush: xml; ruler: true;">
+{% raw %}<pre class="brush: xml; ruler: true;">
 &lt;sessionState    
 	mode=&quot;SqlServer&quot;    
 	sqlConnectionString=&quot;data source=mydbserver;Initial Catalog=myDatabase&quot;    
 	allowCustomSqlDatabase=&quot;true&quot;    
-	compressionEnabled=&quot;true&quot;/&gt;</pre>
+	compressionEnabled=&quot;true&quot;/&gt;</pre>{% endraw %}
 <p>La parte della compressione viene eseguita in automatico dalla libreria System.IO.Compression.GZipStream.</p>
 <p>Ciauz</p>

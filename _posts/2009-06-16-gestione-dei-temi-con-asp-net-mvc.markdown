@@ -28,7 +28,7 @@ per rendersi meglio conto della situazione basta pensare ad un dispositivo mobil
 <p>&nbsp;</p>
 <p><a href="http://imperugo.tostring.it/Content/Uploaded/image/Temi_2.png" rel="shadowbox[Gestione-dei-temi-con-ASPNET-MVC];options={counterType:'skip',continuous:true,animSequence:'sync'}"><img SinglelineIgnoreCase title="Temi" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="240" alt="Temi" width="244" border="0" src="http://imperugo.tostring.it/Content/Uploaded/image/Temi_thumb.png" /></a></p>
 <p>Per far s&igrave; che l&rsquo;applicazione cambi il percorso da cui leggere la <strong>View</strong>, &egrave; necessario realizzare un nuovo <strong>WebFormViewEngine</strong>; nell&rsquo;esempio, come quello mostrato di seguito, si chiamer&agrave; <strong>WebFormThemeViewEngine</strong>:</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 public class WebFormThemeViewEngine : WebFormViewEngine
 {
     private static readonly string[] masterLocationFormats = new[] { &quot;~/Themes/{2}/Views/{1}/{0}.master&quot;, &quot;~/Themes/{2}/Views/Shared/{0}.master&quot; };
@@ -214,11 +214,11 @@ public class WebFormThemeViewEngine : WebFormViewEngine
         ViewLocationCache.InsertViewLocation(controllerContext.HttpContext, cacheKey, virtualPath);
         return virtualPath;
     }
-}</pre>
+}</pre>{% endraw %}
 <p>Come si pu&ograve; notare, basta replicare i metodi delle classi <strong>WebFormViewEngine</strong> e <strong>VirtualPathProviderViewEngine</strong>, andando a cambiare i percorsi tramite le 3 variabili impostate dal costruttore dell&rsquo;engine.    <br />
 &Egrave; importante notare il metodo che restituisce il tema corrente, <strong><em>GetThemeToUse</em></strong>, che sar&agrave; utilizzato per andare a costruire il path da dove leggere le <strong>Views</strong> e i <strong>Contents</strong>.    <br />
 Nell&rsquo;esempio mostrato &egrave; stata utilizzata la collection Items dell&rsquo;<strong>HttpContext</strong> in modo da poter cambiare anche solo provvisoriamente il tema da visualizzare (<em>http://localhost:1659/?theme=yellow</em>), come mostrato dallo snippet seguente:</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 public abstract class ControllerBase : Controller
 {
     private string currentTheme;
@@ -238,10 +238,10 @@ public abstract class ControllerBase : Controller
 
         ViewData[&quot;ThemeName&quot;] = currentTheme;
     }
-}</pre>
+}</pre>{% endraw %}
 <p>Questa funzione pu&ograve; risultare particolamente comoda quando si ha la necessit&agrave; di vedere un&rsquo;anteprima di una skin con i propri contenuti.</p>
 <p>Per concludere ed utilizzare la nuova skin <strong>&egrave; necessario registrare il nuovo WebFormViewEngine nel file Global.asax</strong>, come mostrato di seguito:</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 protected void Application_Start()
 {
     RegisterRoutes(RouteTable.Routes);
@@ -249,7 +249,7 @@ protected void Application_Start()
     // Sostituisco il Default WebFormViewEngine con il nostro WebFormThemeViewEngine
     ViewEngines.Engines.Clear();
     ViewEngines.Engines.Add(new WebFormThemeViewEngine());
-}</pre>
+}</pre>{% endraw %}
 <p>Ciauz</p>
 <p>&nbsp;</p>
 <div class="wlWriterEditableSmartContent" id="scid:fb3a1972-4489-4e52-abe7-25a00bb07fdf:52655c24-1c13-4895-80ab-60857200df94" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">

@@ -30,12 +30,12 @@ I metodi messi a disposizione sono 4:</p>
 </ul>
 <p><br />
 Per capire pi&ugrave; a fondo le potenzialit&agrave; e semplicit&agrave; di utilizzo di questi ActionFilter ci basti osservare lo snippet seguente che abilita l&rsquo;accesso alla Action soltato agli utenti presenti nel ruolo di Administrator.</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 [Authorize(Roles = &quot;Administrator&quot;)]
 public ActionResult Index()
 {
     //Nostra Action
-}</pre>
+}</pre>{% endraw %}
 <p>Ovviamente nel Framework troviamo gi&agrave; parecchi ActionFilter come HandleError, OutputCache, Authorize, ecc, ma spesso non tutti riescono a soddisfare esigenze quali, ad esempio, l'abilitazione della compressione sulle pagine, la rimozione di spazi vuoti dal markup o l'aggiunta di una firma a fondo pagina. <br />
 Proprio dall'esigenza di rimuovere gli spazi vuoti &egrave; nata l'idea di realizzare un custom ActionFilter, che nel nostro esempio si chiamer&agrave; OptimizationFilter, che avr&agrave; il compito di ottimizzare la nostra pagina.</p>
 <p>I requisiti per un filter di questo genere sono abbastanza semplici:</p>
@@ -47,7 +47,7 @@ Proprio dall'esigenza di rimuovere gli spazi vuoti &egrave; nata l'idea di reali
 <p>Precedentemente in <a target="_blank" href="http://www.asp.net">ASP.NET</a>, per la rimozione degli spazi vuoti dal markup veniva realizzato un HttpModule, che aveva il compito di verificare se la richiesta effettuata era rivolta verso una pagina web, e, nel caso, eseguiva una Regular Expression per la rimozione degli spazi (maggiori info qui: <a target="_blank" href="http://madskristensen.net/post/A-whitespace-removal-HTTP-module-for-ASPNET-20.aspx">http://madskristensen.net/post/A-whitespace-removal-HTTP-module-for-ASPNET-20.aspx)</a>. <br />
 Purtroppo, bench&egrave; comodissime, le Regular Expression non brillano sicuramente per le performance, quindi consiglio di abbinare l'outputcache all'utilizzo di questo ActionFilter.</p>
 <p>Partendo da quanto mostrato in questo post (<a target="_blank" href="http://madskristensen.net/post/The-WebOptimizer-class.aspx">http://madskristensen.net/post/The-WebOptimizer-class.aspx)</a> di <a target="_blank" href="http://madskristensen.net/">Mads Kristensen</a>, ho implementato il CustomFilter come mostrato di seguito:</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, Inherited = true, AllowMultiple = false)]
 [AspNetHostingPermission(SecurityAction.Demand, Level = AspNetHostingPermissionLevel.Minimal)]
 public class OptimizationFilter : ActionFilterAttribute
@@ -213,7 +213,7 @@ internal class WhitespaceFilter : Stream
     }
 
     public override long Position { get; set; }
-}</pre>
+}</pre>{% endraw %}
 <p>Come si potr&agrave; notare, l&rsquo; ActionFilter ha esposte tre propriet&agrave;:</p>
 <ul>
     <li><strong>Compress; </strong></li>
@@ -222,11 +222,11 @@ internal class WhitespaceFilter : Stream
 </ul>
 <p>La prima serve per impostare la compressione, la seconda a rimuovere gli spazi vuoti dal markup e la terza per disabilitare le prime solo ad alcuni ruoli; proprio quest'ultima si pu&ograve; rivelare molto utile nel caso si debbano effettuare controlli sul markup. <br />
 Come si pu&ograve; vedere dallo snippet seguente il suo utilizzo risulta molto semplice.</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 [OptimizationFilter(Compress = false, RemoveWhiteSpace = true, RolesException = &quot;CSSDesigner,MarkupDesigner&quot;)]
 public ActionResult Index(string page)
 {
     //Nostra Action
-}</pre>
+}</pre>{% endraw %}
 <p>Ulteriori informazioni riguardo agli Action Filter le potete trovare <a target="_blank" href="http://weblogs.asp.net/scottgu/archive/2008/07/14/asp-net-mvc-preview-4-release-part-1.aspx">qui</a>.</p>
 <p>Ciauz</p>

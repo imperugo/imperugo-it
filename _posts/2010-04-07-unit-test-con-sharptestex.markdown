@@ -16,7 +16,7 @@ tags:
 - SharpTestEx
 comments: []
 ---
-<p>Ultimamente, lavorando in <a title="Dexter Blog Engine" href="http://dexterblogengine.codeplex.com/" rel="nofollow" target="_blank">Dexter</a>, ho deciso di metter su un po’ di test; diciamo pure che le buone intenzioni ci sono, e come prima cosa ho deciso di testare tutto ciò che di nuovo introduco (al momento ho messo solo 108 test, ma spero aumentino velocemente). Ovviamente primo test primo “problema” :). Come prima cosa avevo la necessità di testare un metodo tipo il seguente:</p>  <pre class="brush: csharp; ruler: true;">public class Foo
+<p>Ultimamente, lavorando in <a title="Dexter Blog Engine" href="http://dexterblogengine.codeplex.com/" rel="nofollow" target="_blank">Dexter</a>, ho deciso di metter su un po’ di test; diciamo pure che le buone intenzioni ci sono, e come prima cosa ho deciso di testare tutto ciò che di nuovo introduco (al momento ho messo solo 108 test, ma spero aumentino velocemente). Ovviamente primo test primo “problema” :). Come prima cosa avevo la necessità di testare un metodo tipo il seguente:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">public class Foo
 {
     public void TestMethod(string value1, string value2, string value3)
     {
@@ -31,17 +31,17 @@ comments: []
 
         //DO SOMETHING
     }
-}</pre>
+}</pre>{% endraw %}
 
 <p>ed il primo test era una cosa tipo questa:</p>
 
-<pre class="brush: csharp; ruler: true;">[TestMethod()]
+{% raw %}<pre class="brush: csharp; ruler: true;">[TestMethod()]
 [ExpectedException(typeof(ArgumentNullException))]
 public void TestMethodTest()
 {
     Foo foo = new Foo();
     foo.TestMethod(null,null,null);
-}</pre>
+}</pre>{% endraw %}
 
 <p>Il problema era legato alle eccezioni, nello specifico volevo verificare che, nel caso i parametri fossero nulli, venisse sollevata l’oppurtuna ArgumentNullException. Detto così nessun problema, basta inserire l’attributo ExpectedException (come mostrato nel codice precedente) ed il gioco è fatto. Però la cosa che non mi piace è che, ipoteticamente, io potrei non avere la certezza che l’eccezione è stata sollevata per il primo, il secondo o il terzo parametro (nel caso fossero tutti e tre nulli) e, per esserne sicuro, devo verificare il ParameterName dell’eccezione.
   <br />Purtroppo l’attributo di MSTest non permette di specificarlo, così ho avuto tre idee:</p>
@@ -58,7 +58,7 @@ public void TestMethodTest()
 
   <br />Ovviamente il consiglio di Gian Maria non poteva che essere ottimo, ed il problema si è risolto molto velocemente:</p>
 
-<pre class="brush: csharp; ruler: true;">[TestMethod()]
+{% raw %}<pre class="brush: csharp; ruler: true;">[TestMethod()]
 public void TestMethodTest2()
 {
     Foo foo = new Foo();
@@ -67,7 +67,7 @@ public void TestMethodTest2()
                             .Should ( )
                             .Be
                             .EqualTo(&quot;value2&quot;);
-}</pre>
+}</pre>{% endraw %}
 
 <p>Molto probabilmente SharpTextEx sarà il mio Framework di testing per un po’, anche se mi riservo di provare TypeMock per effettuare UnitTest sulle WebForms.
   <br />Ciauz</p>

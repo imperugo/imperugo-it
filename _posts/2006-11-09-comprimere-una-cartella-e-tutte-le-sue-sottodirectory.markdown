@@ -17,7 +17,7 @@ comments: []
 ---
 <p><span>Volevo farne uno script ma mi sembrava troppo lungo, ma troppo corto per un articolo, insomma non sapevo dove metterlo e alla fine ho deciso di piazzarlo qui, in caso il <a onclick="blankUrl(this.href); return false;" href="http://blogs.aspitalia.com/daniele/">boss</a> mi dir&agrave;. </span></p>
 <p>Cmq sono un'insieme di metodi che comprimono una cartella e tutto il suo contenuto in un unico file zip mantenendo la struttura.</p>
-<pre title="code" class="brush: csharp; ruler: true;">
+{% raw %}<pre title="code" class="brush: csharp; ruler: true;">
 public static void ZipFolder(string path, string path2Save, string name, bool recursive) 
 { 
 Crc32 crc = new Crc32(); if (String.IsNullOrEmpty(name)) 
@@ -75,6 +75,6 @@ else
 entry = new ZipEntry(file); entry.DateTime = DateTime.Now; crc.Reset(); entry.Crc = crc.Value; 
 s.PutNextEntry(entry); 
 }
-</pre>
+</pre>{% endraw %}
 <p><span>Va sistemata un po, per gestire bene le eccezzioni e perch&egrave; l'ho solo provata al volo ma sicuramente il codice pu&ograve; essere ottimiccato, per&ograve; in linea di massima funziona</span></p>
 <p>&nbsp;</p>

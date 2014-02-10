@@ -22,7 +22,7 @@ comments: []
 <p>Dopo il <a target="_blank" href="http://imperugo.tostring.it/Blog/Post/AOP-per-il-Bug-Fixing">post</a> precedente, in cui ho descritto l&rsquo;utilizzo di <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Aspect-oriented_programming" title="Aspect Oriented Programming">AOP</a> in un servizio WCF, ho ricevuto delle richieste relativamente al modo in cui ho realizzato questo tipo di implementazione.     <br />
 Di seguito potete trovare il codice necessario alla realizzazione di un Custom Behavior per WCF che instanzi un proxy <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Aspect-oriented_programming" title="Aspect Oriented Programming">AOP</a> in sostituzione al servizio WCF, e la rispettiva configurazione per utilizzarlo ed aggiungergli Interceptor.     <br />
 Per ovvi motivi non posso postare il codice che ha permesso l&rsquo;invalidazione della cache, ma la creazione di un Interceptor simile &egrave; veramente banale.</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 public class AOPInstanceServiceElement : BehaviorExtensionElement
 {
     protected override object CreateBehavior()
@@ -114,9 +114,9 @@ public class MyLogAdvice : IMethodInterceptor
 
         return result;
     }
-}</pre>
+}</pre>{% endraw %}
 <p>Configurazione del servizio:</p>
-<pre class="brush: xml; ruler: true;">
+{% raw %}<pre class="brush: xml; ruler: true;">
 &lt;spring&gt;
     &lt;context&gt;
         &lt;resource uri=&quot;config://spring/objects&quot; /&gt;
@@ -179,7 +179,7 @@ public class MyLogAdvice : IMethodInterceptor
         &lt;/serviceBehaviors&gt;
     &lt;/behaviors&gt;
     
-&lt;/system.serviceModel&gt;</pre>
+&lt;/system.serviceModel&gt;</pre>{% endraw %}
 
 <div id="scid:fb3a1972-4489-4e52-abe7-25a00bb07fdf:a56b200d-d628-48ce-b9b5-75b5513992ea" class="wlWriterEditableSmartContent" style="margin: 0px; padding: 0px; display: inline; float: none;">
 <p>

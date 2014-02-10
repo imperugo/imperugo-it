@@ -24,7 +24,7 @@ comments: []
 	Beh, devo dire che &egrave; veramente semplice. Quando si crea una nuova applicazione Silverlight, al suo interno &egrave; presente un file <strong><em>App.xml</em></strong> che &egrave; il file principale dell&rsquo;applicazione; per effettuare un paragone con il mondo <a href="http://imperugo.tostring.it/categories/archive/ASP.NET" target="_blank" title="ASP.NET">ASP.NET</a> si potrebbe definire il file <strong><em>App.xml</em></strong> un po&rsquo; come il <strong><em>Global.asax</em></strong>. <br />
 	<br />
 	Questa classe, che eredita da <strong><em>System.Windows.Application</em></strong>, espone la propriet&agrave; <strong><em>IsRunningOutOfBrowser,</em></strong> che &egrave; indispensabile se si vogliono creare interazioni particolari e mostrare oggetti solo in modalit&agrave; OOB; basta quindi accedere alla propriet&agrave;, come mostrato dallo snippet seguente:</p>
-<pre class="brush: csharp; ruler: true;">bool isOOB = App.Current.IsRunningOutOfBrowser;</pre>
+{% raw %}<pre class="brush: csharp; ruler: true;">bool isOOB = App.Current.IsRunningOutOfBrowser;</pre>{% endraw %}
 <p>
 	Un esempio pratico potrebbe essere il semplice pulsante di setup, che dovr&agrave; essere visualizzato soltanto nel caso l&rsquo;applicazione stia girando all&rsquo;interno del browser.</p>
 <p>

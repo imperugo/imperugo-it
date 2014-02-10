@@ -18,8 +18,8 @@ comments: []
 ---
 <p>Personalmente trovo comodissime le <a title="Partial Class Definitions (C# Programming Guide)" href="http://msdn.microsoft.com/en-us/library/wa80x488%28VS.80%29.aspx" rel="nofollow" target="_blank">partial class</a>, sia perch&egrave; facilitano il lavoro in team, sia perch&egrave; mermettono di suddividere la stessa classe in pi&ugrave; file, fornendo cos&igrave; una maggiore leggibilit&agrave; e pulizia del codice.     <br />
 Per definire una classe come &ldquo;parziale&rdquo;, basta aggiungere la keyword <em>partial</em> prima della parola chiave <em>class</em> (vale anche per gli <em>struct</em> ovviamente) come mostrato di seguito.</p>
-<pre class="brush: csharp; ruler: true;">
-public partial class MyClass</pre>
+{% raw %}<pre class="brush: csharp; ruler: true;">
+public partial class MyClass</pre>{% endraw %}
 <p>I suoi vantaggi ovviamente non si fermano qui. Visual studio offre la possibilit&agrave; di raggruppare le partial class in una struttura ad albero un po&rsquo; come avviene per i codefile delle pagine web, come mostrato dallo screenshot seguente:</p>
 <p>&nbsp;</p>
 <p><a href="http://imperugo.tostring.it/Content/Uploaded/image/25-Aug-09%201-12-28_2.png" rel="shadowbox[Gestire-in-semplicita-le-partial-class-dentro-Visual-Studio];options={counterType:'skip',continuous:true,animSequence:'sync'}"><img SinglelineIgnoreCase width="248" height="157" border="0" singlelineignorecase="" style="border: 0px none ; display: inline;" title="25-Aug-09 1-12-28" alt="25-Aug-09 1-12-28" src="http://imperugo.tostring.it/Content/Uploaded/image/25-Aug-09%201-12-28_thumb.png" /></a></p>

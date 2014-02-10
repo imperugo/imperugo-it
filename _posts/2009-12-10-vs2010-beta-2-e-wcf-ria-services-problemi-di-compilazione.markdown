@@ -18,7 +18,7 @@ comments: []
 ---
 <p>
 	Dato che uno &egrave; in Beta (<a href="http://imperugo.tostring.it/blog/search?q=Visual+Studio&amp;searchButton=Go" target="_blank" title="Search Visual Studio">Visual Studio</a> 2010), l&rsquo;altro in preview (WCF <a href="http://it.wikipedia.org/wiki/Rich_Internet_application" rel="nofollow" target="_blank" title="Rich Internet Application">RIA</a> Services) non ho motivi per lamentarmi, ma se vi capita questo immenso stack di errore mentre cercate di compilare ...</p>
-<pre class="brush: csharp; ruler: true;">Error    1    The &quot;CreateRiaClientFilesTask&quot; task failed unexpectedly.
+{% raw %}<pre class="brush: csharp; ruler: true;">Error    1    The &quot;CreateRiaClientFilesTask&quot; task failed unexpectedly.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure &quot;Web.Resources.RegistrationDataResources.resources&quot; was correctly embedded or linked into assembly &quot;imperugo.CommunityTour.Catania.Silverlight.Web&quot; at compile time, or that all the satellite assemblies required are loadable and fully signed.
    at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
    at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark&amp; stackMark)
@@ -46,7 +46,7 @@ System.Reflection.TargetInvocationException: Exception has been thrown by the ta
    at Microsoft.RiaServices.Tools.RiaClientFilesTask.Execute()
    at Microsoft.Build.Framework.ITask.Execute()
    at Microsoft.Build.BackEnd.TaskExecutionHost.Microsoft.Build.BackEnd.ITaskExecutionHost.Execute()
-   at Microsoft.Build.BackEnd.TaskBuilder.ExecuteInstantiatedTask(ITaskExecutionHost taskExecutionHost, TaskLoggingContext taskLoggingContext, TaskHost taskHost, ItemBucket bucket, TaskExecutionMode howToExecuteTask, Boolean&amp; taskResult)    imperugo.CommunityTour.Catania.Silverlight</getlocalizablevalue></pre>
+   at Microsoft.Build.BackEnd.TaskBuilder.ExecuteInstantiatedTask(ITaskExecutionHost taskExecutionHost, TaskLoggingContext taskLoggingContext, TaskHost taskHost, ItemBucket bucket, TaskExecutionMode howToExecuteTask, Boolean&amp; taskResult)    imperugo.CommunityTour.Catania.Silverlight</getlocalizablevalue></pre>{% endraw %}
 <p>
 	...chiudete Visual Studio e riapritelo :).</p>
 <p>

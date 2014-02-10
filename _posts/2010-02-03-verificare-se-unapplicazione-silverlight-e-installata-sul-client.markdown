@@ -31,10 +31,10 @@ comments: []
 	<a href="http://imperugo.tostring.it/Content/Uploaded/image//imperugo/d0398d24-8ef1-4082-8404-249df7c8b9f9.png" rel="shadowbox"><img alt="image" border="0" height="169" src="http://imperugo.tostring.it/Content/Uploaded/image//imperugo/410013ed-6643-4e90-afec-a4501cdeae40.png" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" width="244" /></a></p>
 <p>
 	Come in ogni setup che si rispetti, prima &egrave; necessario verificare che l&rsquo;applicazione interessata non sia gi&agrave; installata sul client, e questo &egrave; fattibile tramite l&rsquo;apposita propriet&agrave; <em><strong>InstallState</strong></em> della classe application, come mostrato di seguito:</p>
-<pre class="brush: csharp; ruler: true;">if(App.Current.InstallState == InstallState.Installed)
+{% raw %}<pre class="brush: csharp; ruler: true;">if(App.Current.InstallState == InstallState.Installed)
     //TODO:Installed
 else
-    //TODO:NotInstalled</pre>
+    //TODO:NotInstalled</pre>{% endraw %}
 <p>
 	&nbsp;</p>
 <p>

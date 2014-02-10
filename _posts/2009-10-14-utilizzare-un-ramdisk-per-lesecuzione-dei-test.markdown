@@ -24,7 +24,7 @@ comments: []
 	Da qui &egrave; nata l&rsquo;idea di spostare la directory di output dei test, che normalmente si trova nella stessa folder della solution, dal disco fisico al RamDisk, in modo da ridurre al minimo lo swap su disco di tutte quelle informazioni di cui non ho bisogno che rimangano persistite anche dopo il riavvio.</p>
 <p>
 	Per effettuare ci&ograve; &egrave; necessario andare modificare il file di configurazione <em><strong>LocalTestRun.testrunconfig</strong></em> presente nello stesso percorso della solution ed aggiungere la seguente riga:</p>
-<pre class="brush: xml; ruler: true;"><deployment usedefaultdeploymentroot="false" userdeploymentroot="F:\Test Temp\"></deployment></pre>
+{% raw %}<pre class="brush: xml; ruler: true;"><deployment usedefaultdeploymentroot="false" userdeploymentroot="F:\Test Temp\"></deployment></pre>{% endraw %}
 <p>
 	In questo modo tutte le cartelle contenenti l&rsquo;output dei test verranno create nel RamDisk con un discreto incremento delle performaces.</p>
 <p>

@@ -129,7 +129,7 @@ comments: []
 	Nello specifico consiste nel registrare a mano i valori del MachineKey all&rsquo;interno del nostro web.config. Ovviamente i valori da registrare sono diversi, ma fortunatamente esiste questo <a href="http://aspnetresources.com/tools/keycreator.aspx" rel="nofollow" target="_blank" title="&lt;machineKey&gt; Generator"> Generator&quot; href=&quot;http://aspnetresources.com/tools/keycreator.aspx&quot; rel=nofollow target=_blank&gt;sito</a> che ci autogenera l&rsquo;apposita sezione del file di configurazione da insaaerire.</p>
 <p>
 	Il risultato finale del web.config dovrebbe essere una cosa del genere:</p>
-<pre class="brush: csharp;"><machinekey decryption="AES" decryptionkey="CB5A09CB8CAF8CD33A97F1099A451D7C80C9CC175F34DDAFA925BA55043570CB" validation="SHA1" validationkey="E7E40ADAC94F3D467AAB86AEA2561E246A6323C69A0B32BF808587694E1CB387265CC6F2C46420F315831B54F683FA82F08A8E95E00B93BFEC3CD91DF65FEE8C"></machinekey></pre>
+{% raw %}<pre class="brush: csharp;"><machinekey decryption="AES" decryptionkey="CB5A09CB8CAF8CD33A97F1099A451D7C80C9CC175F34DDAFA925BA55043570CB" validation="SHA1" validationkey="E7E40ADAC94F3D467AAB86AEA2561E246A6323C69A0B32BF808587694E1CB387265CC6F2C46420F315831B54F683FA82F08A8E95E00B93BFEC3CD91DF65FEE8C"></machinekey></pre>{% endraw %}
 <p>
 	stay tuned! <br />
 	.u</p>

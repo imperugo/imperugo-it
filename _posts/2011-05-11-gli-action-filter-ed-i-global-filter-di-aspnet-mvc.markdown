@@ -16,7 +16,7 @@ tags:
 - Filter
 comments: []
 ---
-<p>Già dalla prima release di<strong> ASPNET </strong><a title="ASP.NET MVC" href="http://tostring.it/tags/archive/mvc" target="_blank"><strong>MVC</strong></a> è stato introdotto il concetto di <strong>Action Filter</strong>, ossia un attributo che può decorare sia una singola Action o che addirittura un intero Controller. </p>  <p>Lo scopo di questi Filter è quello di <strong>aggiungere funzionalità che spesso ci troveremmo a scrivere con molta frequenza</strong>, o addirittura per ogni singola chiamata; per capire il concetto è sufficiente pensare ad una serie di Action che dovranno essere accessibili soltanto agli utenti loggati. Se provate ad immaginare questo scenario, un possibile risultato potrebbe essere questo:</p>  <pre class="brush: csharp;">public class HomeController : Controller {
+<p>Già dalla prima release di<strong> ASPNET </strong><a title="ASP.NET MVC" href="http://tostring.it/tags/archive/mvc" target="_blank"><strong>MVC</strong></a> è stato introdotto il concetto di <strong>Action Filter</strong>, ossia un attributo che può decorare sia una singola Action o che addirittura un intero Controller. </p>  <p>Lo scopo di questi Filter è quello di <strong>aggiungere funzionalità che spesso ci troveremmo a scrivere con molta frequenza</strong>, o addirittura per ogni singola chiamata; per capire il concetto è sufficiente pensare ad una serie di Action che dovranno essere accessibili soltanto agli utenti loggati. Se provate ad immaginare questo scenario, un possibile risultato potrebbe essere questo:</p>  {% raw %}<pre class="brush: csharp;">public class HomeController : Controller {
     public ActionResult Index ( ) {
         if(!HttpContext.User.Identity.IsAuthenticated)
             Redirect ( &quot;/Login&quot; );
@@ -43,12 +43,12 @@ comments: []
 
         return View ( );
     }
-}</pre>
+}</pre>{% endraw %}
 
 <p>Come si può notare in tutte e tre le Action c’è un blocco di codice ripetuto che non fa altro che verificare che l’utente corrente sia autenticato e, nel caso non lo sia, lo reindirizza alla pagina di Login. Lo scopo degli Action Filter è di racchiudere tutta la logica che può essere comune alle Action, indipendentemente dal Binder in entrata e da ciò che la Action stessa deve fare, permettendoci così di sostituire tutte quelle righe di codice con un semplice attributo. Di fatto l’esecuzione del Filter avviene prima dell’esecuzione del codice presente all’interno della Action.
   <br />Lo snippet seguente mostra le stesse identiche Action dell’esempio precedente, ma con l’utilizzo degli Action Filter:</p>
 
-<pre class="brush: csharp;">public class HomeController : Controller {
+{% raw %}<pre class="brush: csharp;">public class HomeController : Controller {
     [Authorize]
     public ActionResult Index ( ) {
         //TODO: Fai qualcosa
@@ -92,7 +92,7 @@ public class HomeController : Controller {
 
         return View ( );
     }
-}</pre>
+}</pre>{% endraw %}
 
 <p>All’interno di MVC esistono già diversi Action Filter, come l’Authorize mostrato sopra, oltre ad altri come OutputCache, HandleError, etc; inoltre nulla ci vieta di crearne dei nostri custom, come mostrato in un mio precedente post (<a title="Realizzare un ActionFilter per ottimizzare le nostre pagine web" href="http://imperugo.tostring.it/Blog/Post/Realizzare-un-ActionFilter-per-ottimizzare-le-nostre-pagine-web" target="_blank">qui</a>).</p>
 
@@ -100,14 +100,14 @@ public class HomeController : Controller {
 
 <p>Per far ciò è necessario registrare l’Action Filter nel global.asax, come mostrato di seguito:</p>
 
-<pre class="brush: csharp;">protected void Application_Start ( ) {
+{% raw %}<pre class="brush: csharp;">protected void Application_Start ( ) {
     AreaRegistration.RegisterAllAreas ( );
 
     GlobalFilters.Filters.Add ( new HandleErrorAttribute ( ) );
     GlobalFilters.Filters.Add ( new AuthorizeAttribute ( ) );
 
     RegisterRoutes ( RouteTable.Routes );
-}</pre>
+}</pre>{% endraw %}
 
 <p>Non male direi.</p>
 

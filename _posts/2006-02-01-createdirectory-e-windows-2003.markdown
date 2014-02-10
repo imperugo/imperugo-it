@@ -21,7 +21,7 @@ Lo stack mi diceva che non avevo l'autorizzazione necessaria per la creazione de
 Poi, cerca cerca su google trovo questo <a href="http://www.dotnet247.com/247reference/a.aspx?u=http://hatka.net/wlogdev/archive/2004/08/29/178.aspx">articolo</a> che mi risolve il problema, tranne per il fatto che se cerco di creare la cartella C:\Disney\Pluto e la cartella Disney non esiste lui va in errore.<br />
 <br />
 Il problema &egrave; facilmente risolvibile con questo codice: </span></p>
-<pre title="code" class="brush: csharp; ruler: true;">
+{% raw %}<pre title="code" class="brush: csharp; ruler: true;">
 [DllImport(&quot;msvcrt.dll&quot;, SetLastError = true)] 
      
 static extern int _mkdir(string path); 
@@ -66,6 +66,6 @@ static DirectoryInfo CreateDirectory(string path)
     return new DirectoryInfo(path); 
      
 } 
-</pre>
+</pre>{% endraw %}
 <p>La sintassi per la creazione della cartella rimane la stessa, ma viene intercettata la funzione CreateDirecotry e sostituita con la nostra.<br />
 Un unica precisazione, all'interno del ciclo for utilizzo l'_mkdir per la creazione della cartella e non la mia funzione; faccio ci&ograve; per evitare la ricorsione.</p>

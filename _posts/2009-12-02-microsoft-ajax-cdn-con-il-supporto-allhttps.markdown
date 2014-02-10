@@ -22,10 +22,10 @@ comments: []
 	A pochi mesi dall&rsquo;uscita Microsoft annuncia, tramite <a href="http://weblogs.asp.net/scottgu" rel="nofollow" target="_blank" title="Scott Guthrie's Blog">Scott Guthrie</a>, la possibilit&agrave; di sfruttare questo servizio anche in connessioni https. Ovviamente la cosa &egrave; semplicissima, l&rsquo;url rimane identico, basta aggiungere la &ldquo;s&rdquo; ed il gioco &egrave; fatto.</p>
 <p>
 	Connessione non protetta:</p>
-<pre class="brush: xml; ruler: true;"><script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.3.2.js" type="text/javascript"></script>  </pre>
+{% raw %}<pre class="brush: xml; ruler: true;"><script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.3.2.js" type="text/javascript"></script>  </pre>{% endraw %}
 <p>
 	Connessione protetta:</p>
-<pre class="brush: xml; ruler: true;"><script src="https://ajax.microsoft.com/ajax/jquery/jquery-1.3.2.js" type="text/javascript"></script>  </pre>
+{% raw %}<pre class="brush: xml; ruler: true;"><script src="https://ajax.microsoft.com/ajax/jquery/jquery-1.3.2.js" type="text/javascript"></script>  </pre>{% endraw %}
 <p>
 	Un&rsquo;altra importante novit&agrave; sono le numerose librerie aggiunte; nello specifico ora &egrave; possibile avere tramite il CDN le seguenti librerie:</p>
 <ul>

@@ -31,19 +31,19 @@ comments: []
 
 <p>Per renderla più semplice, diamo un’occhiata al seguente codice:</p>
 
-<pre class="brush: xml;">&lt;!-- Nome della classe css presa da una variabile --&gt;
+{% raw %}<pre class="brush: xml;">&lt;!-- Nome della classe css presa da una variabile --&gt;
 &lt;p class=&quot;@myCssClass&quot;&gt;.....&lt;/p&gt;
 
 
 &lt;!-- markup necessario in caso la variabile sia nulla --&gt;
-&lt;p&gt;.....&lt;/p&gt;</pre>
+&lt;p&gt;.....&lt;/p&gt;</pre>{% endraw %}
 
 <p>Come potete vedere, la variabile myCssClass viene utilizzata per impostare la classe css appunto, in base ad un qualcosa (un evento, un settaggio, etc) gestito server side.</p>
 
 <p>Ma cosa succede se dovete gestire anche la possibilità di non impostare la classe? 
   <br />Precedentemente a Razor V2 l’approccio sarebbe stato più o meno questo:</p>
 
-<pre class="brush: xml;">@{
+{% raw %}<pre class="brush: xml;">@{
     var myCssClass = (bool)ViewBag.IsBol ? &quot;boldClass&quot; : null;
 }
 
@@ -52,22 +52,22 @@ comments: []
 }
 else{
     &lt;p&gt;@ViewBag.Text&lt;/p&gt;
-}</pre>
+}</pre>{% endraw %}
 
 <p>Al contrario, con la nuova release di Razor, diventa tutto più semplice. Se impostate il valore della variabile myCssClass a null l’attributo non viene renderizzato, in caso contrario si.</p>
 
-<pre class="brush: xml;">&lt;p class=&quot;@myCssClass&quot;&gt;@ViewBag.Text&lt;/p&gt;</pre>
+{% raw %}<pre class="brush: xml;">&lt;p class=&quot;@myCssClass&quot;&gt;@ViewBag.Text&lt;/p&gt;</pre>{% endraw %}
 
 <p>Bisogna prestare attenzione al fatto che il contenuto string.empty (nel caso di una stringa) renderizza ugualmente l’attributo, quindi solo null impedisce il rendering.</p>
 
 <p>Nel caso di value type tipo il booleano, la situazione non cambia molto. In questo caso il true renderizza l’attributo checked, mentre il false no.</p>
 
-<pre class="brush: xml;">&lt;!-- codice con --&gt;
+{% raw %}<pre class="brush: xml;">&lt;!-- codice con --&gt;
 
 @{
     ViewBag.IsBol = true;
 }
 
-&lt;input type=&quot;checkbox&quot; checked=&quot;@ViewBag.IsBol&quot; /&gt;</pre>
+&lt;input type=&quot;checkbox&quot; checked=&quot;@ViewBag.IsBol&quot; /&gt;</pre>{% endraw %}
 
 <p>Razor Rulez!</p>

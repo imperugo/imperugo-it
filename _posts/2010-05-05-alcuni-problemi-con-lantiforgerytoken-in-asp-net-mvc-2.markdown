@@ -18,7 +18,7 @@ tags:
 - Farm
 comments: []
 ---
-<p>È un po’ che ho “in canna” questo post, ma l’ultimo periodo è stato veramente intenso e non mi ha concesso molto tempo per poter postare.</p>  <p>L’argomento in questione è l’utilizzo dell’attributo (o l’helper) AntiForgeryToken sul porting di applicazioni MVC2, che può causare non pochi problemi in fase di deploy di applicazioni distribuite.</p>  <p>Nello specifico si rischia di incappare in una serie di errori 500 come quello mostrato di seguito:</p>  <pre class="brush: csharp; ruler: true;">[InvalidCastException: Unable to cast object of type 'System.Web.UI.Triplet' to type 'System.Object[]'.]
+<p>È un po’ che ho “in canna” questo post, ma l’ultimo periodo è stato veramente intenso e non mi ha concesso molto tempo per poter postare.</p>  <p>L’argomento in questione è l’utilizzo dell’attributo (o l’helper) AntiForgeryToken sul porting di applicazioni MVC2, che può causare non pochi problemi in fase di deploy di applicazioni distribuite.</p>  <p>Nello specifico si rischia di incappare in una serie di errori 500 come quello mostrato di seguito:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">[InvalidCastException: Unable to cast object of type 'System.Web.UI.Triplet' to type 'System.Object[]'.]
    System.Web.Mvc.AntiForgeryDataSerializer.Deserialize(String serializedToken) +104
 
 [HttpAntiForgeryException (0x80004005): A required anti-forgery token was not supplied or was invalid.]
@@ -26,7 +26,7 @@ comments: []
    System.Web.Mvc.HtmlHelper.GetAntiForgeryTokenAndSetCookie(String salt, String domain, String path) +209
    System.Web.Mvc.HtmlHelper.AntiForgeryToken(String salt, String domain, String path) +16
    System.Web.Mvc.HtmlHelper.AntiForgeryToken() +10
-  &lt;snip&gt;</pre>
+  &lt;snip&gt;</pre>{% endraw %}
 
 <p>L’eccezione si verifica su tutti gli utenti collegati; ma facciamo un passo indietro e cerchiamo di capire quali fattori possono determinare un problema di questo genere.</p>
 

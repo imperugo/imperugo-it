@@ -27,13 +27,13 @@ comments: []
 &egrave; comunque sicuramente vantaggioso utilizzare l'outputcache su porzioni di pagine (usercontrol). <br />
 In <a target="_blank" href="http://www.asp.net/mvc">ASP.NET MVC</a> ho avuto problemi nell'adottare questa tecnica in quanto, per renderizzare lo usercontrol, utilizzavo il metodo <strong>RenderPartial</strong>, che ignora totalmente l'attributo <strong>OutputCache</strong> . <br />
 Da quanto invece apprendo dal blog di <a target="_blank" href="http://haacked.com/">Phil Haack</a>&nbsp;(maggiori info <a target="_blank" href="http://haacked.com/archive/2009/05/12/donut-hole-caching.aspx">qui</a>), risulta che &egrave; comunque possibile risolvere tale problema sostituendo l'utilizzo del <strong>RenderPartial</strong> ed andando a registrare il controllo, utilizzandolo cos&igrave; tramite il suo tag, come mostrato dal blocco di codice seguente:</p>
-<pre class="brush: xml; ruler: true;">
+{% raw %}<pre class="brush: xml; ruler: true;">
 &lt;%@ Register Src=&quot;~/Views/Home/Partial.ascx&quot; TagName=&quot;Partial&quot; TagPrefix=&quot;imperugo&quot; %&gt;
 
 &lt;p&gt;
     Metodo con Registrazione del tag
     &lt;imperugo:Partial runat=&quot;server&quot; /&gt;
-&lt;/p&gt;</pre>
+&lt;/p&gt;</pre>{% endraw %}
 <p>In allegato trovate un progetto che mostra lo stesso <strong>MVC View User Control</strong> utilizzato con le due metodologie, e, al refresh della pagina, si potr&agrave; notare la differenza di comportamento.</p>
 <p>Ciauz</p>
 <div id="scid:fb3a1972-4489-4e52-abe7-25a00bb07fdf:31e2a09a-6af0-42f5-b161-b6b1ee340386" class="wlWriterEditableSmartContent" style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">

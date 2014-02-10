@@ -24,7 +24,7 @@ comments: []
 Purtroppo questa tecnologia non &egrave; presente in <a rel="nofollow" target="_blank" href="http://www.asp.net/mvc">ASP.NET MVC</a>, ma &egrave; facilmente realizzabile andando a creare un <a rel="nofollow" target="_blank" href="http://msdn.microsoft.com/en-us/library/5c67a8bd%28VS.71%29.aspx">HttpHandler</a> che raggruppi in un&rsquo;unica richesta tutti i files <a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/Javascript_">Javascript</a>, ed ottimizzando il risultato tramite quella tecnica chiamata &ldquo;Minification&rdquo; (maggiori info le trovate <a target="_blank" href="http://blogs.ugidotnet.org/marcom/archive/2009/06/01/quotminificarequot-i-javascript.aspx">qui</a>.) che consiste nella rimozione degli spazi, newline, ecc dall&rsquo;output.</p>
 <p>L&rsquo;HttpHandler avr&agrave; il compito di leggere il contenuto dei files <a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/Javascript_">Javascript</a> dal disco, riunirli in un&rsquo;unica stringa, ottimizzarla tramite un&rsquo;apposita classe e mettere il tutto in cache, in modo da non rielaborare tutti i files ad ogni richiesta.</p>
 <p>Nel codice seguente potete trovare l&rsquo;implementazione dell&rsquo;HttpHandler, che sfrutta una sezione nel file di configurazione per recuperare i files da unire; la parte di &ldquo;Minification&rdquo; &egrave; basata su questo <a rel="nofollow" target="_blank" href="http://www.west-wind.com/Weblog/posts/196267.aspx">ottimo post</a> di <a rel="nofollow" target="_blank" href="http://www.west-wind.com/Weblog/default.aspx">Rick Strahl</a>.</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 public class CombineHandler : IHttpHandler
 {
     #region IHttpHandler Members
@@ -76,7 +76,7 @@ public class CombineHandler : IHttpHandler
         JavaScriptMinifier jsm = new JavaScriptMinifier();
         return jsm.MinifyString(allScripts.ToString());
     }
-}</pre>
+}</pre>{% endraw %}
 <div id="scid:fb3a1972-4489-4e52-abe7-25a00bb07fdf:c8174e7e-362c-439e-aaa7-629b7c6a47b6" class="wlWriterEditableSmartContent" style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">
 <p>Download Esempio <a target="_blank" href="http://imperugo.tostring.it/Content/Uploaded/image/ScriptCombineMVC.rar">qui</a></p>
 </div>

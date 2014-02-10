@@ -17,7 +17,7 @@ tags:
 - Dexter
 comments: []
 ---
-<p>Quando il tempo necessario richiesto a fornire una determinata informazione eguaglia il tempo necessario allo sviluppo di un sistema di risposta automatico, forse è il caso di fare qualcosa :).</p>  <p>Da tale situazione è nata l’esigenza di creare un sistema che configurasse in automatico <a title="Windows Live Writer" href="http://download.live.com/writer" rel="nofollow" target="_blank">Windows Live Writer</a>. </p>  <p>In quest’ ultimo periodo, insieme agli altri <a title="Dexter Blog Engine Staff" href="http://dexterblogengine.codeplex.com/team/view" rel="nofollow" target="_blank">ragazzi</a>, abbiamo rilasciato diverse versioni di <a title="Dexter Blog Engine" href="http://dexterblogengine.codeplex.com/" rel="nofollow" target="_blank">Dexter</a> ed abbiamo lavorato in particolar modo con l’integrazione su Windows Live Writer. Questo ha causato diversi reset della configurazione di WLW da parte di tutti gli utilizzatori (in realtà ora sono solo i beta tester) che, giustamente, mi chiedevano quale API Dexter implementasse e quale fosse la sua url.</p>  <p>Da qui è nata la decisione di creare un qualcosa che fornisse automaticamente a WLW le informazioni necessarie per autoconfigurarsi.</p>  <p>Grazie ad una dritta del buon <a href="http://www.primordialcode.com/" rel="nofollow friend co-worker colleague" target="_new">Alessandro</a> ho scoperto che è possibile fare ciò tramite un file <strong><em>RSD (Really Simple Discoverability 1.0)</em></strong>, che non fa altro che esporre le informazioni necessarie dei providers implementati tramite una struttura xml.</p>  <p>La struttura seguente mostra il file del mio blog:</p>  <pre class="brush: xml; ruler: true;">&lt;rsd version=&quot;1.0&quot; xmlns=&quot;http://archipelago.phrasewise.com/rsd&quot;&gt;
+<p>Quando il tempo necessario richiesto a fornire una determinata informazione eguaglia il tempo necessario allo sviluppo di un sistema di risposta automatico, forse è il caso di fare qualcosa :).</p>  <p>Da tale situazione è nata l’esigenza di creare un sistema che configurasse in automatico <a title="Windows Live Writer" href="http://download.live.com/writer" rel="nofollow" target="_blank">Windows Live Writer</a>. </p>  <p>In quest’ ultimo periodo, insieme agli altri <a title="Dexter Blog Engine Staff" href="http://dexterblogengine.codeplex.com/team/view" rel="nofollow" target="_blank">ragazzi</a>, abbiamo rilasciato diverse versioni di <a title="Dexter Blog Engine" href="http://dexterblogengine.codeplex.com/" rel="nofollow" target="_blank">Dexter</a> ed abbiamo lavorato in particolar modo con l’integrazione su Windows Live Writer. Questo ha causato diversi reset della configurazione di WLW da parte di tutti gli utilizzatori (in realtà ora sono solo i beta tester) che, giustamente, mi chiedevano quale API Dexter implementasse e quale fosse la sua url.</p>  <p>Da qui è nata la decisione di creare un qualcosa che fornisse automaticamente a WLW le informazioni necessarie per autoconfigurarsi.</p>  <p>Grazie ad una dritta del buon <a href="http://www.primordialcode.com/" rel="nofollow friend co-worker colleague" target="_new">Alessandro</a> ho scoperto che è possibile fare ciò tramite un file <strong><em>RSD (Really Simple Discoverability 1.0)</em></strong>, che non fa altro che esporre le informazioni necessarie dei providers implementati tramite una struttura xml.</p>  <p>La struttura seguente mostra il file del mio blog:</p>  {% raw %}<pre class="brush: xml; ruler: true;">&lt;rsd version=&quot;1.0&quot; xmlns=&quot;http://archipelago.phrasewise.com/rsd&quot;&gt;
     &lt;service&gt;
         &lt;engineName&gt;Dexter Blog Engine&lt;/engineName&gt;
         &lt;engineLink&gt;http://dexterblogengine.codeplex.com/&lt;/engineLink&gt;
@@ -26,13 +26,13 @@ comments: []
             &lt;api name=&quot;MetaWeblog&quot; blogID=&quot;1&quot; preferred=&quot;false&quot; apiLink=&quot;http://tostring.it/metaweblog.axd&quot; /&gt;
         &lt;/apis&gt;
     &lt;/service&gt;
-&lt;/rsd&gt;</pre>
+&lt;/rsd&gt;</pre>{% endraw %}
 
 <p>Come potete vedere è tutto piuttosto semplice, l’unica nota (oltre al dexter blog engine :P) è il nodo APIs, dove è possibile specificare le varie API esposte dal blog engine (nel mio caso solo i metaweblog API).</p>
 
 <p>Nella home page del sito basta inserire il seguente tag ed il gioco è fatto:</p>
 
-<pre class="brush: xml; ruler: true;">&lt;link rel=&quot;EditURI&quot; type=&quot;application/rsd+xml&quot; title=&quot;RSD&quot; href=&quot;http://tostring.it/MetaWeblogRsd.axd&quot; /&gt;</pre>
+{% raw %}<pre class="brush: xml; ruler: true;">&lt;link rel=&quot;EditURI&quot; type=&quot;application/rsd+xml&quot; title=&quot;RSD&quot; href=&quot;http://tostring.it/MetaWeblogRsd.axd&quot; /&gt;</pre>{% endraw %}
 
 <p>Per quanto riguarda WLW, basta configurarlo specificando la Home Page: lui effettuerà il parser del markup in ricerca dell’apposito tag e si autoconfigurerà.</p>
 

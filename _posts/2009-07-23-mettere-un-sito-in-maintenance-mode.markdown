@@ -33,7 +33,7 @@ comments: []
 <p>Il redirect con status code 302 indica al client che il contenuto &egrave; stato spostato solo temporaneamente verso il nuovo indirizzo, e che successivamente potr&agrave; trovarlo nuovamente al vecchio url.</p>
 <p>Questo permette di reindirizzare il client verso una pagina esclusa dall&rsquo;indicizzazione.</p>
 <p>Di seguito potete trovare il codice e l&rsquo;apposita area di configurazione del HttpModule.</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 public class MaintenanceModule : IHttpModule
 {
     #region IHttpModule Members
@@ -64,9 +64,9 @@ public class MaintenanceModule : IHttpModule
         context.Response.Cache.SetCacheability(HttpCacheability.NoCache);
         context.Response.AddHeader(&quot;Location&quot;, MaintenanceConfiguration.Instance.AbsolutePagePath);
     }
-}</pre>
+}</pre>{% endraw %}
 <p>&nbsp;</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 /// &lt;summary&gt;
 /// Maintenance Configuration class.
 /// &lt;/summary&gt;
@@ -156,10 +156,10 @@ public class MaintenanceSettingException : Exception
         : base(info, context)
     {
     }
-}</pre>
-<pre class="brush: xml; ruler: true;">
+}</pre>{% endraw %}
+{% raw %}<pre class="brush: xml; ruler: true;">
 &lt;dexter.maintenance.configurationSection 
             enableMaintenance=&quot;true&quot; 
             allowedIP=&quot;127.0.0.1&quot; 
-            absolutePagePath=&quot;/Maintenance.aspx&quot; /&gt;</pre>
+            absolutePagePath=&quot;/Maintenance.aspx&quot; /&gt;</pre>{% endraw %}
 <p>Ciauz</p>

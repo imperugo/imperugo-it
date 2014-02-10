@@ -31,11 +31,11 @@ Quando la propria applicazione risiede su un web server come IIS7.x (Windows Vis
 The request filtering module is configured to deny a request that contains a double escape sequence.</p>
 </blockquote>
 <p>Per disabilitare questa protezione e poter sfruttare l&rsquo;urlEncode &egrave; necessario agire sulla configurazione di IIS nell&rsquo;apposito file di configurazione (%windir%\System32\inetsrv\config\applicationHost.config) o nell&rsquo;apposita sezione del web.config dell&rsquo;applicazione come mostrato di seguito</p>
-<pre class="brush: xml; ruler: true;">
+{% raw %}<pre class="brush: xml; ruler: true;">
 &lt;system.webServer&gt;
   &lt;security&gt;
       &lt;requestFiltering allowDoubleEscaping=&quot;true&quot; /&gt;
   &lt;/security&gt;
   &lt;!-- ..... --&gt; 
-&lt;/system.webServer&gt;</pre>
+&lt;/system.webServer&gt;</pre>{% endraw %}
 <p>In questo modo non si avranno eccezioni per tutti gli url contenenti caratteri di escape.</p>

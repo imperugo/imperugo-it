@@ -24,13 +24,13 @@ Da qui &egrave; nata l'idea di effettuare l'override dei metodi RenderBeginTag e
 Purtroppo questo ha scatenato un'improvvisa incompatibilit&agrave; dei miei eventi contenuti all'interno del Composite Control nei confronti del framework ajax, in quanto qualsiasi evento sollevato da un linkbutton (ma &egrave; uguale per qualsiasi altro Control) presente all'interno del mio controllo, effettua un PostBack Sincrono ignorando la propriet&agrave; ChilderAsTrigger dell'update panel impostata su true, e, anche forzando il trigger a mano il postback rimane sempre asyncrono.<br />
 L'unica soluzione che ho trovato &egrave; stata quella di recuperare lo ScriptManager della pagina dal controllo e registrare a mano i controlli figli che scatenano l'evento.</p>
 <p>Il codice mostra la procedura.</p>
-<pre title="code" class="brush: csharp">
+{% raw %}<pre title="code" class="brush: csharp">
 ScriptManage sm = ScriptManager.GetCurrent(Page); 
 LinkButton myLinkButton = new LinkButton(); 
 if(sm != null) 
 { 
  sm.RegisterAsyncPostBackControl(myLinkButton); 
-}</pre>
+}</pre>{% endraw %}
 <p><span id="PostView"> </span></p>
 <p>In questo modo le chiamate sono tornate asincrone.<br />
 Questa operazione deve essere fatta prima del metodo PreRender, dopo di che non &egrave; pi&ugrave; possibile registrare il controllo allo ScriptManager.</p>

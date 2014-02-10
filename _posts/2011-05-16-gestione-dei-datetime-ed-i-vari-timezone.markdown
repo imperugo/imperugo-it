@@ -17,7 +17,7 @@ tags:
 - Database
 comments: []
 ---
-<p>Tra le varie problematiche che ho incontrato nello sviluppare <a title="Dexter Blog Engine Official Site" href="http://dexterblogengine.com/" target="_blank">Dexter</a>, ce n’è una il cui rimedio è divenuto indispensabile nella maggior parte delle applicazioni, ossia una gestione un po’ più avanzata del DateTime all’interno dell’applicazione.     <br />Durante la migrazione tra i vari server, ho riscontrato un problema con i vari DateTime di ciascuno di essi; essendo dislocati in aree geografiche diverse, restituivano infatti valori nettamente differenti per via del fuso orario dal server vecchio a quello nuovo.</p>  <p>Il primo server su cui risiedeva il mio blog era su un provider il cui fuso orario era impostato su <a title="Fuso orario" href="http://it.wikipedia.org/wiki/Fuso_orario#UTC-5_.28EST_-_Eastern_Standard_Time.29" rel="nofollow" target="_blank">EST</a>, che differisce di tre ore rispetto all’orario del nuovo server che è impostato sulla <a title="Fuso Orario" href="http://it.wikipedia.org/wiki/Fuso_orario#UTC-8_.28PST_-_Pacific_Standard_Time.29" rel="nofollow" target="_blank">PST</a>. Questa differenza ha causato un’errata visualizzazione degli orari dei post sul mio blog, che risultavano sfalzati di tre ore</p>  <p>Oltre a sistemare tutti i valori memorizzati nel database con una query, ho deciso di affrontare e risolvere il problema in modo da non avere una dipendenza del fuso orario nelle date memorizzate, essendo quindi libero di gestire l’output dell’ora nel TimeZone a me più congeniale.</p>  <p>Per prima cosa ho realizzato uno UserType per NHibernate che convertisse tutte le date in ingresso verso il databse in formato UTC e, in fase di idratazione della entity, le convertisse nel TimeZone da me configurato. Questa operazione, in codice, si traduce più o meno così:</p>  <pre class="brush: csharp;">[Serializable]
+<p>Tra le varie problematiche che ho incontrato nello sviluppare <a title="Dexter Blog Engine Official Site" href="http://dexterblogengine.com/" target="_blank">Dexter</a>, ce n’è una il cui rimedio è divenuto indispensabile nella maggior parte delle applicazioni, ossia una gestione un po’ più avanzata del DateTime all’interno dell’applicazione.     <br />Durante la migrazione tra i vari server, ho riscontrato un problema con i vari DateTime di ciascuno di essi; essendo dislocati in aree geografiche diverse, restituivano infatti valori nettamente differenti per via del fuso orario dal server vecchio a quello nuovo.</p>  <p>Il primo server su cui risiedeva il mio blog era su un provider il cui fuso orario era impostato su <a title="Fuso orario" href="http://it.wikipedia.org/wiki/Fuso_orario#UTC-5_.28EST_-_Eastern_Standard_Time.29" rel="nofollow" target="_blank">EST</a>, che differisce di tre ore rispetto all’orario del nuovo server che è impostato sulla <a title="Fuso Orario" href="http://it.wikipedia.org/wiki/Fuso_orario#UTC-8_.28PST_-_Pacific_Standard_Time.29" rel="nofollow" target="_blank">PST</a>. Questa differenza ha causato un’errata visualizzazione degli orari dei post sul mio blog, che risultavano sfalzati di tre ore</p>  <p>Oltre a sistemare tutti i valori memorizzati nel database con una query, ho deciso di affrontare e risolvere il problema in modo da non avere una dipendenza del fuso orario nelle date memorizzate, essendo quindi libero di gestire l’output dell’ora nel TimeZone a me più congeniale.</p>  <p>Per prima cosa ho realizzato uno UserType per NHibernate che convertisse tutte le date in ingresso verso il databse in formato UTC e, in fase di idratazione della entity, le convertisse nel TimeZone da me configurato. Questa operazione, in codice, si traduce più o meno così:</p>  {% raw %}<pre class="brush: csharp;">[Serializable]
 internal class DateTimeUtc : IUserType {
     #region IUserType Members
 
@@ -188,7 +188,7 @@ internal class DateTimeUtc : IUserType {
     }
 
     #endregion
-}</pre>
+}</pre>{% endraw %}
 
 <p>Una volta affrontato il problema del salvataggio della data, rimaneva soltanto quello riguardante i filtri delle query che, per i campi DateTime, dovevano effettuare una conversione in formato UTC più o meno in questo modo:</p>
 
@@ -198,7 +198,7 @@ internal class DateTimeUtc : IUserType {
 
 <p>Fortunatamente con la versione 3.2 di NHibernate è stato rivisto parzialmente il Driver di SqlServer, che ora espone un metodo &quot;AdjustCommand” subito prima dell’ExecuteQuery. Il codice seguente mostra come effettuare automaticamente la conversione dal DateTimeKind.Local al DateTimeKind.Utc:</p>
 
-<pre class="brush: csharp;">public class DexterSqlClientDriver : SqlClientDriver {
+{% raw %}<pre class="brush: csharp;">public class DexterSqlClientDriver : SqlClientDriver {
     
     public override void AdjustCommand ( System.Data.IDbCommand command ) {
         foreach (var parameter in command.Parameters.Cast&lt;SqlParameter&gt; ( ).Where ( x =&gt; x.SqlDbType == SqlDbType.DateTime &amp;&amp; ( x.Value is DateTime ) )) {
@@ -206,7 +206,7 @@ internal class DateTimeUtc : IUserType {
             parameter.Value = dateTimeValue;
         }
     }
-}</pre>
+}</pre>{% endraw %}
 
 <p>A questo punto, il codice di esecuzione della query si semplifica ancor di più poiché il developer non deve sapere, o ricordarsi, che il formato della data sul database è differente, in quanto la conversione avviene in automatico.
   <br />Il risultato è il seguente:</p>

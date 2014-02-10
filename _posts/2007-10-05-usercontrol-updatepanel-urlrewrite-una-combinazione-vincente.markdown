@@ -28,12 +28,12 @@ E fin qui nulla di particolare se non fosse per il fatto che al primo colpo veni
 <p>Andando a guardare con fiddler le chiamate ci siamo accorti che al primo giro veniva effettuata una chiamata ad un url, mentre al secondo l'url era differente, o meglio non era pi&ugrave; il RawUrl ad essere chiamato ma l'url non riscritto da un HttpModule interno.</p>
 <p>Indagando un po' pi&ugrave; a fondo ci siamo accorti che all'interno dell'evento pageLoading della classe Sys.WebForms.PageRequestManager veniva riscritto l'url da chiamare.</p>
 <p>Il problema &egrave; risolvibile aggiungedo questo 4 righe di JavaScript:</p>
-<pre title="code" class="brush: csharp">
+{% raw %}<pre title="code" class="brush: csharp">
 Sys.Application.add_load(function()
 {
 var form = Sys.WebForms.PageRequestManager.getInstance()._form;
 form._initialAction = form.action = window.location.href;
-});</pre>
+});</pre>{% endraw %}
 <p>&nbsp;</p>
 <p>Devo dire che ormai non mi stupisco pi&ugrave; quando trovo stranezze sul Framework Ajax 1.0 che ritengo pi&ugrave; una versione 0.8, e aggiungo questo comportamento all'elenco delle cose che spero Fixate nella prossima Release (Encoding non UTF-8, WebPart, ecc)&nbsp;del Framework ASP.NET&nbsp;AJAX.</p>
 <p>Ciauz</p>

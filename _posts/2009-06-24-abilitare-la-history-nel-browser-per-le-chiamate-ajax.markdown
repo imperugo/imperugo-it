@@ -22,12 +22,12 @@ comments: []
 <p><br />
 Per risolvere questo incoveniente Microsoft ha introdotto, tramite il <strong>Service Pack 1</strong> del <strong>.NET Framework 3.5</strong>, la possibilit&agrave; di utilizzare i bottoni per la navigazione integrati con il browser per muoversi attraverso l&rsquo;hystory delle chiamate <strong>AJAX</strong>.</p>
 <p>Come per ogni <a rel="nofollow" target="_blank" href="http://www.asp.net">ASP.NET</a> WebForm che utilizza AJAX, &egrave; necessario che nella pagina sia presente lo <a rel="nofollow" target="_blank" href="http://msdn.microsoft.com/it-it/library/system.web.ui.scriptmanager.aspx">ScriptManager</a>, dove si andr&agrave; ad abilitare l&rsquo;utilizzo dell&rsquo;Hystory e ad associare l&rsquo;evento che dovr&agrave; essere scatenato durante la navigazione, come mostrato di seguito:</p>
-<pre class="brush: xml; ruler: true;">
+{% raw %}<pre class="brush: xml; ruler: true;">
 &lt;asp:ScriptManager ID=&quot;ScriptManager1&quot; runat=&quot;server&quot; EnableHistory=&quot;True&quot; 
     onnavigate=&quot;ScriptManager1_Navigate&quot;&gt;
-&lt;/asp:ScriptManager&gt;</pre>
+&lt;/asp:ScriptManager&gt;</pre>{% endraw %}
 <p>Nello snippet seguente viene mostrato come aggiungere un <strong>HystoryPoint</strong>, e l&rsquo;evento che viene invocato alla pressione dei tasti <strong>Back</strong> e <strong>Forward</strong> del browser.</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 protected void GridView1_PageIndexChanged(object sender, EventArgs e)
 {
     if(ScriptManager1.IsInAsyncPostBack &amp;&amp; !ScriptManager1.IsNavigating)
@@ -52,5 +52,5 @@ protected void ScriptManager1_Navigate(object sender, HistoryEventArgs e)
         Title = &quot;Paginda del gridview numero:&quot; + (pageIndex + 1);
 
     }
-}</pre>
+}</pre>{% endraw %}
 <p>In questo esempio si &egrave; optato per l&rsquo;associazione degli HystoryPoint alla paginazione di un GridView, ma la stessa cosa &egrave; applicabile a qualsiasi tipo di chiamata AJAX.</p>

@@ -16,13 +16,13 @@ tags:
 - Silverlight
 comments: []
 ---
-<p>Nel post precedente avevo mostrato come verificare se l’applicaizone <a title="Silverlight" href="http://imperugo.tostring.it/categories/archive/Silverlight" target="_blank">Silverlight</a> fosse installata o meno sul client. L’idea di questo post è di mostrare come installare l’applicazione tramite un pulsante custom presente all’interno della pagina ed eseguire la procedura di installazione via C#.</p>  <p>Lo snippet seguente mostra l’evento OnClick del button per l’installazione:</p>  <pre class="brush: csharp; ruler: true;">private void InstallButton_Click(object sender, System.Windows.RoutedEventArgs e)
+<p>Nel post precedente avevo mostrato come verificare se l’applicaizone <a title="Silverlight" href="http://imperugo.tostring.it/categories/archive/Silverlight" target="_blank">Silverlight</a> fosse installata o meno sul client. L’idea di questo post è di mostrare come installare l’applicazione tramite un pulsante custom presente all’interno della pagina ed eseguire la procedura di installazione via C#.</p>  <p>Lo snippet seguente mostra l’evento OnClick del button per l’installazione:</p>  {% raw %}<pre class="brush: csharp; ruler: true;">private void InstallButton_Click(object sender, System.Windows.RoutedEventArgs e)
 {
     if (!App.Current.IsRunningOutOfBrowser &amp;&amp; App.Current.InstallState == InstallState.NotInstalled)
     {
         App.Current.Install();
     }
-}</pre>
+}</pre>{% endraw %}
 
 <p>Come avrete potuto notare, fin’ora tutte le informazioni necessarie per poter lavorare sono state esposte tramite la classe <strong><em>System.Windows.Application;</em></strong> grazie a quest’ultima, nei prossimi post si vedrà come verificare se l’applicazione è in esecuzione in fulltrust mode e, nel caso ne esista una più recente, come aggiornarla.</p>
 

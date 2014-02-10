@@ -47,12 +47,12 @@ comments: []
 	Nell&rsquo;esempio seguente verr&agrave; mostrato un file di configurazione la cui stringa di connessione &egrave; differente tra i tre ambienti, <strong>Debug</strong>, <strong>Release</strong> e <strong>Test</strong>.</p>
 <p>
 	Come prima cosa &egrave; necessario aggiungere al file web.config l&rsquo;apposita voce nella sezione connectionStrings, come mostrato di seguito:</p>
-<pre class="brush: xml; ruler: true;"><connectionstrings>
+{% raw %}<pre class="brush: xml; ruler: true;"><connectionstrings>
   <add connectionstring="Data Source=devserver;Initial Catalog=dexter;User Id=sa;Password=Password1;" name="dbConn" providername="System.Data.SqlClient">
-</add></connectionstrings></pre>
+</add></connectionstrings></pre>{% endraw %}
 <p>
 	La stringa presente in questo file coincide con quella dell&rsquo;ambiente di debug e verr&agrave; sostituita da <strong>Visual Studio</strong> in fase di deploy ma, per far ci&ograve;, &egrave; necessario andare ad inserire il valore corretto nei restanti files di configurazione, come mostrato di seguito:</p>
-<pre class="brush: xml; ruler: true;"><!-- Dev (Web.Debug.Config) -->    
+{% raw %}<pre class="brush: xml; ruler: true;"><!-- Dev (Web.Debug.Config) -->    
 <connectionstrings>
   <add connectionstring="Data Source=devserver;Initial Catalog=devDB;User Id=sa;Password=Password1;" name="dbConn" xdt:locator="Match(name)" xdt:transform="SetAttributes">
 </add></connectionstrings>
@@ -66,7 +66,7 @@ comments: []
 <!-- Test (Web.Testing.Config) -->    
 <connectionstrings>
     <add connectionstring="Data Source=testServer;Initial Catalog=testDB;User Id=sa;Password=Password1;" name="dbConn" xdt:locator="Match(name)" xdt:transform="SetAttributes">
-</add></connectionstrings></pre>
+</add></connectionstrings></pre>{% endraw %}
 <p>
 	Il codice &egrave; piuttosto semplice, sono presenti due nuovi attributi <strong><em>xdt:Transform</em></strong> e <strong><em>xdt:Locator</em></strong>, dove <strong>xdt</strong> significa <strong>Xml Data Trasformation</strong>;&nbsp; il primo attributo indica cosa deve essere sostituito (in questo esempio tutti gli attributi), mentre il secondo indica la regola di Matching (in questo esempio il replace viene effettuato nel caso in cui l&rsquo;attributo &ldquo;name&rdquo; coincida tra i files di configurazione).</p>
 <p>

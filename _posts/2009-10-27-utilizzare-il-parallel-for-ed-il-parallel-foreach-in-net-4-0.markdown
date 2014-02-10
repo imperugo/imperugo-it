@@ -17,7 +17,7 @@ tags:
 - .NET Framework 4.0
 comments: []
 ---
-<p>L’utilizzo del <a title="Parallel Programming" href="http://en.wikipedia.org/wiki/Parallel_computing" rel="nofollow" target="_blank">Parallel Programming</a> in <a title=".NET Framework" href="http://imperugo.tostring.it/categories/archive/.NET" target="_blank">.NET</a> 4.0 va oltre a quanto già detto <a title="Welcome Parallel Linq" href="http://imperugo.tostring.it/blog/post/welcome-parallel-linq" target="_blank">qui</a>: di fatto all’interno del namespace System.Threading.Tasks esiste una classe Parallel che permette di effettuare cicli sfruttando più Threads, in modo da abbassare il tempo necessario all’iterazione.</p>  <p>Lo snippet seguente mostra un semplicissimo ciclo di 50 elementi con e senza il Parallel For, con risultati nettamente a vantaggio dell’istruzione Parallel.For.</p>  <pre class="brush: csharp; ruler: true;">static void Main(string[] args)
+<p>L’utilizzo del <a title="Parallel Programming" href="http://en.wikipedia.org/wiki/Parallel_computing" rel="nofollow" target="_blank">Parallel Programming</a> in <a title=".NET Framework" href="http://imperugo.tostring.it/categories/archive/.NET" target="_blank">.NET</a> 4.0 va oltre a quanto già detto <a title="Welcome Parallel Linq" href="http://imperugo.tostring.it/blog/post/welcome-parallel-linq" target="_blank">qui</a>: di fatto all’interno del namespace System.Threading.Tasks esiste una classe Parallel che permette di effettuare cicli sfruttando più Threads, in modo da abbassare il tempo necessario all’iterazione.</p>  <p>Lo snippet seguente mostra un semplicissimo ciclo di 50 elementi con e senza il Parallel For, con risultati nettamente a vantaggio dell’istruzione Parallel.For.</p>  {% raw %}<pre class="brush: csharp; ruler: true;">static void Main(string[] args)
 {
     Console.WriteLine(&quot;MTID={0}&quot;, Thread.CurrentThread.ManagedThreadId);
 
@@ -62,7 +62,7 @@ static void ParallelMethod()
 static void SimulateProcessing()
 {
     Thread.SpinWait(80000000);
-}</pre>
+}</pre>{% endraw %}
 
 <p>Dallo screenshot seguente è possibile capire come l’utilizzo del Parallel ci permette di sfruttare a meglio l’hardware a disposizione in quanto utilizza entrambi i processori, a differenza del classico ciclo for che ne sfrutta uno solo.</p>
 
@@ -70,7 +70,7 @@ static void SimulateProcessing()
 
 <p>Ovviamente la classe Parallel non offre soltanto metodi per il ciclo for ma anche per il ForEach che funziona allo stesso modo, come mostrato di seguito:</p>
 
-<pre class="brush: csharp; ruler: true;">static void ParallelForEach()
+{% raw %}<pre class="brush: csharp; ruler: true;">static void ParallelForEach()
 {
     int[] values = Enumerable.Range(1,50).ToArray();
 
@@ -80,7 +80,7 @@ static void SimulateProcessing()
 
         SimulateProcessing();
     });
-}</pre>
+}</pre>{% endraw %}
 
 <p>Anche questo, come il <a title="Welcome Parallel Linq" href="http://imperugo.tostring.it/blog/post/welcome-parallel-linq" target="_blank">precedente</a>, resta un test dimostrativo della semplicità con cui si può sfruttare il <a title="Parallel Programming" href="http://en.wikipedia.org/wiki/Parallel_computing" rel="nofollow" target="_blank">Parallel Programming</a> con il <a title=".NET Framework 4.0" href="http://imperugo.tostring.it/tags/archive/.net+framework+4.0" target="_blank">.NET Framework 4.0</a> e del fatto che i risultati ottenibili sono influenzabili dall’hardware che si ha a disposizione, numero di processori in primis.</p>
 

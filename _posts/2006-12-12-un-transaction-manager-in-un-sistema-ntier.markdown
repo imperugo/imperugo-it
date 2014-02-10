@@ -32,7 +32,7 @@ Quando devo persistere la mia entity (con le rispettive sottoentity) devo avere 
 </span></p>
 <p>&nbsp;</p>
 <p>Ora all'interno delle nostre classi di persistenza dove esponiamo <strong>ITransactionable</strong> prima della chiamata di update, delete, ecc dobbiamo verificare se l'oggetto transazionale &egrave; instanziato oppure no, lo possiamo fare con una semplice if.</p>
-<pre title="code" class="brush: csharp">
+{% raw %}<pre title="code" class="brush: csharp">
 public bool Update(Fattura item)
 {
 int rowsAffected;
@@ -57,12 +57,12 @@ if (rowsAffected &lt;= 0)
 throw new Domain.Exception.ConcurrencyException(Resource.Res.GetString(&quot;ConcurrencyException&quot;));
 else
 return true;
-} </pre>
+} </pre>{% endraw %}
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong>Transaction</strong> non &egrave; l'implementazione del'interfaccia <strong>ITransactionable</strong> ma un suo cast a <strong>SqlTransaction</strong>.</p>
 <p>Il nostro Transaction Manager presente nel DAL sar&agrave; pittusto semplice quindi una roba tipo questa:&nbsp;</p>
-<pre title="code" class="brush: csharp">
+{% raw %}<pre title="code" class="brush: csharp">
 private SqlConnection conn;
 private SqlTransaction transaction;
 private List coll;
@@ -123,10 +123,10 @@ coll[i].ExternalTransaction = null;
 coll.RemoveAt(i);
 }
 transaction.Dispose();
-} </pre>
+} </pre>{% endraw %}
 <p>&nbsp;</p>
 <p><span>Dal Business Layer vado ad utilizzare il Transaction Manager in questo modo:&nbsp;</span></p>
-<pre title="code" class="brush: csharp">
+{% raw %}<pre title="code" class="brush: csharp">
 using (ITransactionManager manager = AbstractFactory.ProviderFactory.TransactionManager)
 {
 
@@ -156,7 +156,7 @@ manager.Rollback();
 throw;
 }
 
-}</pre>
+}</pre>{% endraw %}
 <p>&nbsp;</p>
 <p><span>Secondo voi l'implementazione &egrave; quella corretta?</span></p>
 <p>&nbsp;</p>

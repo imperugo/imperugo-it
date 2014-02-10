@@ -30,7 +30,7 @@ IIS7, con la WAS, abbatte totalmente i problemi legati al rilascio e manutenzion
 <p><a href="http://imperugo.tostring.it/Content/Uploaded/image/8-1-2009%203-29-19%20PM_6.png" rel="shadowbox[La-WAS-in-IIS7];options={counterType:'skip',continuous:true,animSequence:'sync'}"><img SinglelineIgnoreCase width="244" height="184" border="0" src="http://imperugo.tostring.it/Content/Uploaded/image/8-1-2009%203-29-19%20PM_thumb_2.png" alt="8-1-2009 3-29-19 PM" title="8-1-2009 3-29-19 PM" style="border: 0px none ; display: inline;" singlelineignorecase="" /></a> <a href="http://imperugo.tostring.it/Content/Uploaded/image/8-1-2009%203-31-56%20PM_2.png" rel="shadowbox[La-WAS-in-IIS7];options={counterType:'skip',continuous:true,animSequence:'sync'}"><img SinglelineIgnoreCase width="244" height="184" border="0" src="http://imperugo.tostring.it/Content/Uploaded/image/8-1-2009%203-31-56%20PM_thumb.png" alt="8-1-2009 3-31-56 PM" title="8-1-2009 3-31-56 PM" style="border: 0px none ; display: inline;" singlelineignorecase="" /></a> <a href="http://imperugo.tostring.it/Content/Uploaded/image/8-1-2009%203-33-15%20PM_2.png" rel="shadowbox[La-WAS-in-IIS7];options={counterType:'skip',continuous:true,animSequence:'sync'}"><img SinglelineIgnoreCase width="244" height="184" border="0" src="http://imperugo.tostring.it/Content/Uploaded/image/8-1-2009%203-33-15%20PM_thumb.png" alt="8-1-2009 3-33-15 PM" title="8-1-2009 3-33-15 PM" style="border: 0px none ; display: inline;" singlelineignorecase="" /></a></p>
 <p>Una volta completata la procedura di installazione verr&agrave; automaticamente configurato il DefaultSite per supportare i protocolli <strong>non-http</strong>, quindi <strong><em>NET.TCP, NET.PIPE e NET.MSMQ</em></strong>.</p>
 <p>A dimostrazione di quanto appena detto, se si prova ad editare a mano il file XML contenente la configurazione di IIS7 (%windir%\System32\inetsrv\config\applicationHost.config) e si controlla l&rsquo;apposita area del Default Site, si dovrebbe avere una configurazione come la seguente:</p>
-<pre class="brush: xml; ruler: true;">
+{% raw %}<pre class="brush: xml; ruler: true;">
 &lt;site name=&quot;Default Web Site&quot; id=&quot;1&quot; serverAutoStart=&quot;true&quot;&gt;
     &lt;application path=&quot;/WCFService&quot; applicationPool=&quot;DefaultAppPool&quot; enabledProtocols=&quot;http,net.tcp,net.pipe,net.msmq&quot;&gt;
         &lt;virtualDirectory path=&quot;/&quot; physicalPath=&quot;C:\inetpub\wwwroot\WCFService&quot; /&gt;     
@@ -43,7 +43,7 @@ IIS7, con la WAS, abbatte totalmente i problemi legati al rilascio e manutenzion
         &lt;binding protocol=&quot;net.msmq&quot; bindingInformation=&quot;localhost&quot; /&gt;
         &lt;binding protocol=&quot;net.tcp&quot; bindingInformation=&quot;808:*&quot; /&gt;
     &lt;/bindings&gt;
-&lt;/site&gt; </pre>
+&lt;/site&gt; </pre>{% endraw %}
 <p>Nel caso la configurazione non coincida con quella appena mostrata, &egrave; possibile eseguire manualmente il comando di configurazione ed abilitazione per i nostri siti web.   <br />
 Di seguito potete trovare l&rsquo;elenco dei comandi disponibile per i protocolli non-HTTP:</p>
 <blockquote>

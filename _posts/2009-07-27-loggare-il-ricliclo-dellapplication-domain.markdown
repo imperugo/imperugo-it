@@ -29,7 +29,7 @@ comments: []
 <p>Dato che sono certo di non aver svuotato la cache via codice J, la ricerca del problema si &egrave; subito spostata sulla seconda ipotesi, e mi son messo a loggare lo shoutdown lato applicativo, non avendo accesso al server.</p>
 <p>Sfortunatamente questa non &egrave; cosa semplice perch&egrave; non &egrave; detto che il WorkProcess non venga &ldquo;killato&rdquo; manualmente sul server, oppure che un&rsquo;altra applicazione presente all&rsquo;interno dello stesso application pool non provochi un&rsquo;eccezione che termini il processo.</p>
 <p><a href="http://weblogs.asp.net/scottgu/default.aspx" title="Scott Guthrie" rel="nofollow" target="_blank">ScottGu</a>, nel suo blog, propone una possibile soluzione che consiste nell&rsquo;invocare via reflection i metodi _shutDownMessage e _shutDownStack, che forniscono tutte le informazioni per capire il motivo che ha scatenato lo shoutdown, come mostrato di seguito.</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 public void Application_End()
 {
 
@@ -43,5 +43,5 @@ public void Application_End()
     string shutDownStack = (string)runtime.GetType().InvokeMember(&quot;_shutDownStack&quot;,BindingFlags.NonPublic| BindingFlags.Instance| BindingFlags.GetField,null,runtime,null);
     
     Logger.Error(shutDownMessage, shutDownStack);
-}</pre>
+}</pre>{% endraw %}
 <p>Maggiori info le trovate <a href="http://weblogs.asp.net/scottgu/archive/2005/12/14/433194.aspx" title="Logging ASP.NET Application Shutdown Events" rel="nofollow" target="_blank">qui</a>.</p>

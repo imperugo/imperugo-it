@@ -22,7 +22,7 @@ Spessissimo mi capita di dover eseguire qualcosa (invalidazione della cache, pul
 <p style="font-size: small; ">Queste procedure tra decine di servizi e applicazioni web sono sempre difficoltose da gestire, spesso alcune devo essere seguite dopo altre o solo in alcuni giorni.</p>
 <p style="font-size: small; ">Proprio per questa serie di motivi che ho deciso di crearmi un servizio custom del tutto autonomo in cui, tramite file di configurazione, devo solo specificare cosa, dove e quando devo effettuare una chiamata.</p>
 <p style="font-size: small; ">Tradotto in codice viene fuori una roba del genere:</p>
-<pre title="code" class="brush: csharp">
+{% raw %}<pre title="code" class="brush: csharp">
 &lt;schedule name=&quot;mySchedule&quot;&gt; 
   &lt;service proxyFullyQualifiedName=&quot;MyServiceClient, Imperugo.Services.Client&quot;&gt; 
     &lt;method scheduleName=&quot;sc1&quot; methodName=&quot;Test&quot;&gt; 
@@ -55,7 +55,7 @@ Spessissimo mi capita di dover eseguire qualcosa (invalidazione della cache, pul
        &lt;day weekDay=&quot;Saturday&quot; startTime=&quot;19:00:00&quot; /&gt; 
     &lt;/method&gt; 
   &lt;/service&gt; 
-&lt;/schedule&gt; </pre>
+&lt;/schedule&gt; </pre>{% endraw %}
 <p style="font-size: small; ">&nbsp;</p>
 <p style="font-size: small; ">La realizzazione &egrave; piuttosto semplice, una custom section nel file di configurazione,un Timer, il ThreadPool e un po' di reflection per assegnare i parametri ed invocare i proxy.&nbsp;<br />
 Ovviamente essendo un servizio di Maintenance non mi sono preoccupato tanto delle performance, quindi la reflection andava benissimo ;).</p>

@@ -28,7 +28,7 @@ In <a title="Dexter Blog Engine" target="_blank" href="http://imperugo.tostring.
     <li>Cancellazione della entity;</li>
 </ul>
 <p>Lo snippet seguente mostra come effettuare questo tipo di test con poche righe di codice, avendo la certezza che il mapping sia corretto:</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 [TestMethod]
 public void BlogRollMap()
 {
@@ -50,9 +50,9 @@ public void BlogRollMap()
         .CheckProperty(c =&gt; c.Sweetheart, true)
         .CheckProperty(c =&gt; c.Username, &quot;imperugo&quot;)
         .VerifyTheMappings();
-}</pre>
+}</pre>{% endraw %}
 <p>Inoltre per condizioni particolari &egrave; possibile specificare, tramite l&rsquo;apposito overload del costruttore, una classe IEqualityComparer per effettuare una comparazione custom dei dati, come mostrato di seguito:</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 public class SiteConfigurationEqualityComparer : IEqualityComparer
 {
     public new bool Equals(object x, object y)
@@ -73,6 +73,6 @@ public class SiteConfigurationEqualityComparer : IEqualityComparer
                     r1.PublicKey == r2.PublicKey &amp;&amp;
                     r1.Theme == r2.Theme);
         }
-}</pre>
+}</pre>{% endraw %}
 <p>Maggiori info sono disponibili <a title="FluentMapping Persistance Service" rel="nofollow" target="_blank" href="http://wiki.fluentnhibernate.org/Persistence_specification_testing">qui</a>.</p>
 <p>Ciauz</p>

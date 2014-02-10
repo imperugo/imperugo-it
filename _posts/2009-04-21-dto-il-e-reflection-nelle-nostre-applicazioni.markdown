@@ -59,7 +59,7 @@ comments: []
 	Con l&rsquo;avvento degli O/RM l&rsquo;utilizzo dei DTO si &egrave; semplificato di parecchio, come mostrato negli snippet seguenti:</p>
 <p>
 	<strong>Nhibernate:</strong></p>
-<pre class="brush: csharp; ruler: true;" title="code">using(Isession session = SessionHelper.GetSession())
+{% raw %}<pre class="brush: csharp; ruler: true;" title="code">using(Isession session = SessionHelper.GetSession())
 {
     ICriteria myCriteria = session.CreateCriteria(typeof (User));
     myCriteria.Restrictions.Add(&quot;Name&quot;, name);
@@ -73,20 +73,20 @@ comments: []
     
     myCriteria.SetResultTransformer(NHibernate.Transform.Transformers.AliasToBean(typeof(UserDTO))); 
     return myCriteria.List<userdto>();
-}</userdto></pre>
+}</userdto></pre>{% endraw %}
 <p>
 	<strong>Linq:</strong></p>
-<pre class="brush: csharp; ruler: true;" title="code">var q = from u in Users where u.ID = 1 select new UserDTO { ID = u.ID, Firstname = u.Firstname, Lastname = u.Lastname, Username = u.Username };
-q.ToList<userdto>();</userdto></pre>
+{% raw %}<pre class="brush: csharp; ruler: true;" title="code">var q = from u in Users where u.ID = 1 select new UserDTO { ID = u.ID, Firstname = u.Firstname, Lastname = u.Lastname, Username = u.Username };
+q.ToList<userdto>();</userdto></pre>{% endraw %}
 <p>
 	<strong>Entity Idratata manualmente: </strong></p>
-<pre class="brush: csharp; ruler: true;" title="code">User usr = //recupero la entity dal database o dalla cache
+{% raw %}<pre class="brush: csharp; ruler: true;" title="code">User usr = //recupero la entity dal database o dalla cache
 
 UserDTO userDto = new UserDTO();
 userDto.ID = usr.ID;
 userDto.Firstname = usr.Firstname;
 userDto.Lastname = usr.Lastname;
-userDto.Username = usr.Username;</pre>
+userDto.Username = usr.Username;</pre>{% endraw %}
 <p>
 	Come si potr&agrave; intuire, finch&egrave; si parla di poche propriet&agrave; per poche entities la cosa &egrave; fattibile, ma quando si tratta di applicazioni complesse l&rsquo;utilizzo dei DTO pu&ograve; incidere in maniera pesante sulle tempistiche e sui costi di sviluppo, specie se ci si trova con una entity gi&agrave; idratata.</p>
 <p>
@@ -102,7 +102,7 @@ userDto.Username = usr.Username;</pre>
 <p>
 	Come si pu&ograve; notare, all&rsquo;interno del metodo vengono invocati altri due Extension Methods (FastCreateInstance e FastCopyValue), che hanno il compito di generare l&rsquo;IL necessario al nostro scopo.<br />
 	Il metodo FastCreateInstance ha lo scopo di creare una nuova istanza: per ottimizzare le performance viene &ldquo;cachato&rdquo; il delegate in una hashtable.</p>
-<pre class="brush: csharp; ruler: true;" title="code">private static readonly Hashtable createInstanceInvokers = new Hashtable();
+{% raw %}<pre class="brush: csharp; ruler: true;" title="code">private static readonly Hashtable createInstanceInvokers = new Hashtable();
 private delegate object CreateInstanceInvoker();
 
 private static object FastCreateInstance(this Type type)
@@ -120,10 +120,10 @@ private static object FastCreateInstance(this Type type)
     }
     return invoker();
 }
-</pre>
+</pre>{% endraw %}
 <p>
 	Per il metodo FastCopyValues il discorso &egrave; pi&ugrave; o meno lo stesso, si ha un&rsquo;hashtable per il caching del delegate ed il codice IL necessario a copiare i valori:</p>
-<pre class="brush: csharp; ruler: true;" title="code">private static readonly Hashtable getAndSetValuesInvokers = new Hashtable();
+{% raw %}<pre class="brush: csharp; ruler: true;" title="code">private static readonly Hashtable getAndSetValuesInvokers = new Hashtable();
 private delegate void GetSetValuesInvoker(object source, object target);
 
 private static void FastCopyValues(this IEnumerable<propertyinfo> property, object source, object target)
@@ -188,11 +188,11 @@ private static GetSetValuesInvoker GetGetAndSetCachedInvoker(IEnumerable<propert
 
     return invoker;
 }
-</propertyinfo></propertyinfo></pre>
+</propertyinfo></propertyinfo></pre>{% endraw %}
 <p>
 	Come si pu&ograve; vedere dal codice precedente, spesso viene utilizzata un hashtable per il caching dei delegate e delle propriet&agrave; da copiare. Seppure ad ogni lettura viene effettuato un cast, l&rsquo;hashtable risulta molto pi&ugrave; adatta rispetto ad un Dictionary tipizzato, in quanto &egrave; gi&agrave; thread-safe, evitando cos&igrave; l&rsquo;inserimento di vari lock nel codice.<br />
 	Se a prima vista pu&ograve; sembrare complesso, baster&agrave; guardare il codice seguente per capire la sua semplicit&agrave; di utilizzo.</p>
-<pre class="brush: csharp; ruler: true;" title="code">User item = new User
+{% raw %}<pre class="brush: csharp; ruler: true;" title="code">User item = new User
                 {
                     ID = 45, 
                     Username = &quot;imperugo&quot;, 
@@ -204,6 +204,6 @@ private static GetSetValuesInvoker GetGetAndSetCachedInvoker(IEnumerable<propert
 
 
 UserDTO returnItem = item.CopySameValues<userdto>();
-</userdto></pre>
+</userdto></pre>{% endraw %}
 <p>
 	L&rsquo;unica accortezza che bisogna avere riguarda le propriet&agrave; che si vogliono copiare tra le due entit&agrave;, che devono avere lo stesso nome ed essere dello stesso tipo, per il resto &egrave; semplicissimo.</p>

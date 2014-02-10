@@ -22,7 +22,7 @@ comments: []
 	In un primo step avevo approcciato ad un sistema come quello spiegato <a href="http://www.silverlightshow.net/items/Deep-zooming-on-the-fly.aspx" rel="nofollow" target="_blank" title="Deep zooming on the fly">qui</a>, ma senza l&rsquo;utilizzo dell&rsquo;HttpHandler. Successivamente, grazie al preparatissimo <a href="http://blogs.aspitalia.com/novecento/" rel="nofollow friend met co-worker colleague" target="_new">Alessio</a>, ho cambiato metodo andando ad utilizzare l&rsquo;apposita libreria messa a disposizione da <strong><em>DeepZoom Composer,</em></strong> che possiamo trovare in &ldquo;<em>C:\Program Files\Microsoft Expression\Deep Zoom Composer</em>&rdquo; con il nome di <strong><em>DeepZoomTools.dll. <br />
 	<br />
 	</em></strong>Questa libreria (totalmente managed) mette gi&agrave; a disposizione tutti i metodi necessari ad effettuare il resize e la creazione del file contenente la collection di foto rendendo semplice la parte di resize. Di fatto, una volta referenziata la libreria nel nostro progetto web, &egrave; semplicissimo effettuare il resize, come mostrato dagli snippet seguenti:</p>
-<pre class="brush: csharp; ruler: true;">public void Image(string sourceFile, string targetFolder)
+{% raw %}<pre class="brush: csharp; ruler: true;">public void Image(string sourceFile, string targetFolder)
     {
         ImageCreator ic = new ImageCreator
                             {
@@ -82,6 +82,6 @@ comments: []
             images.AddRange(GetImagesInDirectory(sub));
 
         return images;
-    }</pre>
+    }</pre>{% endraw %}
 <p>
 	Un grazie ad <a href="http://blogs.aspitalia.com/novecento/" rel="nofollow friend met co-worker colleague" target="_new">Alessio</a> per l&rsquo;ottima info.</p>

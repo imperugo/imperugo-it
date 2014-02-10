@@ -31,9 +31,9 @@ ma &egrave; giusto implementare nel domain l'interfaccia <strong>INotifyProperty
 <p>Quello che mi chiedo io non &egrave; il caso che nel Domain per gestire le collection si utilizzi una sintassi del tipo:</p>
 <div class="codeboxheader">&nbsp;</div>
 <div class="codebox">
-<pre>
+{% raw %}<pre>
  IList roles = new List<span style="color: rgb(0, 0, 255);">&lt;</span><span style="color: rgb(128, 0, 0);">T</span><span style="color: rgb(0, 0, 255);">&gt;</span> 
-</pre>
+</pre>{% endraw %}
 </div>
 <p>e l'interfaccia <strong>INotifyPropertyChanged </strong>venga implementata nel UI che la richieda e non nel Domain in modo da avere un domain &quot;perfetto&quot; per ogni tipo di applicazione??</p>
 <p>Una parte di questo mio dubbio &egrave; risolvibile utilizzando un oggetto per WinForm che come dice il sito stesso:</p>

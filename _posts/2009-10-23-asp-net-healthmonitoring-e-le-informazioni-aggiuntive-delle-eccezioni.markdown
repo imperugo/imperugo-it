@@ -42,7 +42,7 @@ comments: []
 <p>
 	Per far ci&ograve; una buona pratica &egrave; quella di <strong>inserire questi valori nell&rsquo;apposito Dictionary Data</strong> presente nell&rsquo;oggetto Exception in modo da avere in un&rsquo;unico oggetto sia lo stack che le informazioni legate all&rsquo;eccezione. <br />
 	Lo snippet seguente mostra come sfruttarlo:</p>
-<pre class="brush: csharp; ruler: true;">public static void Send(Uri sourceUrl, Uri targetUrl)
+{% raw %}<pre class="brush: csharp; ruler: true;">public static void Send(Uri sourceUrl, Uri targetUrl)
 {
     try
     {
@@ -55,10 +55,10 @@ comments: []
 
         Log.Log.General.Error(&quot;Send PingBack Error&quot;, ex);
     }
-}</pre>
+}</pre>{% endraw %}
 <p>
 	Purtroppo i provider dell&rsquo;HealthMonitoring messi a disposizione dal .NET Framework non memorizzano questo tipo di informazioni, il che ci obbliga (se siamo interessati a tener traccia di queste informazioni) a scriverci un provider custom che dovrebbe essere pi&ugrave; o meno cos&igrave;:</p>
-<pre class="brush: csharp; ruler: true;">public class HealthMonitorDataBaseProvider : BufferedWebEventProvider
+{% raw %}<pre class="brush: csharp; ruler: true;">public class HealthMonitorDataBaseProvider : BufferedWebEventProvider
 {
     public override void ProcessEvent(WebBaseEvent eventRaised)
     {
@@ -109,6 +109,6 @@ comments: []
             new LogService().Save(item);
         }
     }
-}</pre>
+}</pre>{% endraw %}
 <p>
 	stay connected!</p>

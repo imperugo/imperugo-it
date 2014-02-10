@@ -25,10 +25,10 @@ comments: []
 
 <p>Dando un occhio al codice, questo markup </p>
 
-<pre class="brush: xml;">&lt;img src=&quot;@Url.Content(&quot;~/Content/mylogo.png&quot;)&quot; /&gt;</pre>
+{% raw %}<pre class="brush: xml;">&lt;img src=&quot;@Url.Content(&quot;~/Content/mylogo.png&quot;)&quot; /&gt;</pre>{% endraw %}
 
 <p>con Razor v2 diventa semplicemente questo</p>
 
-<pre class="brush: xml;">&lt;img src=&quot;~/Content/mylogo.png&quot; /&gt;</pre>
+{% raw %}<pre class="brush: xml;">&lt;img src=&quot;~/Content/mylogo.png&quot; /&gt;</pre>{% endraw %}
 
 <p>Beh comodo no?</p>

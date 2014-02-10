@@ -24,7 +24,7 @@ comments: []
 </blockquote>
 <p>Questo avviene perch&egrave;, all&rsquo;interno della classe <a target="_blank" href="http://msdn.microsoft.com/en-us/library/system.web.mvc.controller.aspx">Controller</a> (<strong>System.Web.Mvc.Controller</strong>) nel metodo <strong>Get</strong>, viene restituita (nel caso non fosse stato impostato un TempDataProvider differente) un&rsquo;istanza della classe <a target="_blank" href="http://msdn.microsoft.com/en-us/library/system.web.mvc.sessionstatetempdataprovider.aspx">SessionStateTempDataProvider</a>, e ne verr&agrave; invocato il <strong>metodo</strong> Load all&rsquo;interno del metodo ExecuteCore del Controller.</p>
 <p>Per capirne meglio il funzionamento basta guardare lo snippet seguente:</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 public ITempDataProvider TempDataProvider
 {
      get
@@ -46,15 +46,15 @@ protected override void ExecuteCore()
   base.TempData.Load(base.ControllerContext, this.TempDataProvider);
 
   //&hellip;
-}</pre>
+}</pre>{% endraw %}
 <p>Se si ha la fortuna (o sfortuna, in base ai punti di vista) di sviluppare applicazioni che hanno come requisito il funzionamento in una server farm, la sessione non pu&ograve; essere utilizzata (salvo uso di frameowrk particolari), ed il provider deve essere sostituito con qualcosa di pi&ugrave; estensibile.</p>
 <p>Per poter rispettare il requisito &egrave; necessario impostare un <a target="_blank" href="http://msdn.microsoft.com/en-us/library/system.web.mvc.controller.tempdataprovider.aspx">TempDataProvider</a> nel metodo <strong>Inizialize</strong> del <strong>Controller</strong> con una classe sostitutiva, come mostrato di seguito:</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 protected override void Initialize(RequestContext requestContext)
 {
   TempDataProvider = new CookieTempDataProvider(requestContext.HttpContext);
   base.Initialize(requestContext);
-}</pre>
+}</pre>{% endraw %}
 <p>Il custom provider dovr&agrave; implementare l&rsquo;interfaccia <a target="_blank" href="http://msdn.microsoft.com/en-us/library/system.web.mvc.itempdataprovider.aspx">ITempDataProvider</a> che richiede i seguenti metodi:</p>
 <ul>
     <li><strong>LoadTempData</strong>;</li>

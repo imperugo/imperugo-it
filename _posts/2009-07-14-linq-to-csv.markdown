@@ -23,7 +23,7 @@ comments: []
 L&rsquo;idea di potersi avvalere di Linq per effettuare query e manipolazioni di dati su diversi repository, che siano questi database, CSV o oggetti in memoria, &egrave; a dir poco fantastica.</p>
 <p>L&rsquo;utilizzo &egrave; semplicissimo, basta decorare con gli appositi attributi la classe, specificare come si vuole utilizzare il CSV, se in scrittura o in lettura, e, in quest&rsquo;ultimo caso, &egrave; possibile eseguire la query Linq.</p>
 <p>Lo Snippet seguente mostra un&rsquo;implementazione in lettura.</p>
-<pre class="brush: csharp; ruler: true;">
+{% raw %}<pre class="brush: csharp; ruler: true;">
 CsvFileDescription inputFileDescription = new CsvFileDescription
 {
     SeparatorChar = ';',
@@ -50,5 +50,5 @@ public class PersonCSV
 
     [CsvColumn(Name = &quot;NickName&quot;, FieldIndex = 3, CanBeNull=true)]
     public string Nickname { get; set; }
-}</pre>
+}</pre>{% endraw %}
 <p>Ulteriori informazioni le trovate <a target="_blank" rel="nofollow" href="http://www.codeproject.com/KB/linq/LINQtoCSV.aspx" title="Linq To Csv">qui</a>.</p>

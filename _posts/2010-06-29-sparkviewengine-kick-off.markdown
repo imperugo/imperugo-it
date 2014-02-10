@@ -17,11 +17,11 @@ tags:
 - SparkViewEngine
 comments: []
 ---
-<p>Già nel post precedente avevo annunciato una serie di contenuti riguardanti <a title="SparkViewEngine" href="http://sparkviewengine.com/" rel="nofollow" target="_blank">SparkViewEngine</a>. Per approfondire l’utilizzo di questo engine ho cominciato il porting della skin del mio blog: devo dire che, man mano che lo utilizzo, rimango colpito dalla sua produttività e potenza, a partire dalle cose più semplici fino ad arrivare a funzioni un po’ più avanzate che permettono di creare delle vere e proprie funzioni e/o ottimizzazioni.</p>  <p>Per chi non abbia voglia di aspettare e voglia vedere un utilizzo un po’ più “spinto” di Spark, consiglio di dare un’occhiata al codice di <a title="Dexter Blog Engine Category" href="http://www.imperugo.tostring.it/categories/archive/Dexter" target="_blank">Dexter</a> e, nello specifico, alla cartella Themes/Fusion, dove si trova il porting della mia skin che è abbastanza ricca di html.</p>  <p>Come preannuncia il titolo, questo post ha lo scopo di mostrare come utilizzare da subito per una semplicissima applicazione SparkViewEngine, quindi configurarlo e capirne un po’ la logica.</p>  <p>Una volta scaricato il codice da <a title="SparkViewEngine Download" href="http://sparkviewengine.codeplex.com/releases/view/27601" rel="nofollow" target="_blank">qui</a>, basta referenziare le due Assembly che ne permettono l’utilizzo in <a title="ASP.NET MVC Search" href="http://www.imperugo.tostring.it/tags/archive/mvc" target="_blank">ASP.NET MVC</a>, Spark.dll e Spark.Web.Mvc.Dll e registrare il nuovo ViewEngine allo startup dell’applicativo; quindi nel global.asax.cs basta inserire il seguente codice:</p>  <pre class="brush: csharp;">protected void Application_Start(object sender, EventArgs e)
+<p>Già nel post precedente avevo annunciato una serie di contenuti riguardanti <a title="SparkViewEngine" href="http://sparkviewengine.com/" rel="nofollow" target="_blank">SparkViewEngine</a>. Per approfondire l’utilizzo di questo engine ho cominciato il porting della skin del mio blog: devo dire che, man mano che lo utilizzo, rimango colpito dalla sua produttività e potenza, a partire dalle cose più semplici fino ad arrivare a funzioni un po’ più avanzate che permettono di creare delle vere e proprie funzioni e/o ottimizzazioni.</p>  <p>Per chi non abbia voglia di aspettare e voglia vedere un utilizzo un po’ più “spinto” di Spark, consiglio di dare un’occhiata al codice di <a title="Dexter Blog Engine Category" href="http://www.imperugo.tostring.it/categories/archive/Dexter" target="_blank">Dexter</a> e, nello specifico, alla cartella Themes/Fusion, dove si trova il porting della mia skin che è abbastanza ricca di html.</p>  <p>Come preannuncia il titolo, questo post ha lo scopo di mostrare come utilizzare da subito per una semplicissima applicazione SparkViewEngine, quindi configurarlo e capirne un po’ la logica.</p>  <p>Una volta scaricato il codice da <a title="SparkViewEngine Download" href="http://sparkviewengine.codeplex.com/releases/view/27601" rel="nofollow" target="_blank">qui</a>, basta referenziare le due Assembly che ne permettono l’utilizzo in <a title="ASP.NET MVC Search" href="http://www.imperugo.tostring.it/tags/archive/mvc" target="_blank">ASP.NET MVC</a>, Spark.dll e Spark.Web.Mvc.Dll e registrare il nuovo ViewEngine allo startup dell’applicativo; quindi nel global.asax.cs basta inserire il seguente codice:</p>  {% raw %}<pre class="brush: csharp;">protected void Application_Start(object sender, EventArgs e)
 {
     RegisterRoutes(RouteTable.Routes);
     SparkEngineStarter.RegisterViewEngine();
-}</pre>
+}</pre>{% endraw %}
 
 <p>A questo punto l’applicazione è abile ed arruolata a sfruttare tutte le potenzialità di Spark, ma prima di scrivere un po’ di codice nella view è importante sapere che:</p>
 
@@ -39,7 +39,7 @@ comments: []
 
 <p>Il codice seguente mostra una master page realizzata con spark:</p>
 
-<pre class="brush: xml;">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+{% raw %}<pre class="brush: xml;">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
     &lt;head&gt;
         &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;/&gt;
@@ -56,14 +56,14 @@ comments: []
         &lt;use content=&quot;MainContent&quot;&gt;&lt;/use&gt;
         qualcosa ......
     &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</pre>{% endraw %}
 
 <p>Come potete vedere non è presente nessun codeblock a inizio pagina e le risorse tipo css, img, etc. posso essere specificate con il prefisso tilde <strong><em>~/&#160; , </em></strong>che verrà sostituito dall’engine di spark con la root del sito o con quello che ci è più congeniale.</p>
 
 <p>Per ora ci basta creare la nostra master page e specificare i placeholder tramite il tag Use, che andremo a riutilizzare nel vista in questo modo:</p>
 
-<pre class="brush: xml;">&lt;content name=&quot;MainContent&quot;&gt;
+{% raw %}<pre class="brush: xml;">&lt;content name=&quot;MainContent&quot;&gt;
     Benvenuto Spark!
-&lt;/content&gt;</pre>
+&lt;/content&gt;</pre>{% endraw %}
 
 <p>Anche qui, come potete vedere, tutti i codeblock sono spariti a vantaggio della leggibilià e del numero ridotto di righe presenti all’inteno della view (fidatevi, questo non è nulla <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smile" src="http://tostring.it/UserFiles/imperugo/wlEmoticonsmile.png" />).</p>
