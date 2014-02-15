@@ -1,6 +1,6 @@
-# Haacked.com
+# tostring.it
 
-This is my blog. There are many like it, but this one is mine.
+This is my blog build using [Jekyll](http://jekyllrb.com/). The skin is based on [Haacked.com](https://github.com/Haacked/haacked.com) repository.
 
 ## Testing
 
@@ -10,3 +10,21 @@ This is my blog. There are many like it, but this one is mine.
 bundle install
 bundle exec rake test
 ```
+
+## Add new post
+```ruby
+rake post title="Hello World"
+```
+
+## Add new page
+Create pages easily via rake task:
+
+$ rake page name="about.md"
+Create a nested page:
+
+$ rake page name="pages/about.md"
+Create a page with a "pretty" path:
+
+$ rake page name="pages/about"
+# this will create the file: ./pages/about/index.html
+The rake task automatically creates a page file with properly formatted filename and YAML Front Matter as well as includes the Jekyll Bootstrap "setup" file.
