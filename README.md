@@ -19,12 +19,22 @@ rake post title="Hello World"
 ## Add new page
 Create pages easily via rake task:
 
+```
 $ rake page name="about.md"
+```
+
 Create a nested page:
 
+```
 $ rake page name="pages/about.md"
+```
+
 Create a page with a "pretty" path:
 
+```
 $ rake page name="pages/about"
-# this will create the file: ./pages/about/index.html
-The rake task automatically creates a page file with properly formatted filename and YAML Front Matter as well as includes the Jekyll Bootstrap "setup" file.
+```
+
+this will create the file: ./pages/about/index.html
+
+Both pages and posts will be created with the right formatted filename and YAML Front Matter
