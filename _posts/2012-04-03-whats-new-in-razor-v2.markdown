@@ -31,43 +31,47 @@ comments: true
 
 <p>Per renderla più semplice, diamo un’occhiata al seguente codice:</p>
 
-{% raw %}<pre class="brush: xml;">&lt;!-- Nome della classe css presa da una variabile --&gt;
-&lt;p class=&quot;@myCssClass&quot;&gt;.....&lt;/p&gt;
+{% highlight xml %}
+<!-- Nome della classe css presa da una variabile -->
+<p class="@myCssClass">.....</p>
 
 
-&lt;!-- markup necessario in caso la variabile sia nulla --&gt;
-&lt;p&gt;.....&lt;/p&gt;</pre>{% endraw %}
-
+<!-- markup necessario in caso la variabile sia nulla -->
+<p>.....</p>
+{% endhighlight %}
 <p>Come potete vedere, la variabile myCssClass viene utilizzata per impostare la classe css appunto, in base ad un qualcosa (un evento, un settaggio, etc) gestito server side.</p>
 
 <p>Ma cosa succede se dovete gestire anche la possibilità di non impostare la classe? 
   <br />Precedentemente a Razor V2 l’approccio sarebbe stato più o meno questo:</p>
 
-{% raw %}<pre class="brush: xml;">@{
-    var myCssClass = (bool)ViewBag.IsBol ? &quot;boldClass&quot; : null;
+{% highlight xml %}
+@{
+    var myCssClass = (bool)ViewBag.IsBol ? "boldClass" : null;
 }
 
 @if(myCssClass != null){
-    &lt;p class=&quot;@myCssClass&quot;&gt;@ViewBag.Text&lt;/p&gt;
+    <p class="@myCssClass">@ViewBag.Text</p>
 }
 else{
-    &lt;p&gt;@ViewBag.Text&lt;/p&gt;
-}</pre>{% endraw %}
-
+    <p>@ViewBag.Text</p>
+}
+{% endhighlight %}
 <p>Al contrario, con la nuova release di Razor, diventa tutto più semplice. Se impostate il valore della variabile myCssClass a null l’attributo non viene renderizzato, in caso contrario si.</p>
 
-{% raw %}<pre class="brush: xml;">&lt;p class=&quot;@myCssClass&quot;&gt;@ViewBag.Text&lt;/p&gt;</pre>{% endraw %}
-
+{% highlight xml %}
+<p class="@myCssClass">@ViewBag.Text</p>
+{% endhighlight %}
 <p>Bisogna prestare attenzione al fatto che il contenuto string.empty (nel caso di una stringa) renderizza ugualmente l’attributo, quindi solo null impedisce il rendering.</p>
 
 <p>Nel caso di value type tipo il booleano, la situazione non cambia molto. In questo caso il true renderizza l’attributo checked, mentre il false no.</p>
 
-{% raw %}<pre class="brush: xml;">&lt;!-- codice con --&gt;
+{% highlight xml %}
+<!-- codice con -->
 
 @{
     ViewBag.IsBol = true;
 }
 
-&lt;input type=&quot;checkbox&quot; checked=&quot;@ViewBag.IsBol&quot; /&gt;</pre>{% endraw %}
-
+<input type="checkbox" checked="@ViewBag.IsBol" />
+{% endhighlight %}
 <p>Razor Rulez!</p>

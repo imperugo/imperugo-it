@@ -19,11 +19,12 @@ tags:
 - Json
 comments: true
 ---
-<p>Con la release di <a href="http://www.imperugo.tostring.it/tags/archive/mvc">ASP.NET MVC</a> 2 è stata introdotta una “breaking change”, direi corretta e necessaria, che va ad influenzare il comportamente di un JsonResult; nello specifico, la nuova release non permette di interrogare una action che restituisce le informazioni in formato JSon tramite il JSonResult se l’invocazione è stata fatta in GET anziché POST.</p>  <p>Prima di allarmarci è necessario dire che è possibile ancora invocare la Action in GET; di fatto la scritta breaking change era tra virgolette, e possiamo in qualsiasi momento ripristinare il comportamento della release precedente in questo modo:</p>  {% raw %}<pre class="brush: csharp;">public ActionResult JsonAction()
+<p>Con la release di <a href="http://www.imperugo.tostring.it/tags/archive/mvc">ASP.NET MVC</a> 2 è stata introdotta una “breaking change”, direi corretta e necessaria, che va ad influenzare il comportamente di un JsonResult; nello specifico, la nuova release non permette di interrogare una action che restituisce le informazioni in formato JSon tramite il JSonResult se l’invocazione è stata fatta in GET anziché POST.</p>  <p>Prima di allarmarci è necessario dire che è possibile ancora invocare la Action in GET; di fatto la scritta breaking change era tra virgolette, e possiamo in qualsiasi momento ripristinare il comportamento della release precedente in questo modo:</p>  {% highlight csharp %}
+public ActionResult JsonAction()
 {
     return Json ( myObject, JsonRequestBehavior.AllowGet );
-}</pre>{% endraw %}
-
+}
+{% endhighlight %}
 <p>Ovviamente in caso di upgrade alla nuova versione di MVC questo può causare un malfunzionamento della nostra applicazione, specie se questa fa forte uso di javascript per interrogare actions e popolare dinamicamente parti di HTML. 
   <br />Nonostante l’enorme supporto offerto da <a href="http://tostring.it/tags/archive/visual+studio">Visual Studio</a> 2010, spesso può risultare scomodo, o ancora peggio costoso, modificare il codice javascript per adattare la nostra applicazione al nuovo comportamento richiesto, e siamo portati a lavorare sul codice lato server anziché client. 
 
@@ -43,27 +44,29 @@ comments: true
 
 <p>Guardando il lato pragmatico della cosa, lo snippet seguente mostra come precedentemente recuperavamo le informazioni da una fonte dati Json:</p>
 
-{% raw %}<pre class="brush: csharp;">$.getJSON('/Home/JsonAction', function (dr) {
+{% highlight csharp %}
+$.getJSON('/Home/JsonAction', function (dr) {
     $.each(dr, function () {
         //DO SOMETHING
     });
-});</pre>{% endraw %}
-
+});
+{% endhighlight %}
 <p>Questo sistema non è sbagliato, ma non ci permette di cambiare il “method” della richiesta. Fortunatamente il metodo getJson presente nello snippet è soltanto un overload del metodo ajax(), che ci offre un maggior numero di opzioni, alcune delle quali utili al raggiungimento del nostro scopo. </p>
 
 <p>Di seguito si può vedere come è possibile invocare la action anche in POST:</p>
 
-{% raw %}<pre class="brush: csharp;">$.ajax({
-    type: &quot;POST&quot;,
-    url: &quot;/Home/JsonAction,
+{% highlight csharp %}
+$.ajax({
+    type: "POST",
+    url: "/Home/JsonAction,
     dataType: 'json',
     success: function (dr) {
         $.each(dr, function () {
         //DO SOMETHING
         });
     }
-});</pre>{% endraw %}
-
+});
+{% endhighlight %}
 <p>A questo punto ci siamo tutelati da un eventuale attacco come quello di cui è stata vittima Google, ed abbiamo modificato a costo “piuttosto basso” il nostro codice javascript.</p>
 
 <p>jQuery Rulez! 

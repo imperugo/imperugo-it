@@ -31,12 +31,14 @@ comments: true
 	A partire dalla versione 7.x di IIS siamo abituati a vedere una nuova sezione nel file di configurazione: &ldquo;system.webServer&rdquo;, sezione questa che viene ignorata nel caso l&rsquo;applicazione stia girando in una versione antecedente alla 7.x (quindi non spaventiamoci se ci troviamo su Windows 2003 ed abbiamo questa strana sezione J).</p>
 <p>
 	Al suo interno possiamo impostare parecchi parametri, tra i quali ci sono i mime-type. Questa procedura &egrave; veramente molto semplice, ci basta infatti aggiungere poche righe di XML per avere ci&ograve; che ci serve, come mostrato dal codice seguente:</p>
-{% raw %}<pre class="brush: xml;"><system.webserver>
+{% highlight xml %}
+<system.webserver>
     <staticcontent>
         <mimemap fileextension=".mp4" mimetype="video/mp4">
         <mimemap fileextension=".m4v" mimetype="video/m4v">
     </mimemap></mimemap></staticcontent>
-</system.webserver></pre>{% endraw %}
+</system.webserver>
+{% endhighlight %}
 <p>
 	&Egrave; molto importante fare attenzione a cosa ci &egrave; consentito fare e cosa no da IIS. Infatti non &egrave; detto che l&rsquo;amministratore di sistema voglia offrire la possibilit&agrave; allo sviluppatore di cambiare alcuni settaggi. Infatti &egrave; necessario che le &ldquo;Delegation&rdquo; di IIS siano impostate in &ldquo;Allow&rdquo; per le sezioni che ci interessano.</p>
 <p>

@@ -16,17 +16,18 @@ tags:
 - Async
 comments: true
 ---
-<p>Il bello di avere un <a title="Mauro Servienti&#39;s Blog" href="http://topics.it/" rel="nofollow" target="_blank">collega</a> MVP su C#, ma ancor prima devMaskio, è che quando hai un dubbio sul linguaggio lui sa subito risponderti e spesso con una soluzione al tuo problema.     <br />Sorvolando la domanda ed il perchè è nata, l’idea era quella di evitare la noiosa costruzione di apposite classi di “<strong><em>state</em></strong>” per invocare metodi in asincroni.     <br />Osservando la parte pragmatica del problema, prima della versione 4.0 del <a title=".NET Framework Search" href="http://www.imperugo.tostring.it/tags/archive/.net" target="_blank">.NET Framework</a> quello che dovevamo fare per invocare un metodo asincrono era più o meno questo:</p>  {% raw %}<pre class="brush: csharp;">internal class Program
+<p>Il bello di avere un <a title="Mauro Servienti&#39;s Blog" href="http://topics.it/" rel="nofollow" target="_blank">collega</a> MVP su C#, ma ancor prima devMaskio, è che quando hai un dubbio sul linguaggio lui sa subito risponderti e spesso con una soluzione al tuo problema.     <br />Sorvolando la domanda ed il perchè è nata, l’idea era quella di evitare la noiosa costruzione di apposite classi di “<strong><em>state</em></strong>” per invocare metodi in asincroni.     <br />Osservando la parte pragmatica del problema, prima della versione 4.0 del <a title=".NET Framework Search" href="http://www.imperugo.tostring.it/tags/archive/.net" target="_blank">.NET Framework</a> quello che dovevamo fare per invocare un metodo asincrono era più o meno questo:</p>  {% highlight csharp %}
+internal class Program
 {
     private static void Main(string[] args)
     {
         AsyncCallState obj = new AsyncCallState
                                  {
-                                     Property1 = &quot;String&quot; ,
+                                     Property1 = "String" ,
                                      Property2 = 10 ,
                                      Property3 = new AsyncCallState2 ()
                                                      {
-                                                         P1 = &quot;SubProperty1&quot;
+                                                         P1 = "SubProperty1"
                                                      }
                                  };
 
@@ -57,22 +58,23 @@ internal class AsyncCallState
 internal class AsyncCallState2
 {
     public string P1 { get; set; }
-}</pre>{% endraw %}
-
+}
+{% endhighlight %}
 <p>Come potete vedere le classi AsyncCallState ed AsyncCallState2 hanno un utilizzo ridottissimo e legato soltanto a questa chiamata, infatti difficilmente ci capiterà di riutilizzare questa classe per altre firme all’interno della nostra applicazione. 
   <br />Grazie alla keyword <em><strong><a title="Using Type dynamic (C# Programming Guide)" href="http://msdn.microsoft.com/en-us/library/dd264736.aspx" rel="nofollow" target="_blank">dynamic</a></strong></em> di C# 4.0 è possibile evitare la costruzione di questa classe e risparmiare un bel po’ di tempo:</p>
 
-{% raw %}<pre class="brush: csharp;">internal class Program
+{% highlight csharp %}
+internal class Program
 {
     private static void Main ( string[] args )
     {
         ThreadPool.QueueUserWorkItem ( AsyncCall , new
                                                        {
-                                                           Property1 = &quot;String&quot; ,
+                                                           Property1 = "String" ,
                                                            Property2 = 10 ,
                                                            Property3 = new
                                                                            {
-                                                                               P1 = &quot;SubProperty1&quot;
+                                                                               P1 = "SubProperty1"
                                                                            }
                                                        } );
 
@@ -90,6 +92,6 @@ internal class AsyncCallState2
         string sP1 = p3.P1;
 
     }
-}</pre>{% endraw %}
-
+}
+{% endhighlight %}
 <p>Ciauz</p>

@@ -17,12 +17,13 @@ tags:
 - SparkViewEngine
 comments: true
 ---
-<p>Già nel post precedente avevo annunciato una serie di contenuti riguardanti <a title="SparkViewEngine" href="http://sparkviewengine.com/" rel="nofollow" target="_blank">SparkViewEngine</a>. Per approfondire l’utilizzo di questo engine ho cominciato il porting della skin del mio blog: devo dire che, man mano che lo utilizzo, rimango colpito dalla sua produttività e potenza, a partire dalle cose più semplici fino ad arrivare a funzioni un po’ più avanzate che permettono di creare delle vere e proprie funzioni e/o ottimizzazioni.</p>  <p>Per chi non abbia voglia di aspettare e voglia vedere un utilizzo un po’ più “spinto” di Spark, consiglio di dare un’occhiata al codice di <a title="Dexter Blog Engine Category" href="http://www.imperugo.tostring.it/categories/archive/Dexter" target="_blank">Dexter</a> e, nello specifico, alla cartella Themes/Fusion, dove si trova il porting della mia skin che è abbastanza ricca di html.</p>  <p>Come preannuncia il titolo, questo post ha lo scopo di mostrare come utilizzare da subito per una semplicissima applicazione SparkViewEngine, quindi configurarlo e capirne un po’ la logica.</p>  <p>Una volta scaricato il codice da <a title="SparkViewEngine Download" href="http://sparkviewengine.codeplex.com/releases/view/27601" rel="nofollow" target="_blank">qui</a>, basta referenziare le due Assembly che ne permettono l’utilizzo in <a title="ASP.NET MVC Search" href="http://www.imperugo.tostring.it/tags/archive/mvc" target="_blank">ASP.NET MVC</a>, Spark.dll e Spark.Web.Mvc.Dll e registrare il nuovo ViewEngine allo startup dell’applicativo; quindi nel global.asax.cs basta inserire il seguente codice:</p>  {% raw %}<pre class="brush: csharp;">protected void Application_Start(object sender, EventArgs e)
+<p>Già nel post precedente avevo annunciato una serie di contenuti riguardanti <a title="SparkViewEngine" href="http://sparkviewengine.com/" rel="nofollow" target="_blank">SparkViewEngine</a>. Per approfondire l’utilizzo di questo engine ho cominciato il porting della skin del mio blog: devo dire che, man mano che lo utilizzo, rimango colpito dalla sua produttività e potenza, a partire dalle cose più semplici fino ad arrivare a funzioni un po’ più avanzate che permettono di creare delle vere e proprie funzioni e/o ottimizzazioni.</p>  <p>Per chi non abbia voglia di aspettare e voglia vedere un utilizzo un po’ più “spinto” di Spark, consiglio di dare un’occhiata al codice di <a title="Dexter Blog Engine Category" href="http://www.imperugo.tostring.it/categories/archive/Dexter" target="_blank">Dexter</a> e, nello specifico, alla cartella Themes/Fusion, dove si trova il porting della mia skin che è abbastanza ricca di html.</p>  <p>Come preannuncia il titolo, questo post ha lo scopo di mostrare come utilizzare da subito per una semplicissima applicazione SparkViewEngine, quindi configurarlo e capirne un po’ la logica.</p>  <p>Una volta scaricato il codice da <a title="SparkViewEngine Download" href="http://sparkviewengine.codeplex.com/releases/view/27601" rel="nofollow" target="_blank">qui</a>, basta referenziare le due Assembly che ne permettono l’utilizzo in <a title="ASP.NET MVC Search" href="http://www.imperugo.tostring.it/tags/archive/mvc" target="_blank">ASP.NET MVC</a>, Spark.dll e Spark.Web.Mvc.Dll e registrare il nuovo ViewEngine allo startup dell’applicativo; quindi nel global.asax.cs basta inserire il seguente codice:</p>  {% highlight csharp %}
+protected void Application_Start(object sender, EventArgs e)
 {
     RegisterRoutes(RouteTable.Routes);
     SparkEngineStarter.RegisterViewEngine();
-}</pre>{% endraw %}
-
+}
+{% endhighlight %}
 <p>A questo punto l’applicazione è abile ed arruolata a sfruttare tutte le potenzialità di Spark, ma prima di scrivere un po’ di codice nella view è importante sapere che:</p>
 
 <ul>
@@ -39,31 +40,33 @@ comments: true
 
 <p>Il codice seguente mostra una master page realizzata con spark:</p>
 
-{% raw %}<pre class="brush: xml;">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
-&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
-    &lt;head&gt;
-        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;/&gt;
-        &lt;title&gt;&lt;use content=&quot;title&quot;&gt;${Model.Title}&lt;/use&gt;&lt;/title&gt;
-        &lt;meta name=&quot;description&quot; content=&quot;${Model.Description}&quot; /&gt; 
-        &lt;meta name=&quot;keywords&quot; content=&quot;${Model.KeyWords}&quot; /&gt; 
-        &lt;meta name=&quot;author&quot; content=&quot;${Model.Author}&quot; /&gt;
-        &lt;link rel=&quot;SHORTCUT ICON&quot; href=&quot;~/images/favicon.ico&quot; type=&quot;image/x-icon&quot; /&gt;
-        &lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;~/Styles/Site.css&quot; /&gt;
-        &lt;script src=&quot;~/Scripts/jquery.watermark.js&quot; type=&quot;text/javascript&quot; language=&quot;javascript&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;~/Scripts/jquery.fancybox-1.3.1.pack.js&quot; type=&quot;text/javascript&quot; language=&quot;javascript&quot;&gt;&lt;/script&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;use content=&quot;MainContent&quot;&gt;&lt;/use&gt;
+{% highlight xml %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title><use content="title">${Model.Title}</use></title>
+        <meta name="description" content="${Model.Description}" /> 
+        <meta name="keywords" content="${Model.KeyWords}" /> 
+        <meta name="author" content="${Model.Author}" />
+        <link rel="SHORTCUT ICON" href="~/images/favicon.ico" type="image/x-icon" />
+        <link type="text/css" rel="stylesheet" href="~/Styles/Site.css" />
+        <script src="~/Scripts/jquery.watermark.js" type="text/javascript" language="javascript"></script>
+        <script src="~/Scripts/jquery.fancybox-1.3.1.pack.js" type="text/javascript" language="javascript"></script>
+    </head>
+    <body>
+        <use content="MainContent"></use>
         qualcosa ......
-    &lt;/body&gt;
-&lt;/html&gt;</pre>{% endraw %}
-
+    </body>
+</html>
+{% endhighlight %}
 <p>Come potete vedere non è presente nessun codeblock a inizio pagina e le risorse tipo css, img, etc. posso essere specificate con il prefisso tilde <strong><em>~/&#160; , </em></strong>che verrà sostituito dall’engine di spark con la root del sito o con quello che ci è più congeniale.</p>
 
 <p>Per ora ci basta creare la nostra master page e specificare i placeholder tramite il tag Use, che andremo a riutilizzare nel vista in questo modo:</p>
 
-{% raw %}<pre class="brush: xml;">&lt;content name=&quot;MainContent&quot;&gt;
+{% highlight xml %}
+<content name="MainContent">
     Benvenuto Spark!
-&lt;/content&gt;</pre>{% endraw %}
-
+</content>
+{% endhighlight %}
 <p>Anche qui, come potete vedere, tutti i codeblock sono spariti a vantaggio della leggibilià e del numero ridotto di righe presenti all’inteno della view (fidatevi, questo non è nulla <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smile" src="http://tostring.it/UserFiles/imperugo/wlEmoticonsmile.png" />).</p>

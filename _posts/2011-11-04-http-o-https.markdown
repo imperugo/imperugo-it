@@ -16,15 +16,16 @@ tags:
 - HTML
 comments: true
 ---
-<p>Quando ci troviamo a navigare pagine web con connessione protetta - e per connessione protetta intendo tramite il protocollo https - ed alcune delle sue risorse (immagini, javascript, css, etc) non puntano ad un indirizzo sicuro, rischiamo di avere una fastidiosa notifica da parte del browser che ci obbliga a dare il consenso per mostrare i contenuti non sicuri.</p>  <p>Diamo un occhio all’html seguente per capire meglio di cosa stiamo parlando:</p>  {% raw %}<pre class="brush: xml;">    
+<p>Quando ci troviamo a navigare pagine web con connessione protetta - e per connessione protetta intendo tramite il protocollo https - ed alcune delle sue risorse (immagini, javascript, css, etc) non puntano ad un indirizzo sicuro, rischiamo di avere una fastidiosa notifica da parte del browser che ci obbliga a dare il consenso per mostrare i contenuti non sicuri.</p>  <p>Diamo un occhio all’html seguente per capire meglio di cosa stiamo parlando:</p>  {% highlight xml %}
+    
     
     
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link rel="stylesheet" href="http://mysite.com/css/mystyle.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="http://mysite.com/js/libs/modernizr-1.7.min.js?v=1.5.0.21"></script></pre>{% endraw %}
-
+    <script type="text/javascript" src="http://mysite.com/js/libs/modernizr-1.7.min.js?v=1.5.0.21"></script>
+{% endhighlight %}
 <p>Finché navighiamo la pagina sopra in http non c’è nessun problema ma, se proviamo ad aprire la stessa pagina in https, un buon browser dovrebbe notificarci il rischio a cui andiamo incontro (sia il css, sia jquery puntano ad una connessione http e non https). 
   <br />Per evitare il problema ci basta cambiare le url da http://.... ad https://..... nel caso la connessione corrente sia in https, e viceversa. 
 

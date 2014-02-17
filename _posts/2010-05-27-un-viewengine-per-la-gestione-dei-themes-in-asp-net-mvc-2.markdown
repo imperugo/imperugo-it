@@ -17,16 +17,17 @@ tags:
 - Temi
 comments: true
 ---
-<p>Tempo fa avevo parlato <a title="Gestione dei temi con ASP.NET MVC" href="http://tostring.it/blog/post/gestione-dei-temi-con-aspnet-mvc" target="_blank">qui</a> di come realizzare un ViewEngine Custom per <a href="http://www.imperugo.tostring.it/tags/archive/mvc">ASP.NET MVC</a> che permettere di gestire diversi temi per la stessa applicazione, ossia offre la possibilità di cambiare la folder dove andare a “pescare” le nostre Views, Master, etc. a runtime, ma il tutto su ASP.NET MVC 1.0.</p>  <p>Con la nuova release di MVC è stata aggiunta una comodissima novità, ossia il supporto alle “Aree”, che non sono altro che dei “sottositi” che hanno lo scopo di semplificare la struttura dei Controllers e delle Views presenti nella struttura principale.    <br />L’immagine seguente rende meglio l’idea di cosa siano le Aree e di come si collochino all’interno del nostro progetto:</p>  <p></p>  <p>&#160;</p>  <p><a href="http://tostring.it/Content/Uploaded/image//imperugo/image_5.png" rel="shadowbox"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="http://tostring.it/Content/Uploaded/image//imperugo/image_thumb_4.png" width="163" height="244" /></a>&#160;</p>  <p>Cambiando un po’ la struttura delle folders ho dovuto modificare mio “vecchio” ViewEngine in modo che “digerisca” questa nuova feature.    <br />Il codice è più o meno lo stesso del ViewEngine precedente, fatta eccezione per alcune classi (come AreaHelpers, già presente nel framework ma di tipo internal e quindi inutilizzabile).</p>  <p>Di seguito riporto il codice:</p>  <p></p>  {% raw %}<pre class="brush: csharp;">public partial class WebFormThemeViewEngine : WebFormViewEngine
+<p>Tempo fa avevo parlato <a title="Gestione dei temi con ASP.NET MVC" href="http://tostring.it/blog/post/gestione-dei-temi-con-aspnet-mvc" target="_blank">qui</a> di come realizzare un ViewEngine Custom per <a href="http://www.imperugo.tostring.it/tags/archive/mvc">ASP.NET MVC</a> che permettere di gestire diversi temi per la stessa applicazione, ossia offre la possibilità di cambiare la folder dove andare a “pescare” le nostre Views, Master, etc. a runtime, ma il tutto su ASP.NET MVC 1.0.</p>  <p>Con la nuova release di MVC è stata aggiunta una comodissima novità, ossia il supporto alle “Aree”, che non sono altro che dei “sottositi” che hanno lo scopo di semplificare la struttura dei Controllers e delle Views presenti nella struttura principale.    <br />L’immagine seguente rende meglio l’idea di cosa siano le Aree e di come si collochino all’interno del nostro progetto:</p>  <p></p>  <p>&#160;</p>  <p><a href="http://tostring.it/Content/Uploaded/image//imperugo/image_5.png" rel="shadowbox"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="http://tostring.it/Content/Uploaded/image//imperugo/image_thumb_4.png" width="163" height="244" /></a>&#160;</p>  <p>Cambiando un po’ la struttura delle folders ho dovuto modificare mio “vecchio” ViewEngine in modo che “digerisca” questa nuova feature.    <br />Il codice è più o meno lo stesso del ViewEngine precedente, fatta eccezione per alcune classi (come AreaHelpers, già presente nel framework ma di tipo internal e quindi inutilizzabile).</p>  <p>Di seguito riporto il codice:</p>  <p></p>  {% highlight csharp %}
+public partial class WebFormThemeViewEngine : WebFormViewEngine
 {
     private static readonly string[] masterLocationFormats = new[]
                                                          {
-                                                             &quot;~/Themes/{2}/Views/{1}/{0}.master&quot; , &quot;~/Themes/{2}/Views/Shared/{0}.master&quot;
+                                                             "~/Themes/{2}/Views/{1}/{0}.master" , "~/Themes/{2}/Views/Shared/{0}.master"
                                                          };
 
     private static readonly string[] viewLocationFormats = new[]
                                                        {
-                                                           &quot;~/Themes/{2}/Views/{1}/{0}.aspx&quot; , &quot;~/Themes/{2}/Views/{1}/{0}.ascx&quot; , &quot;~/Themes/{2}/Views/Shared/{0}.aspx&quot; , &quot;~/Themes/{2}/Views/Shared/{0}.ascx&quot;
+                                                           "~/Themes/{2}/Views/{1}/{0}.aspx" , "~/Themes/{2}/Views/{1}/{0}.ascx" , "~/Themes/{2}/Views/Shared/{0}.aspx" , "~/Themes/{2}/Views/Shared/{0}.ascx"
                                                        };
 
     public WebFormThemeViewEngine ()
@@ -55,65 +56,65 @@ comments: true
         }
     }
     
-    /// &lt;summary&gt;
+    /// <summary>
     ///     Finds the view.
-    /// &lt;/summary&gt;
-    /// &lt;param name = &quot;controllerContext&quot;&gt;The controller context.&lt;/param&gt;
-    /// &lt;param name = &quot;viewName&quot;&gt;Name of the view.&lt;/param&gt;
-    /// &lt;param name = &quot;masterName&quot;&gt;Name of the master.&lt;/param&gt;
-    /// &lt;param name = &quot;useCache&quot;&gt;if set to &lt;c&gt;true&lt;/c&gt; [use cache].&lt;/param&gt;
-    /// &lt;returns&gt;The page view.&lt;/returns&gt;
+    /// </summary>
+    /// <param name = "controllerContext">The controller context.</param>
+    /// <param name = "viewName">Name of the view.</param>
+    /// <param name = "masterName">Name of the master.</param>
+    /// <param name = "useCache">if set to <c>true</c> [use cache].</param>
+    /// <returns>The page view.</returns>
     public override ViewEngineResult FindView ( ControllerContext controllerContext , string viewName , string masterName , bool useCache )
     {
         string[] strArray;
         string[] strArray2;
         
         if ( controllerContext == null )
-            throw new ArgumentNullException ( &quot;controllerContext&quot; );
+            throw new ArgumentNullException ( "controllerContext" );
         
         if ( string.IsNullOrEmpty ( viewName ) )
-            throw new ArgumentException ( &quot;viewName must be specified.&quot; , &quot;viewName&quot; );
+            throw new ArgumentException ( "viewName must be specified." , "viewName" );
         
         
         string themeName = DexterEnvironment.Instance.Context.CurrentTheme();
         
-        string requiredString = controllerContext.RouteData.GetRequiredString ( &quot;controller&quot; );
+        string requiredString = controllerContext.RouteData.GetRequiredString ( "controller" );
         
-        string viewPath = this.GetPath(controllerContext, this.ViewLocationFormats, this.AreaViewLocationFormats , viewName, requiredString, &quot;View&quot;, useCache, out strArray, themeName);
-        string masterPath = this.GetPath(controllerContext, this.MasterLocationFormats, this.AreaMasterLocationFormats , masterName, requiredString, &quot;Master&quot;, useCache, out strArray2, themeName);
+        string viewPath = this.GetPath(controllerContext, this.ViewLocationFormats, this.AreaViewLocationFormats , viewName, requiredString, "View", useCache, out strArray, themeName);
+        string masterPath = this.GetPath(controllerContext, this.MasterLocationFormats, this.AreaMasterLocationFormats , masterName, requiredString, "Master", useCache, out strArray2, themeName);
         
-        if ( !string.IsNullOrEmpty ( viewPath ) &amp;&amp; ( !string.IsNullOrEmpty ( masterPath ) || string.IsNullOrEmpty ( masterName ) ) )
+        if ( !string.IsNullOrEmpty ( viewPath ) && ( !string.IsNullOrEmpty ( masterPath ) || string.IsNullOrEmpty ( masterName ) ) )
             return new ViewEngineResult ( CreateView ( controllerContext , viewPath , masterPath ) , this );
         
         ViewEngineResult view = new ViewEngineResult ( strArray.Union ( strArray2 ) );
         
         if (view.View == null)
-            throw new HttpException(404, &quot;File Not Found&quot;);
+            throw new HttpException(404, "File Not Found");
         
         return view;
     }
 
-    /// &lt;summary&gt;
+    /// <summary>
     ///     Finds the partial view.
-    /// &lt;/summary&gt;
-    /// &lt;param name = &quot;controllerContext&quot;&gt;The controller context.&lt;/param&gt;
-    /// &lt;param name = &quot;partialViewName&quot;&gt;Partial name of the view.&lt;/param&gt;
-    /// &lt;param name = &quot;useCache&quot;&gt;if set to &lt;c&gt;true&lt;/c&gt; [use cache].&lt;/param&gt;
-    /// &lt;returns&gt;The partial view.&lt;/returns&gt;
+    /// </summary>
+    /// <param name = "controllerContext">The controller context.</param>
+    /// <param name = "partialViewName">Partial name of the view.</param>
+    /// <param name = "useCache">if set to <c>true</c> [use cache].</param>
+    /// <returns>The partial view.</returns>
     public override ViewEngineResult FindPartialView ( ControllerContext controllerContext , string partialViewName , bool useCache )
     {
         string[] strArray;
         if ( controllerContext == null )
-            throw new ArgumentNullException ( &quot;controllerContext&quot; );
+            throw new ArgumentNullException ( "controllerContext" );
         
         if ( string.IsNullOrEmpty ( partialViewName ) )
-            throw new ArgumentException ( &quot;partialViewName must be specified.&quot; , &quot;partialViewName&quot; );
+            throw new ArgumentException ( "partialViewName must be specified." , "partialViewName" );
         
         string themeName = DexterEnvironment.Instance.Context.CurrentTheme();
         
-        string requiredString = controllerContext.RouteData.GetRequiredString ( &quot;controller&quot; );
+        string requiredString = controllerContext.RouteData.GetRequiredString ( "controller" );
         
-        string partialViewPath = this.GetPath(controllerContext, this.PartialViewLocationFormats, this.AreaPartialViewLocationFormats , partialViewName, requiredString, &quot;Partial&quot;, useCache, out strArray, themeName);
+        string partialViewPath = this.GetPath(controllerContext, this.PartialViewLocationFormats, this.AreaPartialViewLocationFormats , partialViewName, requiredString, "Partial", useCache, out strArray, themeName);
         
         if ( string.IsNullOrEmpty ( partialViewPath ) )
             return new ViewEngineResult ( strArray );
@@ -132,10 +133,10 @@ comments: true
         string areaName = AreaHelper.GetAreaName(controllerContext.RouteData);
         bool flag = !string.IsNullOrEmpty(areaName);
         
-        List&lt;ViewLocation&gt; viewLocations = GetViewLocations(locations, flag ? areaLocations : null);
+        List<ViewLocation> viewLocations = GetViewLocations(locations, flag ? areaLocations : null);
         
         if (viewLocations.Count == 0)
-            throw new InvalidOperationException(&quot;locations must not be null or emtpy.&quot;);
+            throw new InvalidOperationException("locations must not be null or emtpy.");
         
         bool flag2 = IsSpecificPath(name);
         string key = this.CreateCacheKey(cacheKeyPrefix, name, flag2 ? string.Empty : controllerName, areaName,themeName);
@@ -165,26 +166,26 @@ comments: true
     
     private string CreateCacheKey(string prefix, string name, string controllerName, string areaName,string themeName)
     {
-        return string.Format(CultureInfo.InvariantCulture, &quot;:ViewCacheEntry:{0}:{1}:{2}:{3}:{4}:{5}:&quot;, new object[] { GetType().AssemblyQualifiedName, prefix, name, controllerName, areaName ?? &quot;nullArea&quot;, themeName });
+        return string.Format(CultureInfo.InvariantCulture, ":ViewCacheEntry:{0}:{1}:{2}:{3}:{4}:{5}:", new object[] { GetType().AssemblyQualifiedName, prefix, name, controllerName, areaName ?? "nullArea", themeName });
     }
 
-    private static List&lt;ViewLocation&gt; GetViewLocations(string[] viewLocationFormats, string[] areaViewLocationFormats)
+    private static List<ViewLocation> GetViewLocations(string[] viewLocationFormats, string[] areaViewLocationFormats)
     {
-        List&lt;ViewLocation&gt; list = new List&lt;ViewLocation&gt;();
+        List<ViewLocation> list = new List<ViewLocation>();
         if ( areaViewLocationFormats != null )
-            list.AddRange ( areaViewLocationFormats.Select ( str =&gt; new AreaAwareViewLocation ( str ) ).Cast&lt;ViewLocation&gt; () );
+            list.AddRange ( areaViewLocationFormats.Select ( str => new AreaAwareViewLocation ( str ) ).Cast<ViewLocation> () );
         
         if ( viewLocationFormats != null )
-            list.AddRange ( viewLocationFormats.Select ( str2 =&gt; new ViewLocation ( str2 ) ) );
+            list.AddRange ( viewLocationFormats.Select ( str2 => new ViewLocation ( str2 ) ) );
         
         return list;
     }
 
-    private string GetPathFromGeneralName(ControllerContext controllerContext, List&lt;ViewLocation&gt; locations, string name, string controllerName, string areaName, string cacheKey, ref string[] searchedLocations, string themeName)
+    private string GetPathFromGeneralName(ControllerContext controllerContext, List<ViewLocation> locations, string name, string controllerName, string areaName, string cacheKey, ref string[] searchedLocations, string themeName)
     {
         string virtualPath = string.Empty;
         searchedLocations = new string[locations.Count];
-        for (int i = 0; i &lt; locations.Count; i++)
+        for (int i = 0; i < locations.Count; i++)
         {
             string str2 = locations[i].Format(name, controllerName, areaName,themeName);
             if (this.FileExists(controllerContext, str2))
@@ -239,7 +240,7 @@ internal static class AreaHelper
     public static string GetAreaName ( RouteData routeData )
     {
         object obj2;
-        if ( routeData.DataTokens.TryGetValue ( &quot;area&quot; , out obj2 ) )
+        if ( routeData.DataTokens.TryGetValue ( "area" , out obj2 ) )
         {
             return ( obj2 as string );
         }
@@ -254,9 +255,9 @@ internal static class AreaHelper
             return area.Area;
         }
         Route route2 = route as Route;
-        if ( ( route2 != null ) &amp;&amp; ( route2.DataTokens != null ) )
+        if ( ( route2 != null ) && ( route2.DataTokens != null ) )
         {
-            return ( route2.DataTokens [ &quot;area&quot; ] as string );
+            return ( route2.DataTokens [ "area" ] as string );
         }
         return null;
     }
@@ -275,8 +276,8 @@ internal class AreaAwareViewLocation : ViewLocation
         return string.Format(CultureInfo.InvariantCulture, VirtualPathFormatString, new object[] { viewName, controllerName, areaName });
     }
 
-}</pre>{% endraw %}
-
+}
+{% endhighlight %}
 <p>Ciauz</p>
 
 <p>.u</p>

@@ -33,7 +33,9 @@ Tradotto in soldoni, tutte queste richieste che abbiamo nella pagina :
 [/xml]
 
 Diventano una sola
-{% raw %}<pre class="brush: xml;">&lt;script src="/Scripts/combined.js"&gt;&lt;/script&gt;</pre>{% endraw %}
+{% highlight xml %}
+<script src="/Scripts/combined.js"></script>
+{% endhighlight %}
 Ovviamente lavorare con un file unico, che sia questo un file javascript o css, risulta un po’ scomodo e, proprio per questo motivo, esistono diversi tool/framework che agevolano la creazione di un unico file a runtime o compile time.
 
 Con ASP.NET MVC 4 effettuare il “combine” e “minify” è veramente semplice: basta utilizzare un apposito metodo ed il gioco è fatto.

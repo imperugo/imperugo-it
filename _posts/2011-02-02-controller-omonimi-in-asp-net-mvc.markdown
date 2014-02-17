@@ -17,10 +17,11 @@ tags:
 - ASP.NET
 comments: true
 ---
-<p>Oggi mi è capitato di dover gestire una nuova problematica in un’applicazione <a title="ASP.NET MVC Posts" href="http://www.tostring.it/tags/archive/mvc" target="_blank">ASP.NET MVC</a>. Nello specifico mi trovavo nella condizione di avere due controller con lo stesso nome; il primo era all’interno della struttura principale dell’applicazione, il secondo dentro un Area di MVC.</p>  <p>Il problema è identificabile e risolvibile a livello di routing; di fatto se si prova a guardare i seguenti controller (dai namespace è facilmente identificabile l’area):</p>  {% raw %}<pre class="brush: csharp;">namespace Dexter.Web.UI.Areas.Admin.Controllers {
+<p>Oggi mi è capitato di dover gestire una nuova problematica in un’applicazione <a title="ASP.NET MVC Posts" href="http://www.tostring.it/tags/archive/mvc" target="_blank">ASP.NET MVC</a>. Nello specifico mi trovavo nella condizione di avere due controller con lo stesso nome; il primo era all’interno della struttura principale dell’applicazione, il secondo dentro un Area di MVC.</p>  <p>Il problema è identificabile e risolvibile a livello di routing; di fatto se si prova a guardare i seguenti controller (dai namespace è facilmente identificabile l’area):</p>  {% highlight csharp %}
+namespace Dexter.Web.UI.Areas.Admin.Controllers {
   public class HomeController : BackOfficeControllerBase {
     [AcceptVerbs ( HttpVerbs.Get )]
-    [OutputCache ( VaryByParam = &quot;id&quot; , Duration = 600 )]
+    [OutputCache ( VaryByParam = "id" , Duration = 600 )]
     public ActionResult Index ( string id ){
       return View();
     }
@@ -31,21 +32,22 @@ comments: true
 namespace Dexter.Web.UI.Controllers {
   public class HomeController : BackOfficeControllerBase {
     [AcceptVerbs ( HttpVerbs.Get )]
-    [OutputCache ( VaryByParam = &quot;id&quot; , Duration = 600 )]
+    [OutputCache ( VaryByParam = "id" , Duration = 600 )]
     public ActionResult Index ( string id ){
       return View();
     }
   }
-}</pre>{% endraw %}
-
+}
+{% endhighlight %}
 <p>per la seguente Route:</p>
 
-{% raw %}<pre class="brush: csharp;">routes.MapRoute (
-    &quot;Default&quot; ,
-    &quot;{controller}/{action}/{id}&quot; ,
-    new {controller = &quot;Home&quot; , action = &quot;Index&quot; , id = UrlParameter.Optional}
-);</pre>{% endraw %}
-
+{% highlight csharp %}
+routes.MapRoute (
+    "Default" ,
+    "{controller}/{action}/{id}" ,
+    new {controller = "Home" , action = "Index" , id = UrlParameter.Optional}
+);
+{% endhighlight %}
 <p>ed ad associarla all’url http://www.miosito.com/Home/Index, si può capire come MVC non sia in grado di identificare correttamente quale dei due controller Home deve essere invocato per tale richiesta, e si trova “obbligato” a sollevare un’eccezione come la seguente:</p>
 
 <blockquote>
@@ -59,11 +61,12 @@ namespace Dexter.Web.UI.Controllers {
 
 <p>Nulla di allarmante, il problema è facilmente risolvibile specificando il namespace contenente il Controller corretto nella registrazione della Route, come mostrato di seguito:</p>
 
-{% raw %}<pre class="brush: csharp;">routes.MapRoute (
-    &quot;Default&quot; ,
-    &quot;{controller}/{action}/{id}&quot; ,
-    new {controller = &quot;Home&quot; , action = &quot;Index&quot; , id = UrlParameter.Optional} ,
-    new string[] {&quot;Dexter.Web.UI.Controller&quot;}
-);</pre>{% endraw %}
-
+{% highlight csharp %}
+routes.MapRoute (
+    "Default" ,
+    "{controller}/{action}/{id}" ,
+    new {controller = "Home" , action = "Index" , id = UrlParameter.Optional} ,
+    new string[] {"Dexter.Web.UI.Controller"}
+);
+{% endhighlight %}
 <p>A questo punto l’engine di MVC sa quale controller invocare e può esaudire correttamente la richiesta web.</p>
