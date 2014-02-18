@@ -12,7 +12,7 @@ comments: true
 
 Con la versione 2.0 delle Web API è stato introdotto il supporto alle richieste cross domain, più comunemente chiamate CORS (Cross-Origin Resource Sharing).
 
-Normalmente non è possibile effettuare richieste HTTP via Javascript da un source il cui dominio è differente da quello dell’endpoint chiamato. Tradotto in soldoni, se il nostro Javascript si trova su http://www.miosito.it/Index.html non è possibile chiedere informazioni al sito **http://www.tuosito.it/**.
+Normalmente non è possibile effettuare richieste HTTP via Javascript da un source il cui dominio è differente da quello dell’endpoint chiamato. Tradotto in soldoni, se il nostro Javascript si trova su **http://www.miosito.it/Index.html** non è possibile chiedere informazioni al sito **http://www.tuosito.it/**.
 
 I motivi sono semplicemente di sicurezza, e servono ad impedire che qualcuno possa attingere a informazioni personali tramite un JS “*maligno*”.
 
