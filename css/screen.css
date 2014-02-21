@@ -597,3 +597,7 @@ a:hover { -webkit-transition: color 0.3s;-moz-transition:color 0.3s;-o-transitio
 }
 #page-navigation div { display: inline-block }
 #page-navigation div.next { float: right }
+
+.highlight {
+    overflow-x: auto;
+}
