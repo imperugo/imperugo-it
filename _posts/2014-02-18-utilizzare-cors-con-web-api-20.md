@@ -28,7 +28,7 @@ La tabella seguente ([http://caniuse.com/cors](fonte)) mostra il supporto al COR
 
 ![CORS SUPPORT TABLE](/assets/2014-02-16-utilizzare-cors-con-web-api-20/cors.jpg)
 
-> ci sono dei workaround che permetteno di sfruttare CORS anche con IE 8/9 ma con alcuni limiti sui VERB della chiamata (maggiori info [qui](http://blogs.msdn.com/b/ieinternals/archive/2010/05/13/xdomainrequest-restrictions-limitations-and-workarounds.aspx) )
+> ci sono dei workaround che permettono di sfruttare CORS anche con IE 8/9 ma con alcuni limiti sui VERB della chiamata (maggiori info [qui](http://blogs.msdn.com/b/ieinternals/archive/2010/05/13/xdomainrequest-restrictions-limitations-and-workarounds.aspx) )
 
 Ora che abbiamo chiarito cos’è il CORS, è arrivato il momento di configurarlo utilizzando uno tra questi browsers: IE10/11, Chrome (tutte le versioni), Firefox dalla 3.5+ e Safari 4+.
 
