@@ -21,7 +21,7 @@ Chiarito il perché di questo blocco, a volte può risultare necessario effettua
 Se, al contrario, vogliamo inviare parecchie informazioni non possiamo utilizzare questo approccio (una soluzione in questo caso è “proxare” lato server le chiamate JS e ribaltarle all’endpoint).
 
 Un'altra soluzione è l’utilizzo del CORS, che da il titolo a questo articolo. 
-In pratica la comunicaione CORS stabilisce, tramite delle recole che vedremo più avanti in questo articolo, che un client può accedere a delle informazioni da un dominio differente a condizione che il server lo consenta.
+In pratica la comunicazione CORS stabilisce, tramite delle recole che vedremo più avanti in questo articolo, che un client può accedere a delle informazioni da un dominio differente a condizione che il server lo consenta.
  Ovviamente per far ciò è necessario che il browser permetta questo tipo di chiamata, cosa che purtroppo non è del tutto scontata. Internet Explorer in questo è stato fermo per molto tempo e, solo a partire dalla versione 10, ha introdotto il supporto completo a questo meccanismo di comunicazione.
 
 La tabella seguente ([http://caniuse.com/cors](fonte)) mostra il supporto al CORS dai vari browsers
