@@ -31,9 +31,12 @@ google_analytics_domain: tostring.it
 # Jekyll Settings
 #
 markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
 permalink: /archive/:year/:month/:day/:title/
-paginate: 20
+paginate: 10
 paginate_path: "page/:num"
 category_dir: categories
+
+gems:
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
