@@ -20,13 +20,13 @@ Chiarito il perché di questo blocco, a volte può risultare necessario effettua
 
 Se, al contrario, vogliamo inviare parecchie informazioni non possiamo utilizzare questo approccio (una soluzione in questo caso è “proxare” lato server le chiamate JS e ribaltarle all’endpoint).
 
-Un'altra soluzione è l’utilizzo del CORS, che da il titolo a questo articolo. 
+Un'altra soluzione è l’utilizzo del CORS, che da il titolo a questo articolo.
 In pratica la comunicazione CORS stabilisce, tramite delle recole che vedremo più avanti in questo articolo, che un client può accedere a delle informazioni da un dominio differente a condizione che il server lo consenta.
  Ovviamente per far ciò è necessario che il browser permetta questo tipo di chiamata, cosa che purtroppo non è del tutto scontata. Internet Explorer in questo è stato fermo per molto tempo e, solo a partire dalla versione 10, ha introdotto il supporto completo a questo meccanismo di comunicazione.
 
 La tabella seguente ([http://caniuse.com/cors](fonte)) mostra il supporto al CORS dai vari browsers
 
-![CORS SUPPORT TABLE](/assets/2014-02-16-utilizzare-cors-con-web-api-20/cors.jpg)
+![CORS SUPPORT TABLE]({site.url}/assets/2014-02-16-utilizzare-cors-con-web-api-20/cors.jpg)
 
 > ci sono dei workaround che permettono di sfruttare CORS anche con IE 8/9 ma con alcuni limiti sui VERB della chiamata (maggiori info [qui](http://blogs.msdn.com/b/ieinternals/archive/2010/05/13/xdomainrequest-restrictions-limitations-and-workarounds.aspx) )
 
@@ -54,14 +54,14 @@ Da qui il file da modificare è quello contenente la configurazione delle Web AP
 {% raw %}
 <div class="nuget-badge">
     <code>PM&gt; Install-Package Microsoft.AspNet.WebApi.Cors</code>
-</div> 
+</div>
 {% endraw %}
 
 Una volta che tutti gli "ingredienti" sono pronti, non ci resta che abilitare il CORS a livello applicativo e specificare per ogni singolo controller i "trusted" domain così:
 
 
 ```c#
-using System.Web.Http;namespace imperugo.webapi.cors.server{	public static class WebApiConfig	{		public static void Register(HttpConfiguration config)		{			// Web API configuration and services			config.EnableCors();			// Web API routes			config.MapHttpAttributeRoutes();						config.Routes.MapHttpRoute(				name: "DefaultApi",				routeTemplate: "api/{controller}/{id}",				defaults: new { id = RouteParameter.Optional }			);		}	}}
+using System.Web.Http;namespace imperugo.webapi.cors.server{	public static class WebApiConfig	{		public static void Register(HttpConfiguration config)		{			// Web API configuration and services			config.EnableCors();			// Web API routes			config.MapHttpAttributeRoutes();			config.Routes.MapHttpRoute(				name: "DefaultApi",				routeTemplate: "api/{controller}/{id}",				defaults: new { id = RouteParameter.Optional }			);		}	}}
 ```
 
 Mentre il nostro ValueController risulta così:
@@ -95,7 +95,7 @@ Il tutto dovrebbe dare un risultato tipo il seguente:
 
 ![image](/assets/2014-02-16-utilizzare-cors-con-web-api-20/cors-client-show-response.jpg)Al contrario se qualcosa non va, è necessario ricontrollare i punti sopra.
 ## Come funziona
-Il funzionamento del CORS è un semplice gioco di HEADERS tra il chiamante ed il server che riceve la risposta. 
+Il funzionamento del CORS è un semplice gioco di HEADERS tra il chiamante ed il server che riceve la risposta.
 Il browser (il client) aggiunge nell'header della chimata un'informazione riguardo al dominio corrente (imperclient.azurewebsites.net nel mio caso) con la chiave *Origin*.
 Il server a sua volta verifica che tale valore sia tra quelli trusted e risponde con un'altra informazione (sempre nell'header) con la chiave *Access-Control-Allow-Origin*
 Se i due valori "matchano" allora il browser utilizza la risposta, altrimenti si avrà un errore.
@@ -106,4 +106,3 @@ Il tutto dovrebbe dare un risultato tipo il seguente:
 ## Conclusioni
 Per me che amo "spezzare" le mie applicazioni con un layer di API tra il front-end ed il backend, il CORS è una gran comodità, peccato purtroppo la non completa compatiblità con tutti i browser.
 La demo di questo sito è disponibile [qui](/assets/2014-02-16-utilizzare-cors-con-web-api-20/sample.zip)
-
