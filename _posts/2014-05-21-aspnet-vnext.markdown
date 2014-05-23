@@ -133,7 +133,7 @@ ora vanno registrate tramite routing ed un apposito attributo, come mostrato di 
 Routing:
 
 ```csharp
-//UseMvc è un'extension method legato ad OWIN
+//UseMvc è un extension method legato ad OWIN
 app.UseMvc(routes =>
 {
     routes.MapRoute(
