@@ -19,7 +19,7 @@ Le novità sono veramente tante: alcune di grande impatto a livello strutturale 
 
 La prossima release sarà rilasciata sotto licenza [.NET Foundation](http://www.dotnetfoundation.org/) ed il codice sarà disponibile su [Github](http://www.github.com) [qui](https://github.com/aspnet/home).
 
-Questa release lavorerà side by side con [.NET Native](http://blogs.msdn.com/b/dotnet/archive/2014/04/02/announcing-net-native-preview.aspx) (un copiler .NET che promette performance alla c++ ma con la produttività del c#), [.NET Compiler Platform ("Roslyn")](http://roslyn.codeplex.com/) (compiler-as-a-service) e [Nextgen JIT](http://blogs.msdn.com/b/dotnet/archive/tags/ryujit/) (un JITter ottimizzato per i nuovi processori).
+Questa release lavorerà side by side con [.NET Native](http://blogs.msdn.com/b/dotnet/archive/2014/04/02/announcing-net-native-preview.aspx) (un compiler .NET che promette performance alla c++ ma con la produttività del c#), [.NET Compiler Platform ("Roslyn")](http://roslyn.codeplex.com/) (compiler-as-a-service) e [Nextgen JIT](http://blogs.msdn.com/b/dotnet/archive/tags/ryujit/) (un JITter ottimizzato per i nuovi processori).
 
 Un'altra importantissima novità riguarda il [CLR](http://it.wikipedia.org/wiki/Common_Language_Runtime) (Common Language Runtime); la prossima release non avrà più una dipendenza da esso come le precedenti release, ma avrà un runtime tutto suo.
 
@@ -31,14 +31,14 @@ Il CLR sarà ottimizzato in base all'environment dove verrà "deployata" l'appli
 Rimanendo in tema di CLR, va menzionata anche la nuova modalità di compilazione. Le **dll** ed il compilato delle view Razor non saranno più presenti nella classica folder ***bin*** o nella ***Temporary folder di ASP.NET***, bensì in memoria. Anche questo cambiamento è rivolto esclusivamente alle performance, riducendo drasticamente la lettura/scrittura su disco, lavorando così in RAM.
 Questo apre anche un altro scenario di non poco conto, ossia la possibilità di cambiare il codice on-fly (sfruttando Roslyn per la compilazione), senza dover ricaricare **dll** sul server.
 
-A completare quest'importante carrellata di novità si aggiunge la compatibilità con Mono e la conseguente possibilità di eseguire le proprie applicazioni ASP.NET vnext anche su sistemi operativi non Microsoft (Linux, Unix e Mac OsX).
-Questo cambiamento era facilmente intuibile con l'introduzione di OWIN e Katana, che annunciavano la scissione tra IIS e ASP.NET (vedi slides [qui](http://www.slideshare.net/imperugo/owin-and-katana)).
+A completare quest'importante carrellata di novità si aggiunge la compatibilità con [Mono](http://www.mono-project.com/Main_Page) e la conseguente possibilità di **eseguire le proprie applicazioni ASP.NET vnext anche su sistemi operativi non Microsoft**   (Linux, Unix e Mac OsX).
+Questo cambiamento era facilmente intuibile con l'introduzione di [OWIN](http://www.owin.org) e [Katana](http://katanaproject.codeplex.com/), che annunciavano la scissione tra IIS e ASP.NET (vedi slides di una mia presentazione [qui](http://www.slideshare.net/imperugo/owin-and-katana)).
 
-**MVC, Web API e SignalR**
+**MVC, Web API** e **SignalR**
 
-Tutti e tre i Framework convergeranno in un unico pacchetto chiamato MVC 6, uniformando così namespace e parte di codice. Di fatto Controller, Action, Routing e Model sono più o meno presenti su tutti e tre i Framework, ma su librerie differenti con Namespace differenti.
+Tutti e tre i Framework convergeranno in un unico pacchetto chiamato MVC 6, uniformando così namespace e parte di codice. Di fatto **Controller**, **Action**, **Routing** e **Model** sono più o meno presenti su tutti e tre i Framework, ma su librerie differenti con Namespace differenti.
 
-Ora un Controller, che sia questo un API Controller o un normale Controller MVC, erediterà sempre dalla stessa classe Microsoft.AspNet.Mvc.Controller (precedentemente si aveva System.Web.Mvc.Controller per MVC e System.Http.Controller per le API) ed il codice rimarrà uguale a quello che si è già abituati a scrivere:
+Ora un Controller, che sia questo un API Controller o un normale Controller MVC, erediterà sempre dalla stessa classe ***Microsoft.AspNet.Mvc.Controller*** (precedentemente si aveva ***System.Web.Mvc.Controller*** per MVC e ***System.Http.Controller*** per le API) ed il codice rimarrà uguale a quello che si è già abituati a scrivere:
 
 ***Esempio di un controller MVC***
 
@@ -106,7 +106,7 @@ public class HomeController
 {
     private IActionResultHelper resultHelper;
 
-    // Helpers can be dependency injected into the controller
+    // La dipendenza arriva tramite il container della DI
     public HomeController(IActionResultHelper resultHelper)
     {
         this.resultHelper = resultHelper;
@@ -119,8 +119,8 @@ public class HomeController
 }
 ```
 
-Quest'ultimo scenario è molto interessante perchè introduce un'altra novità sulla vnext, ossia la Dependency Injection che si potenzia ancor di più e mette a disposizione un set di librerie che "wrappano" i Framework più comuni come [Autofac](http://autofac.org/), [Ninject](http://www.ninject.org/), [Structuremap](http://www.structuremap.net), [Unity](https://unity.codeplex.com/) ed il mio preferito [Windsor](http://www.castleproject.org/projects/windsor/) :smirk:
-Su [github](https://github.com/aspnet/DependencyInjection) trovate queste librerie.
+Quest'ultimo scenario è molto interessante perchè introduce un'altra novità sulla vnext, ossia la **Dependency Injection** (io ne sono addicted) che si potenzia ancor di più e mette a disposizione un set di librerie che "wrappano" i Framework più comuni come [Autofac](http://autofac.org/), [Ninject](http://www.ninject.org/), [Structuremap](http://www.structuremap.net), [Unity](https://unity.codeplex.com/) ed il mio preferito (ed inimitabile) [Windsor](http://www.castleproject.org/projects/windsor/) :smirk:
+Su [github](https://github.com/aspnet/DependencyInjection) trovate il sorgente di queste librerie.
 
 Rimanendo sulla parte di sviluppo, le Aree di MVC, che nella versione precedente venivano registrate invocando il metodo
 
@@ -178,4 +178,5 @@ Di seguito invece trovate una serie di link con degli esempi di applicazioni svi
 - [MusicStore Sample Application for ASP.NET vNext](http://www.asp.net/vnext/overview/aspnet-vnext/walkthrough-mvc-music-store)
 - [BugTracker Sample Application for ASP.NET vNext](BugTracker Sample Application for ASP.NET vNext)
 
-Enjoy
+Che dire? Veramente tante novità, bisogna solo trovare il tempo di gioarci un po'.
+Have fun.
