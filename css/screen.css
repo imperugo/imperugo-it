@@ -368,15 +368,7 @@ article .entry-content .caption {
     color: #999;
     padding-left: 15px;
     position: relative;
-    margin-top: -5px;
-}
-article .entry-content .caption:before {
-    content: "\f040";
-    color: #ccc;
-    font: 1.3em FontAwesome;
-    line-height: 1.6em;
-    position: absolute;
-    left: 0;
+    margin-top: 0px;
 }
 article .entry-content .video-container {
     position: relative;
@@ -599,6 +591,10 @@ a:hover { -webkit-transition: color 0.3s;-moz-transition:color 0.3s;-o-transitio
 }
 #page-navigation div { display: inline-block }
 #page-navigation div.next { float: right }
+
+.emoji {
+  margin-top:0px;
+}
 
 .highlight {
   overflow-x: auto;

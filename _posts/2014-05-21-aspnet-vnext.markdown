@@ -120,7 +120,6 @@ public class HomeController
 ```
 
 Quest'ultimo scenario è molto interessante perchè introduce un'altra novità sulla vnext, ossia la **Dependency Injection** (io ne sono addicted) che si potenzia ancor di più e mette a disposizione un set di librerie che "wrappano" i Framework più comuni come [Autofac](http://autofac.org/), [Ninject](http://www.ninject.org/), [Structuremap](http://www.structuremap.net), [Unity](https://unity.codeplex.com/) ed il mio preferito (ed inimitabile) [Windsor](http://www.castleproject.org/projects/windsor/) :smirk:
-
 Su [github](https://github.com/aspnet/DependencyInjection) trovate il sorgente di queste librerie.
 
 Rimanendo sulla parte di sviluppo, le Aree di MVC, che nella versione precedente venivano registrate invocando il metodo

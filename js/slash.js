@@ -9,7 +9,7 @@
 			if (parent.is('a')) {
 				element = parent;
 			}
-			element.after('<span class="caption">'+alt+'</span>');
+			element.after('<span class="caption"></span>');
 		}
 
 		if (!parent.is('a')) {
