@@ -7,6 +7,6 @@ title: Tags
 <a name="{{ tag[0] }}"></a>
 <span class="badge">{{ tag[0] }}</span>
   {% for post in tag[1] %}
-<li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
+<li><a data-event-label="Post" data-event-category="Tag-It" href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
   {% endfor %}
 {% endfor %}
