@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Full immersion in Silverlight 4.0
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1537
-wordpress_url: http://imperugo.tostring.it/blog/post/full-immersion-in-silverlight-4.0/
+redirect_from: "/blog/post/full-immersion-in-silverlight-40"
 date: 2009-11-24 07:36:00.000000000 +00:00
 categories:
 - Eventi

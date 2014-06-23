@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: WebCast su HTML5 e CSS3
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1456
-wordpress_url: http://imperugo.tostring.it/blog/post/webcast-su-html5-e-css3/
+redirect_from: "/blog/post/webcast-su-html5-e-css3/"
 date: 2011-02-10 17:32:00.000000000 +00:00
 categories:
 - Web Dev

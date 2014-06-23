@@ -9,6 +9,7 @@ subtitle: Web guy, MVP. Father. Snowboarder. All round nice guy.
 gravatar_url: https://0.gravatar.com/avatar/91dc93f70aa2c457a41657437194933a
 subscribe_rss: http://feeds.feedburner.com/imperugo
 encoding: utf-8
+highlighter: pygments
 excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
 
 # Github repositories
