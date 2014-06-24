@@ -5,7 +5,7 @@ published: true
 title: WCF 4.0 WS-Discovery and Routing
 
 redirect_from: 
-  - /blog/post/wcf-40-ws-discovery-and-routing
+  - /blog/post/wcf-40-ws-discovery-and-routing/
 
 date: 2009-08-12 02:12:11.000000000 +01:00
 categories:

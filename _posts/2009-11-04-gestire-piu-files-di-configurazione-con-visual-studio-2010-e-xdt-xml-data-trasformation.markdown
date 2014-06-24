@@ -6,7 +6,7 @@ title: Gestire più files di configurazione con Visual Studio 2010 e XDT (Xml Da
   Trasformation)
 
 redirect_from: 
-  - /blog/post/gestire-pi-and-ugrave-files-di-configurazione-con-visual-studio-2010-e-xdt-xml-data-trasformation
+  - /blog/post/gestire-pi-and-ugrave-files-di-configurazione-con-visual-studio-2010-e-xdt-xml-data-trasformation/
 
 date: 2009-11-04 18:30:00.000000000 +00:00
 categories:

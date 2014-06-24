@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Script Combine in una'Applicazione MVC
 redirect_from: 
-  - /blog/post/script-combine-in-una-applicazione-mvc
+  - /blog/post/script-combine-in-una-applicazione-mvc/
 date: 2009-06-02 13:29:13.000000000 +01:00
 categories:
 - ASP.NET

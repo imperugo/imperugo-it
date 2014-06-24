@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Full immersion in Silverlight 4.0
 redirect_from: 
-  - /blog/post/full-immersion-in-silverlight-40
+  - /blog/post/full-immersion-in-silverlight-40/
 
 
 date: 2009-11-24 07:36:00.000000000 +00:00
