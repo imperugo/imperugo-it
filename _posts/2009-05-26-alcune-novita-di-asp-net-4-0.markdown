@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Alcune novità di ASP.NET 4.0
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1629
-wordpress_url: http://imperugo.tostring.it/blog/post/alcune-novita-di-aspnet-40/
+redirect_from: 
+  - /blog/post/alcune-novita-di-aspnet-40/
 date: 2009-05-26 14:35:03.000000000 +01:00
 categories:
 - ASP.NET

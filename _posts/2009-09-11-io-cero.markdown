@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Io c'ero!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1565
-wordpress_url: http://imperugo.tostring.it/blog/post/io-c-ero/
+redirect_from: 
+  - /blog/post/io-c-ero/
 date: 2009-09-11 11:35:21.000000000 +01:00
 categories:
 - Various

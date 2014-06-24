@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: TFS, i Power Tools ed il Team Explorer
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1524
-wordpress_url: http://imperugo.tostring.it/blog/post/tfs-i-power-tools-ed-il-team-explorer/
+redirect_from: 
+  - /blog/post/tfs-i-power-tools-ed-il-team-explorer/
 date: 2010-01-28 17:38:30.000000000 +00:00
 categories:
 - .NET

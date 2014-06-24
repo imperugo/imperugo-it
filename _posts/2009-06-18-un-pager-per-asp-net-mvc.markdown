@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Un Pager per ASP.NET MVC
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1620
-wordpress_url: http://imperugo.tostring.it/blog/post/un-pager-per-aspnet-mvc/
+redirect_from: 
+  - /blog/post/un-pager-per-aspnet-mvc/
 date: 2009-06-18 01:59:01.000000000 +01:00
 categories:
 - ASP.NET

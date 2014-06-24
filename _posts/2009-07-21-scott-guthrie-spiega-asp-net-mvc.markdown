@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: Scott Guthrie spiega ASP.NET MVC
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1597
-wordpress_url: http://imperugo.tostring.it/blog/post/scott-guthrie-spiega-aspnet-mvc/
+redirect_from: 
+  - /blog/post/scott-guthrie-spiega-aspnet-mvc/
+
 date: 2009-07-21 14:59:15.000000000 +01:00
 categories:
 - ASP.NET

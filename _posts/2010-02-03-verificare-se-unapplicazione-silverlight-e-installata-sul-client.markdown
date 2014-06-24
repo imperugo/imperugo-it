@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Verificare se un’applicazione Silverlight è installata sul client
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1521
-wordpress_url: http://imperugo.tostring.it/blog/post/verificare-se-unapplicazione-silverlight-e-installata-sul-client/
+redirect_from: 
+  - /blog/post/verificare-se-unapplicazione-silverlight-e-installata-sul-client/
 date: 2010-02-03 17:00:00.000000000 +00:00
 categories:
 - SILVERLIGHT

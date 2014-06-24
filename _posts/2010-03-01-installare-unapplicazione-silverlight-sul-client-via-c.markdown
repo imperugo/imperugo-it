@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Installare un’applicazione Silverlight sul client via C#
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1517
-wordpress_url: http://imperugo.tostring.it/blog/post/installare-un-applicazione-silverlight-sul-client-via-csharp/
+redirect_from: 
+  - /blog/post/installare-un-applicazione-silverlight-sul-client-via-csharp/
 date: 2010-03-01 17:00:00.000000000 +00:00
 categories:
 - SILVERLIGHT

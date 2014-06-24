@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Unable to open Web site – Visual Studio e IIS7.x
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1536
-wordpress_url: http://imperugo.tostring.it/blog/post/unable-to-open-web-site-ndash-visual-studio-e-iis7x/
+redirect_from: 
+  - /blog/post/unable-to-open-web-site-ndash-visual-studio-e-iis7x/
 date: 2009-11-27 08:02:00.000000000 +00:00
 categories:
 - .NET

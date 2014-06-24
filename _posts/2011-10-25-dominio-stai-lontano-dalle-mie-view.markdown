@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Dominio stai lontano dalle mie View
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1428
-wordpress_url: http://imperugo.tostring.it/blog/post/dominio-stai-lontano-dalle-mie-view/
+redirect_from: 
+  - /blog/post/dominio-stai-lontano-dalle-mie-view/
 date: 2011-10-25 17:30:00.000000000 +01:00
 categories:
 - ASP.NET
