@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: ConfORM, NHibernate, Oracle e gli Integration Test
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1449
-wordpress_url: http://imperugo.tostring.it/blog/post/conform-nhibernate-oracle-e-gli-integration-test/
+redirect_from: 
+  - /2011/04/20/conform-nhibernate-oracle-e-gli-integration-test
 date: 2011-04-20 16:45:00.000000000 +01:00
 categories:
 - ORM

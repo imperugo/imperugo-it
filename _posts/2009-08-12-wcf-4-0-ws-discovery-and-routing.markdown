@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: WCF 4.0 WS-Discovery and Routing
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1578
-wordpress_url: http://imperugo.tostring.it/blog/post/wcf-40-ws-discovery-and-routing/
+
+redirect_from: 
+  - /blog/post/wcf-40-ws-discovery-and-routing
+
 date: 2009-08-12 02:12:11.000000000 +01:00
 categories:
 - .NET

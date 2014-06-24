@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Script Combine in una'Applicazione MVC
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1626
-wordpress_url: http://imperugo.tostring.it/blog/post/script-combine-in-una-applicazione-mvc/
+redirect_from: 
+  - /blog/post/script-combine-in-una-applicazione-mvc
 date: 2009-06-02 13:29:13.000000000 +01:00
 categories:
 - ASP.NET

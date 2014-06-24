@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: Validazione Client-Side su ASP.NET MVC 2 con jQuery
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1493
-wordpress_url: http://imperugo.tostring.it/blog/post/validazione-client-side-su-aspnet-mvc-2-con-jquery/
+redirect_from: 
+  - /blog/post/validazione-client-side-su-aspnet-mvc-2-con-jquery
+
 date: 2010-05-26 16:45:00.000000000 +01:00
 categories:
 - ASP.NET
