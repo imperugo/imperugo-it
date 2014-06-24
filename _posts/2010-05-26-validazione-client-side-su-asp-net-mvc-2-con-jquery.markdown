@@ -4,7 +4,6 @@ status: publish
 published: true
 title: Validazione Client-Side su ASP.NET MVC 2 con jQuery
 redirect_from: 
-  - /blog/post/validazione-client-side-su-aspnet-mvc-2-con-jquery
   - /blog/post/validazione-client-side-su-aspnet-mvc-2-con-jquery/
 
 date: 2010-05-26 16:45:00.000000000 +01:00
