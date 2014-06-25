@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: AOP per il Bug Fixing
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1619
-wordpress_url: http://imperugo.tostring.it/blog/post/aop-per-il-bug-fixing/
+redirect_from: 
+  - /2009/06/22/aop-per-il-bug-fixing/
+  - /blog/post/aop-per-il-bug-fixing/
+
 date: 2009-06-22 04:26:23.000000000 +01:00
 categories:
 - .NET

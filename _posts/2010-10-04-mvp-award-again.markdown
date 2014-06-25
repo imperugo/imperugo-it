@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: MVP Award Again!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1467
-wordpress_url: http://imperugo.tostring.it/blog/post/mvp-award-again/
+redirect_from: 
+  - /2010/10/04/mvp-award-again/
+  - /blog/post/mvp-award-again/
+
 date: 2010-10-04 17:25:24.000000000 +01:00
 categories:
 - Various

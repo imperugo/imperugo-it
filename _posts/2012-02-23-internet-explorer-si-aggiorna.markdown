@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: Internet Explorer si aggiorna
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1423
-wordpress_url: http://imperugo.tostring.it/blog/post/internet-explorer-si-aggiorna/
+redirect_from: 
+  - /blog/post/internet-explorer-si-aggiorna/
+
 date: 2012-02-23 18:00:00.000000000 +00:00
 categories:
 - Web Dev

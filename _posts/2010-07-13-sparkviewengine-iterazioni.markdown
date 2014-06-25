@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: 'SparkViewEngine: Iterazioni'
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1478
-wordpress_url: http://imperugo.tostring.it/blog/post/sparkviewengine-iterazioni/
+
+redirect_from: 
+  - /2010/07/13/sparkviewengine-iterazioni/
+  - /blog/post/sparkviewengine-iterazioni/
+
 date: 2010-07-13 16:30:00.000000000 +01:00
 categories:
 - ASP.NET

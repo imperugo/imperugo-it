@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Alcuni miei articoli
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1439
-wordpress_url: http://imperugo.tostring.it/blog/post/alcuni-miei-articoli/
+
+redirect_from: 
+  - /blog/post/alcuni-miei-articoli/
+  - /2011/08/24/alcuni-miei-articoli/
+
 date: 2011-08-24 17:00:00.000000000 +01:00
 categories:
 - Web Dev

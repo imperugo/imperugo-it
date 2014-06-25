@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: La developer toolbar di IE9
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1448
-wordpress_url: http://imperugo.tostring.it/blog/post/la-developer-toolbar-di-ie9/
+
+redirect_from: 
+  - /2011/04/26/la-developer-toolbar-di-ie9/
+  - /blog/post/la-developer-toolbar-di-ie9/
+
 date: 2011-04-26 16:23:32.000000000 +01:00
 categories:
 - Web Dev
