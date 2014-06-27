@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: Here we go….Web.NET Conference Europe
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1415
-wordpress_url: http://imperugo.tostring.it/blog/post/here-we-go.web.net-conference-europe/
+redirect_from: 
+  - /blog/post/here-we-go.web.net-conference-europe/
+  - /2012/04/23/here-we-go.web.net-conference-europe/
 date: 2012-04-23 16:55:53.000000000 +01:00
 categories:
 - Eventi

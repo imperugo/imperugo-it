@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Schedulazione Custom
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1642
-wordpress_url: http://imperugo.tostring.it/blog/post/schedulazione-custom/
+redirect_from: 
+  - /blog/post/schedulazione-custom/
+  - /2009/03/09/schedulazione-custom/
+
 date: 2009-03-09 00:00:00.000000000 +00:00
 categories:
 - .NET

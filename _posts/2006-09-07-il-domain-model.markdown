@@ -5,6 +5,8 @@ published: true
 title: Il Domain Model
 redirect_from: 
   - /blog/post/il-domain-model/
+  - /2006/09/07/l-impersonate-di-aspnet-e-i-thread/
+  
 date: 2006-09-07 01:00:00.000000000 +01:00
 categories:
 - ORM

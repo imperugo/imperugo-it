@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: L'OutputCache su MVC View User Control
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1632
-wordpress_url: http://imperugo.tostring.it/blog/post/l-outputcache-su-mvc-view-user-control/
+redirect_from: 
+  - /blog/post/l-outputcache-su-mvc-view-user-control/
+  - /2009/05/15/l-outputcache-su-mvc-view-user-control/
+  
 date: 2009-05-15 02:39:24.000000000 +01:00
 categories:
 - ASP.NET

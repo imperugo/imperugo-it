@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Community Days Again
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1649
-wordpress_url: http://imperugo.tostring.it/blog/post/community-days-again/
+redirect_from: 
+  - /blog/post/community-days-again/
+  - /2008/07/13/community-days-again/
+  
 date: 2008-07-13 01:00:00.000000000 +01:00
 categories:
 - Eventi

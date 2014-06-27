@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Windows Vista, Messenger Live &amp; 81000306
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1655
-wordpress_url: http://imperugo.tostring.it/blog/post/windows-vista-messenger-live-and-81000306/
+redirect_from: 
+  - /blog/post/windows-vista-messenger-live-and-81000306/
+  - /2007/01/21/windows-vista-messenger-live-and-81000306/
+
 date: 2007-01-21 01:00:00.000000000 +00:00
 categories:
 - Various

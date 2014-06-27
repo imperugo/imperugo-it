@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Un uomo un mito!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1650
-wordpress_url: http://imperugo.tostring.it/blog/post/un-uomo-un-mito/
+redirect_from: 
+  - /blog/post/un-uomo-un-mito/
+  - /2008/03/30/managed-services-engine/
+
 date: 2008-03-30 00:00:00.000000000 +00:00
 categories:
 - Various

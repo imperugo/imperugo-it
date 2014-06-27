@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Managed Services Engine
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1651
-wordpress_url: http://imperugo.tostring.it/blog/post/managed-services-engine/
+redirect_from: 
+  - /blog/post/managed-services-engine/
+  - /2008/02/21/managed-services-engine/
+
 date: 2008-02-21 01:00:00.000000000 +00:00
 categories:
 - .NET

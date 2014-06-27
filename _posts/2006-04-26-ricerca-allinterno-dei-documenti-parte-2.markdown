@@ -3,12 +3,9 @@ layout: post
 status: publish
 published: true
 title: Ricerca all'interno dei documenti Parte 2
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1662
-wordpress_url: http://imperugo.tostring.it/blog/post/ricerca-all-interno-dei-documenti-parte-2/
-date: 2006-04-26 01:00:00.000000000 +01:00
+redirect_from: 
+  - /blog/post/ricerca-all-interno-dei-documenti-parte-2/
+  - /2006/04/26/ricerca-all-interno-dei-documenti-parte-2/
 categories:
 - .NET
 tags:

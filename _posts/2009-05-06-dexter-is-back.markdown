@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: Dexter is Back!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1636
-wordpress_url: http://imperugo.tostring.it/blog/post/dexter-is-back/
+redirect_from: 
+  - /blog/post/dexter-is-back/
+  - /2009/05/06/dexter-is-back/
 date: 2009-05-06 00:32:08.000000000 +01:00
 categories:
 - Various

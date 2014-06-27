@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Realizzare un ActionFilter per ottimizzare le nostre pagine web.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1635
-wordpress_url: http://imperugo.tostring.it/blog/post/realizzare-un-actionfilter-per-ottimizzare-le-nostre-pagine-web/
+redirect_from: 
+  - /blog/post/realizzare-un-actionfilter-per-ottimizzare-le-nostre-pagine-web/
+  - /2009/05/07/realizzare-un-actionfilter-per-ottimizzare-le-nostre-pagine-web/
+
 date: 2009-05-07 08:19:01.000000000 +01:00
 categories:
 - ASP.NET

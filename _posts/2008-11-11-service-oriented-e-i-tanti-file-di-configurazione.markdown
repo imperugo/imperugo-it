@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Service Oriented e i tanti file di configurazione
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1644
-wordpress_url: http://imperugo.tostring.it/blog/post/service-oriented-e-i-tanti-file-di-configurazione/
+redirect_from: 
+  - /blog/post/service-oriented-e-i-tanti-file-di-configurazione/
+  - /2008/11/11/service-oriented-e-i-tanti-file-di-configurazione/
+
 date: 2008-11-11 01:00:00.000000000 +00:00
 categories:
 - .NET

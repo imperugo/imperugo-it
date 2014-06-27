@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Io, il GDI+ e il pocket pc
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1660
-wordpress_url: http://imperugo.tostring.it/blog/post/io-il-gdi-e-il-pocket-pc/
+redirect_from: 
+  - /blog/post/io-il-gdi-e-il-pocket-pc/
+  - /2006/06/10/io-il-gdi-e-il-pocket-pc/
+
 date: 2006-06-10 01:00:00.000000000 +01:00
 categories:
 - .NET

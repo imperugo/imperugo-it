@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Accesso ai membri internal.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1638
-wordpress_url: http://imperugo.tostring.it/blog/post/accesso-ai-membri-internal/
+redirect_from: 
+  - /blog/post/accesso-ai-membri-internal/
+  - /2009/04/22/accesso-ai-membri-internal/
+
 date: 2009-04-22 06:22:46.000000000 +01:00
 categories:
 - Various

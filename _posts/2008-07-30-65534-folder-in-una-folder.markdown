@@ -3,10 +3,10 @@ layout: post
 status: publish
 published: true
 title: 65534 Folder in una Folder
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1647
+redirect_from: 
+  - /blog/post/65534-folder-in-una-folder/
+  - /2008/07/30/65534-folder-in-una-folder/
+  
 wordpress_url: http://imperugo.tostring.it/blog/post/65534-folder-in-una-folder/
 date: 2008-07-30 01:00:00.000000000 +01:00
 categories:

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Problemi con Newsgator.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1640
-wordpress_url: http://imperugo.tostring.it/blog/post/problemi-con-newsgator/
+redirect_from: 
+  - /blog/post/problemi-con-newsgator/
+  - /2009/04/21/problemi-con-newsgator/
+  
 date: 2009-04-21 11:39:25.000000000 +01:00
 categories:
 - Various

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Comprimere una cartella e tutte le sue sottodirectory
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1657
-wordpress_url: http://imperugo.tostring.it/blog/post/comprimere-una-cartella-e-tutte-le-sue-sottodirectory/
+redirect_from: 
+  - /blog/post/comprimere-una-cartella-e-tutte-le-sue-sottodirectory/
+  - /2006/11/09/comprimere-una-cartella-e-tutte-le-sue-sottodirectory/
+
 date: 2006-11-09 01:00:00.000000000 +00:00
 categories:
 - .NET

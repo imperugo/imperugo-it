@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: UserControl, UpdatePanel UrlRewrite, una combinazione vincente!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1653
-wordpress_url: http://imperugo.tostring.it/blog/post/usercontrol-updatepanel-urlrewrite-una-combinazione-vincente/
+redirect_from: 
+  - /blog/post/usercontrol-updatepanel-urlrewrite-una-combinazione-vincente/
+  - /2007/10/05/i-composite-control-e-ajax/
+
 date: 2007-10-05 01:00:00.000000000 +01:00
 categories:
 - ASP.NET

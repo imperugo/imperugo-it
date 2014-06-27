@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: Riflessioni su NHibernate
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1659
-wordpress_url: http://imperugo.tostring.it/blog/post/riflessioni-su-nhibernate/
+redirect_from: 
+  - /blog/post/riflessioni-su-nhibernate/
+  - /2006/07/18/l-impersonate-di-aspnet-e-i-thread/
 date: 2006-07-18 01:00:00.000000000 +01:00
 categories:
 - ORM

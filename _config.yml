@@ -37,6 +37,8 @@ paginate: 10
 paginate_path: "page/:num"
 category_dir: categories
 
+redirect_prefix: http://imperugo.tostring.it
+
 gems:
 - jemoji
 - jekyll-redirect-from

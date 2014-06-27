@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: PDC Day 2
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1645
-wordpress_url: http://imperugo.tostring.it/blog/post/pdc-day-2/
+redirect_from: 
+  - /blog/post/pdc-day-2/
+  - /2008/10/29/pdc-day-2/
+
 date: 2008-10-29 00:00:00.000000000 +00:00
 categories:
 - Eventi

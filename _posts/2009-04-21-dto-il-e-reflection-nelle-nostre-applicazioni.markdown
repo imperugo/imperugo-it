@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: DTO, IL e Reflection nelle nostre applicazioni.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1639
-wordpress_url: http://imperugo.tostring.it/blog/post/dto-il-e-reflection-nelle-nostre-applicazioni/
+redirect_from: 
+  - /blog/post/dto-il-e-reflection-nelle-nostre-applicazioni/
+  - /2009/04/21/dto-il-e-reflection-nelle-nostre-applicazioni/
+
 date: 2009-04-21 15:09:54.000000000 +01:00
 categories:
 - ASP.NET

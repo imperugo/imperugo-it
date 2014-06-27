@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Un Transaction Manager in un sistema nTier
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1656
-wordpress_url: http://imperugo.tostring.it/blog/post/un-transaction-manager-in-un-sistema-ntier/
+redirect_from: 
+  - /blog/post/un-transaction-manager-in-un-sistema-ntier/
+  - /2006/12/12/un-transaction-manager-in-un-sistema-ntier/
+
 date: 2006-12-12 01:00:00.000000000 +00:00
 categories:
 - .NET

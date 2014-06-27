@@ -3,12 +3,9 @@ layout: post
 status: publish
 published: true
 title: CreateDirectory e Windows 2003
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1665
-wordpress_url: http://imperugo.tostring.it/blog/post/createdirectory-e-windows-2003/
-date: 2006-02-01 01:00:00.000000000 +00:00
+redirect_from: 
+  - /blog/post/createdirectory-e-windows-2003/
+  - /2006/02/01/createdirectory-e-windows-2003/
 categories:
 - .NET
 tags:
