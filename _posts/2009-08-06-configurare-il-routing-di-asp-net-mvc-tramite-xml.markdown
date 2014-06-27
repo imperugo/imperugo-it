@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Configurare il Routing di ASP.NET MVC tramite XML
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1582
-wordpress_url: http://imperugo.tostring.it/blog/post/configurare-il-routing-di-aspnet-mvc-tramite-xml/
+redirect_from: 
+  - /blog/post/configurare-il-routing-di-aspnet-mvc-tramite-xml/
 date: 2009-08-06 10:42:34.000000000 +01:00
 categories:
 - ASP.NET

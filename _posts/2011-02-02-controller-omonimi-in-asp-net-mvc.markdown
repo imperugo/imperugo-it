@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Controller omonimi in ASP.NET MVC
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1459
-wordpress_url: http://imperugo.tostring.it/blog/post/controller-omonimi-aspnet-mvc/
+redirect_from: 
+  - /blog/post/controller-omonimi-aspnet-mvc/
 date: 2011-02-02 17:36:00.000000000 +00:00
 categories:
 - ASP.NET

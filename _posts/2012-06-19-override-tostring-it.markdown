@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: override.tostring.it
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1414
-wordpress_url: http://imperugo.tostring.it/blog/post/override.tostring.it/
+redirect_from: 
+  - /blog/post/override.tostring.it/
+  
 date: 2012-06-19 17:15:00.000000000 +01:00
 categories:
 - Various

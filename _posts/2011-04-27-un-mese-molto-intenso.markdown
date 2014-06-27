@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Un mese molto intenso
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1447
-wordpress_url: http://imperugo.tostring.it/blog/post/un-mese-molto-intenso/
+redirect_from: 
+  - /blog/post/un-mese-molto-intenso/
 date: 2011-04-27 16:45:00.000000000 +01:00
 categories:
 - Eventi

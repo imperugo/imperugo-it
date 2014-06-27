@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Il Tilde Slash di Razor V2
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1419
-wordpress_url: http://imperugo.tostring.it/blog/post/il-tilde-slash-di-razor-v2/
+
+redirect_from: 
+  - /blog/post/il-tilde-slash-di-razor-v2/
+
 date: 2012-04-04 17:00:00.000000000 +01:00
 categories:
 - ASP.NET

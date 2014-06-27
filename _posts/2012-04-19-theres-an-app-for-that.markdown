@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: There's an app for that
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1416
-wordpress_url: http://imperugo.tostring.it/blog/post/there-is-an-app-for-that/
+redirect_from: 
+  - /blog/post/there-is-an-app-for-that/
+  
 date: 2012-04-19 17:00:00.000000000 +01:00
 categories:
 - Various

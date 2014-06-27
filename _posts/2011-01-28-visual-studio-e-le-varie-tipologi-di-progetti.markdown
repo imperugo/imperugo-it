@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: Visual Studio e le varie tipologi di progetti.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1460
-wordpress_url: http://imperugo.tostring.it/blog/post/visual-studio-e-le-varie-tipologi-di-progetti/
+redirect_from: 
+  - /blog/post/visual-studio-e-le-varie-tipologi-di-progetti/
+  
 date: 2011-01-28 17:30:00.000000000 +00:00
 categories:
 - .NET

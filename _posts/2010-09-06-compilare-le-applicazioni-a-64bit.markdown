@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Compilare le applicazioni a 64Bit
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1472
-wordpress_url: http://imperugo.tostring.it/blog/post/compilare-le-applicazioni-64bit/
+redirect_from: 
+  - /blog/post/compilare-le-applicazioni-64bit/
 date: 2010-09-06 16:45:00.000000000 +01:00
 categories:
 - ASP.NET
