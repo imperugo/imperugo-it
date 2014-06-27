@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Welcome Parallel Linq
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1545
-wordpress_url: http://imperugo.tostring.it/blog/post/welcome-parallel-linq/
+redirect_from: 
+  - /blog/post/welcome-parallel-linq/
 date: 2009-10-26 19:30:00.000000000 +00:00
 categories:
 - .NET

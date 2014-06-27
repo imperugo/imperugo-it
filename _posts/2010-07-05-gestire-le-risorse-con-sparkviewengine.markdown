@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Gestire le risorse con SparkViewEngine
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1482
-wordpress_url: http://imperugo.tostring.it/blog/post/gestire-le-risorse-con-sparkviewengine/
+redirect_from: 
+  - /blog/post/gestire-le-risorse-con-sparkviewengine/
 date: 2010-07-05 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

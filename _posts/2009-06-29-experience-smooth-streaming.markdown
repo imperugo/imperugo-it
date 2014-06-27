@@ -3,11 +3,9 @@ layout: post
 status: publish
 published: true
 title: Experience Smooth Streaming
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1612
-wordpress_url: http://imperugo.tostring.it/blog/post/experience-smooth-streaming/
+redirect_from: 
+  - /blog/post/experience-smooth-streaming/
+  
 date: 2009-06-29 01:13:20.000000000 +01:00
 categories:
 - SILVERLIGHT

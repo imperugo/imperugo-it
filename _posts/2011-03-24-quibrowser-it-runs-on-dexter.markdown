@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: QuiBrowser.it runs on dexter
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1454
-wordpress_url: http://imperugo.tostring.it/blog/post/quibrowser.it-runs-on-dexter/
+redirect_from: 
+  - /blog/post/quibrowser.it-runs-on-dexter/
 date: 2011-03-24 16:50:00.000000000 +00:00
 categories:
 - Various

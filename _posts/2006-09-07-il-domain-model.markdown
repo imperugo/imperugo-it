@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Il Domain Model
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1658
-wordpress_url: http://imperugo.tostring.it/blog/post/il-domain-model/
+redirect_from: 
+  - /blog/post/il-domain-model/
 date: 2006-09-07 01:00:00.000000000 +01:00
 categories:
 - ORM

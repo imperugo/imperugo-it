@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: 23, 24 e 25 novembre TechDays-WPC!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1463
-wordpress_url: http://imperugo.tostring.it/blog/post/23-24-25-novembre-techdayswpc/
+redirect_from: 
+  - /blog/post/23-24-25-novembre-techdayswpc/
 date: 2010-11-18 18:00:00.000000000 +00:00
 categories:
 - Web Dev

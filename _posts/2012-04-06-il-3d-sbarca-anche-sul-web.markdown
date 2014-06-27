@@ -3,11 +3,8 @@ layout: post
 status: publish
 published: true
 title: Il 3D sbarca anche sul web
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1418
-wordpress_url: http://imperugo.tostring.it/blog/post/il-3d-sbarca-anche-sul-web/
+redirect_from: 
+  - /blog/post/il-3d-sbarca-anche-sul-web/
 date: 2012-04-06 17:00:00.000000000 +01:00
 categories:
 - Web Dev
