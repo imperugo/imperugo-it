@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Gli Action Filter ed i Global Filter di ASPNET MVC
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1445
-wordpress_url: http://imperugo.tostring.it/blog/post/gli-action-filter-ed-i-global-filter-di-aspnet-mvc/
+
+redirect_from: 
+  - /blog/post/gli-action-filter-ed-i-global-filter-di-aspnet-mvc/
+  - /2011/05/11/gli-action-filter-ed-i-global-filter-di-aspnet-mvc/
+
 date: 2011-05-11 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

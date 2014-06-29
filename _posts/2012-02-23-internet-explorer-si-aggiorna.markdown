@@ -3,8 +3,11 @@ layout: post
 status: publish
 published: true
 title: Internet Explorer si aggiorna
+
 redirect_from: 
   - /blog/post/internet-explorer-si-aggiorna/
+  - /2012/02/23/internet-explorer-si-aggiorna/
+
 
 date: 2012-02-23 18:00:00.000000000 +00:00
 categories:

@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: AAA - Cercasi Dev!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1457
-wordpress_url: http://imperugo.tostring.it/blog/post/aaa-cercasi-dev/
+
+redirect_from: 
+  - /blog/post/aaa-cercasi-dev/
+  - /2011/02/08/aaa-cercasi-dev/
+
 date: 2011-02-08 18:47:00.000000000 +00:00
 categories:
 - Various

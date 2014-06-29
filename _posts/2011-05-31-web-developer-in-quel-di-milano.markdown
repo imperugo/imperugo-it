@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Web Developer in quel di Milano
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1440
-wordpress_url: http://imperugo.tostring.it/blog/post/web-developer-in-quel-di-milano/
+
+redirect_from: 
+  - /blog/post/web-developer-in-quel-di-milano/
+  - /2011/05/31/web-developer-in-quel-di-milano/
+
 date: 2011-05-31 16:45:00.000000000 +01:00
 categories:
 - Various

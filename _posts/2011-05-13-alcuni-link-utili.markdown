@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Alcuni link utili
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1444
-wordpress_url: http://imperugo.tostring.it/blog/post/alcuni-link-utili/
+
+redirect_from: 
+  - /blog/post/alcuni-link-utili/
+  - /2011/05/13/alcuni-link-utili/
+
 date: 2011-05-13 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

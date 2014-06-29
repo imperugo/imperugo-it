@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Scaricare tutti i video delle sessioni del Build
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1434
-wordpress_url: http://imperugo.tostring.it/blog/post/scaricare-tutti-i-video-delle-sessioni-del-build/
+
+redirect_from: 
+  - /blog/post/scaricare-tutti-i-video-delle-sessioni-del-build/
+  - /2011/09/18/scaricare-tutti-i-video-delle-sessioni-del-build/
+
 date: 2011-09-18 20:37:51.000000000 +01:00
 categories:
 - Eventi

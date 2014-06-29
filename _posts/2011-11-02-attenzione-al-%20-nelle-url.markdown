@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Attenzione al %20 nelle url
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1425
-wordpress_url: http://imperugo.tostring.it/blog/post/attenzione-al-20-nelle-url/
+
+redirect_from: 
+  - /blog/post/attenzione-al-20-nelle-url/
+  - /2011/11/02/attenzione-al-20-nelle-url/
+
 date: 2011-11-02 17:15:00.000000000 +00:00
 categories:
 - ASP.NET

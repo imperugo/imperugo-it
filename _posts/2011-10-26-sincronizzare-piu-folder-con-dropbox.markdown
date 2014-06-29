@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Sincronizzare più folder con DropBox
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1427
-wordpress_url: http://imperugo.tostring.it/blog/post/sincronizzare-piu-folder-con-dropbox/
+
+redirect_from: 
+  - /blog/post/sincronizzare-piu-folder-con-dropbox/
+  - /2011/10/26/sincronizzare-piu-folder-con-dropbox/
+
 date: 2011-10-26 17:30:00.000000000 +01:00
 categories:
 - Various

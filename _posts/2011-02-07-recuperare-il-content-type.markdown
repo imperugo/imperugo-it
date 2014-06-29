@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Recuperare il content type
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1458
-wordpress_url: http://imperugo.tostring.it/blog/post/recuperare-il-content-type/
+
+redirect_from: 
+  - /blog/post/recuperare-il-content-type/
+  - /2011/02/07/recuperare-il-content-type/
+
 date: 2011-02-07 17:30:00.000000000 +00:00
 categories:
 - ASP.NET

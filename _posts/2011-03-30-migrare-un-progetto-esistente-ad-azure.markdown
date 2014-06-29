@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Migrare un progetto esistente ad Azure
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1453
-wordpress_url: http://imperugo.tostring.it/blog/post/migrare-un-progetto-esistente-ad-azure/
+
+redirect_from: 
+  - /blog/post/migrare-un-progetto-esistente-ad-azure/
+  - /2011/03/30/migrare-un-progetto-esistente-ad-azure/
+
 date: 2011-03-30 16:50:00.000000000 +01:00
 categories:
 - Web Dev

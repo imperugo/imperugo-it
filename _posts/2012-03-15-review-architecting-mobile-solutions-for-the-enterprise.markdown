@@ -3,12 +3,11 @@ layout: post
 status: publish
 published: true
 title: 'Review: Architecting Mobile Solutions for the Enterprise'
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1421
-wordpress_url: http://imperugo.tostring.it/blog/post/review-architecting-mobile-solutions-for-the-enterprise/
-date: 2012-03-15 16:46:00.000000000 +00:00
+
+redirect_from: 
+  - /blog/post/review-architecting-mobile-solutions-for-the-enterprise/
+  - /2012/03/15/review-architecting-mobile-solutions-for-the-enterprise/
+
 categories:
 - Various
 tags:

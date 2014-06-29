@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: ASP.NET MVC in Azure
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1438
-wordpress_url: http://imperugo.tostring.it/blog/post/asp.net-mvc-in-azure/
+
+redirect_from: 
+  - /blog/post/asp.net-mvc-in-azure/
+  - /2011/08/29/asp.net-mvc-in-azure/
+
 date: 2011-08-29 17:00:00.000000000 +01:00
 categories:
 - ASP.NET

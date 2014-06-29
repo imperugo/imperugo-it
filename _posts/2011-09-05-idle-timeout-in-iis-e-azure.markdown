@@ -3,10 +3,11 @@ layout: post
 status: publish
 published: true
 title: Idle timeout in IIS e Azure
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1436
+
+redirect_from: 
+  - /blog/post/idle-timeout-in-iis-e-azure/
+  - /2011/09/05/idle-timeout-in-iis-e-azure/
+
 wordpress_url: http://imperugo.tostring.it/blog/post/idle-timeout-in-iis-e-azure/
 date: 2011-09-05 17:36:00.000000000 +01:00
 categories:

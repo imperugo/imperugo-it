@@ -3,8 +3,11 @@ layout: post
 status: publish
 published: true
 title: Controller omonimi in ASP.NET MVC
+
 redirect_from: 
   - /blog/post/controller-omonimi-aspnet-mvc/
+  - /2011/02/02/controller-omonimi-aspnet-mvc/
+
 date: 2011-02-02 17:36:00.000000000 +00:00
 categories:
 - ASP.NET

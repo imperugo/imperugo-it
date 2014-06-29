@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Analizzare il traffico di rete per le chiamate https con Fiddler
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1441
-wordpress_url: http://imperugo.tostring.it/blog/post/analizzare-il-traffico-di-rete-per-le-chiamate-https-con-fiddler/
+
+redirect_from: 
+  - /blog/post/analizzare-il-traffico-di-rete-per-le-chiamate-https-con-fiddler/
+  - /2011/05/25/analizzare-il-traffico-di-rete-per-le-chiamate-https-con-fiddler/
+
 date: 2011-05-25 16:50:00.000000000 +01:00
 categories:
 - Web Dev

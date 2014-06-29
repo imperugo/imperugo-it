@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Troppe novità tutte insieme (1 di 2)
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1433
-wordpress_url: http://imperugo.tostring.it/blog/post/troppe-novita-tutte-insieme-1-di-2/
+
+redirect_from: 
+  - /blog/post/troppe-novita-tutte-insieme-1-di-2/
+  - /2011/09/19/troppe-novita-tutte-insieme-1-di-2/
+
 date: 2011-09-19 17:16:17.000000000 +01:00
 categories:
 - Eventi

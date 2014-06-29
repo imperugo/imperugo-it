@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: WPC 2011. Save the date!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1426
-wordpress_url: http://imperugo.tostring.it/blog/post/wpc-2011.-save-the-date/
+
+redirect_from: 
+  - /blog/post/wpc-2011.-save-the-date/
+  - /2011/10/28/wpc-2011.-save-the-date/
+
 date: 2011-10-28 17:30:00.000000000 +01:00
 categories:
 - Web Dev

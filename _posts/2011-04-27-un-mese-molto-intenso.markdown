@@ -3,8 +3,11 @@ layout: post
 status: publish
 published: true
 title: Un mese molto intenso
+
 redirect_from: 
   - /blog/post/un-mese-molto-intenso/
+  - /2011/04/27/un-mese-molto-intenso/
+
 date: 2011-04-27 16:45:00.000000000 +01:00
 categories:
 - Eventi

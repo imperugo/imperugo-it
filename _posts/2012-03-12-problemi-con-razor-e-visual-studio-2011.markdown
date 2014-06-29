@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Problemi con Razor e Visual Studio 2011
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1422
-wordpress_url: http://imperugo.tostring.it/blog/post/problemi-con-razor-e-visual-studio-2011/
+
+redirect_from: 
+  - /blog/post/problemi-con-razor-e-visual-studio-2011/
+  - /2012/03/12/problemi-con-razor-e-visual-studio-2011/
+
 date: 2012-03-12 17:05:00.000000000 +00:00
 categories:
 - ASP.NET

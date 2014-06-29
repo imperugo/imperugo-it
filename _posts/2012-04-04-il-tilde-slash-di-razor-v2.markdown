@@ -6,6 +6,7 @@ title: Il Tilde Slash di Razor V2
 
 redirect_from: 
   - /blog/post/il-tilde-slash-di-razor-v2/
+  - /2012/04/04/il-tilde-slash-di-razor-v2/
 
 date: 2012-04-04 17:00:00.000000000 +01:00
 categories:

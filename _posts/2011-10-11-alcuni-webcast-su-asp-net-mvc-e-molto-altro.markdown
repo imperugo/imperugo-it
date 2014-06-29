@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Alcuni webcast su ASP.NET MVC e molto altro.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1430
-wordpress_url: http://imperugo.tostring.it/blog/post/alcuni-webcast-su-asp.net-mvc-e-molto-altro/
+
+redirect_from: 
+  - /blog/post/alcuni-webcast-su-asp.net-mvc-e-molto-altro/
+  - /2011/10/11/alcuni-webcast-su-asp.net-mvc-e-molto-altro/
+
 date: 2011-10-11 17:00:00.000000000 +01:00
 categories:
 - ASP.NET

@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Registrare un mime type dal web.config
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1452
-wordpress_url: http://imperugo.tostring.it/blog/post/registrare-un-mime-type-dal-web-config/
+
+redirect_from: 
+  - /blog/post/registrare-un-mime-type-dal-web-config/
+  - /2011/04/04/registrare-un-mime-type-dal-web-config/
+
 date: 2011-04-04 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

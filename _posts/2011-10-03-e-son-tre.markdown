@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: E son Tre!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1431
-wordpress_url: http://imperugo.tostring.it/blog/post/e-son-tre/
+
+redirect_from: 
+  - /blog/post/e-son-tre/
+  - /2011/10/03/e-son-tre/
+
 date: 2011-10-03 17:30:00.000000000 +01:00
 categories:
 - Various

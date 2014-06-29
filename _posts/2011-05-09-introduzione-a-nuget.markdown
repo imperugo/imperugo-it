@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Introduzione a NuGet
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1446
-wordpress_url: http://imperugo.tostring.it/blog/post/introduzione-nuget/
+
+redirect_from: 
+  - /blog/post/introduzione-nuget/
+  - /2011/05/09/introduzione-nuget/
+
 date: 2011-05-09 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

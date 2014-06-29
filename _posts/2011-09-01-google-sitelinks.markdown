@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Google Sitelinks
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1437
-wordpress_url: http://imperugo.tostring.it/blog/post/google-sitelinks/
+
+redirect_from: 
+  - /blog/post/google-sitelinks/
+  - /2011/09/01/google-sitelinks/
+  
 date: 2011-09-01 17:00:00.000000000 +01:00
 categories:
 - Web Dev

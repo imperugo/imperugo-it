@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Come è fatto un datacenter di Azure?
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1435
-wordpress_url: http://imperugo.tostring.it/blog/post/come-e-fatto-un-datacenter-di-azure/
+
+redirect_from: 
+  - /blog/post/come-e-fatto-un-datacenter-di-azure/
+  - /2011/09/06/come-e-fatto-un-datacenter-di-azure/
+
 date: 2011-09-06 17:30:00.000000000 +01:00
 categories:
 - Various

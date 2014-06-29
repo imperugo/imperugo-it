@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: È tempo di HTML5
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1450
-wordpress_url: http://imperugo.tostring.it/blog/post/e-tempo-di-html5/
+
+redirect_from: 
+  - /blog/post/e-tempo-di-html5/
+  - /2011/04/18/e-tempo-di-html5/
+  
 date: 2011-04-18 16:45:00.000000000 +01:00
 categories:
 - Web Dev
