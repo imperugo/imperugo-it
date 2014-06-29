@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: AutoRun delle applicazioni Web
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1627
-wordpress_url: http://imperugo.tostring.it/blog/post/autorun-delle-applicazioni-web/
+
+redirect_from: 
+  - /blog/post/autorun-delle-applicazioni-web/
+  - /2009/05/28/autorun-delle-applicazioni-web/
+
 date: 2009-05-28 06:03:09.000000000 +01:00
 categories:
 - ASP.NET

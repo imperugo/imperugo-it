@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: DTO e AutoMapper
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1621
-wordpress_url: http://imperugo.tostring.it/blog/post/dto-e-automapper/
+
+redirect_from: 
+  - /blog/post/dto-e-automapper/
+  - /2009/06/17/dto-e-automapper/
+
 date: 2009-06-17 04:49:00.000000000 +01:00
 categories:
 - .NET

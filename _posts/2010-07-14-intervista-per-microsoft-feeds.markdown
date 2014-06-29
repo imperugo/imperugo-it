@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Intervista per Microsoft Feeds
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1477
-wordpress_url: http://imperugo.tostring.it/blog/post/intervista-microsoft-feeds/
+
+redirect_from: 
+  - /blog/post/intervista-microsoft-feeds/
+  - /2010/07/14/intervista-microsoft-feeds/
+  
 date: 2010-07-14 16:26:00.000000000 +01:00
 categories:
 - Various

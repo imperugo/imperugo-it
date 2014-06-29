@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Generazione di dati fake durante la scrittura di test.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1470
-wordpress_url: http://imperugo.tostring.it/blog/post/generazione-di-dati-fake-durante-la-scrittura-di-test/
+
+redirect_from: 
+  - /blog/post/generazione-di-dati-fake-durante-la-scrittura-di-test/
+  - /2010/09/15/generazione-di-dati-fake-durante-la-scrittura-di-test/
+
 date: 2010-09-15 16:00:00.000000000 +01:00
 categories:
 - .NET

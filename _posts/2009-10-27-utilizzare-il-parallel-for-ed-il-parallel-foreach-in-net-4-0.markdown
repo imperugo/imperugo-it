@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Utilizzare il Parallel For ed il Parallel ForEach in .NET 4.0
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1544
-wordpress_url: http://imperugo.tostring.it/blog/post/utilizzare-il-parallel-for-ed-il-parallel-foreach-in-net-40/
+
+redirect_from: 
+  - /blog/post/utilizzare-il-parallel-for-ed-il-parallel-foreach-in-net-40/
+  - /2009/10/27/utilizzare-il-parallel-for-ed-il-parallel-foreach-in-net-40/
+
 date: 2009-10-27 17:30:00.000000000 +00:00
 categories:
 - .NET

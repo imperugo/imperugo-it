@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: Configurare Azure Tools su SQL Server
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1461
-wordpress_url: http://imperugo.tostring.it/blog/post/configurare-azure-sql-server/
+
+redirect_from: 
+  - /blog/post/configurare-azure-sql-server/
+  - /2010/12/15/configurare-azure-sql-server/
+
 date: 2010-12-15 17:45:00.000000000 +00:00
 categories:
 - .NET

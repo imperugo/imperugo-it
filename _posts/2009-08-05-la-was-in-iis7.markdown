@@ -3,11 +3,11 @@ layout: post
 status: publish
 published: true
 title: La WAS in IIS7
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1583
-wordpress_url: http://imperugo.tostring.it/blog/post/la-was-in-iis7/
+
+redirect_from: 
+  - /blog/post/la-was-in-iis7/
+  - /2009/08/05/la-was-in-iis7/
+
 date: 2009-08-05 01:46:44.000000000 +01:00
 categories:
 - ASP.NET
