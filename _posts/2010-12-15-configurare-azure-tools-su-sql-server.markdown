@@ -6,7 +6,9 @@ title: Configurare Azure Tools su SQL Server
 
 redirect_from: 
   - /blog/post/configurare-azure-sql-server/
+  - /blog/post/configurare-azure-tools-su-sql-server/
   - /2010/12/15/configurare-azure-sql-server/
+  - /2010/12/15/configurare-azure-tools-su-sql-server/
 
 date: 2010-12-15 17:45:00.000000000 +00:00
 categories:

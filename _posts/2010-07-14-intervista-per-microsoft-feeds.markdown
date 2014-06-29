@@ -6,7 +6,9 @@ title: Intervista per Microsoft Feeds
 
 redirect_from: 
   - /blog/post/intervista-microsoft-feeds/
+  - /blog/post/intervista-per-microsoft-feeds/
   - /2010/07/14/intervista-microsoft-feeds/
+  - /2010/07/14/intervista-per-microsoft-feeds/
   
 date: 2010-07-14 16:26:00.000000000 +01:00
 categories:
