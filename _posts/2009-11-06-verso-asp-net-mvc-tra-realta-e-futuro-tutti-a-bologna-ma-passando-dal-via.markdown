@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
   - /Blog/Post/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
   - /2009/11/06/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
-  - /Blog/Post/-verso-asp-net-mvc-tra-realta-e-futuro-tutti-a-bologna-ma-passando-dal-via
-  - /2009/11/06/-verso-asp-net-mvc-tra-realta-e-futuro-tutti-a-bologna-ma-passando-dal-via
+  - /Blog/Post/verso-asp-net-mvc-tra-realta-e-futuro-tutti-a-bologna-ma-passando-dal-via
+  - /2009/11/06/verso-asp-net-mvc-tra-realta-e-futuro-tutti-a-bologna-ma-passando-dal-via
 date: 2009-11-06 06:30:00.000000000 +00:00
 categories:
 - ASP.NET

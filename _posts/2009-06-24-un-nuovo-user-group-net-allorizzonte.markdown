@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/un-nuovo-user-group-net-all-orizzonte/
   - /Blog/Post/un-nuovo-user-group-net-all-orizzonte/
   - /2009/06/24/un-nuovo-user-group-net-all-orizzonte/
-  - /Blog/Post/-un-nuovo-user-group-net-allorizzonte
-  - /2009/06/24/-un-nuovo-user-group-net-allorizzonte
+  - /Blog/Post/un-nuovo-user-group-net-allorizzonte
+  - /2009/06/24/un-nuovo-user-group-net-allorizzonte
 date: 2009-06-24 07:06:56.000000000 +01:00
 categories:
 - Various

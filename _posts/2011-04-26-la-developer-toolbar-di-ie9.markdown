@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/la-developer-toolbar-di-ie9/
   - /Blog/Post/la-developer-toolbar-di-ie9/
   - /2011/04/26/la-developer-toolbar-di-ie9/
-  - /Blog/Post/-la-developer-toolbar-di-ie9
-  - /2011/04/26/-la-developer-toolbar-di-ie9
+  - /Blog/Post/la-developer-toolbar-di-ie9
+  - /2011/04/26/la-developer-toolbar-di-ie9
 date: 2011-04-26 16:23:32.000000000 +01:00
 categories:
 - Web Dev

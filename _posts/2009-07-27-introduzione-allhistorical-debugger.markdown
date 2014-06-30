@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/introduzione-all-historical-debugger/
   - /Blog/Post/introduzione-all-historical-debugger/
   - /2009/07/27/introduzione-all-historical-debugger/
-  - /Blog/Post/-introduzione-allhistorical-debugger
-  - /2009/07/27/-introduzione-allhistorical-debugger
+  - /Blog/Post/introduzione-allhistorical-debugger
+  - /2009/07/27/introduzione-allhistorical-debugger
 date: 2009-07-27 06:22:48.000000000 +01:00
 categories:
 - .NET

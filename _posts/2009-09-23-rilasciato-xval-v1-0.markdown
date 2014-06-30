@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/rilasciato-xval-v10/
   - /Blog/Post/rilasciato-xval-v10/
   - /2009/09/23/rilasciato-xval-v10/
-  - /Blog/Post/-rilasciato-xval-v1-0
-  - /2009/09/23/-rilasciato-xval-v1-0
+  - /Blog/Post/rilasciato-xval-v1-0
+  - /2009/09/23/rilasciato-xval-v1-0
 date: 2009-09-23 11:54:09.000000000 +01:00
 categories:
 - ASP.NET

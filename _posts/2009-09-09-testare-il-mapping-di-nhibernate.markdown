@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/testare-il-mapping-di-nhibernate/
   - /Blog/Post/testare-il-mapping-di-nhibernate/
   - /2009/09/09/testare-il-mapping-di-nhibernate/
-  - /Blog/Post/-testare-il-mapping-di-nhibernate
-  - /2009/09/09/-testare-il-mapping-di-nhibernate
+  - /Blog/Post/testare-il-mapping-di-nhibernate
+  - /2009/09/09/testare-il-mapping-di-nhibernate
 date: 2009-09-09 09:49:05.000000000 +01:00
 categories:
 - ORM

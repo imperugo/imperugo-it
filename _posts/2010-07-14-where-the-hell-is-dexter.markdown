@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/where-the-hell-is-dexter/
   - /Blog/Post/where-the-hell-is-dexter/
   - /2010/07/14/where-the-hell-is-dexter/
-  - /Blog/Post/-where-the-hell-is-dexter
-  - /2010/07/14/-where-the-hell-is-dexter
+  - /Blog/Post/where-the-hell-is-dexter
+  - /2010/07/14/where-the-hell-is-dexter
 date: 2010-07-14 16:40:00.000000000 +01:00
 categories:
 - Various

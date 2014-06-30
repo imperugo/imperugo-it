@@ -8,8 +8,8 @@ redirect_from:
   - /blog/post/script-combine-in-una-applicazione-mvc/
   - /Blog/Post/script-combine-in-una-applicazione-mvc/
   - /2009/06/02/script-combine-in-una-applicazione-mvc/
-  - /Blog/Post/-script-combine-in-unaapplicazione-mvc
-  - /2009/06/02/-script-combine-in-unaapplicazione-mvc
+  - /Blog/Post/script-combine-in-unaapplicazione-mvc
+  - /2009/06/02/script-combine-in-unaapplicazione-mvc
 date: 2009-06-02 13:29:13.000000000 +01:00
 categories:
 - ASP.NET

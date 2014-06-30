@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/mvp-summit-2010/
   - /Blog/Post/mvp-summit-2010/
   - /2010/02/28/mvp-summit-2010/
-  - /Blog/Post/-ma-dove-sono-finito-al-summit-d
-  - /2010/02/28/-ma-dove-sono-finito-al-summit-d
+  - /Blog/Post/ma-dove-sono-finito-al-summit-d
+  - /2010/02/28/ma-dove-sono-finito-al-summit-d
 date: 2010-02-28 20:27:24.000000000 +00:00
 categories:
 - Eventi

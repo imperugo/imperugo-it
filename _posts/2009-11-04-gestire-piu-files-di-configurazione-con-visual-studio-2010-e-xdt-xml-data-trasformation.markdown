@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/gestire-pi-and-ugrave-files-di-configurazione-con-visual-studio-2010-e-xdt-xml-data-trasformation/
   - /Blog/Post/gestire-pi-and-ugrave-files-di-configurazione-con-visual-studio-2010-e-xdt-xml-data-trasformation/
   - /2009/11/04/gestire-pi-and-ugrave-files-di-configurazione-con-visual-studio-2010-e-xdt-xml-data-trasformation/
-  - /Blog/Post/-gestire-piu-files-di-configurazione-con-visual-studio-2010-e-xdt-xml-data-trasformation
-  - /2009/11/04/-gestire-piu-files-di-configurazione-con-visual-studio-2010-e-xdt-xml-data-trasformation
+  - /Blog/Post/gestire-piu-files-di-configurazione-con-visual-studio-2010-e-xdt-xml-data-trasformation
+  - /2009/11/04/gestire-piu-files-di-configurazione-con-visual-studio-2010-e-xdt-xml-data-trasformation
 date: 2009-11-04 18:30:00.000000000 +00:00
 categories:
 - .NET

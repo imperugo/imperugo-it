@@ -10,8 +10,8 @@ redirect_from:
   - /blog/post/windows-vista-messenger-live-and-81000306/
   - /Blog/Post/windows-vista-messenger-live-and-81000306/
   - /2007/01/21/windows-vista-messenger-live-and-81000306/
-  - /Blog/Post/-windows-vista-messenger-live-81000306
-  - /2007/01/21/-windows-vista-messenger-live-81000306
+  - /Blog/Post/windows-vista-messenger-live-81000306
+  - /2007/01/21/windows-vista-messenger-live-81000306
 date: 2007-01-21 01:00:00.000000000 +00:00
 categories:
 - Various

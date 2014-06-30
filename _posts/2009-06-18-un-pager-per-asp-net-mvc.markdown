@@ -8,8 +8,8 @@ redirect_from:
   - /blog/post/un-pager-per-aspnet-mvc/
   - /Blog/Post/un-pager-per-aspnet-mvc/
   - /2009/06/18/un-pager-per-aspnet-mvc/
-  - /Blog/Post/-un-pager-per-asp-net-mvc
-  - /2009/06/18/-un-pager-per-asp-net-mvc
+  - /Blog/Post/un-pager-per-asp-net-mvc
+  - /2009/06/18/un-pager-per-asp-net-mvc
 date: 2009-06-18 01:59:01.000000000 +01:00
 categories:
 - ASP.NET

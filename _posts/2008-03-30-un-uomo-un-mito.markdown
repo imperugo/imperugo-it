@@ -10,8 +10,8 @@ redirect_from:
   - /blog/post/un-uomo-un-mito/
   - /Blog/Post/un-uomo-un-mito/
   - /2008/03/30/un-uomo-un-mito/
-  - /Blog/Post/-un-uomo-un-mito
-  - /2008/03/30/-un-uomo-un-mito
+  - /Blog/Post/un-uomo-un-mito
+  - /2008/03/30/un-uomo-un-mito
 date: 2008-03-30 00:00:00.000000000 +00:00
 categories:
 - Various

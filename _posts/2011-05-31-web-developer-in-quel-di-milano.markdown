@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/web-developer-in-quel-di-milano/
   - /Blog/Post/web-developer-in-quel-di-milano/
   - /2011/05/31/web-developer-in-quel-di-milano/
-  - /Blog/Post/-web-developer-in-quel-di-milano
-  - /2011/05/31/-web-developer-in-quel-di-milano
+  - /Blog/Post/web-developer-in-quel-di-milano
+  - /2011/05/31/web-developer-in-quel-di-milano
 date: 2011-05-31 16:45:00.000000000 +01:00
 categories:
 - Various

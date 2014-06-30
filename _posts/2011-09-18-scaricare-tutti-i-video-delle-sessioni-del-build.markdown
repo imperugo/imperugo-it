@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/scaricare-tutti-i-video-delle-sessioni-del-build/
   - /Blog/Post/scaricare-tutti-i-video-delle-sessioni-del-build/
   - /2011/09/18/scaricare-tutti-i-video-delle-sessioni-del-build/
-  - /Blog/Post/-scaricare-tutti-i-video-delle-sessioni-del-build
-  - /2011/09/18/-scaricare-tutti-i-video-delle-sessioni-del-build
+  - /Blog/Post/scaricare-tutti-i-video-delle-sessioni-del-build
+  - /2011/09/18/scaricare-tutti-i-video-delle-sessioni-del-build
 date: 2011-09-18 20:37:51.000000000 +01:00
 categories:
 - Eventi

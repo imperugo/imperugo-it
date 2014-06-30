@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/disponibile-il-mio-webcast-su-aspnet-mvc-2/
   - /Blog/Post/disponibile-il-mio-webcast-su-aspnet-mvc-2/
   - /2010/05/17/disponibile-il-mio-webcast-su-aspnet-mvc-2/
-  - /Blog/Post/-disponibile-il-mio-webcast-su-asp-net-mvc-2
-  - /2010/05/17/-disponibile-il-mio-webcast-su-asp-net-mvc-2
+  - /Blog/Post/disponibile-il-mio-webcast-su-asp-net-mvc-2
+  - /2010/05/17/disponibile-il-mio-webcast-su-asp-net-mvc-2
 date: 2010-05-17 16:39:00.000000000 +01:00
 categories:
 - ASP.NET

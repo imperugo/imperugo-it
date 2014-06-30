@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/introduzione-conform/
   - /Blog/Post/introduzione-conform/
   - /2010/09/20/introduzione-conform/
-  - /Blog/Post/-introduzione-a-conform
-  - /2010/09/20/-introduzione-a-conform
+  - /Blog/Post/introduzione-a-conform
+  - /2010/09/20/introduzione-a-conform
 date: 2010-09-20 16:45:00.000000000 +01:00
 categories:
 - ORM

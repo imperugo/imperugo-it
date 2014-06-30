@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/aspnet-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni/
   - /Blog/Post/aspnet-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni/
   - /2009/10/23/aspnet-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni/
-  - /Blog/Post/-asp-net-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni
-  - /2009/10/23/-asp-net-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni
+  - /Blog/Post/asp-net-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni
+  - /2009/10/23/asp-net-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni
 date: 2009-10-23 19:46:09.000000000 +01:00
 categories:
 - ASP.NET

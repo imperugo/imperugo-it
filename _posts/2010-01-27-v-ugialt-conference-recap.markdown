@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/v-ugialt-conference-recap/
   - /Blog/Post/v-ugialt-conference-recap/
   - /2010/01/27/v-ugialt-conference-recap/
-  - /Blog/Post/-v-ugialt-conference-recap
-  - /2010/01/27/-v-ugialt-conference-recap
+  - /Blog/Post/v-ugialt-conference-recap
+  - /2010/01/27/v-ugialt-conference-recap
 date: 2010-01-27 17:30:00.000000000 +00:00
 categories:
 - Eventi

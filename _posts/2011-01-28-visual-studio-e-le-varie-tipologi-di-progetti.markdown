@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/visual-studio-e-le-varie-tipologi-di-progetti/
   - /Blog/Post/visual-studio-e-le-varie-tipologi-di-progetti/
   - /2011/01/28/visual-studio-e-le-varie-tipologi-di-progetti/
-  - /Blog/Post/-visual-studio-e-le-varie-tipologi-di-progetti
-  - /2011/01/28/-visual-studio-e-le-varie-tipologi-di-progetti
+  - /Blog/Post/visual-studio-e-le-varie-tipologi-di-progetti
+  - /2011/01/28/visual-studio-e-le-varie-tipologi-di-progetti
 date: 2011-01-28 17:30:00.000000000 +00:00
 categories:
 - .NET

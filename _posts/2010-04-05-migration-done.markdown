@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/migration-done/
   - /Blog/Post/migration-done/
   - /2010/04/05/migration-done/
-  - /Blog/Post/-migration-done
-  - /2010/04/05/-migration-done
+  - /Blog/Post/migration-done
+  - /2010/04/05/migration-done
 date: 2010-04-05 17:28:00.000000000 +01:00
 categories:
 - Various

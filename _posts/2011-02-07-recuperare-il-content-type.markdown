@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/recuperare-il-content-type/
   - /Blog/Post/recuperare-il-content-type/
   - /2011/02/07/recuperare-il-content-type/
-  - /Blog/Post/-recuperare-il-content-type
-  - /2011/02/07/-recuperare-il-content-type
+  - /Blog/Post/recuperare-il-content-type
+  - /2011/02/07/recuperare-il-content-type
 date: 2011-02-07 17:30:00.000000000 +00:00
 categories:
 - ASP.NET

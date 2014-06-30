@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/error-404-3-wcf-service-host-iis/
   - /Blog/Post/error-404-3-wcf-service-host-iis/
   - /2010/07/01/error-404-3-wcf-service-host-iis/
-  - /Blog/Post/-errore-404-3-con-un-servizio-wcf-hostato-in-iis
-  - /2010/07/01/-errore-404-3-con-un-servizio-wcf-hostato-in-iis
+  - /Blog/Post/errore-404-3-con-un-servizio-wcf-hostato-in-iis
+  - /2010/07/01/errore-404-3-con-un-servizio-wcf-hostato-in-iis
 date: 2010-07-01 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

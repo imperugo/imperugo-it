@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/un-po-and-rsquo-di-materiale-su-visual-studio-2010-e-net-framework-4/
   - /Blog/Post/un-po-and-rsquo-di-materiale-su-visual-studio-2010-e-net-framework-4/
   - /2009/10/23/un-po-and-rsquo-di-materiale-su-visual-studio-2010-e-net-framework-4/
-  - /Blog/Post/-un-po-di-materiale-su-visual-studio-2010-e-net-framework-4
-  - /2009/10/23/-un-po-di-materiale-su-visual-studio-2010-e-net-framework-4
+  - /Blog/Post/un-po-di-materiale-su-visual-studio-2010-e-net-framework-4
+  - /2009/10/23/un-po-di-materiale-su-visual-studio-2010-e-net-framework-4
 date: 2009-10-23 17:30:00.000000000 +01:00
 categories:
 - .NET

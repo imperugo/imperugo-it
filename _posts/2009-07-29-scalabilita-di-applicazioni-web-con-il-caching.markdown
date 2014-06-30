@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/scalabilita-di-applicazioni-web-con-il-caching/
   - /Blog/Post/scalabilita-di-applicazioni-web-con-il-caching/
   - /2009/07/29/scalabilita-di-applicazioni-web-con-il-caching/
-  - /Blog/Post/-scalabilita-di-applicazioni-web-con-il-caching
-  - /2009/07/29/-scalabilita-di-applicazioni-web-con-il-caching
+  - /Blog/Post/scalabilita-di-applicazioni-web-con-il-caching
+  - /2009/07/29/scalabilita-di-applicazioni-web-con-il-caching
 date: 2009-07-29 03:00:07.000000000 +01:00
 categories:
 - ASP.NET

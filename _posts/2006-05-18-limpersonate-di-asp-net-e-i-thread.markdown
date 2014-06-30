@@ -10,8 +10,8 @@ redirect_from:
   - /blog/post/l-impersonate-di-aspnet-e-i-thread/
   - /Blog/Post/l-impersonate-di-aspnet-e-i-thread/
   - /2006/05/18/l-impersonate-di-aspnet-e-i-thread/
-  - /Blog/Post/-limpersonate-di-asp-net-e-i-thread
-  - /2006/05/18/-limpersonate-di-asp-net-e-i-thread
+  - /Blog/Post/limpersonate-di-asp-net-e-i-thread
+  - /2006/05/18/limpersonate-di-asp-net-e-i-thread
 date: 2006-05-18 01:00:00.000000000 +01:00
 categories:
 - ASP.NET

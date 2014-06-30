@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/how-much-windows-azure/
   - /Blog/Post/how-much-windows-azure/
   - /2009/07/16/how-much-windows-azure/
-  - /Blog/Post/-how-much-windows-azure
-  - /2009/07/16/-how-much-windows-azure
+  - /Blog/Post/how-much-windows-azure
+  - /2009/07/16/how-much-windows-azure
 date: 2009-07-16 01:59:33.000000000 +01:00
 categories:
 - Various

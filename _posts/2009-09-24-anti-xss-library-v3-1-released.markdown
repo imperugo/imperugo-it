@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/anti-xss-library-v31-released/
   - /Blog/Post/anti-xss-library-v31-released/
   - /2009/09/24/anti-xss-library-v31-released/
-  - /Blog/Post/-anti-xss-library-v3-1-released
-  - /2009/09/24/-anti-xss-library-v3-1-released
+  - /Blog/Post/anti-xss-library-v3-1-released
+  - /2009/09/24/anti-xss-library-v3-1-released
 date: 2009-09-24 07:26:33.000000000 +01:00
 categories:
 - ASP.NET

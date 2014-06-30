@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/primissime-impressioni-su-visual-studio-2010-beta-2/
   - /Blog/Post/primissime-impressioni-su-visual-studio-2010-beta-2/
   - /2009/10/21/primissime-impressioni-su-visual-studio-2010-beta-2/
-  - /Blog/Post/-primissime-impressioni-su-visual-studio-2010-beta-2
-  - /2009/10/21/-primissime-impressioni-su-visual-studio-2010-beta-2
+  - /Blog/Post/primissime-impressioni-su-visual-studio-2010-beta-2
+  - /2009/10/21/primissime-impressioni-su-visual-studio-2010-beta-2
 date: 2009-10-20 23:00:00.000000000 +01:00
 categories:
 - .NET

@@ -10,8 +10,8 @@ redirect_from:
   - /blog/post/il-domain-model/
   - /Blog/Post/il-domain-model/
   - /2006/09/07/il-domain-model/
-  - /Blog/Post/-il-domain-model
-  - /2006/09/07/-il-domain-model
+  - /Blog/Post/il-domain-model
+  - /2006/09/07/il-domain-model
 date: 2006-09-07 01:00:00.000000000 +01:00
 categories:
 - ORM

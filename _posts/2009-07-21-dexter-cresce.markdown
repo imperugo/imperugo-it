@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/dexter-cresce/
   - /Blog/Post/dexter-cresce/
   - /2009/07/21/dexter-cresce/
-  - /Blog/Post/-dexter-cresce
-  - /2009/07/21/-dexter-cresce
+  - /Blog/Post/dexter-cresce
+  - /2009/07/21/dexter-cresce
 date: 2009-07-21 00:45:03.000000000 +01:00
 categories:
 - Various

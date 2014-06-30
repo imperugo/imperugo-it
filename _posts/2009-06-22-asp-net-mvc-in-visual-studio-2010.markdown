@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/aspnet-mvc-in-visual-studio-2010/
   - /Blog/Post/aspnet-mvc-in-visual-studio-2010/
   - /2009/06/22/aspnet-mvc-in-visual-studio-2010/
-  - /Blog/Post/-asp-net-mvc-in-visual-studio-2010
-  - /2009/06/22/-asp-net-mvc-in-visual-studio-2010
+  - /Blog/Post/asp-net-mvc-in-visual-studio-2010
+  - /2009/06/22/asp-net-mvc-in-visual-studio-2010
 date: 2009-06-22 08:03:44.000000000 +01:00
 categories:
 - ASP.NET

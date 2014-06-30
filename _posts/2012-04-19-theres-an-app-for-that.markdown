@@ -10,8 +10,8 @@ redirect_from:
   - /blog/post/there-is-an-app-for-that/
   - /Blog/Post/there-is-an-app-for-that/
   - /2012/04/19/there-is-an-app-for-that/
-  - /Blog/Post/-theres-an-app-for-that
-  - /2012/04/19/-theres-an-app-for-that
+  - /Blog/Post/theres-an-app-for-that
+  - /2012/04/19/theres-an-app-for-that
 date: 2012-04-19 17:00:00.000000000 +01:00
 categories:
 - Various

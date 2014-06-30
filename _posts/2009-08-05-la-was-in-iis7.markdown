@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/la-was-in-iis7/
   - /Blog/Post/la-was-in-iis7/
   - /2009/08/05/la-was-in-iis7/
-  - /Blog/Post/-la-was-in-iis7
-  - /2009/08/05/-la-was-in-iis7
+  - /Blog/Post/la-was-in-iis7
+  - /2009/08/05/la-was-in-iis7
 date: 2009-08-05 01:46:44.000000000 +01:00
 categories:
 - ASP.NET

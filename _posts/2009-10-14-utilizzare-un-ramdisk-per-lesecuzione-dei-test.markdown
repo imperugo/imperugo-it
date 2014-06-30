@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/utilizzare-un-ramdisk-per-l-and-rsquo-esecuzione-dei-test/
   - /Blog/Post/utilizzare-un-ramdisk-per-l-and-rsquo-esecuzione-dei-test/
   - /2009/10/14/utilizzare-un-ramdisk-per-l-and-rsquo-esecuzione-dei-test/
-  - /Blog/Post/-utilizzare-un-ramdisk-per-lesecuzione-dei-test
-  - /2009/10/14/-utilizzare-un-ramdisk-per-lesecuzione-dei-test
+  - /Blog/Post/utilizzare-un-ramdisk-per-lesecuzione-dei-test
+  - /2009/10/14/utilizzare-un-ramdisk-per-lesecuzione-dei-test
 date: 2009-10-14 01:30:00.000000000 +01:00
 categories:
 - .NET

@@ -8,8 +8,8 @@ redirect_from:
   - /blog/post/23-24-25-novembre-techdayswpc/
   - /Blog/Post/23-24-25-novembre-techdayswpc/
   - /2010/11/18/23-24-25-novembre-techdayswpc/
-  - /Blog/Post/-23-24-e-25-novembre-techdays-wpc
-  - /2010/11/18/-23-24-e-25-novembre-techdays-wpc
+  - /Blog/Post/23-24-e-25-novembre-techdays-wpc
+  - /2010/11/18/23-24-e-25-novembre-techdays-wpc
 date: 2010-11-18 18:00:00.000000000 +00:00
 categories:
 - Web Dev

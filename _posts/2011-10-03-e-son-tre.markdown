@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/e-son-tre/
   - /Blog/Post/e-son-tre/
   - /2011/10/03/e-son-tre/
-  - /Blog/Post/-e-son-tre
-  - /2011/10/03/-e-son-tre
+  - /Blog/Post/e-son-tre
+  - /2011/10/03/e-son-tre
 date: 2011-10-03 17:30:00.000000000 +01:00
 categories:
 - Various

@@ -10,8 +10,8 @@ redirect_from:
   - /blog/post/io-il-gdi-e-il-pocket-pc/
   - /Blog/Post/io-il-gdi-e-il-pocket-pc/
   - /2006/06/10/io-il-gdi-e-il-pocket-pc/
-  - /Blog/Post/-io-il-gdi-e-il-pocket-pc
-  - /2006/06/10/-io-il-gdi-e-il-pocket-pc
+  - /Blog/Post/io-il-gdi-e-il-pocket-pc
+  - /2006/06/10/io-il-gdi-e-il-pocket-pc
 date: 2006-06-10 01:00:00.000000000 +01:00
 categories:
 - .NET

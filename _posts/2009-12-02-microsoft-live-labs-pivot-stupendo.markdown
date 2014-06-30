@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/microsoft-live-labs-pivot-stupendo/
   - /Blog/Post/microsoft-live-labs-pivot-stupendo/
   - /2009/12/02/microsoft-live-labs-pivot-stupendo/
-  - /Blog/Post/-microsoft-live-labs-pivot-stupendo
-  - /2009/12/02/-microsoft-live-labs-pivot-stupendo
+  - /Blog/Post/microsoft-live-labs-pivot-stupendo
+  - /2009/12/02/microsoft-live-labs-pivot-stupendo
 date: 2009-12-02 17:30:00.000000000 +00:00
 categories:
 - Various

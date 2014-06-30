@@ -8,8 +8,8 @@ redirect_from:
   - /blog/post/configurare-il-routing-di-aspnet-mvc-tramite-xml/
   - /Blog/Post/configurare-il-routing-di-aspnet-mvc-tramite-xml/
   - /2009/08/06/configurare-il-routing-di-aspnet-mvc-tramite-xml/
-  - /Blog/Post/-configurare-il-routing-di-asp-net-mvc-tramite-xml
-  - /2009/08/06/-configurare-il-routing-di-asp-net-mvc-tramite-xml
+  - /Blog/Post/configurare-il-routing-di-asp-net-mvc-tramite-xml
+  - /2009/08/06/configurare-il-routing-di-asp-net-mvc-tramite-xml
 date: 2009-08-06 10:42:34.000000000 +01:00
 categories:
 - ASP.NET

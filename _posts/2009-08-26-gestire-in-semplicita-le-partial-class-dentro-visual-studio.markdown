@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/gestire-in-semplicita-le-partial-class-dentro-visual-studio/
   - /Blog/Post/gestire-in-semplicita-le-partial-class-dentro-visual-studio/
   - /2009/08/26/gestire-in-semplicita-le-partial-class-dentro-visual-studio/
-  - /Blog/Post/-gestire-in-semplicita-le-partial-class-dentro-visual-studio
-  - /2009/08/26/-gestire-in-semplicita-le-partial-class-dentro-visual-studio
+  - /Blog/Post/gestire-in-semplicita-le-partial-class-dentro-visual-studio
+  - /2009/08/26/gestire-in-semplicita-le-partial-class-dentro-visual-studio
 date: 2009-08-26 13:26:50.000000000 +01:00
 categories:
 - .NET

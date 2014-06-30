@@ -10,8 +10,8 @@ redirect_from:
   - /blog/post/dto-il-e-reflection-nelle-nostre-applicazioni/
   - /Blog/Post/dto-il-e-reflection-nelle-nostre-applicazioni/
   - /2009/04/21/dto-il-e-reflection-nelle-nostre-applicazioni/
-  - /Blog/Post/-dto-il-e-reflection-nelle-nostre-applicazioni
-  - /2009/04/21/-dto-il-e-reflection-nelle-nostre-applicazioni
+  - /Blog/Post/dto-il-e-reflection-nelle-nostre-applicazioni
+  - /2009/04/21/dto-il-e-reflection-nelle-nostre-applicazioni
 date: 2009-04-21 15:09:54.000000000 +01:00
 categories:
 - ASP.NET

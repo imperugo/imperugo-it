@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/registrare-un-mime-type-dal-web-config/
   - /Blog/Post/registrare-un-mime-type-dal-web-config/
   - /2011/04/04/registrare-un-mime-type-dal-web-config/
-  - /Blog/Post/-registrare-un-mime-type-dal-web-config
-  - /2011/04/04/-registrare-un-mime-type-dal-web-config
+  - /Blog/Post/registrare-un-mime-type-dal-web-config
+  - /2011/04/04/registrare-un-mime-type-dal-web-config
 date: 2011-04-04 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

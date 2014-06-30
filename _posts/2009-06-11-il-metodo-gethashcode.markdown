@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/il-metodo-gethashcode/
   - /Blog/Post/il-metodo-gethashcode/
   - /2009/06/11/il-metodo-gethashcode/
-  - /Blog/Post/-il-metodo-gethashcode
-  - /2009/06/11/-il-metodo-gethashcode
+  - /Blog/Post/il-metodo-gethashcode
+  - /2009/06/11/il-metodo-gethashcode
 date: 2009-06-11 03:00:33.000000000 +01:00
 categories:
 - .NET

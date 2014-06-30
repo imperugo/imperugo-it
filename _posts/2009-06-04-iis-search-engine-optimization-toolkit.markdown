@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/iis-search-engine-optimization-toolkit/
   - /Blog/Post/iis-search-engine-optimization-toolkit/
   - /2009/06/04/iis-search-engine-optimization-toolkit/
-  - /Blog/Post/-iis-search-engine-optimization-toolkit
-  - /2009/06/04/-iis-search-engine-optimization-toolkit
+  - /Blog/Post/iis-search-engine-optimization-toolkit
+  - /2009/06/04/iis-search-engine-optimization-toolkit
 date: 2009-06-04 09:57:27.000000000 +01:00
 categories:
 - ASP.NET

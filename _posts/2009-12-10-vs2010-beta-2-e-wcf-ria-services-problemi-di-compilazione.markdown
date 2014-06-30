@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/vs2010-beta-2-e-wcf-ria-services---problemi-di-compilazione/
   - /Blog/Post/vs2010-beta-2-e-wcf-ria-services---problemi-di-compilazione/
   - /2009/12/10/vs2010-beta-2-e-wcf-ria-services---problemi-di-compilazione/
-  - /Blog/Post/-vs2010-beta-2-e-wcf-ria-services-problemi-di-compilazione
-  - /2009/12/10/-vs2010-beta-2-e-wcf-ria-services-problemi-di-compilazione
+  - /Blog/Post/vs2010-beta-2-e-wcf-ria-services-problemi-di-compilazione
+  - /2009/12/10/vs2010-beta-2-e-wcf-ria-services-problemi-di-compilazione
 date: 2009-12-10 03:22:13.000000000 +00:00
 categories:
 - .NET

@@ -10,8 +10,8 @@ redirect_from:
   - /blog/post/aspnet-4-mvc2-jquery/
   - /Blog/Post/aspnet-4-mvc2-jquery/
   - /2010/07/07/aspnet-4-mvc2-jquery/
-  - /Blog/Post/-asp-net-4-0-mvc2-e-jquerywhat-else
-  - /2010/07/07/-asp-net-4-0-mvc2-e-jquerywhat-else
+  - /Blog/Post/asp-net-4-0-mvc2-e-jquerywhat-else
+  - /2010/07/07/asp-net-4-0-mvc2-e-jquerywhat-else
 date: 2010-07-07 21:33:00.000000000 +01:00
 categories:
 - ASP.NET

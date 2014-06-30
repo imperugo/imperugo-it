@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/troppe-novita-tutte-insieme-2-di-2/
   - /Blog/Post/troppe-novita-tutte-insieme-2-di-2/
   - /2011/09/26/troppe-novita-tutte-insieme-2-di-2/
-  - /Blog/Post/-troppe-novita-tutte-insieme-2-di-2
-  - /2011/09/26/-troppe-novita-tutte-insieme-2-di-2
+  - /Blog/Post/troppe-novita-tutte-insieme-2-di-2
+  - /2011/09/26/troppe-novita-tutte-insieme-2-di-2
 date: 2011-09-26 17:28:29.000000000 +01:00
 categories:
 - ASP.NET

@@ -9,8 +9,8 @@ redirect_from:
   - /blog/post/installare-un-applicazione-silverlight-sul-client-via-csharp/
   - /Blog/Post/installare-un-applicazione-silverlight-sul-client-via-csharp/
   - /2010/03/01/installare-un-applicazione-silverlight-sul-client-via-csharp/
-  - /Blog/Post/-installare-unapplicazione-silverlight-sul-client-via-c
-  - /2010/03/01/-installare-unapplicazione-silverlight-sul-client-via-c
+  - /Blog/Post/installare-unapplicazione-silverlight-sul-client-via-c
+  - /2010/03/01/installare-unapplicazione-silverlight-sul-client-via-c
 date: 2010-03-01 17:00:00.000000000 +00:00
 categories:
 - SILVERLIGHT

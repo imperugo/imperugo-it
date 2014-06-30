@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/e-tempo-di-html5/
   - /Blog/Post/e-tempo-di-html5/
   - /2011/04/18/e-tempo-di-html5/
-  - /Blog/Post/-e-tempo-di-html5
-  - /2011/04/18/-e-tempo-di-html5
+  - /Blog/Post/e-tempo-di-html5
+  - /2011/04/18/e-tempo-di-html5
 date: 2011-04-18 16:45:00.000000000 +01:00
 categories:
 - Web Dev
