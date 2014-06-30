@@ -6,7 +6,9 @@ title: ClientIDMode in ASP.NET 4.0
 redirect_from: 
   - /blog/post/clientidmode-in-aspnet-40/
   - /Blog/Post/clientidmode-in-aspnet-40/
+  - /Blog/Post/2009-11-10-clientidmode-in-asp-net-4-0
   - /2009/11/10/clientidmode-in-aspnet-40/
+  - /2009/11/10/2009-11-10-clientidmode-in-asp-net-4-0
 date: 2009-11-10 17:00:00.000000000 +00:00
 categories:
 - ASP.NET

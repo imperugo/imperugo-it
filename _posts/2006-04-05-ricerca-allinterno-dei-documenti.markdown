@@ -11,7 +11,9 @@ title: Ricerca all'interno dei documenti
 redirect_from: 
   - /blog/post/ricerca-all-interno-dei-documenti/
   - /Blog/Post/ricerca-all-interno-dei-documenti/
+  - /Blog/Post/2006-04-05-ricerca-allinterno-dei-documenti
   - /2006/04/05/ricerca-all-interno-dei-documenti/
+  - /2006/04/05/2006-04-05-ricerca-allinterno-dei-documenti
 date: 2006-04-05 01:00:00.000000000 +01:00
 categories:
 - .NET

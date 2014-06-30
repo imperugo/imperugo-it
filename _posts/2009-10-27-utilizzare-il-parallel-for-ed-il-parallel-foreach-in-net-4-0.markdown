@@ -11,7 +11,9 @@ title: Utilizzare il Parallel For ed il Parallel ForEach in .NET 4.0
 redirect_from: 
   - /blog/post/utilizzare-il-parallel-for-ed-il-parallel-foreach-in-net-4-0/
   - /Blog/Post/utilizzare-il-parallel-for-ed-il-parallel-foreach-in-net-4-0/
+  - /Blog/Post/2009-10-27-utilizzare-il-parallel-for-ed-il-parallel-foreach-in-net-4-0
   - /2009/10/27/utilizzare-il-parallel-for-ed-il-parallel-foreach-in-net-4-0/
+  - /2009/10/27/2009-10-27-utilizzare-il-parallel-for-ed-il-parallel-foreach-in-net-4-0
 date: 2009-10-27 17:30:00.000000000 +00:00
 categories:
 - .NET

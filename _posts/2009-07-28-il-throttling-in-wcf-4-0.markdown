@@ -6,7 +6,9 @@ title: Il Throttling in WCF 4.0
 redirect_from: 
   - /blog/post/il-throttling-in-wcf-40/
   - /Blog/Post/il-throttling-in-wcf-40/
+  - /Blog/Post/2009-07-28-il-throttling-in-wcf-4-0
   - /2009/07/28/il-throttling-in-wcf-40/
+  - /2009/07/28/2009-07-28-il-throttling-in-wcf-4-0
 date: 2009-07-28 03:00:00.000000000 +01:00
 categories:
 - .NET
