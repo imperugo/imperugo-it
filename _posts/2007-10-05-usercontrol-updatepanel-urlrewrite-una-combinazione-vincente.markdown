@@ -10,6 +10,8 @@ redirect_from:
   - /blog/post/usercontrol-updatepanel-urlrewrite-una-combinazione-vincente/
   - /Blog/Post/usercontrol-updatepanel-urlrewrite-una-combinazione-vincente/
   - /2007/10/05/usercontrol-updatepanel-urlrewrite-una-combinazione-vincente/
+  - /Blog/Post/-usercontrol-updatepanel-urlrewrite-una-combinazione-vincente
+  - /2007/10/05/-usercontrol-updatepanel-urlrewrite-una-combinazione-vincente
 date: 2007-10-05 01:00:00.000000000 +01:00
 categories:
 - ASP.NET

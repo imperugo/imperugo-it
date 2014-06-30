@@ -11,6 +11,8 @@ redirect_from:
   - /blog/post/wpc-2011.-save-the-date/
   - /Blog/Post/wpc-2011.-save-the-date/
   - /2011/10/28/wpc-2011.-save-the-date/
+  - /Blog/Post/-wpc-2011-save-the-date
+  - /2011/10/28/-wpc-2011-save-the-date
 date: 2011-10-28 17:30:00.000000000 +01:00
 categories:
 - Web Dev

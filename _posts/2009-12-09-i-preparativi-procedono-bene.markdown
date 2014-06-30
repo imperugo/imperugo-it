@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/i-preparativi-procedono-bene/
   - /Blog/Post/i-preparativi-procedono-bene/
   - /2009/12/09/i-preparativi-procedono-bene/
+  - /Blog/Post/-i-preparativi-procedono-bene
+  - /2009/12/09/-i-preparativi-procedono-bene
 date: 2009-12-09 18:03:00.000000000 +00:00
 categories:
 - Eventi

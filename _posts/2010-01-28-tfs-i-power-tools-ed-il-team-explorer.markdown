@@ -9,6 +9,8 @@ redirect_from:
   - /blog/post/tfs-i-power-tools-ed-il-team-explorer/
   - /Blog/Post/tfs-i-power-tools-ed-il-team-explorer/
   - /2010/01/28/tfs-i-power-tools-ed-il-team-explorer/
+  - /Blog/Post/-tfs-i-power-tools-ed-il-team-explorer
+  - /2010/01/28/-tfs-i-power-tools-ed-il-team-explorer
 date: 2010-01-28 17:38:30.000000000 +00:00
 categories:
 - .NET

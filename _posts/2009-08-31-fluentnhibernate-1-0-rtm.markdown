@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/fluentnhibernate-10-rtm/
   - /Blog/Post/fluentnhibernate-10-rtm/
   - /2009/08/31/fluentnhibernate-10-rtm/
+  - /Blog/Post/-fluentnhibernate-1-0-rtm
+  - /2009/08/31/-fluentnhibernate-1-0-rtm
 date: 2009-08-31 10:36:37.000000000 +01:00
 categories:
 - ORM

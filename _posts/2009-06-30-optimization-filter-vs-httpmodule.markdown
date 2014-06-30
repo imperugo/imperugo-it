@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/optimization-filter-vs-httpmodule/
   - /Blog/Post/optimization-filter-vs-httpmodule/
   - /2009/06/30/optimization-filter-vs-httpmodule/
+  - /Blog/Post/-optimization-filter-vs-httpmodule
+  - /2009/06/30/-optimization-filter-vs-httpmodule
 date: 2009-06-30 07:10:26.000000000 +01:00
 categories:
 - ASP.NET

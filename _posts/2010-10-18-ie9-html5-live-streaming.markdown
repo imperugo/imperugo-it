@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/ie9-html5-live-streaming/
   - /Blog/Post/ie9-html5-live-streaming/
   - /2010/10/18/ie9-html5-live-streaming/
+  - /Blog/Post/-ie9-html5-live-streaming
+  - /2010/10/18/-ie9-html5-live-streaming
 date: 2010-10-18 16:30:00.000000000 +01:00
 categories:
 - ASP.NET

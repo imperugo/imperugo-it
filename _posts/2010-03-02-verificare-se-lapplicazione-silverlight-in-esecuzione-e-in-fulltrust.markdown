@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/verificare-se-l-applicazione-silverlight-in-esecuzione-%C3%A8-in-fulltrust-mode/
   - /Blog/Post/verificare-se-l-applicazione-silverlight-in-esecuzione-%C3%A8-in-fulltrust-mode/
   - /2010/03/02/verificare-se-l-applicazione-silverlight-in-esecuzione-%C3%A8-in-fulltrust-mode/
+  - /Blog/Post/-verificare-se-lapplicazione-silverlight-in-esecuzione-e-in-fulltrust
+  - /2010/03/02/-verificare-se-lapplicazione-silverlight-in-esecuzione-e-in-fulltrust
 date: 2010-03-02 17:00:00.000000000 +00:00
 categories:
 - SILVERLIGHT

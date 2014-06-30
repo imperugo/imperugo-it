@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/una-odissea-chiamata-bootcamp/
   - /Blog/Post/una-odissea-chiamata-bootcamp/
   - /2010/05/14/una-odissea-chiamata-bootcamp/
+  - /Blog/Post/-unodissea-chiamata-boot-camp
+  - /2010/05/14/-unodissea-chiamata-boot-camp
 date: 2010-05-14 16:45:00.000000000 +01:00
 categories:
 - Various

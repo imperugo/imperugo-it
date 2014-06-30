@@ -6,9 +6,9 @@ title: Unit Test con SharpTestEx
 redirect_from: 
   - /blog/post/unit-test-con-sharptestex/
   - /Blog/Post/unit-test-con-sharptestex/
-  - /Blog/Post/2010-04-07-unit-test-con-sharptestex
   - /2010/04/07/unit-test-con-sharptestex/
-  - /2010/04/07/2010-04-07-unit-test-con-sharptestex
+  - /Blog/Post/-unit-test-con-sharptestex
+  - /2010/04/07/-unit-test-con-sharptestex
 date: 2010-04-07 16:43:00.000000000 +01:00
 categories:
 - .NET

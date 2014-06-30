@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/aggiornamento-blue-and-me/
   - /Blog/Post/aggiornamento-blue-and-me/
   - /2009/06/23/aggiornamento-blue-and-me/
+  - /Blog/Post/-aggiornamento-blueme
+  - /2009/06/23/-aggiornamento-blueme
 date: 2009-06-23 01:29:12.000000000 +01:00
 categories:
 - Various

@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/urlencode-e-iis7/
   - /Blog/Post/urlencode-e-iis7/
   - /2009/08/04/urlencode-e-iis7/
+  - /Blog/Post/-urlencode-e-iis7
+  - /2009/08/04/-urlencode-e-iis7
 date: 2009-08-04 01:30:15.000000000 +01:00
 categories:
 - ASP.NET

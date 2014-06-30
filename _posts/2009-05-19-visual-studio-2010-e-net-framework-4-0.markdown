@@ -8,9 +8,9 @@ title: Visual Studio 2010 e .NET Framework 4.0
 redirect_from: 
   - /blog/post/visual-studio-2010-e-net-framework-40/
   - /Blog/Post/visual-studio-2010-e-net-framework-40/
-  - /Blog/Post/2009-05-19-visual-studio-2010-e-net-framework-4-0
   - /2009/05/19/visual-studio-2010-e-net-framework-40/
-  - /2009/05/19/2009-05-19-visual-studio-2010-e-net-framework-4-0
+  - /Blog/Post/-visual-studio-2010-e-net-framework-4-0
+  - /2009/05/19/-visual-studio-2010-e-net-framework-4-0
 date: 2009-05-19 13:51:52.000000000 +01:00
 categories:
 - .NET

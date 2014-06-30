@@ -11,6 +11,8 @@ redirect_from:
   - /blog/post/alcuni-webcast-su-asp.net-mvc-e-molto-altro/
   - /Blog/Post/alcuni-webcast-su-asp.net-mvc-e-molto-altro/
   - /2011/10/11/alcuni-webcast-su-asp.net-mvc-e-molto-altro/
+  - /Blog/Post/-alcuni-webcast-su-asp-net-mvc-e-molto-altro
+  - /2011/10/11/-alcuni-webcast-su-asp-net-mvc-e-molto-altro
 date: 2011-10-11 17:00:00.000000000 +01:00
 categories:
 - ASP.NET

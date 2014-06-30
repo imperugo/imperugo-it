@@ -7,9 +7,9 @@ title: Utilizzare l’AntiXss Library per l’AutoEncode di ASP.NET / MVC2 con i
 redirect_from: 
   - /blog/post/utilizzare-antixss-library-autoencode-di-aspnet-mvc2-con-il-net-framework-4/
   - /Blog/Post/utilizzare-antixss-library-autoencode-di-aspnet-mvc2-con-il-net-framework-4/
-  - /Blog/Post/2010-04-12-utilizzare-lantixss-library-per-lautoencode-di-asp-net-mvc2-con-il-net-framework-4-0
   - /2010/04/12/utilizzare-antixss-library-autoencode-di-aspnet-mvc2-con-il-net-framework-4/
-  - /2010/04/12/2010-04-12-utilizzare-lantixss-library-per-lautoencode-di-asp-net-mvc2-con-il-net-framework-4-0
+  - /Blog/Post/-utilizzare-lantixss-library-per-lautoencode-di-asp-net-mvc2-con-il-net-framework-4-0
+  - /2010/04/12/-utilizzare-lantixss-library-per-lautoencode-di-asp-net-mvc2-con-il-net-framework-4-0
 date: 2010-04-12 16:50:00.000000000 +01:00
 categories:
 - ASP.NET

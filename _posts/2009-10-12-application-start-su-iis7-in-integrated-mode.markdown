@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/application-start-su-iis7-in-integrated-mode/
   - /Blog/Post/application-start-su-iis7-in-integrated-mode/
   - /2009/10/12/application-start-su-iis7-in-integrated-mode/
+  - /Blog/Post/-application-start-su-iis7-in-integrated-mode
+  - /2009/10/12/-application-start-su-iis7-in-integrated-mode
 date: 2009-10-12 17:30:00.000000000 +01:00
 categories:
 - ASP.NET

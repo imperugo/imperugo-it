@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/deploy-di-applicazioni-mvc/
   - /Blog/Post/deploy-di-applicazioni-mvc/
   - /2009/07/22/deploy-di-applicazioni-mvc/
+  - /Blog/Post/-deploy-di-applicazioni-mvc
+  - /2009/07/22/-deploy-di-applicazioni-mvc
 date: 2009-07-22 04:01:11.000000000 +01:00
 categories:
 - ASP.NET

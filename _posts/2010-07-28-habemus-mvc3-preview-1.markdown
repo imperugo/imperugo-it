@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/habemus-mvc3-preview-1/
   - /Blog/Post/habemus-mvc3-preview-1/
   - /2010/07/28/habemus-mvc3-preview-1/
+  - /Blog/Post/-habemus-mvc3-preview-1
+  - /2010/07/28/-habemus-mvc3-preview-1
 date: 2010-07-28 16:30:00.000000000 +01:00
 categories:
 - ASP.NET

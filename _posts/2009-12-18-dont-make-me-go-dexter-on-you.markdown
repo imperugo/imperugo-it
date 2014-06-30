@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/dont-make-me-go-dexter-on-you/
   - /Blog/Post/dont-make-me-go-dexter-on-you/
   - /2009/12/19/dont-make-me-go-dexter-on-you/
+  - /Blog/Post/-dont-make-me-go-dexter-on-you
+  - /2009/12/19/-dont-make-me-go-dexter-on-you
 date: 2009-12-18 23:30:00.000000000 +00:00
 categories:
 - Various

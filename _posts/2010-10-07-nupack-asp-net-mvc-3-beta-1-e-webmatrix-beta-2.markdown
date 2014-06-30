@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/nupack-aspnet-mvc3-webmatrix/
   - /Blog/Post/nupack-aspnet-mvc3-webmatrix/
   - /2010/10/07/nupack-aspnet-mvc3-webmatrix/
+  - /Blog/Post/-nupack-asp-net-mvc-3-beta-1-e-webmatrix-beta-2
+  - /2010/10/07/-nupack-asp-net-mvc-3-beta-1-e-webmatrix-beta-2
 date: 2010-10-07 16:00:00.000000000 +01:00
 categories:
 - ASP.NET

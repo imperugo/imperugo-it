@@ -9,6 +9,8 @@ redirect_from:
   - /blog/post/riflessioni-su-nhibernate/
   - /Blog/Post/riflessioni-su-nhibernate/
   - /2006/07/18/riflessioni-su-nhibernate/
+  - /Blog/Post/-riflessioni-su-nhibernate
+  - /2006/07/18/-riflessioni-su-nhibernate
 date: 2006-07-18 01:00:00.000000000 +01:00
 categories:
 - ORM

@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/cambiare-la-finestra-l%E2%80%99output-del-trace-di-aspnet-ajax/
   - /Blog/Post/cambiare-la-finestra-l%E2%80%99output-del-trace-di-aspnet-ajax/
   - /2009/09/03/cambiare-la-finestra-l%E2%80%99output-del-trace-di-aspnet-ajax/
+  - /Blog/Post/-cambiare-la-finestra-loutput-del-trace-di-asp-net-ajax
+  - /2009/09/03/-cambiare-la-finestra-loutput-del-trace-di-asp-net-ajax
 date: 2009-09-03 09:36:06.000000000 +01:00
 categories:
 - ASP.NET

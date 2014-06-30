@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/foreach-ienumerable-of-t/
   - /Blog/Post/foreach-ienumerable-of-t/
   - /2010/04/13/foreach-ienumerable-of-t/
+  - /Blog/Post/-foreach-in-un-ienumerablet
+  - /2010/04/13/-foreach-in-un-ienumerablet
 date: 2010-04-13 16:50:00.000000000 +01:00
 categories:
 - .NET

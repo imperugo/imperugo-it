@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/gestione-dei-temi-con-aspnet-mvc/
   - /Blog/Post/gestione-dei-temi-con-aspnet-mvc/
   - /2009/06/16/gestione-dei-temi-con-aspnet-mvc/
+  - /Blog/Post/-gestione-dei-temi-con-asp-net-mvc
+  - /2009/06/16/-gestione-dei-temi-con-asp-net-mvc
 date: 2009-06-16 02:14:12.000000000 +01:00
 categories:
 - ASP.NET

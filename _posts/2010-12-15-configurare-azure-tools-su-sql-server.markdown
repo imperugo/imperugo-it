@@ -12,6 +12,8 @@ redirect_from:
   - /blog/post/configurare-azure-tools-su-sql-server/
   - /Blog/Post/configurare-azure-tools-su-sql-server/
   - /2010/12/15/configurare-azure-tools-su-sql-server/
+  - /Blog/Post/-configurare-azure-tools-su-sql-server
+  - /2010/12/15/-configurare-azure-tools-su-sql-server
 date: 2010-12-15 17:45:00.000000000 +00:00
 categories:
 - .NET

@@ -12,6 +12,8 @@ redirect_from:
   - /blog/post/introduzione-a-nuget/
   - /Blog/Post/introduzione-a-nuget/
   - /2011/05/09/introduzione-a-nuget/
+  - /Blog/Post/-introduzione-a-nuget
+  - /2011/05/09/-introduzione-a-nuget
 date: 2011-05-09 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

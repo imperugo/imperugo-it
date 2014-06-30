@@ -9,6 +9,8 @@ redirect_from:
   - /blog/post/review-architecting-mobile-solutions-for-the-enterprise/
   - /Blog/Post/review-architecting-mobile-solutions-for-the-enterprise/
   - /2012/03/15/review-architecting-mobile-solutions-for-the-enterprise/
+  - /Blog/Post/-review-architecting-mobile-solutions-for-the-enterprise
+  - /2012/03/15/-review-architecting-mobile-solutions-for-the-enterprise
 date: 2012-03-15 17:30:00.000000000 +01:00
 
 categories:

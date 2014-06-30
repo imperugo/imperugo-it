@@ -9,6 +9,8 @@ redirect_from:
   - /blog/post/here-we-go.web.net-conference-europe/
   - /Blog/Post/here-we-go.web.net-conference-europe/
   - /2012/04/23/here-we-go.web.net-conference-europe/
+  - /Blog/Post/-here-we-go-web-net-conference-europe
+  - /2012/04/23/-here-we-go-web-net-conference-europe
 date: 2012-04-23 16:55:53.000000000 +01:00
 categories:
 - Eventi

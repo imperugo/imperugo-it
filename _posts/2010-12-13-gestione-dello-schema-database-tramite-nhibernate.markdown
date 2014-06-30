@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/gestione-schema-nhibernate/
   - /Blog/Post/gestione-schema-nhibernate/
   - /2010/12/13/gestione-schema-nhibernate/
+  - /Blog/Post/-gestione-dello-schema-database-tramite-nhibernate
+  - /2010/12/13/-gestione-dello-schema-database-tramite-nhibernate
 date: 2010-12-13 17:45:00.000000000 +00:00
 categories:
 - ORM

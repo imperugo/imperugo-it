@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/net-ria-services-e-silverlight/
   - /Blog/Post/net-ria-services-e-silverlight/
   - /2009/07/27/net-ria-services-e-silverlight/
+  - /Blog/Post/-net-ria-services-e-silverlight
+  - /2009/07/27/-net-ria-services-e-silverlight
 date: 2009-07-27 18:01:36.000000000 +01:00
 categories:
 - SILVERLIGHT

@@ -10,6 +10,8 @@ redirect_from:
   - /blog/post/community-days-again/
   - /Blog/Post/community-days-again/
   - /2008/07/13/community-days-again/
+  - /Blog/Post/-community-days-again
+  - /2008/07/13/-community-days-again
 date: 2008-07-13 01:00:00.000000000 +01:00
 categories:
 - Eventi

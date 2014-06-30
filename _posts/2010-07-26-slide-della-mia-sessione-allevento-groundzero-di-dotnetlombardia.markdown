@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/slide-della-mia-sessione-allevento-groundzero-di-dotnetlombardia/
   - /Blog/Post/slide-della-mia-sessione-allevento-groundzero-di-dotnetlombardia/
   - /2010/07/26/slide-della-mia-sessione-allevento-groundzero-di-dotnetlombardia/
+  - /Blog/Post/-slide-della-mia-sessione-allevento-groundzero-di-dotnetlombardia
+  - /2010/07/26/-slide-della-mia-sessione-allevento-groundzero-di-dotnetlombardia
 date: 2010-07-26 19:28:03.000000000 +01:00
 categories:
 - Eventi

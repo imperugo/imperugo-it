@@ -11,6 +11,8 @@ redirect_from:
   - /blog/post/quibrowser.it-runs-on-dexter/
   - /Blog/Post/quibrowser.it-runs-on-dexter/
   - /2011/03/24/quibrowser.it-runs-on-dexter/
+  - /Blog/Post/-quibrowser-it-runs-on-dexter
+  - /2011/03/24/-quibrowser-it-runs-on-dexter
 date: 2011-03-24 16:50:00.000000000 +00:00
 categories:
 - Various

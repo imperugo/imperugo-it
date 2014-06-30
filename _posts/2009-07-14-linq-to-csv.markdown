@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/linq-to-csv/
   - /Blog/Post/linq-to-csv/
   - /2009/07/14/linq-to-csv/
+  - /Blog/Post/-linq-to-csv
+  - /2009/07/14/-linq-to-csv
 date: 2009-07-14 04:23:42.000000000 +01:00
 categories:
 - Various

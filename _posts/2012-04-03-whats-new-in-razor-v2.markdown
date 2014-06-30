@@ -10,9 +10,9 @@ title: What’s new in Razor v2
 redirect_from: 
   - /blog/post/whats-new-in-razor-v2/
   - /Blog/Post/whats-new-in-razor-v2/
-  - /Blog/Post/2012-04-03-whats-new-in-razor-v2
   - /2012/04/03/whats-new-in-razor-v2/
-  - /2012/04/03/2012-04-03-whats-new-in-razor-v2
+  - /Blog/Post/-whats-new-in-razor-v2
+  - /2012/04/03/-whats-new-in-razor-v2
 date: 2012-04-03 17:00:00.000000000 +01:00
 categories:
 - ASP.NET

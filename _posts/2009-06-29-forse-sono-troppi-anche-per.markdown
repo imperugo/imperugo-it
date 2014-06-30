@@ -7,6 +7,8 @@ redirect_from:
   - /blog/post/forse-sono-troppi-anche-per-/
   - /Blog/Post/forse-sono-troppi-anche-per-/
   - /2009/06/29/forse-sono-troppi-anche-per-/
+  - /Blog/Post/-forse-sono-troppi-anche-per
+  - /2009/06/29/-forse-sono-troppi-anche-per
 date: 2009-06-29 07:35:07.000000000 +01:00
 categories:
 - Various

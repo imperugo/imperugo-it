@@ -9,9 +9,9 @@ title: WCF 4.0 WS-Discovery and Routing
 redirect_from: 
   - /blog/post/wcf-40-ws-discovery-and-routing/
   - /Blog/Post/wcf-40-ws-discovery-and-routing/
-  - /Blog/Post/2009-08-12-wcf-4-0-ws-discovery-and-routing
   - /2009/08/12/wcf-40-ws-discovery-and-routing/
-  - /2009/08/12/2009-08-12-wcf-4-0-ws-discovery-and-routing
+  - /Blog/Post/-wcf-4-0-ws-discovery-and-routing
+  - /2009/08/12/-wcf-4-0-ws-discovery-and-routing
 date: 2009-08-12 02:12:11.000000000 +01:00
 categories:
 - .NET

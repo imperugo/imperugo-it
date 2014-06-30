@@ -11,6 +11,8 @@ redirect_from:
   - /blog/post/gli-action-filter-ed-i-global-filter-di-aspnet-mvc/
   - /Blog/Post/gli-action-filter-ed-i-global-filter-di-aspnet-mvc/
   - /2011/05/11/gli-action-filter-ed-i-global-filter-di-aspnet-mvc/
+  - /Blog/Post/-gli-action-filter-ed-i-global-filter-di-aspnet-mvc
+  - /2011/05/11/-gli-action-filter-ed-i-global-filter-di-aspnet-mvc
 date: 2011-05-11 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

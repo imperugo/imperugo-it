@@ -8,6 +8,8 @@ redirect_from:
   - /blog/post/verificare-se-unapplicazione-silverlight-e-installata-sul-client/
   - /Blog/Post/verificare-se-unapplicazione-silverlight-e-installata-sul-client/
   - /2010/02/03/verificare-se-unapplicazione-silverlight-e-installata-sul-client/
+  - /Blog/Post/-verificare-se-unapplicazione-silverlight-e-installata-sul-client
+  - /2010/02/03/-verificare-se-unapplicazione-silverlight-e-installata-sul-client
 date: 2010-02-03 17:00:00.000000000 +00:00
 categories:
 - SILVERLIGHT

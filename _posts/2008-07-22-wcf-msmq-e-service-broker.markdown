@@ -9,6 +9,8 @@ redirect_from:
   - /blog/post/wcf-msmq-e-service-broker/
   - /Blog/Post/wcf-msmq-e-service-broker/
   - /2008/07/22/wcf-msmq-e-service-broker/
+  - /Blog/Post/-wcf-msmq-e-service-broker
+  - /2008/07/22/-wcf-msmq-e-service-broker
 date: 2008-07-22 01:00:00.000000000 +01:00
 categories:
 - .NET

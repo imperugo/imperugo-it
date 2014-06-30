@@ -9,6 +9,8 @@ redirect_from:
   - /blog/post/unable-to-open-web-site-ndash-visual-studio-e-iis7x/
   - /Blog/Post/unable-to-open-web-site-ndash-visual-studio-e-iis7x/
   - /2009/11/27/unable-to-open-web-site-ndash-visual-studio-e-iis7x/
+  - /Blog/Post/-unable-to-open-web-site-visual-studio-e-iis7-x
+  - /2009/11/27/-unable-to-open-web-site-visual-studio-e-iis7-x
 date: 2009-11-27 08:02:00.000000000 +00:00
 categories:
 - .NET
