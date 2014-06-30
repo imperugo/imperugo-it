@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/loggare-il-ricliclo-dell-application-domain/
   - /Blog/Post/loggare-il-ricliclo-dell-application-domain/
   - /2009/07/27/loggare-il-ricliclo-dell-application-domain/
-  - /Blog/Post/loggare-il-ricliclo-dellapplication-domain
-  - /2009/07/27/loggare-il-ricliclo-dellapplication-domain
+  - /Blog/Post/loggare-il-ricliclo-dellapplication-domain/
+  - /2009/07/27/loggare-il-ricliclo-dellapplication-domain/
 date: 2009-07-27 03:13:12.000000000 +01:00
 categories:
 - ASP.NET

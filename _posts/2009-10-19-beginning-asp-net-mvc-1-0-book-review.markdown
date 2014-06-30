@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/beginning-aspnet-mvc-10-book-review/
   - /Blog/Post/beginning-aspnet-mvc-10-book-review/
   - /2009/10/19/beginning-aspnet-mvc-10-book-review/
-  - /Blog/Post/beginning-asp-net-mvc-1-0-book-review
-  - /2009/10/19/beginning-asp-net-mvc-1-0-book-review
+  - /Blog/Post/beginning-asp-net-mvc-1-0-book-review/
+  - /2009/10/19/beginning-asp-net-mvc-1-0-book-review/
 date: 2009-10-19 17:30:00.000000000 +01:00
 categories:
 - ASP.NET

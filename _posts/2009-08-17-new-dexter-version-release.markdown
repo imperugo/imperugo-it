@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/new-dexter-version-release/
   - /Blog/Post/new-dexter-version-release/
   - /2009/08/17/new-dexter-version-release/
-  - /Blog/Post/new-dexter-version-release
-  - /2009/08/17/new-dexter-version-release
 date: 2009-08-17 11:55:02.000000000 +01:00
 categories:
 - Various

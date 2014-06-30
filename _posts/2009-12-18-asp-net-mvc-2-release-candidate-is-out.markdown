@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/aspnet-mvc-2-release-candidate-is-out/
   - /Blog/Post/aspnet-mvc-2-release-candidate-is-out/
   - /2009/12/18/aspnet-mvc-2-release-candidate-is-out/
-  - /Blog/Post/asp-net-mvc-2-release-candidate-is-out
-  - /2009/12/18/asp-net-mvc-2-release-candidate-is-out
+  - /Blog/Post/asp-net-mvc-2-release-candidate-is-out/
+  - /2009/12/18/asp-net-mvc-2-release-candidate-is-out/
 date: 2009-12-18 09:29:00.000000000 +00:00
 categories:
 - ASP.NET

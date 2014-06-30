@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/alla-faccia-della-privacy/
   - /Blog/Post/alla-faccia-della-privacy/
   - /2009/08/27/alla-faccia-della-privacy/
-  - /Blog/Post/alla-faccia-della-privacy
-  - /2009/08/27/alla-faccia-della-privacy
 date: 2009-08-27 15:10:15.000000000 +01:00
 categories:
 - Various

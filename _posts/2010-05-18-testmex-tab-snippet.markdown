@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/testmex-tab-snippet/
   - /Blog/Post/testmex-tab-snippet/
   - /2010/05/18/testmex-tab-snippet/
-  - /Blog/Post/testmex-tab-snippet
-  - /2010/05/18/testmex-tab-snippet
 date: 2010-05-18 16:30:00.000000000 +01:00
 categories:
 - .NET

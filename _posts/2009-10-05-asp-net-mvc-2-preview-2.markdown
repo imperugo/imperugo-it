@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/aspnet-mvc-2-preview-2/
   - /Blog/Post/aspnet-mvc-2-preview-2/
   - /2009/10/05/aspnet-mvc-2-preview-2/
-  - /Blog/Post/asp-net-mvc-2-preview-2
-  - /2009/10/05/asp-net-mvc-2-preview-2
+  - /Blog/Post/asp-net-mvc-2-preview-2/
+  - /2009/10/05/asp-net-mvc-2-preview-2/
 date: 2009-10-05 17:30:00.000000000 +01:00
 categories:
 - ASP.NET

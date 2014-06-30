@@ -8,8 +8,6 @@ redirect_from:
   - /blog/post/gestire-le-risorse-con-sparkviewengine/
   - /Blog/Post/gestire-le-risorse-con-sparkviewengine/
   - /2010/07/05/gestire-le-risorse-con-sparkviewengine/
-  - /Blog/Post/gestire-le-risorse-con-sparkviewengine
-  - /2010/07/05/gestire-le-risorse-con-sparkviewengine
 date: 2010-07-05 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

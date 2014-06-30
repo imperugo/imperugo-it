@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/ricerca-all-interno-dei-documenti-parte-2/
   - /Blog/Post/ricerca-all-interno-dei-documenti-parte-2/
   - /2006/04/26/ricerca-all-interno-dei-documenti-parte-2/
-  - /Blog/Post/ricerca-allinterno-dei-documenti-parte-2
-  - /2006/04/26/ricerca-allinterno-dei-documenti-parte-2
+  - /Blog/Post/ricerca-allinterno-dei-documenti-parte-2/
+  - /2006/04/26/ricerca-allinterno-dei-documenti-parte-2/
 date: 2006-04-26 01:00:00.000000000 +01:00
 categories:
 - .NET

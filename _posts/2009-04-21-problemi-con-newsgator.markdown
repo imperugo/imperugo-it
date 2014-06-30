@@ -10,8 +10,6 @@ redirect_from:
   - /blog/post/problemi-con-newsgator/
   - /Blog/Post/problemi-con-newsgator/
   - /2009/04/21/problemi-con-newsgator/
-  - /Blog/Post/problemi-con-newsgator
-  - /2009/04/21/problemi-con-newsgator
 date: 2009-04-21 11:39:25.000000000 +01:00
 categories:
 - Various

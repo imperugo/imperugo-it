@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/submit-via-jquery-con-aspnetmvc-2-e-validazione-client-side-un-bel-cocktail/
   - /Blog/Post/submit-via-jquery-con-aspnetmvc-2-e-validazione-client-side-un-bel-cocktail/
   - /2010/05/28/submit-via-jquery-con-aspnetmvc-2-e-validazione-client-side-un-bel-cocktail/
-  - /Blog/Post/submit-via-jquery-con-asp-net-mvc-2-e-validazione-client-side-un-bel-cocktail
-  - /2010/05/28/submit-via-jquery-con-asp-net-mvc-2-e-validazione-client-side-un-bel-cocktail
+  - /Blog/Post/submit-via-jquery-con-asp-net-mvc-2-e-validazione-client-side-un-bel-cocktail/
+  - /2010/05/28/submit-via-jquery-con-asp-net-mvc-2-e-validazione-client-side-un-bel-cocktail/
 date: 2010-05-28 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

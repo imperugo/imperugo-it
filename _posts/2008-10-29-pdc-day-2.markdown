@@ -10,8 +10,6 @@ redirect_from:
   - /blog/post/pdc-day-2/
   - /Blog/Post/pdc-day-2/
   - /2008/10/29/pdc-day-2/
-  - /Blog/Post/pdc-day-2
-  - /2008/10/29/pdc-day-2
 date: 2008-10-29 00:00:00.000000000 +00:00
 categories:
 - Eventi

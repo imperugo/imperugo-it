@@ -8,8 +8,8 @@ redirect_from:
   - /blog/post/compilare-le-applicazioni-64bit/
   - /Blog/Post/compilare-le-applicazioni-64bit/
   - /2010/09/06/compilare-le-applicazioni-64bit/
-  - /Blog/Post/compilare-le-applicazioni-a-64bit
-  - /2010/09/06/compilare-le-applicazioni-a-64bit
+  - /Blog/Post/compilare-le-applicazioni-a-64bit/
+  - /2010/09/06/compilare-le-applicazioni-a-64bit/
 date: 2010-09-06 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

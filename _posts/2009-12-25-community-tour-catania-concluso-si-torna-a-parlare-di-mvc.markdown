@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/community-tour-catania-concluso-si-torna-a-parlare-di-mvc/
   - /Blog/Post/community-tour-catania-concluso-si-torna-a-parlare-di-mvc/
   - /2009/12/25/community-tour-catania-concluso-si-torna-a-parlare-di-mvc/
-  - /Blog/Post/community-tour-catania-concluso-si-torna-a-parlare-di-mvc
-  - /2009/12/25/community-tour-catania-concluso-si-torna-a-parlare-di-mvc
 date: 2009-12-25 00:21:00.000000000 +00:00
 categories:
 - Eventi

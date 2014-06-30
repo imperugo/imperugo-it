@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/assembly-binding-log-viewer-che-spettacolo/
   - /Blog/Post/assembly-binding-log-viewer-che-spettacolo/
   - /2010/05/11/assembly-binding-log-viewer-che-spettacolo/
-  - /Blog/Post/assembly-binding-log-viewer-spettacolo
-  - /2010/05/11/assembly-binding-log-viewer-spettacolo
+  - /Blog/Post/assembly-binding-log-viewer-spettacolo/
+  - /2010/05/11/assembly-binding-log-viewer-spettacolo/
 date: 2010-05-11 14:45:00.000000000 +01:00
 categories:
 - .NET

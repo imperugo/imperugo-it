@@ -9,8 +9,6 @@ redirect_from:
   - /blog/post/dexter-is-back/
   - /Blog/Post/dexter-is-back/
   - /2009/05/06/dexter-is-back/
-  - /Blog/Post/dexter-is-back
-  - /2009/05/06/dexter-is-back
 date: 2009-05-06 00:32:08.000000000 +01:00
 categories:
 - Various

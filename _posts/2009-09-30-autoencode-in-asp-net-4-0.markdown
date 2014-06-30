@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/autoencode-in-aspnet-40/
   - /Blog/Post/autoencode-in-aspnet-40/
   - /2009/09/30/autoencode-in-aspnet-40/
-  - /Blog/Post/autoencode-in-asp-net-4-0
-  - /2009/09/30/autoencode-in-asp-net-4-0
+  - /Blog/Post/autoencode-in-asp-net-4-0/
+  - /2009/09/30/autoencode-in-asp-net-4-0/
 date: 2009-09-30 01:30:00.000000000 +01:00
 categories:
 - ASP.NET

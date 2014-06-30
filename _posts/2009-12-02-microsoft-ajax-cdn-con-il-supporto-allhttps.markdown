@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
   - /Blog/Post/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
   - /2009/12/02/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
-  - /Blog/Post/microsoft-ajax-cdn-con-il-supporto-allhttps
-  - /2009/12/02/microsoft-ajax-cdn-con-il-supporto-allhttps
+  - /Blog/Post/microsoft-ajax-cdn-con-il-supporto-allhttps/
+  - /2009/12/02/microsoft-ajax-cdn-con-il-supporto-allhttps/
 date: 2009-12-02 07:58:42.000000000 +00:00
 categories:
 - ASP.NET

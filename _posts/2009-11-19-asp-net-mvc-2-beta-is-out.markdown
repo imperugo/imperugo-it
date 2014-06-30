@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/aspnet-mvc-2-beta-is-out/
   - /Blog/Post/aspnet-mvc-2-beta-is-out/
   - /2009/11/19/aspnet-mvc-2-beta-is-out/
-  - /Blog/Post/asp-net-mvc-2-beta-is-out
-  - /2009/11/19/asp-net-mvc-2-beta-is-out
+  - /Blog/Post/asp-net-mvc-2-beta-is-out/
+  - /2009/11/19/asp-net-mvc-2-beta-is-out/
 date: 2009-11-19 10:17:18.000000000 +00:00
 categories:
 - ASP.NET

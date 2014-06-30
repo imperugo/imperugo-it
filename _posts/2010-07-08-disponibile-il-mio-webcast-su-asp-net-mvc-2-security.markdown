@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/disponibile-il-mio-webcast-su-asp.net-mvc-2-security/
   - /Blog/Post/disponibile-il-mio-webcast-su-asp.net-mvc-2-security/
   - /2010/07/08/disponibile-il-mio-webcast-su-asp.net-mvc-2-security/
-  - /Blog/Post/disponibile-il-mio-webcast-su-asp-net-mvc-2-security
-  - /2010/07/08/disponibile-il-mio-webcast-su-asp-net-mvc-2-security
+  - /Blog/Post/disponibile-il-mio-webcast-su-asp-net-mvc-2-security/
+  - /2010/07/08/disponibile-il-mio-webcast-su-asp-net-mvc-2-security/
 date: 2010-07-08 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

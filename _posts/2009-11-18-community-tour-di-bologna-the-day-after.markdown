@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/community-tour-di-bologna-the-day-after/
   - /Blog/Post/community-tour-di-bologna-the-day-after/
   - /2009/11/18/community-tour-di-bologna-the-day-after/
-  - /Blog/Post/community-tour-di-bologna-the-day-after
-  - /2009/11/18/community-tour-di-bologna-the-day-after
 date: 2009-11-18 09:38:00.000000000 +00:00
 categories:
 - Eventi

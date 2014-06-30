@@ -10,8 +10,6 @@ redirect_from:
   - /blog/post/mvp-award-again/
   - /Blog/Post/mvp-award-again/
   - /2010/10/04/mvp-award-again/
-  - /Blog/Post/mvp-award-again
-  - /2010/10/04/mvp-award-again
 date: 2010-10-04 17:25:24.000000000 +01:00
 categories:
 - Various

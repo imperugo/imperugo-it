@@ -8,8 +8,8 @@ redirect_from:
   - /blog/post/io-c-ero/
   - /Blog/Post/io-c-ero/
   - /2009/09/11/io-c-ero/
-  - /Blog/Post/io-cero
-  - /2009/09/11/io-cero
+  - /Blog/Post/io-cero/
+  - /2009/09/11/io-cero/
 date: 2009-09-11 11:35:21.000000000 +01:00
 categories:
 - Various

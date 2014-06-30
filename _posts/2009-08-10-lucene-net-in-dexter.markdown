@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/lucenenet-in-dexter/
   - /Blog/Post/lucenenet-in-dexter/
   - /2009/08/10/lucenenet-in-dexter/
-  - /Blog/Post/lucene-net-in-dexter
-  - /2009/08/10/lucene-net-in-dexter
+  - /Blog/Post/lucene-net-in-dexter/
+  - /2009/08/10/lucene-net-in-dexter/
 date: 2009-08-10 20:19:40.000000000 +01:00
 categories:
 - Various

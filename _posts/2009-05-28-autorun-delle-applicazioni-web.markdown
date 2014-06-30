@@ -11,8 +11,6 @@ redirect_from:
   - /blog/post/autorun-delle-applicazioni-web/
   - /Blog/Post/autorun-delle-applicazioni-web/
   - /2009/05/28/autorun-delle-applicazioni-web/
-  - /Blog/Post/autorun-delle-applicazioni-web
-  - /2009/05/28/autorun-delle-applicazioni-web
 date: 2009-05-28 06:03:09.000000000 +01:00
 categories:
 - ASP.NET

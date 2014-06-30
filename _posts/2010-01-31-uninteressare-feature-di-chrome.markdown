@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/uninteressare-feature-di-chrome/
   - /Blog/Post/uninteressare-feature-di-chrome/
   - /2010/01/31/uninteressare-feature-di-chrome/
-  - /Blog/Post/uninteressare-feature-di-chrome
-  - /2010/01/31/uninteressare-feature-di-chrome
 date: 2010-01-31 16:30:00.000000000 +00:00
 categories:
 - Web Dev

@@ -8,8 +8,8 @@ redirect_from:
   - /blog/post/invocare-una-action-utilizzando-il-jsonresult-post-con-jquery-ed-aspnet-mvc-2/
   - /Blog/Post/invocare-una-action-utilizzando-il-jsonresult-post-con-jquery-ed-aspnet-mvc-2/
   - /2010/05/24/invocare-una-action-utilizzando-il-jsonresult-post-con-jquery-ed-aspnet-mvc-2/
-  - /Blog/Post/invocare-una-action-utilizzando-il-jsonresult-in-post-con-jquery-ed-asp-net-mvc-2
-  - /2010/05/24/invocare-una-action-utilizzando-il-jsonresult-in-post-con-jquery-ed-asp-net-mvc-2
+  - /Blog/Post/invocare-una-action-utilizzando-il-jsonresult-in-post-con-jquery-ed-asp-net-mvc-2/
+  - /2010/05/24/invocare-una-action-utilizzando-il-jsonresult-in-post-con-jquery-ed-asp-net-mvc-2/
 date: 2010-05-24 16:40:00.000000000 +01:00
 categories:
 - ASP.NET

@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/resource-manager-molto-fluent-migliorare-le-performance/
   - /Blog/Post/resource-manager-molto-fluent-migliorare-le-performance/
   - /2010/03/16/resource-manager-molto-fluent-migliorare-le-performance/
-  - /Blog/Post/un-resource-manager-molto-fluent-per-migliorare-le-performance
-  - /2010/03/16/un-resource-manager-molto-fluent-per-migliorare-le-performance
+  - /Blog/Post/un-resource-manager-molto-fluent-per-migliorare-le-performance/
+  - /2010/03/16/un-resource-manager-molto-fluent-per-migliorare-le-performance/
 date: 2010-03-16 16:53:00.000000000 +00:00
 categories:
 - ASP.NET

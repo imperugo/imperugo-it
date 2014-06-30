@@ -11,8 +11,6 @@ redirect_from:
   - /blog/post/sparkviewengine-iterazioni/
   - /Blog/Post/sparkviewengine-iterazioni/
   - /2010/07/13/sparkviewengine-iterazioni/
-  - /Blog/Post/sparkviewengine-iterazioni
-  - /2010/07/13/sparkviewengine-iterazioni
 date: 2010-07-13 16:30:00.000000000 +01:00
 categories:
 - ASP.NET

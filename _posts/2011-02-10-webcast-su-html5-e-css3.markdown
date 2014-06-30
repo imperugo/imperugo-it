@@ -11,8 +11,6 @@ redirect_from:
   - /blog/post/webcast-su-html5-e-css3/
   - /Blog/Post/webcast-su-html5-e-css3/
   - /2011/02/10/webcast-su-html5-e-css3/
-  - /Blog/Post/webcast-su-html5-e-css3
-  - /2011/02/10/webcast-su-html5-e-css3
 date: 2011-02-10 17:32:00.000000000 +00:00
 categories:
 - Web Dev

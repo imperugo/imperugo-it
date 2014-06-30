@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/code-contracts-net-4/
   - /Blog/Post/code-contracts-net-4/
   - /2010/06/03/code-contracts-net-4/
-  - /Blog/Post/code-contracts-in-net-4-0
-  - /2010/06/03/code-contracts-in-net-4-0
+  - /Blog/Post/code-contracts-in-net-4-0/
+  - /2010/06/03/code-contracts-in-net-4-0/
 date: 2010-06-03 16:45:00.000000000 +01:00
 categories:
 - .NET

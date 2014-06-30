@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/full-immersion-in-silverlight-40/
   - /Blog/Post/full-immersion-in-silverlight-40/
   - /2009/11/24/full-immersion-in-silverlight-40/
-  - /Blog/Post/full-immersion-in-silverlight-4-0
-  - /2009/11/24/full-immersion-in-silverlight-4-0
+  - /Blog/Post/full-immersion-in-silverlight-4-0/
+  - /2009/11/24/full-immersion-in-silverlight-4-0/
 date: 2009-11-24 07:36:00.000000000 +00:00
 categories:
 - Eventi

@@ -11,8 +11,6 @@ redirect_from:
   - /blog/post/alcuni-miei-articoli/
   - /Blog/Post/alcuni-miei-articoli/
   - /2011/08/24/alcuni-miei-articoli/
-  - /Blog/Post/alcuni-miei-articoli
-  - /2011/08/24/alcuni-miei-articoli
 date: 2011-08-24 17:00:00.000000000 +01:00
 categories:
 - Web Dev

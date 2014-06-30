@@ -10,8 +10,6 @@ redirect_from:
   - /blog/post/65534-folder-in-una-folder/
   - /Blog/Post/65534-folder-in-una-folder/
   - /2008/07/30/65534-folder-in-una-folder/
-  - /Blog/Post/65534-folder-in-una-folder
-  - /2008/07/30/65534-folder-in-una-folder
 date: 2008-07-30 01:00:00.000000000 +01:00
 categories:
 - .NET

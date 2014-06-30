@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/i-m-back-part-1/
   - /Blog/Post/i-m-back-part-1/
   - /2009/09/02/i-m-back-part-1/
-  - /Blog/Post/im-back-part-1
-  - /2009/09/02/im-back-part-1
+  - /Blog/Post/im-back-part-1/
+  - /2009/09/02/im-back-part-1/
 date: 2009-09-02 07:24:17.000000000 +01:00
 categories:
 - Various

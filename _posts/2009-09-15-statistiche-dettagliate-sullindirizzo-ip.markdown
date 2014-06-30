@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/statistiche-dettagliate-sull-and-rsquo-indirizzo-ip/
   - /Blog/Post/statistiche-dettagliate-sull-and-rsquo-indirizzo-ip/
   - /2009/09/15/statistiche-dettagliate-sull-and-rsquo-indirizzo-ip/
-  - /Blog/Post/statistiche-dettagliate-sullindirizzo-ip
-  - /2009/09/15/statistiche-dettagliate-sullindirizzo-ip
+  - /Blog/Post/statistiche-dettagliate-sullindirizzo-ip/
+  - /2009/09/15/statistiche-dettagliate-sullindirizzo-ip/
 date: 2009-09-15 14:23:18.000000000 +01:00
 categories:
 - Various

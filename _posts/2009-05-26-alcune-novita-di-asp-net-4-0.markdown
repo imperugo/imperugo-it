@@ -11,8 +11,8 @@ redirect_from:
   - /blog/post/alcune-novita-di-aspnet-40/
   - /Blog/Post/alcune-novita-di-aspnet-40/
   - /2009/05/26/alcune-novita-di-aspnet-40/
-  - /Blog/Post/alcune-novita-di-asp-net-4-0
-  - /2009/05/26/alcune-novita-di-asp-net-4-0
+  - /Blog/Post/alcune-novita-di-asp-net-4-0/
+  - /2009/05/26/alcune-novita-di-asp-net-4-0/
 date: 2009-05-26 14:35:03.000000000 +01:00
 categories:
 - ASP.NET

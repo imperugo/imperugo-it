@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/attenzione-ad-usare-la-mail-come-logger/
   - /Blog/Post/attenzione-ad-usare-la-mail-come-logger/
   - /2009/06/26/attenzione-ad-usare-la-mail-come-logger/
-  - /Blog/Post/attenzione-ad-usare-la-mail-come-logger
-  - /2009/06/26/attenzione-ad-usare-la-mail-come-logger
 date: 2009-06-26 03:13:51.000000000 +01:00
 categories:
 - Various

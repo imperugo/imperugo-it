@@ -10,8 +10,6 @@ redirect_from:
   - /blog/post/un-transaction-manager-in-un-sistema-ntier/
   - /Blog/Post/un-transaction-manager-in-un-sistema-ntier/
   - /2006/12/12/un-transaction-manager-in-un-sistema-ntier/
-  - /Blog/Post/un-transaction-manager-in-un-sistema-ntier
-  - /2006/12/12/un-transaction-manager-in-un-sistema-ntier
 date: 2006-12-12 01:00:00.000000000 +00:00
 categories:
 - .NET

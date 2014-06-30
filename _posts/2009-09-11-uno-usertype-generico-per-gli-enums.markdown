@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/uno-usertype-generico-per-gli-enums/
   - /Blog/Post/uno-usertype-generico-per-gli-enums/
   - /2009/09/11/uno-usertype-generico-per-gli-enums/
-  - /Blog/Post/uno-usertype-generico-per-gli-enums
-  - /2009/09/11/uno-usertype-generico-per-gli-enums
 date: 2009-09-11 22:30:32.000000000 +01:00
 categories:
 - ORM

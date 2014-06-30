@@ -10,8 +10,8 @@ redirect_from:
   - /blog/post/validazione-client-side-su-aspnet-mvc-2-con-jquery/
   - /Blog/Post/validazione-client-side-su-aspnet-mvc-2-con-jquery/
   - /2010/05/26/validazione-client-side-su-aspnet-mvc-2-con-jquery/
-  - /Blog/Post/validazione-client-side-su-asp-net-mvc-2-con-jquery
-  - /2010/05/26/validazione-client-side-su-asp-net-mvc-2-con-jquery
+  - /Blog/Post/validazione-client-side-su-asp-net-mvc-2-con-jquery/
+  - /2010/05/26/validazione-client-side-su-asp-net-mvc-2-con-jquery/
 date: 2010-05-26 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

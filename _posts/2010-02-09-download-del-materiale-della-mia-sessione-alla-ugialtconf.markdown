@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/download-del-materiale-della-mia-sessione-alla-ugialtconf/
   - /Blog/Post/download-del-materiale-della-mia-sessione-alla-ugialtconf/
   - /2010/02/09/download-del-materiale-della-mia-sessione-alla-ugialtconf/
-  - /Blog/Post/download-del-materiale-della-mia-sessione-alla-ugialtconf
-  - /2010/02/09/download-del-materiale-della-mia-sessione-alla-ugialtconf
 date: 2010-02-09 06:47:23.000000000 +00:00
 categories:
 - Eventi

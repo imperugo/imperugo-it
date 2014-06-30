@@ -9,8 +9,6 @@ redirect_from:
   - /blog/post/dominio-stai-lontano-dalle-mie-view/
   - /Blog/Post/dominio-stai-lontano-dalle-mie-view/
   - /2011/10/25/dominio-stai-lontano-dalle-mie-view/
-  - /Blog/Post/dominio-stai-lontano-dalle-mie-view
-  - /2011/10/25/dominio-stai-lontano-dalle-mie-view
 date: 2011-10-25 17:30:00.000000000 +01:00
 categories:
 - ASP.NET

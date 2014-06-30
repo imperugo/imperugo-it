@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/la-sedia-del-vero-geek/
   - /Blog/Post/la-sedia-del-vero-geek/
   - /2009/09/08/la-sedia-del-vero-geek/
-  - /Blog/Post/la-sedia-del-vero-geek
-  - /2009/09/08/la-sedia-del-vero-geek
 date: 2009-09-08 21:58:19.000000000 +01:00
 categories:
 - Various

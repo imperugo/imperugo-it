@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/esce-la-beta2-di-visual-studio-2010-ed-and-egrave-tempo-di-studiare/
   - /Blog/Post/esce-la-beta2-di-visual-studio-2010-ed-and-egrave-tempo-di-studiare/
   - /2009/10/21/esce-la-beta2-di-visual-studio-2010-ed-and-egrave-tempo-di-studiare/
-  - /Blog/Post/esce-la-beta2-di-visual-studio-2010-ed-e-tempo-di-studiare
-  - /2009/10/21/esce-la-beta2-di-visual-studio-2010-ed-e-tempo-di-studiare
+  - /Blog/Post/esce-la-beta2-di-visual-studio-2010-ed-e-tempo-di-studiare/
+  - /2009/10/21/esce-la-beta2-di-visual-studio-2010-ed-e-tempo-di-studiare/
 date: 2009-10-21 21:30:00.000000000 +01:00
 categories:
 - Eventi

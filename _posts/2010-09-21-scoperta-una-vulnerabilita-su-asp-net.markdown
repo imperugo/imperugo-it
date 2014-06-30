@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/scoperta-una-vulnerabilit%C3%A0-su-aspnet/
   - /Blog/Post/scoperta-una-vulnerabilit%C3%A0-su-aspnet/
   - /2010/09/21/scoperta-una-vulnerabilit%C3%A0-su-aspnet/
-  - /Blog/Post/scoperta-una-vulnerabilita-su-asp-net
-  - /2010/09/21/scoperta-una-vulnerabilita-su-asp-net
+  - /Blog/Post/scoperta-una-vulnerabilita-su-asp-net/
+  - /2010/09/21/scoperta-una-vulnerabilita-su-asp-net/
 date: 2010-09-21 16:15:00.000000000 +01:00
 categories:
 - ASP.NET

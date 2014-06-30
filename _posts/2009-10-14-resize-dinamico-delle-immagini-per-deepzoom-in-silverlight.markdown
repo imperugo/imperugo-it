@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/resize-dinamico-delle-immagini-per-deepzoom-in-silverlight/
   - /Blog/Post/resize-dinamico-delle-immagini-per-deepzoom-in-silverlight/
   - /2009/10/14/resize-dinamico-delle-immagini-per-deepzoom-in-silverlight/
-  - /Blog/Post/resize-dinamico-delle-immagini-per-deepzoom-in-silverlight
-  - /2009/10/14/resize-dinamico-delle-immagini-per-deepzoom-in-silverlight
 date: 2009-10-14 17:30:00.000000000 +01:00
 categories:
 - SILVERLIGHT

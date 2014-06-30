@@ -11,8 +11,6 @@ redirect_from:
   - /blog/post/il-3d-sbarca-anche-sul-web/
   - /Blog/Post/il-3d-sbarca-anche-sul-web/
   - /2012/04/06/il-3d-sbarca-anche-sul-web/
-  - /Blog/Post/il-3d-sbarca-anche-sul-web
-  - /2012/04/06/il-3d-sbarca-anche-sul-web
 date: 2012-04-06 17:00:00.000000000 +01:00
 categories:
 - Web Dev

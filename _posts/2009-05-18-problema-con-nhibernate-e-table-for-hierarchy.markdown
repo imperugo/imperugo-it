@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/problema-con-nhibernate-e-table-for-hierarchy/
   - /Blog/Post/problema-con-nhibernate-e-table-for-hierarchy/
   - /2009/05/18/problema-con-nhibernate-e-table-for-hierarchy/
-  - /Blog/Post/problema-con-nhibernate-e-table-for-hierarchy
-  - /2009/05/18/problema-con-nhibernate-e-table-for-hierarchy
 date: 2009-05-18 10:55:12.000000000 +01:00
 categories:
 - ORM

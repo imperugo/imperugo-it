@@ -8,8 +8,6 @@ redirect_from:
   - /blog/post/welcome-parallel-linq/
   - /Blog/Post/welcome-parallel-linq/
   - /2009/10/26/welcome-parallel-linq/
-  - /Blog/Post/welcome-parallel-linq
-  - /2009/10/26/welcome-parallel-linq
 date: 2009-10-26 19:30:00.000000000 +00:00
 categories:
 - .NET

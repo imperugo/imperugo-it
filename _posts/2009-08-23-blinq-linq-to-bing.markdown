@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/blinq-linq-to-bing/
   - /Blog/Post/blinq-linq-to-bing/
   - /2009/08/23/blinq-linq-to-bing/
-  - /Blog/Post/blinq-linq-to-bing
-  - /2009/08/23/blinq-linq-to-bing
 date: 2009-08-23 21:21:50.000000000 +01:00
 categories:
 - .NET

@@ -7,8 +7,8 @@ redirect_from:
   - /blog/post/aspnet-mvc-2-rtm-ed-po-di-mvc-3/
   - /Blog/Post/aspnet-mvc-2-rtm-ed-po-di-mvc-3/
   - /2010/03/15/aspnet-mvc-2-rtm-ed-po-di-mvc-3/
-  - /Blog/Post/asp-net-mvc-2-rtm-ed-un-po-di-mvc-3
-  - /2010/03/15/asp-net-mvc-2-rtm-ed-un-po-di-mvc-3
+  - /Blog/Post/asp-net-mvc-2-rtm-ed-un-po-di-mvc-3/
+  - /2010/03/15/asp-net-mvc-2-rtm-ed-un-po-di-mvc-3/
 date: 2010-03-15 16:30:00.000000000 +00:00
 categories:
 - ASP.NET

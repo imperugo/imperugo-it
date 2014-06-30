@@ -7,8 +7,6 @@ redirect_from:
   - /blog/post/visual-studio-team-system-2008-gdr-r2/
   - /Blog/Post/visual-studio-team-system-2008-gdr-r2/
   - /2009/09/08/visual-studio-team-system-2008-gdr-r2/
-  - /Blog/Post/visual-studio-team-system-2008-gdr-r2
-  - /2009/09/08/visual-studio-team-system-2008-gdr-r2
 date: 2009-09-08 09:34:43.000000000 +01:00
 categories:
 - .NET
