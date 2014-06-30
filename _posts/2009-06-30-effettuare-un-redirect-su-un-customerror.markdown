@@ -6,7 +6,7 @@ title: Effettuare un Redirect su un customError
 redirect_from: 
   - /blog/post/effettuare-un-redirect-su-un-customerror/
   - /Blog/Post/effettuare-un-redirect-su-un-customerror/
-  - /2009/6/30/effettuare-un-redirect-su-un-customerror/
+  - /2009/06/30/effettuare-un-redirect-su-un-customerror/
 date: 2009-06-30 02:01:54.000000000 +01:00
 categories:
 - ASP.NET

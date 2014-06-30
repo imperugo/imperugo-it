@@ -10,7 +10,7 @@ title: Generazione di dati fake durante la scrittura di test.
 redirect_from: 
   - /blog/post/generazione-di-dati-fake-durante-la-scrittura-di-test/
   - /Blog/Post/generazione-di-dati-fake-durante-la-scrittura-di-test/
-  - /2010/9/15/generazione-di-dati-fake-durante-la-scrittura-di-test/
+  - /2010/09/15/generazione-di-dati-fake-durante-la-scrittura-di-test/
 date: 2010-09-15 16:00:00.000000000 +01:00
 categories:
 - .NET

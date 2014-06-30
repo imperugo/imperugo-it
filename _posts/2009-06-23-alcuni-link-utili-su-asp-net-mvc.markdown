@@ -6,7 +6,7 @@ title: Alcuni Link utili su ASP.NET MVC
 redirect_from: 
   - /blog/post/alcuni-link-utili-su-aspnet-mvc/
   - /Blog/Post/alcuni-link-utili-su-aspnet-mvc/
-  - /2009/6/23/alcuni-link-utili-su-aspnet-mvc/
+  - /2009/06/23/alcuni-link-utili-su-aspnet-mvc/
 date: 2009-06-23 03:48:21.000000000 +01:00
 categories:
 - ASP.NET

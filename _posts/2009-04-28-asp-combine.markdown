@@ -8,7 +8,7 @@ title: ASP Combine
 redirect_from: 
   - /blog/post/asp-combine/
   - /Blog/Post/asp-combine/
-  - /2009/4/28/asp-combine/
+  - /2009/04/28/asp-combine/
 date: 2009-04-28 05:42:10.000000000 +01:00
 categories:
 - ASP.NET

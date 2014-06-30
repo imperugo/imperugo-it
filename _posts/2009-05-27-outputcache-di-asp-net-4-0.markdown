@@ -6,7 +6,7 @@ title: OutputCache di ASP.NET 4.0
 redirect_from: 
   - /blog/post/outputcache-di-aspnet-40/
   - /Blog/Post/outputcache-di-aspnet-40/
-  - /2009/5/27/outputcache-di-aspnet-40/
+  - /2009/05/27/outputcache-di-aspnet-40/
 date: 2009-05-27 07:51:38.000000000 +01:00
 categories:
 - ASP.NET

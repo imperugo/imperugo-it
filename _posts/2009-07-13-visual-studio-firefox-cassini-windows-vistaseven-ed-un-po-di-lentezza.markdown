@@ -6,7 +6,7 @@ title: Visual Studio, Firefox, Cassini, Windows Vista/Seven ed un po’ di lente
 redirect_from: 
   - /blog/post/visual-studio-firefox-cassini-windows-vistaseven-ed-un-po%E2%80%99-di-lentezza/
   - /Blog/Post/visual-studio-firefox-cassini-windows-vistaseven-ed-un-po%E2%80%99-di-lentezza/
-  - /2009/7/13/visual-studio-firefox-cassini-windows-vistaseven-ed-un-po%E2%80%99-di-lentezza/
+  - /2009/07/13/visual-studio-firefox-cassini-windows-vistaseven-ed-un-po%E2%80%99-di-lentezza/
 date: 2009-07-13 06:31:24.000000000 +01:00
 categories:
 - .NET

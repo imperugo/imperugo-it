@@ -6,7 +6,7 @@ title: .NET RIA Services e Silverlight (update)
 redirect_from: 
   - /blog/post/net-ria-services-e-silverlight-update/
   - /Blog/Post/net-ria-services-e-silverlight-update/
-  - /2009/8/7/net-ria-services-e-silverlight-update/
+  - /2009/08/07/net-ria-services-e-silverlight-update/
 date: 2009-08-07 11:08:32.000000000 +01:00
 categories:
 - SILVERLIGHT

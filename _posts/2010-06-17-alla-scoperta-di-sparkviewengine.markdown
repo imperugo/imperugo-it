@@ -6,7 +6,7 @@ title: alla scoperta di SparkViewEngine
 redirect_from: 
   - /blog/post/alla-scoperta-di-sparkviewengine/
   - /Blog/Post/alla-scoperta-di-sparkviewengine/
-  - /2010/6/17/alla-scoperta-di-sparkviewengine/
+  - /2010/06/17/alla-scoperta-di-sparkviewengine/
 date: 2010-06-17 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

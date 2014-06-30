@@ -6,7 +6,7 @@ title: Il Feed di Twitter
 redirect_from: 
   - /blog/post/il-feed-di-twitter/
   - /Blog/Post/il-feed-di-twitter/
-  - /2009/8/28/il-feed-di-twitter/
+  - /2009/08/28/il-feed-di-twitter/
 date: 2009-08-28 19:26:55.000000000 +01:00
 categories:
 - Various

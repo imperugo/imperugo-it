@@ -10,7 +10,7 @@ title: Migrare un progetto esistente ad Azure
 redirect_from: 
   - /blog/post/migrare-un-progetto-esistente-ad-azure/
   - /Blog/Post/migrare-un-progetto-esistente-ad-azure/
-  - /2011/3/30/migrare-un-progetto-esistente-ad-azure/
+  - /2011/03/30/migrare-un-progetto-esistente-ad-azure/
 date: 2011-03-30 16:50:00.000000000 +01:00
 categories:
 - Web Dev

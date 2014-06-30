@@ -10,7 +10,7 @@ title: Un MIX 2011 ricco di novità
 redirect_from: 
   - /blog/post/un-mix-2011-ricco-di-novita/
   - /Blog/Post/un-mix-2011-ricco-di-novita/
-  - /2011/4/13/un-mix-2011-ricco-di-novita/
+  - /2011/04/13/un-mix-2011-ricco-di-novita/
 date: 2011-04-13 16:45:00.000000000 +01:00
 categories:
 - Eventi

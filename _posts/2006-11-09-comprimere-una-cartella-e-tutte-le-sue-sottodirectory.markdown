@@ -9,7 +9,7 @@ title: Comprimere una cartella e tutte le sue sottodirectory
 redirect_from: 
   - /blog/post/comprimere-una-cartella-e-tutte-le-sue-sottodirectory/
   - /Blog/Post/comprimere-una-cartella-e-tutte-le-sue-sottodirectory/
-  - /2006/11/9/comprimere-una-cartella-e-tutte-le-sue-sottodirectory/
+  - /2006/11/09/comprimere-una-cartella-e-tutte-le-sue-sottodirectory/
 date: 2006-11-09 01:00:00.000000000 +00:00
 categories:
 - .NET

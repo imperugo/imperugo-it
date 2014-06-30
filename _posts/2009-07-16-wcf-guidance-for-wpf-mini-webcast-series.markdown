@@ -6,7 +6,7 @@ title: WCF Guidance for WPF Mini Webcast Series
 redirect_from: 
   - /blog/post/wcf-guidance-for-wpf-mini-webcast-series/
   - /Blog/Post/wcf-guidance-for-wpf-mini-webcast-series/
-  - /2009/7/16/wcf-guidance-for-wpf-mini-webcast-series/
+  - /2009/07/16/wcf-guidance-for-wpf-mini-webcast-series/
 date: 2009-07-16 02:00:42.000000000 +01:00
 categories:
 - .NET

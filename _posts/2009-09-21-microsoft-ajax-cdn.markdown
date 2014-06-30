@@ -6,7 +6,7 @@ title: Microsoft AJAX CDN
 redirect_from: 
   - /blog/post/microsoft-ajax-cdn/
   - /Blog/Post/microsoft-ajax-cdn/
-  - /2009/9/21/microsoft-ajax-cdn/
+  - /2009/09/21/microsoft-ajax-cdn/
 date: 2009-09-21 14:01:15.000000000 +01:00
 categories:
 - ASP.NET

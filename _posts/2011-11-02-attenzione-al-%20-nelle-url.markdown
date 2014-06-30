@@ -10,7 +10,7 @@ title: Attenzione al %20 nelle url
 redirect_from: 
   - /blog/post/attenzione-al-20-nelle-url/
   - /Blog/Post/attenzione-al-20-nelle-url/
-  - /2011/11/2/attenzione-al-20-nelle-url/
+  - /2011/11/02/attenzione-al-20-nelle-url/
 date: 2011-11-02 17:15:00.000000000 +00:00
 categories:
 - ASP.NET

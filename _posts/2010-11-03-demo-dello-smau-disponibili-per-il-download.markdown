@@ -9,7 +9,7 @@ title: Demo dello SMAU disponibili per il download.
 redirect_from: 
   - /blog/post/demo-dello-smau-disponibili-il-download/
   - /Blog/Post/demo-dello-smau-disponibili-il-download/
-  - /2010/11/3/demo-dello-smau-disponibili-il-download/
+  - /2010/11/03/demo-dello-smau-disponibili-il-download/
 date: 2010-11-03 16:50:00.000000000 +00:00
 categories:
 - Eventi

@@ -9,7 +9,7 @@ title: AOP per il Bug Fixing
 redirect_from: 
   - /blog/post/aop-per-il-bug-fixing/
   - /Blog/Post/aop-per-il-bug-fixing/
-  - /2009/6/22/aop-per-il-bug-fixing/
+  - /2009/06/22/aop-per-il-bug-fixing/
 date: 2009-06-22 04:26:23.000000000 +01:00
 categories:
 - .NET

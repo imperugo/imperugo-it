@@ -6,7 +6,7 @@ title: ASP.NET Controls per IE8
 redirect_from: 
   - /blog/post/aspnet-controls-per-ie8/
   - /Blog/Post/aspnet-controls-per-ie8/
-  - /2009/10/8/aspnet-controls-per-ie8/
+  - /2009/10/08/aspnet-controls-per-ie8/
 date: 2009-10-08 18:00:00.000000000 +01:00
 categories:
 - ASP.NET

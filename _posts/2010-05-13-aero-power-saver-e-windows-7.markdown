@@ -6,7 +6,7 @@ title: Aero, Power Saver e Windows 7
 redirect_from: 
   - /blog/post/aero-power-saver-windows-7/
   - /Blog/Post/aero-power-saver-windows-7/
-  - /2010/5/13/aero-power-saver-windows-7/
+  - /2010/05/13/aero-power-saver-windows-7/
 date: 2010-05-13 18:42:00.000000000 +01:00
 categories:
 - Various

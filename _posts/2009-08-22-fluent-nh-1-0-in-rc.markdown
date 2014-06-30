@@ -6,7 +6,7 @@ title: Fluent NH 1.0 in RC.
 redirect_from: 
   - /blog/post/fluent-nh-10-in-rc/
   - /Blog/Post/fluent-nh-10-in-rc/
-  - /2009/8/22/fluent-nh-10-in-rc/
+  - /2009/08/22/fluent-nh-10-in-rc/
 date: 2009-08-22 12:15:44.000000000 +01:00
 categories:
 - ORM

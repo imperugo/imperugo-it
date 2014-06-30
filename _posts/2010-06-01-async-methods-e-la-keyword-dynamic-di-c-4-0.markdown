@@ -6,7 +6,7 @@ title: Async Methods e la keyword dynamic di C# 4.0
 redirect_from: 
   - /blog/post/async-methods-e-la-keyword-dynamic-di-csharp-4/
   - /Blog/Post/async-methods-e-la-keyword-dynamic-di-csharp-4/
-  - /2010/6/1/async-methods-e-la-keyword-dynamic-di-csharp-4/
+  - /2010/06/01/async-methods-e-la-keyword-dynamic-di-csharp-4/
 date: 2010-06-01 16:45:00.000000000 +01:00
 categories:
 - .NET

@@ -6,7 +6,7 @@ title: Un nuovo User Group .NET all'orizzonte.
 redirect_from: 
   - /blog/post/un-nuovo-user-group-net-all-orizzonte/
   - /Blog/Post/un-nuovo-user-group-net-all-orizzonte/
-  - /2009/6/24/un-nuovo-user-group-net-all-orizzonte/
+  - /2009/06/24/un-nuovo-user-group-net-all-orizzonte/
 date: 2009-06-24 07:06:56.000000000 +01:00
 categories:
 - Various

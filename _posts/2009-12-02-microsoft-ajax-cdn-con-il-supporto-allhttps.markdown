@@ -6,7 +6,7 @@ title: Microsoft AJAX CDN con il supporto all’https
 redirect_from: 
   - /blog/post/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
   - /Blog/Post/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
-  - /2009/12/2/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
+  - /2009/12/02/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
 date: 2009-12-02 07:58:42.000000000 +00:00
 categories:
 - ASP.NET

@@ -6,7 +6,7 @@ title: Microsoft MVP ASP.NET
 redirect_from: 
   - /blog/post/microsoft-mvp-aspnet/
   - /Blog/Post/microsoft-mvp-aspnet/
-  - /2009/10/2/microsoft-mvp-aspnet/
+  - /2009/10/02/microsoft-mvp-aspnet/
 date: 2009-10-02 20:32:00.000000000 +01:00
 categories:
 - Various

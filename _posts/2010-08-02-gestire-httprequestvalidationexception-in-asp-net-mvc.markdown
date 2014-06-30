@@ -6,7 +6,7 @@ title: Gestire HttpRequestValidationException in ASP.NET MVC
 redirect_from: 
   - /blog/post/gestire-httprequestvalidationexception-aspnet-mvc/
   - /Blog/Post/gestire-httprequestvalidationexception-aspnet-mvc/
-  - /2010/8/2/gestire-httprequestvalidationexception-aspnet-mvc/
+  - /2010/08/02/gestire-httprequestvalidationexception-aspnet-mvc/
 date: 2010-08-02 16:30:00.000000000 +01:00
 categories:
 - ASP.NET

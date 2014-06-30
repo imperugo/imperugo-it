@@ -10,7 +10,7 @@ title: Come è fatto un datacenter di Azure?
 redirect_from: 
   - /blog/post/come-e-fatto-un-datacenter-di-azure/
   - /Blog/Post/come-e-fatto-un-datacenter-di-azure/
-  - /2011/9/6/come-e-fatto-un-datacenter-di-azure/
+  - /2011/09/06/come-e-fatto-un-datacenter-di-azure/
 date: 2011-09-06 17:30:00.000000000 +01:00
 categories:
 - Various

@@ -6,7 +6,7 @@ title: Utilizzare ASP.NET MVC 2.0 con Visual Studio 2010 RC
 redirect_from: 
   - /blog/post/utilizzare-aspnet-mvc-20-con-visual-studio-2010-rc/
   - /Blog/Post/utilizzare-aspnet-mvc-20-con-visual-studio-2010-rc/
-  - /2010/3/15/utilizzare-aspnet-mvc-20-con-visual-studio-2010-rc/
+  - /2010/03/15/utilizzare-aspnet-mvc-20-con-visual-studio-2010-rc/
 date: 2010-03-15 18:30:00.000000000 +00:00
 categories:
 - ASP.NET

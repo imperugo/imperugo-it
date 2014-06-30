@@ -9,7 +9,7 @@ title: Schedulazione Custom
 redirect_from: 
   - /blog/post/schedulazione-custom/
   - /Blog/Post/schedulazione-custom/
-  - /2009/3/9/schedulazione-custom/
+  - /2009/03/09/schedulazione-custom/
 date: 2009-03-09 00:00:00.000000000 +00:00
 categories:
 - .NET

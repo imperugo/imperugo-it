@@ -6,7 +6,7 @@ title: ForEach in un IEnumerable&lt;T&gt;
 redirect_from: 
   - /blog/post/foreach-ienumerable-of-t/
   - /Blog/Post/foreach-ienumerable-of-t/
-  - /2010/4/13/foreach-ienumerable-of-t/
+  - /2010/04/13/foreach-ienumerable-of-t/
 date: 2010-04-13 16:50:00.000000000 +01:00
 categories:
 - .NET

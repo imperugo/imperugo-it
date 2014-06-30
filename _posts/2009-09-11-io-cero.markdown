@@ -7,7 +7,7 @@ title: Io c'ero!
 redirect_from: 
   - /blog/post/io-c-ero/
   - /Blog/Post/io-c-ero/
-  - /2009/9/11/io-c-ero/
+  - /2009/09/11/io-c-ero/
 date: 2009-09-11 11:35:21.000000000 +01:00
 categories:
 - Various

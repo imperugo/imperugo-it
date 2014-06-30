@@ -6,7 +6,7 @@ title: verso “ASP.NET MVC tra realtà e futuro”. Tutti a Bologna (ma passand
 redirect_from: 
   - /blog/post/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
   - /Blog/Post/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
-  - /2009/11/6/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
+  - /2009/11/06/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
 date: 2009-11-06 06:30:00.000000000 +00:00
 categories:
 - ASP.NET

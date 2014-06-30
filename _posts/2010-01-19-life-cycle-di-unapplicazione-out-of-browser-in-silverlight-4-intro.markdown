@@ -6,7 +6,7 @@ title: Life cycle di un’applicazione Out Of Browser in Silverlight 4 - Intro
 redirect_from: 
   - /blog/post/life-cycle-di-unapplicazione-out-of-browser-in-silverlight-4-intro/
   - /Blog/Post/life-cycle-di-unapplicazione-out-of-browser-in-silverlight-4-intro/
-  - /2010/1/19/life-cycle-di-unapplicazione-out-of-browser-in-silverlight-4-intro/
+  - /2010/01/19/life-cycle-di-unapplicazione-out-of-browser-in-silverlight-4-intro/
 date: 2010-01-19 08:09:00.000000000 +00:00
 categories:
 - SILVERLIGHT

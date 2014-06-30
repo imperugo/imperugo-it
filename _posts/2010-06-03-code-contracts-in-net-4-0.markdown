@@ -6,7 +6,7 @@ title: Code Contracts in .NET 4.0
 redirect_from: 
   - /blog/post/code-contracts-net-4/
   - /Blog/Post/code-contracts-net-4/
-  - /2010/6/3/code-contracts-net-4/
+  - /2010/06/03/code-contracts-net-4/
 date: 2010-06-03 16:45:00.000000000 +01:00
 categories:
 - .NET

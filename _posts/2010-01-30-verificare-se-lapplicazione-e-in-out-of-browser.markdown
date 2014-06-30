@@ -6,7 +6,7 @@ title: Verificare se l’applicazione è in Out Of Browser
 redirect_from: 
   - /blog/post/verificare-se-lapplicazione-e-in-out-of-browser/
   - /Blog/Post/verificare-se-lapplicazione-e-in-out-of-browser/
-  - /2010/1/30/verificare-se-lapplicazione-e-in-out-of-browser/
+  - /2010/01/30/verificare-se-lapplicazione-e-in-out-of-browser/
 date: 2010-01-30 11:48:06.000000000 +00:00
 categories:
 - SILVERLIGHT

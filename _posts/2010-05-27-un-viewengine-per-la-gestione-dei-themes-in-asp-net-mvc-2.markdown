@@ -6,7 +6,7 @@ title: Un ViewEngine per la gestione dei Themes in ASP.NET MVC 2
 redirect_from: 
   - /blog/post/un-viewengine-per-la-gestione-dei-themes-in-aspnet-mvc-2/
   - /Blog/Post/un-viewengine-per-la-gestione-dei-themes-in-aspnet-mvc-2/
-  - /2010/5/27/un-viewengine-per-la-gestione-dei-themes-in-aspnet-mvc-2/
+  - /2010/05/27/un-viewengine-per-la-gestione-dei-themes-in-aspnet-mvc-2/
 date: 2010-05-27 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

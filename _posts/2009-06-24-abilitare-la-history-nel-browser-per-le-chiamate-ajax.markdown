@@ -6,7 +6,7 @@ title: Abilitare la History nel browser per le chiamate AJAX
 redirect_from: 
   - /blog/post/abilitare-la-history-nel-browser-per-le-chiamate-ajax/
   - /Blog/Post/abilitare-la-history-nel-browser-per-le-chiamate-ajax/
-  - /2009/6/24/abilitare-la-history-nel-browser-per-le-chiamate-ajax/
+  - /2009/06/24/abilitare-la-history-nel-browser-per-le-chiamate-ajax/
 date: 2009-06-24 02:27:03.000000000 +01:00
 categories:
 - ASP.NET

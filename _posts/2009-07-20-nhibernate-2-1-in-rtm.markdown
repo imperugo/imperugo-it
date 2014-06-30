@@ -6,7 +6,7 @@ title: NHibernate 2.1 in RTM
 redirect_from: 
   - /blog/post/nhibernate-21-in-rtm/
   - /Blog/Post/nhibernate-21-in-rtm/
-  - /2009/7/20/nhibernate-21-in-rtm/
+  - /2009/07/20/nhibernate-21-in-rtm/
 date: 2009-07-20 16:29:03.000000000 +01:00
 categories:
 - ORM

@@ -6,7 +6,7 @@ title: WCF Load Test
 redirect_from: 
   - /blog/post/wcf-load-test/
   - /Blog/Post/wcf-load-test/
-  - /2009/7/9/wcf-load-test/
+  - /2009/07/09/wcf-load-test/
 date: 2009-07-09 01:27:33.000000000 +01:00
 categories:
 - .NET

@@ -6,7 +6,7 @@ title: OrangeDotNet is ready!
 redirect_from: 
   - /blog/post/orangedotnet-is-ready/
   - /Blog/Post/orangedotnet-is-ready/
-  - /2009/7/6/orangedotnet-is-ready/
+  - /2009/07/06/orangedotnet-is-ready/
 date: 2009-07-06 03:50:29.000000000 +01:00
 categories:
 - Eventi

@@ -6,7 +6,7 @@ title: Errore di ViewState su ASP.NET MVC
 redirect_from: 
   - /blog/post/errore-di-viewstate-su-aspnet-mvc/
   - /Blog/Post/errore-di-viewstate-su-aspnet-mvc/
-  - /2010/5/25/errore-di-viewstate-su-aspnet-mvc/
+  - /2010/05/25/errore-di-viewstate-su-aspnet-mvc/
 date: 2010-05-25 17:11:47.000000000 +01:00
 categories:
 - ASP.NET

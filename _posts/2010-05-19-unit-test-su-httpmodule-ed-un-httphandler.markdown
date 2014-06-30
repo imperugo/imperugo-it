@@ -6,7 +6,7 @@ title: Unit test su HttpModule ed un HttpHandler
 redirect_from: 
   - /blog/post/unit-test-su-httpmodule-ed-httphandler/
   - /Blog/Post/unit-test-su-httpmodule-ed-httphandler/
-  - /2010/5/19/unit-test-su-httpmodule-ed-httphandler/
+  - /2010/05/19/unit-test-su-httpmodule-ed-httphandler/
 date: 2010-05-19 16:30:00.000000000 +01:00
 categories:
 - ASP.NET

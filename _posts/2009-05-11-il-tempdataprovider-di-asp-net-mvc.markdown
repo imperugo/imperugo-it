@@ -9,7 +9,7 @@ title: Il TempDataProvider di ASP.NET MVC
 redirect_from: 
   - /blog/post/il-tempdataprovider-di-aspnet-mvc/
   - /Blog/Post/il-tempdataprovider-di-aspnet-mvc/
-  - /2009/5/11/il-tempdataprovider-di-aspnet-mvc/
+  - /2009/05/11/il-tempdataprovider-di-aspnet-mvc/
 date: 2009-05-11 05:51:23.000000000 +01:00
 categories:
 - ASP.NET

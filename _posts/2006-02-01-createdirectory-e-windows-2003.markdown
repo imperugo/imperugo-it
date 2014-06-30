@@ -7,7 +7,7 @@ title: CreateDirectory e Windows 2003
 redirect_from: 
   - /blog/post/createdirectory-e-windows-2003/
   - /Blog/Post/createdirectory-e-windows-2003/
-  - /2006/2/1/createdirectory-e-windows-2003/
+  - /2006/02/01/createdirectory-e-windows-2003/
 date: 2006-02-01 00:00:00.000000000 +00:00
 categories:
 - .NET

@@ -6,7 +6,7 @@ title: ASP.NET MVC in Visual Studio 2010
 redirect_from: 
   - /blog/post/aspnet-mvc-in-visual-studio-2010/
   - /Blog/Post/aspnet-mvc-in-visual-studio-2010/
-  - /2009/6/22/aspnet-mvc-in-visual-studio-2010/
+  - /2009/06/22/aspnet-mvc-in-visual-studio-2010/
 date: 2009-06-22 08:03:44.000000000 +01:00
 categories:
 - ASP.NET

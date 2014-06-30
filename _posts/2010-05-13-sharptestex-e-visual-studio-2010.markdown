@@ -6,7 +6,7 @@ title: SharpTestEx e Visual Studio 2010
 redirect_from: 
   - /blog/post/sharptestex-visual-studio-2010/
   - /Blog/Post/sharptestex-visual-studio-2010/
-  - /2010/5/13/sharptestex-visual-studio-2010/
+  - /2010/05/13/sharptestex-visual-studio-2010/
 date: 2010-05-13 16:45:00.000000000 +01:00
 categories:
 - .NET

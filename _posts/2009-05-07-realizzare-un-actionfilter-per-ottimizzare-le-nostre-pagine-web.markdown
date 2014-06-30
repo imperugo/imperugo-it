@@ -9,7 +9,7 @@ title: Realizzare un ActionFilter per ottimizzare le nostre pagine web.
 redirect_from: 
   - /blog/post/realizzare-un-actionfilter-per-ottimizzare-le-nostre-pagine-web/
   - /Blog/Post/realizzare-un-actionfilter-per-ottimizzare-le-nostre-pagine-web/
-  - /2009/5/7/realizzare-un-actionfilter-per-ottimizzare-le-nostre-pagine-web/
+  - /2009/05/07/realizzare-un-actionfilter-per-ottimizzare-le-nostre-pagine-web/
 date: 2009-05-07 08:19:01.000000000 +01:00
 categories:
 - ASP.NET

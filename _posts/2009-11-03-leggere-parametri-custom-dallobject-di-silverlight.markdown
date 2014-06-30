@@ -6,7 +6,7 @@ title: Leggere parametri custom dall’object di Silverlight
 redirect_from: 
   - /blog/post/leggere-parametri-custom-dall-and-rsquo-object-di-silverlight/
   - /Blog/Post/leggere-parametri-custom-dall-and-rsquo-object-di-silverlight/
-  - /2009/11/3/leggere-parametri-custom-dall-and-rsquo-object-di-silverlight/
+  - /2009/11/03/leggere-parametri-custom-dall-and-rsquo-object-di-silverlight/
 date: 2009-11-03 18:32:00.000000000 +00:00
 categories:
 - SILVERLIGHT

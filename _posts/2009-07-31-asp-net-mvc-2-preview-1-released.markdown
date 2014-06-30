@@ -6,7 +6,7 @@ title: ASP.NET MVC 2 Preview 1 Released
 redirect_from: 
   - /blog/post/aspnet-mvc-2-preview-1-released/
   - /Blog/Post/aspnet-mvc-2-preview-1-released/
-  - /2009/7/31/aspnet-mvc-2-preview-1-released/
+  - /2009/07/31/aspnet-mvc-2-preview-1-released/
 date: 2009-07-31 02:16:36.000000000 +01:00
 categories:
 - ASP.NET

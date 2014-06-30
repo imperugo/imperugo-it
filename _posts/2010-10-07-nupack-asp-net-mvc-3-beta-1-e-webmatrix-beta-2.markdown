@@ -6,7 +6,7 @@ title: NuPack, ASP.NET MVC 3 beta 1 e WebMatrix beta 2
 redirect_from: 
   - /blog/post/nupack-aspnet-mvc3-webmatrix/
   - /Blog/Post/nupack-aspnet-mvc3-webmatrix/
-  - /2010/10/7/nupack-aspnet-mvc3-webmatrix/
+  - /2010/10/07/nupack-aspnet-mvc3-webmatrix/
 date: 2010-10-07 16:00:00.000000000 +01:00
 categories:
 - ASP.NET

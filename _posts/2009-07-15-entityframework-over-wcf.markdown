@@ -6,7 +6,7 @@ title: EntityFramework over WCF
 redirect_from: 
   - /blog/post/entityframework-over-wcf/
   - /Blog/Post/entityframework-over-wcf/
-  - /2009/7/15/entityframework-over-wcf/
+  - /2009/07/15/entityframework-over-wcf/
 date: 2009-07-15 01:46:30.000000000 +01:00
 categories:
 - ASP.NET

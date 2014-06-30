@@ -9,7 +9,7 @@ title: L'OutputCache su MVC View User Control
 redirect_from: 
   - /blog/post/l-outputcache-su-mvc-view-user-control/
   - /Blog/Post/l-outputcache-su-mvc-view-user-control/
-  - /2009/5/15/l-outputcache-su-mvc-view-user-control/
+  - /2009/05/15/l-outputcache-su-mvc-view-user-control/
 date: 2009-05-15 02:39:24.000000000 +01:00
 categories:
 - ASP.NET

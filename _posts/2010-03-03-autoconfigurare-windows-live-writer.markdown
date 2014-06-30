@@ -6,7 +6,7 @@ title: Autoconfigurare Windows Live Writer
 redirect_from: 
   - /blog/post/autoconfigurare-windows-live-writer/
   - /Blog/Post/autoconfigurare-windows-live-writer/
-  - /2010/3/3/autoconfigurare-windows-live-writer/
+  - /2010/03/03/autoconfigurare-windows-live-writer/
 date: 2010-03-03 17:40:00.000000000 +00:00
 categories:
 - Web Dev

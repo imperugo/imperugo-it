@@ -10,7 +10,7 @@ title: DTO e AutoMapper
 redirect_from: 
   - /blog/post/dto-e-automapper/
   - /Blog/Post/dto-e-automapper/
-  - /2009/6/17/dto-e-automapper/
+  - /2009/06/17/dto-e-automapper/
 date: 2009-06-17 04:49:00.000000000 +01:00
 categories:
 - .NET

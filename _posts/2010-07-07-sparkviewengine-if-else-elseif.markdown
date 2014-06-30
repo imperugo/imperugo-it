@@ -6,7 +6,7 @@ title: 'SparkViewEngine: If, else, elseif'
 redirect_from: 
   - /blog/post/sparkviewengine-conditional_elements_if_else_elseif/
   - /Blog/Post/sparkviewengine-conditional_elements_if_else_elseif/
-  - /2010/7/7/sparkviewengine-conditional_elements_if_else_elseif/
+  - /2010/07/07/sparkviewengine-conditional_elements_if_else_elseif/
 date: 2010-07-07 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

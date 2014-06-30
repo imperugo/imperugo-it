@@ -10,7 +10,7 @@ title: ASP.NET MVC in Azure
 redirect_from: 
   - /blog/post/asp.net-mvc-in-azure/
   - /Blog/Post/asp.net-mvc-in-azure/
-  - /2011/8/29/asp.net-mvc-in-azure/
+  - /2011/08/29/asp.net-mvc-in-azure/
 date: 2011-08-29 17:00:00.000000000 +01:00
 categories:
 - ASP.NET

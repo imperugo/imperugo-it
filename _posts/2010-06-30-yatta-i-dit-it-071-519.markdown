@@ -6,7 +6,7 @@ title: Yatta, I dit it (071-519)
 redirect_from: 
   - /blog/post/exam-71-519/
   - /Blog/Post/exam-71-519/
-  - /2010/6/30/exam-71-519/
+  - /2010/06/30/exam-71-519/
 date: 2010-06-30 21:19:58.000000000 +01:00
 categories:
 - Various

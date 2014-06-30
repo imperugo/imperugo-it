@@ -6,7 +6,7 @@ title: LinqToNHibernate 1.0 is Out
 redirect_from: 
   - /blog/post/linqtonhibernate-10-is-out/
   - /Blog/Post/linqtonhibernate-10-is-out/
-  - /2009/7/26/linqtonhibernate-10-is-out/
+  - /2009/07/26/linqtonhibernate-10-is-out/
 date: 2009-07-26 07:09:57.000000000 +01:00
 categories:
 - ORM

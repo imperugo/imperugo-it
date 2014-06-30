@@ -10,7 +10,7 @@ title: AOP e WCF
 redirect_from: 
   - /blog/post/aop-e-wcf/
   - /Blog/Post/aop-e-wcf/
-  - /2009/7/9/aop-e-wcf/
+  - /2009/07/09/aop-e-wcf/
 date: 2009-07-09 03:54:47.000000000 +01:00
 categories:
 - .NET

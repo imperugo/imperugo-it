@@ -8,7 +8,7 @@ title: I composite Control e AJAX
 redirect_from: 
   - /blog/post/i-composite-control-e-ajax/
   - /Blog/Post/i-composite-control-e-ajax/
-  - /2007/5/21/i-composite-control-e-ajax/
+  - /2007/05/21/i-composite-control-e-ajax/
 date: 2007-05-21 01:00:00.000000000 +01:00
 categories:
 - ASP.NET

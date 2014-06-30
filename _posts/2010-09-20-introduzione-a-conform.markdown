@@ -6,7 +6,7 @@ title: Introduzione a ConfORM
 redirect_from: 
   - /blog/post/introduzione-conform/
   - /Blog/Post/introduzione-conform/
-  - /2010/9/20/introduzione-conform/
+  - /2010/09/20/introduzione-conform/
 date: 2010-09-20 16:45:00.000000000 +01:00
 categories:
 - ORM

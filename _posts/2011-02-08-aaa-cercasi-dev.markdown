@@ -10,7 +10,7 @@ title: AAA - Cercasi Dev!
 redirect_from: 
   - /blog/post/aaa-cercasi-dev/
   - /Blog/Post/aaa-cercasi-dev/
-  - /2011/2/8/aaa-cercasi-dev/
+  - /2011/02/08/aaa-cercasi-dev/
 date: 2011-02-08 18:47:00.000000000 +00:00
 categories:
 - Various

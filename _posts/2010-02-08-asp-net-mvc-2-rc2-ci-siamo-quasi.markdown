@@ -6,7 +6,7 @@ title: ASP.NET MVC 2 RC2 – ci siamo quasi.
 redirect_from: 
   - /blog/post/asp.net-mvc-2-rc2-ci-siamo-quasi/
   - /Blog/Post/asp.net-mvc-2-rc2-ci-siamo-quasi/
-  - /2010/2/8/asp.net-mvc-2-rc2-ci-siamo-quasi/
+  - /2010/02/08/asp.net-mvc-2-rc2-ci-siamo-quasi/
 date: 2010-02-08 17:00:00.000000000 +00:00
 categories:
 - ASP.NET

@@ -6,7 +6,7 @@ title: QMatteoQ è online
 redirect_from: 
   - /blog/post/qmatteoq-egrave-online/
   - /Blog/Post/qmatteoq-egrave-online/
-  - /2010/4/12/qmatteoq-egrave-online/
+  - /2010/04/12/qmatteoq-egrave-online/
 date: 2010-04-12 02:51:52.000000000 +01:00
 categories:
 - Various

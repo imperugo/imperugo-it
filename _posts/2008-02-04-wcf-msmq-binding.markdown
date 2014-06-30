@@ -9,7 +9,7 @@ title: WCF + MSMQ Binding
 redirect_from: 
   - /blog/post/wcf-msmq-binding/
   - /Blog/Post/wcf-msmq-binding/
-  - /2008/2/4/wcf-msmq-binding/
+  - /2008/02/04/wcf-msmq-binding/
 date: 2008-02-04 01:00:00.000000000 +00:00
 categories:
 - .NET

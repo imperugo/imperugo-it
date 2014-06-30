@@ -6,7 +6,7 @@ title: Mettere un sito in  Maintenance mode.
 redirect_from: 
   - /blog/post/mettere-un-sito-in-maintenance-mode/
   - /Blog/Post/mettere-un-sito-in-maintenance-mode/
-  - /2009/7/23/mettere-un-sito-in-maintenance-mode/
+  - /2009/07/23/mettere-un-sito-in-maintenance-mode/
 date: 2009-07-23 10:15:50.000000000 +01:00
 categories:
 - ASP.NET
