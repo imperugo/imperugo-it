@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Where The Hell is Dexter
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1476
-wordpress_url: http://imperugo.tostring.it/blog/post/where-the-hell-is-dexter/
+redirect_from: 
+  - /blog/post/where-the-hell-is-dexter/
+  - /Blog/Post/where-the-hell-is-dexter/
+  - /2010/7/14/where-the-hell-is-dexter/
 date: 2010-07-14 16:40:00.000000000 +01:00
 categories:
 - Various

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Gestione dello schema database tramite NHibernate
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1462
-wordpress_url: http://imperugo.tostring.it/blog/post/gestione-schema-nhibernate/
+redirect_from: 
+  - /blog/post/gestione-schema-nhibernate/
+  - /Blog/Post/gestione-schema-nhibernate/
+  - /2010/12/13/gestione-schema-nhibernate/
 date: 2010-12-13 17:45:00.000000000 +00:00
 categories:
 - ORM

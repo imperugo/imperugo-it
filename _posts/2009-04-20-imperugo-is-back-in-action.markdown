@@ -3,10 +3,13 @@ layout: post
 status: publish
 published: true
 title: imperugo is back in action!
+
+
+
 redirect_from: 
   - /blog/post/imperugo-is-back-in-action/
-  - /2009/04/20/imperugo-is-back-in-action/
-
+  - /Blog/Post/imperugo-is-back-in-action/
+  - /2009/4/20/imperugo-is-back-in-action/
 date: 2009-04-20 12:00:39.000000000 +01:00
 categories:
 - Various

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Lucene.Net in Dexter
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1579
-wordpress_url: http://imperugo.tostring.it/blog/post/lucenenet-in-dexter/
+redirect_from: 
+  - /blog/post/lucenenet-in-dexter/
+  - /Blog/Post/lucenenet-in-dexter/
+  - /2009/8/10/lucenenet-in-dexter/
 date: 2009-08-10 20:19:40.000000000 +01:00
 categories:
 - Various

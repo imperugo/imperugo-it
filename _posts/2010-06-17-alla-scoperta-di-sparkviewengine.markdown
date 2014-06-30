@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: alla scoperta di SparkViewEngine
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1487
-wordpress_url: http://imperugo.tostring.it/blog/post/alla-scoperta-di-sparkviewengine/
+redirect_from: 
+  - /blog/post/alla-scoperta-di-sparkviewengine/
+  - /Blog/Post/alla-scoperta-di-sparkviewengine/
+  - /2010/6/17/alla-scoperta-di-sparkviewengine/
 date: 2010-06-17 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Unblock delle assembly
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1483
-wordpress_url: http://imperugo.tostring.it/blog/post/unblock-delle-assembly/
+redirect_from: 
+  - /blog/post/unblock-delle-assembly/
+  - /Blog/Post/unblock-delle-assembly/
+  - /2010/7/2/unblock-delle-assembly/
 date: 2010-07-02 16:45:00.000000000 +01:00
 categories:
 - .NET

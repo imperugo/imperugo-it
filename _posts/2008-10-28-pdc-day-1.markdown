@@ -3,10 +3,13 @@ layout: post
 status: publish
 published: true
 title: PDC Day 1
+
+
+
 redirect_from: 
   - /blog/post/pdc-day-1/
+  - /Blog/Post/pdc-day-1/
   - /2008/10/28/pdc-day-1/
-
 date: 2008-10-28 00:00:00.000000000 +00:00
 categories:
 - Eventi

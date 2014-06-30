@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: IIS Search Engine Optimization Toolkit
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1625
-wordpress_url: http://imperugo.tostring.it/blog/post/iis-search-engine-optimization-toolkit/
+redirect_from: 
+  - /blog/post/iis-search-engine-optimization-toolkit/
+  - /Blog/Post/iis-search-engine-optimization-toolkit/
+  - /2009/6/4/iis-search-engine-optimization-toolkit/
 date: 2009-06-04 09:57:27.000000000 +01:00
 categories:
 - ASP.NET

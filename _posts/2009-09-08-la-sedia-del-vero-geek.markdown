@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: La sedia del vero Geek
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1567
-wordpress_url: http://imperugo.tostring.it/blog/post/la-sedia-del-vero-geek/
+redirect_from: 
+  - /blog/post/la-sedia-del-vero-geek/
+  - /Blog/Post/la-sedia-del-vero-geek/
+  - /2009/9/8/la-sedia-del-vero-geek/
 date: 2009-09-08 21:58:19.000000000 +01:00
 categories:
 - Various

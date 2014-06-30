@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Un po’ di materiale su Visual Studio 2010 e .NET Framework 4
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1547
-wordpress_url: http://imperugo.tostring.it/blog/post/un-po-and-rsquo-di-materiale-su-visual-studio-2010-e-net-framework-4/
+redirect_from: 
+  - /blog/post/un-po-and-rsquo-di-materiale-su-visual-studio-2010-e-net-framework-4/
+  - /Blog/Post/un-po-and-rsquo-di-materiale-su-visual-studio-2010-e-net-framework-4/
+  - /2009/10/23/un-po-and-rsquo-di-materiale-su-visual-studio-2010-e-net-framework-4/
 date: 2009-10-23 17:30:00.000000000 +01:00
 categories:
 - .NET

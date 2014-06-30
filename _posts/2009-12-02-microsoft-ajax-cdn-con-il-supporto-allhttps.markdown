@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Microsoft AJAX CDN con il supporto all’https
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1535
-wordpress_url: http://imperugo.tostring.it/blog/post/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
+redirect_from: 
+  - /blog/post/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
+  - /Blog/Post/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
+  - /2009/12/2/microsoft-ajax-cdn-con-il-supporto-allrsquohttps/
 date: 2009-12-02 07:58:42.000000000 +00:00
 categories:
 - ASP.NET

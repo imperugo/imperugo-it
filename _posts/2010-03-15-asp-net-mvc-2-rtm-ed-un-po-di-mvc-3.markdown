@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: ASP.NET MVC 2 RTM ed un po’ di MVC 3 :)
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1513
-wordpress_url: http://imperugo.tostring.it/blog/post/aspnet-mvc-2-rtm-ed-po-di-mvc-3/
+redirect_from: 
+  - /blog/post/aspnet-mvc-2-rtm-ed-po-di-mvc-3/
+  - /Blog/Post/aspnet-mvc-2-rtm-ed-po-di-mvc-3/
+  - /2010/3/15/aspnet-mvc-2-rtm-ed-po-di-mvc-3/
 date: 2010-03-15 16:30:00.000000000 +00:00
 categories:
 - ASP.NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Un’interessare feature di Chrome
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1522
-wordpress_url: http://imperugo.tostring.it/blog/post/uninteressare-feature-di-chrome/
+redirect_from: 
+  - /blog/post/uninteressare-feature-di-chrome/
+  - /Blog/Post/uninteressare-feature-di-chrome/
+  - /2010/1/31/uninteressare-feature-di-chrome/
 date: 2010-01-31 16:30:00.000000000 +00:00
 categories:
 - Web Dev

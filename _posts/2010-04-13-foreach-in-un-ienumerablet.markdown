@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: ForEach in un IEnumerable&lt;T&gt;
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1505
-wordpress_url: http://imperugo.tostring.it/blog/post/foreach-ienumerable-of-t/
+redirect_from: 
+  - /blog/post/foreach-ienumerable-of-t/
+  - /Blog/Post/foreach-ienumerable-of-t/
+  - /2010/4/13/foreach-ienumerable-of-t/
 date: 2010-04-13 16:50:00.000000000 +01:00
 categories:
 - .NET

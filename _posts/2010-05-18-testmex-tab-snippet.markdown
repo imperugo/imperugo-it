@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Testmex =&gt; tab (snippet)
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1497
-wordpress_url: http://imperugo.tostring.it/blog/post/testmex-tab-snippet/
+redirect_from: 
+  - /blog/post/testmex-tab-snippet/
+  - /Blog/Post/testmex-tab-snippet/
+  - /2010/5/18/testmex-tab-snippet/
 date: 2010-05-18 16:30:00.000000000 +01:00
 categories:
 - .NET

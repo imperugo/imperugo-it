@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: ASP.NET HealthMonitoring e le informazioni aggiuntive delle eccezioni
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1546
-wordpress_url: http://imperugo.tostring.it/blog/post/aspnet-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni/
+redirect_from: 
+  - /blog/post/aspnet-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni/
+  - /Blog/Post/aspnet-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni/
+  - /2009/10/23/aspnet-healthmonitoring-e-le-informazioni-aggiuntive-delle-eccezioni/
 date: 2009-10-23 19:46:09.000000000 +01:00
 categories:
 - ASP.NET

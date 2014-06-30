@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Verificare se l’applicazione Silverlight in esecuzione è in FullTrust
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1516
-wordpress_url: http://imperugo.tostring.it/blog/post/verificare-se-l-applicazione-silverlight-in-esecuzione-%c3%a8-in-fulltrust-mode/
+redirect_from: 
+  - /blog/post/verificare-se-l-applicazione-silverlight-in-esecuzione-%C3%A8-in-fulltrust-mode/
+  - /Blog/Post/verificare-se-l-applicazione-silverlight-in-esecuzione-%C3%A8-in-fulltrust-mode/
+  - /2010/3/2/verificare-se-l-applicazione-silverlight-in-esecuzione-%C3%A8-in-fulltrust-mode/
 date: 2010-03-02 17:00:00.000000000 +00:00
 categories:
 - SILVERLIGHT

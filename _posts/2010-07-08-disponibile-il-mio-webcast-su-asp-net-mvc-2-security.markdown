@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: 'Disponibile il mio webcast su ASP.NET MVC 2: security'
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1479
-wordpress_url: http://imperugo.tostring.it/blog/post/disponibile-il-mio-webcast-su-asp.net-mvc-2-security/
+redirect_from: 
+  - /blog/post/disponibile-il-mio-webcast-su-asp.net-mvc-2-security/
+  - /Blog/Post/disponibile-il-mio-webcast-su-asp.net-mvc-2-security/
+  - /2010/7/8/disponibile-il-mio-webcast-su-asp.net-mvc-2-security/
 date: 2010-07-08 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

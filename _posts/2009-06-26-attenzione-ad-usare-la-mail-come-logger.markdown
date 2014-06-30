@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Attenzione ad usare la mail come Logger
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1613
-wordpress_url: http://imperugo.tostring.it/blog/post/attenzione-ad-usare-la-mail-come-logger/
+redirect_from: 
+  - /blog/post/attenzione-ad-usare-la-mail-come-logger/
+  - /Blog/Post/attenzione-ad-usare-la-mail-come-logger/
+  - /2009/6/26/attenzione-ad-usare-la-mail-come-logger/
 date: 2009-06-26 03:13:51.000000000 +01:00
 categories:
 - Various

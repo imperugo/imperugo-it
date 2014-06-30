@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Dexter cresce
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1598
-wordpress_url: http://imperugo.tostring.it/blog/post/dexter-cresce/
+redirect_from: 
+  - /blog/post/dexter-cresce/
+  - /Blog/Post/dexter-cresce/
+  - /2009/7/21/dexter-cresce/
 date: 2009-07-21 00:45:03.000000000 +01:00
 categories:
 - Various

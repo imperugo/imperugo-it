@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Un’odissea chiamata Boot-Camp
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1499
-wordpress_url: http://imperugo.tostring.it/blog/post/una-odissea-chiamata-bootcamp/
+redirect_from: 
+  - /blog/post/una-odissea-chiamata-bootcamp/
+  - /Blog/Post/una-odissea-chiamata-bootcamp/
+  - /2010/5/14/una-odissea-chiamata-bootcamp/
 date: 2010-05-14 16:45:00.000000000 +01:00
 categories:
 - Various

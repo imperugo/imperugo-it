@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Microsoft MVP ASP.NET
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1558
-wordpress_url: http://imperugo.tostring.it/blog/post/microsoft-mvp-aspnet/
+redirect_from: 
+  - /blog/post/microsoft-mvp-aspnet/
+  - /Blog/Post/microsoft-mvp-aspnet/
+  - /2009/10/2/microsoft-mvp-aspnet/
 date: 2009-10-02 20:32:00.000000000 +01:00
 categories:
 - Various

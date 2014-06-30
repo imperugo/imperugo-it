@@ -4,11 +4,10 @@ status: publish
 published: true
 title: Invocare una action utilizzando il JSonResult in post con JQuery ed ASP.NET
   MVC 2
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1495
-wordpress_url: http://imperugo.tostring.it/blog/post/invocare-una-action-utilizzando-il-jsonresult-post-con-jquery-ed-aspnet-mvc-2/
+redirect_from: 
+  - /blog/post/invocare-una-action-utilizzando-il-jsonresult-post-con-jquery-ed-aspnet-mvc-2/
+  - /Blog/Post/invocare-una-action-utilizzando-il-jsonresult-post-con-jquery-ed-aspnet-mvc-2/
+  - /2010/5/24/invocare-una-action-utilizzando-il-jsonresult-post-con-jquery-ed-aspnet-mvc-2/
 date: 2010-05-24 16:40:00.000000000 +01:00
 categories:
 - ASP.NET

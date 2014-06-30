@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Verificare se l’applicazione è in Out Of Browser
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1523
-wordpress_url: http://imperugo.tostring.it/blog/post/verificare-se-lapplicazione-e-in-out-of-browser/
+redirect_from: 
+  - /blog/post/verificare-se-lapplicazione-e-in-out-of-browser/
+  - /Blog/Post/verificare-se-lapplicazione-e-in-out-of-browser/
+  - /2010/1/30/verificare-se-lapplicazione-e-in-out-of-browser/
 date: 2010-01-30 11:48:06.000000000 +00:00
 categories:
 - SILVERLIGHT

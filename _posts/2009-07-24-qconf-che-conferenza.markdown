@@ -3,8 +3,11 @@ layout: post
 status: publish
 published: true
 title: QConf che conferenza!
+
 redirect_from: 
   - /blog/post/qconf-che-conferenza/
+  - /Blog/Post/qconf-che-conferenza/
+  - /2009/7/24/qconf-che-conferenza/
 date: 2009-07-24 02:54:12.000000000 +01:00
 categories:
 - Eventi

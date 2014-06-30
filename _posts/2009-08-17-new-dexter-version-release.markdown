@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: New Dexter version Release.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1577
-wordpress_url: http://imperugo.tostring.it/blog/post/new-dexter-version-release/
+redirect_from: 
+  - /blog/post/new-dexter-version-release/
+  - /Blog/Post/new-dexter-version-release/
+  - /2009/8/17/new-dexter-version-release/
 date: 2009-08-17 11:55:02.000000000 +01:00
 categories:
 - Various

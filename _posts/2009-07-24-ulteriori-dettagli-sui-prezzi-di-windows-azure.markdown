@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Ulteriori dettagli sui prezzi di Windows Azure
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1593
-wordpress_url: http://imperugo.tostring.it/blog/post/ulteriori-dettagli-sui-prezzi-di-windows-azure/
+redirect_from: 
+  - /blog/post/ulteriori-dettagli-sui-prezzi-di-windows-azure/
+  - /Blog/Post/ulteriori-dettagli-sui-prezzi-di-windows-azure/
+  - /2009/7/24/ulteriori-dettagli-sui-prezzi-di-windows-azure/
 date: 2009-07-24 09:08:24.000000000 +01:00
 categories:
 - Various

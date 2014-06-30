@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Windows 7, Party with OrangeDotNet
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1549
-wordpress_url: http://imperugo.tostring.it/blog/post/windows-7-party-with-orangedotnet/
+redirect_from: 
+  - /blog/post/windows-7-party-with-orangedotnet/
+  - /Blog/Post/windows-7-party-with-orangedotnet/
+  - /2009/10/22/windows-7-party-with-orangedotnet/
 date: 2009-10-22 03:10:00.000000000 +01:00
 categories:
 - Eventi

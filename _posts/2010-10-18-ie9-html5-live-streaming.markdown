@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: IE9 + HTML5 Live Streaming
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1465
-wordpress_url: http://imperugo.tostring.it/blog/post/ie9-html5-live-streaming/
+redirect_from: 
+  - /blog/post/ie9-html5-live-streaming/
+  - /Blog/Post/ie9-html5-live-streaming/
+  - /2010/10/18/ie9-html5-live-streaming/
 date: 2010-10-18 16:30:00.000000000 +01:00
 categories:
 - ASP.NET

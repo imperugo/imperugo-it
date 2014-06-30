@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Scalabilità di applicazioni web con il caching
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1587
-wordpress_url: http://imperugo.tostring.it/blog/post/scalabilita-di-applicazioni-web-con-il-caching/
+redirect_from: 
+  - /blog/post/scalabilita-di-applicazioni-web-con-il-caching/
+  - /Blog/Post/scalabilita-di-applicazioni-web-con-il-caching/
+  - /2009/7/29/scalabilita-di-applicazioni-web-con-il-caching/
 date: 2009-07-29 03:00:07.000000000 +01:00
 categories:
 - ASP.NET

@@ -3,8 +3,11 @@ layout: post
 status: publish
 published: true
 title: Compilare le applicazioni a 64Bit
+
 redirect_from: 
   - /blog/post/compilare-le-applicazioni-64bit/
+  - /Blog/Post/compilare-le-applicazioni-64bit/
+  - /2010/9/6/compilare-le-applicazioni-64bit/
 date: 2010-09-06 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

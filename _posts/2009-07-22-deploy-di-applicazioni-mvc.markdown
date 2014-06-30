@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Deploy di Applicazioni MVC
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1596
-wordpress_url: http://imperugo.tostring.it/blog/post/deploy-di-applicazioni-mvc/
+redirect_from: 
+  - /blog/post/deploy-di-applicazioni-mvc/
+  - /Blog/Post/deploy-di-applicazioni-mvc/
+  - /2009/7/22/deploy-di-applicazioni-mvc/
 date: 2009-07-22 04:01:11.000000000 +01:00
 categories:
 - ASP.NET

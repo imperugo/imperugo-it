@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: ASP.NET MVC 2 Preview 2
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1557
-wordpress_url: http://imperugo.tostring.it/blog/post/aspnet-mvc-2-preview-2/
+redirect_from: 
+  - /blog/post/aspnet-mvc-2-preview-2/
+  - /Blog/Post/aspnet-mvc-2-preview-2/
+  - /2009/10/5/aspnet-mvc-2-preview-2/
 date: 2009-10-05 17:30:00.000000000 +01:00
 categories:
 - ASP.NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Code Contracts in .NET 4.0
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1488
-wordpress_url: http://imperugo.tostring.it/blog/post/code-contracts-net-4/
+redirect_from: 
+  - /blog/post/code-contracts-net-4/
+  - /Blog/Post/code-contracts-net-4/
+  - /2010/6/3/code-contracts-net-4/
 date: 2010-06-03 16:45:00.000000000 +01:00
 categories:
 - .NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Aero, Power Saver e Windows 7
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1500
-wordpress_url: http://imperugo.tostring.it/blog/post/aero-power-saver-windows-7/
+redirect_from: 
+  - /blog/post/aero-power-saver-windows-7/
+  - /Blog/Post/aero-power-saver-windows-7/
+  - /2010/5/13/aero-power-saver-windows-7/
 date: 2010-05-13 18:42:00.000000000 +01:00
 categories:
 - Various

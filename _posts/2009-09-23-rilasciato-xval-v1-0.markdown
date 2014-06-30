@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Rilasciato xVal v1.0
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1561
-wordpress_url: http://imperugo.tostring.it/blog/post/rilasciato-xval-v10/
+redirect_from: 
+  - /blog/post/rilasciato-xval-v10/
+  - /Blog/Post/rilasciato-xval-v10/
+  - /2009/9/23/rilasciato-xval-v10/
 date: 2009-09-23 11:54:09.000000000 +01:00
 categories:
 - ASP.NET

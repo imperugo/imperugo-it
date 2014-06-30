@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Autoconfigurare Windows Live Writer
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1515
-wordpress_url: http://imperugo.tostring.it/blog/post/autoconfigurare-windows-live-writer/
+redirect_from: 
+  - /blog/post/autoconfigurare-windows-live-writer/
+  - /Blog/Post/autoconfigurare-windows-live-writer/
+  - /2010/3/3/autoconfigurare-windows-live-writer/
 date: 2010-03-03 17:40:00.000000000 +00:00
 categories:
 - Web Dev

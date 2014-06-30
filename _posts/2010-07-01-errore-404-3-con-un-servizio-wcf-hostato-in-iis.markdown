@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Errore 404.3 con un servizio WCF hostato in IIS
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1484
-wordpress_url: http://imperugo.tostring.it/blog/post/error-404-3-wcf-service-host-iis/
+redirect_from: 
+  - /blog/post/error-404-3-wcf-service-host-iis/
+  - /Blog/Post/error-404-3-wcf-service-host-iis/
+  - /2010/7/1/error-404-3-wcf-service-host-iis/
 date: 2010-07-01 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

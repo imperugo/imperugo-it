@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: WCF Load Test
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1606
-wordpress_url: http://imperugo.tostring.it/blog/post/wcf-load-test/
+redirect_from: 
+  - /blog/post/wcf-load-test/
+  - /Blog/Post/wcf-load-test/
+  - /2009/7/9/wcf-load-test/
 date: 2009-07-09 01:27:33.000000000 +01:00
 categories:
 - .NET

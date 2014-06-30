@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Fluent NH 1.0 in RC.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1576
-wordpress_url: http://imperugo.tostring.it/blog/post/fluent-nh-10-in-rc/
+redirect_from: 
+  - /blog/post/fluent-nh-10-in-rc/
+  - /Blog/Post/fluent-nh-10-in-rc/
+  - /2009/8/22/fluent-nh-10-in-rc/
 date: 2009-08-22 12:15:44.000000000 +01:00
 categories:
 - ORM

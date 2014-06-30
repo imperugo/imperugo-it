@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Application Start su IIS7 in Integrated Mode
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1555
-wordpress_url: http://imperugo.tostring.it/blog/post/application-start-su-iis7-in-integrated-mode/
+redirect_from: 
+  - /blog/post/application-start-su-iis7-in-integrated-mode/
+  - /Blog/Post/application-start-su-iis7-in-integrated-mode/
+  - /2009/10/12/application-start-su-iis7-in-integrated-mode/
 date: 2009-10-12 17:30:00.000000000 +01:00
 categories:
 - ASP.NET

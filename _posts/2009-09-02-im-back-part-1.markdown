@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: I’m back part 1
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1570
-wordpress_url: http://imperugo.tostring.it/blog/post/i-m-back-part-1/
+redirect_from: 
+  - /blog/post/i-m-back-part-1/
+  - /Blog/Post/i-m-back-part-1/
+  - /2009/9/2/i-m-back-part-1/
 date: 2009-09-02 07:24:17.000000000 +01:00
 categories:
 - Various

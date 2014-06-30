@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Cambiare la finestra l’output del Trace di ASP.NET AJAX
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1569
-wordpress_url: http://imperugo.tostring.it/blog/post/cambiare-la-finestra-l%e2%80%99output-del-trace-di-aspnet-ajax/
+redirect_from: 
+  - /blog/post/cambiare-la-finestra-l%E2%80%99output-del-trace-di-aspnet-ajax/
+  - /Blog/Post/cambiare-la-finestra-l%E2%80%99output-del-trace-di-aspnet-ajax/
+  - /2009/9/3/cambiare-la-finestra-l%E2%80%99output-del-trace-di-aspnet-ajax/
 date: 2009-09-03 09:36:06.000000000 +01:00
 categories:
 - ASP.NET

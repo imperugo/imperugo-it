@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: AutoEncode in ASP.NET 4.0
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1559
-wordpress_url: http://imperugo.tostring.it/blog/post/autoencode-in-aspnet-40/
+redirect_from: 
+  - /blog/post/autoencode-in-aspnet-40/
+  - /Blog/Post/autoencode-in-aspnet-40/
+  - /2009/9/30/autoencode-in-aspnet-40/
 date: 2009-09-30 01:30:00.000000000 +01:00
 categories:
 - ASP.NET

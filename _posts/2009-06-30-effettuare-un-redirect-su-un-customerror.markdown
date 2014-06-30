@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Effettuare un Redirect su un customError
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1610
-wordpress_url: http://imperugo.tostring.it/blog/post/effettuare-un-redirect-su-un-customerror/
+redirect_from: 
+  - /blog/post/effettuare-un-redirect-su-un-customerror/
+  - /Blog/Post/effettuare-un-redirect-su-un-customerror/
+  - /2009/6/30/effettuare-un-redirect-su-un-customerror/
 date: 2009-06-30 02:01:54.000000000 +01:00
 categories:
 - ASP.NET

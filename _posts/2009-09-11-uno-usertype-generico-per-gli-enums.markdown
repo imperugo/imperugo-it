@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Uno UserType generico per gli Enums
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1564
-wordpress_url: http://imperugo.tostring.it/blog/post/uno-usertype-generico-per-gli-enums/
+redirect_from: 
+  - /blog/post/uno-usertype-generico-per-gli-enums/
+  - /Blog/Post/uno-usertype-generico-per-gli-enums/
+  - /2009/9/11/uno-usertype-generico-per-gli-enums/
 date: 2009-09-11 22:30:32.000000000 +01:00
 categories:
 - ORM

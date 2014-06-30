@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: I preparativi procedono bene
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1533
-wordpress_url: http://imperugo.tostring.it/blog/post/i-preparativi-procedono-bene/
+redirect_from: 
+  - /blog/post/i-preparativi-procedono-bene/
+  - /Blog/Post/i-preparativi-procedono-bene/
+  - /2009/12/9/i-preparativi-procedono-bene/
 date: 2009-12-09 18:03:00.000000000 +00:00
 categories:
 - Eventi

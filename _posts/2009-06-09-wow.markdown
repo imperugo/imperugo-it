@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: WOW
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1624
-wordpress_url: http://imperugo.tostring.it/blog/post/wow/
+redirect_from: 
+  - /blog/post/wow/
+  - /Blog/Post/wow/
+  - /2009/6/9/wow/
 date: 2009-06-09 13:42:02.000000000 +01:00
 categories:
 - Various

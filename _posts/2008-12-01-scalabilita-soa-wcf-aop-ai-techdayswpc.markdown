@@ -3,10 +3,13 @@ layout: post
 status: publish
 published: true
 title: Scalabilità, SOA, WCF, AOP ai TechDays/WPC
+
+
+
 redirect_from: 
   - /blog/post/scalabilita-soa-wcf-aop-ai-techdayswpc/
-  - /2008/12/01/scalabilita-soa-wcf-aop-ai-techdayswpc/
-
+  - /Blog/Post/scalabilita-soa-wcf-aop-ai-techdayswpc/
+  - /2008/12/1/scalabilita-soa-wcf-aop-ai-techdayswpc/
 date: 2008-12-01 01:00:00.000000000 +00:00
 categories:
 - .NET

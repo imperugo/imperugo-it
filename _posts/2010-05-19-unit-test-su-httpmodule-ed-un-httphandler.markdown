@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Unit test su HttpModule ed un HttpHandler
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1496
-wordpress_url: http://imperugo.tostring.it/blog/post/unit-test-su-httpmodule-ed-httphandler/
+redirect_from: 
+  - /blog/post/unit-test-su-httpmodule-ed-httphandler/
+  - /Blog/Post/unit-test-su-httpmodule-ed-httphandler/
+  - /2010/5/19/unit-test-su-httpmodule-ed-httphandler/
 date: 2010-05-19 16:30:00.000000000 +01:00
 categories:
 - ASP.NET

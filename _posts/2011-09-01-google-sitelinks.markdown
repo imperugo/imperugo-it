@@ -4,10 +4,13 @@ status: publish
 published: true
 title: Google Sitelinks
 
+
+
+  
 redirect_from: 
   - /blog/post/google-sitelinks/
-  - /2011/09/01/google-sitelinks/
-  
+  - /Blog/Post/google-sitelinks/
+  - /2011/9/1/google-sitelinks/
 date: 2011-09-01 17:00:00.000000000 +01:00
 categories:
 - Web Dev

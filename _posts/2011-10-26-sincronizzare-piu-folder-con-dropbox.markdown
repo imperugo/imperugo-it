@@ -4,10 +4,13 @@ status: publish
 published: true
 title: Sincronizzare più folder con DropBox
 
+
+
+
 redirect_from: 
   - /blog/post/sincronizzare-piu-folder-con-dropbox/
+  - /Blog/Post/sincronizzare-piu-folder-con-dropbox/
   - /2011/10/26/sincronizzare-piu-folder-con-dropbox/
-
 date: 2011-10-26 17:30:00.000000000 +01:00
 categories:
 - Various

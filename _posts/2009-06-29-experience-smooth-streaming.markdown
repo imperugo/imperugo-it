@@ -3,9 +3,12 @@ layout: post
 status: publish
 published: true
 title: Experience Smooth Streaming
+
+  
 redirect_from: 
   - /blog/post/experience-smooth-streaming/
-  
+  - /Blog/Post/experience-smooth-streaming/
+  - /2009/6/29/experience-smooth-streaming/
 date: 2009-06-29 01:13:20.000000000 +01:00
 categories:
 - SILVERLIGHT

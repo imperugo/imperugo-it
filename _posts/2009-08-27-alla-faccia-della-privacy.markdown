@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Alla faccia della privacy
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1573
-wordpress_url: http://imperugo.tostring.it/blog/post/alla-faccia-della-privacy/
+redirect_from: 
+  - /blog/post/alla-faccia-della-privacy/
+  - /Blog/Post/alla-faccia-della-privacy/
+  - /2009/8/27/alla-faccia-della-privacy/
 date: 2009-08-27 15:10:15.000000000 +01:00
 categories:
 - Various

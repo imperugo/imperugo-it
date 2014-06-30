@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Anti-XSS 3.0
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1586
-wordpress_url: http://imperugo.tostring.it/blog/post/anti-xss-30/
+redirect_from: 
+  - /blog/post/anti-xss-30/
+  - /Blog/Post/anti-xss-30/
+  - /2009/7/30/anti-xss-30/
 date: 2009-07-30 10:00:00.000000000 +01:00
 categories:
 - ASP.NET

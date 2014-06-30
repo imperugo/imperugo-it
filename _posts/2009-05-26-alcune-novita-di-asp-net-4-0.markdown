@@ -3,11 +3,14 @@ layout: post
 status: publish
 published: true
 title: Alcune novità di ASP.NET 4.0
+
+
+
+
 redirect_from: 
   - /blog/post/alcune-novita-di-aspnet-40/
-  - /Blog/Post/Alcune-novita-di-ASPNET-40/
-  - /2009/05/26/full-immersion-in-silverlight-40/
-
+  - /Blog/Post/alcune-novita-di-aspnet-40/
+  - /2009/5/26/alcune-novita-di-aspnet-40/
 date: 2009-05-26 14:35:03.000000000 +01:00
 categories:
 - ASP.NET

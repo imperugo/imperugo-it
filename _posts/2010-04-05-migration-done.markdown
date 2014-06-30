@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Migration done!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1509
-wordpress_url: http://imperugo.tostring.it/blog/post/migration-done/
+redirect_from: 
+  - /blog/post/migration-done/
+  - /Blog/Post/migration-done/
+  - /2010/4/5/migration-done/
 date: 2010-04-05 17:28:00.000000000 +01:00
 categories:
 - Various

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Community Tour di Bologna the day after
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1539
-wordpress_url: http://imperugo.tostring.it/blog/post/community-tour-di-bologna-the-day-after/
+redirect_from: 
+  - /blog/post/community-tour-di-bologna-the-day-after/
+  - /Blog/Post/community-tour-di-bologna-the-day-after/
+  - /2009/11/18/community-tour-di-bologna-the-day-after/
 date: 2009-11-18 09:38:00.000000000 +00:00
 categories:
 - Eventi

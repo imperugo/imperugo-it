@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Linq To Csv
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1603
-wordpress_url: http://imperugo.tostring.it/blog/post/linq-to-csv/
+redirect_from: 
+  - /blog/post/linq-to-csv/
+  - /Blog/Post/linq-to-csv/
+  - /2009/7/14/linq-to-csv/
 date: 2009-07-14 04:23:42.000000000 +01:00
 categories:
 - Various

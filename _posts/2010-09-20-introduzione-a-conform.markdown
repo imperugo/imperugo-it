@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Introduzione a ConfORM
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1469
-wordpress_url: http://imperugo.tostring.it/blog/post/introduzione-conform/
+redirect_from: 
+  - /blog/post/introduzione-conform/
+  - /Blog/Post/introduzione-conform/
+  - /2010/9/20/introduzione-conform/
 date: 2010-09-20 16:45:00.000000000 +01:00
 categories:
 - ORM

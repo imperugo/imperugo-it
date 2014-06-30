@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: QMatteoQ è online
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1507
-wordpress_url: http://imperugo.tostring.it/blog/post/qmatteoq-egrave-online/
+redirect_from: 
+  - /blog/post/qmatteoq-egrave-online/
+  - /Blog/Post/qmatteoq-egrave-online/
+  - /2010/4/12/qmatteoq-egrave-online/
 date: 2010-04-12 02:51:52.000000000 +01:00
 categories:
 - Various

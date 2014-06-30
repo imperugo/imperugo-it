@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: OutputCache di ASP.NET 4.0
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1628
-wordpress_url: http://imperugo.tostring.it/blog/post/outputcache-di-aspnet-40/
+redirect_from: 
+  - /blog/post/outputcache-di-aspnet-40/
+  - /Blog/Post/outputcache-di-aspnet-40/
+  - /2009/5/27/outputcache-di-aspnet-40/
 date: 2009-05-27 07:51:38.000000000 +01:00
 categories:
 - ASP.NET

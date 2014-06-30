@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Gestire HttpRequestValidationException in ASP.NET MVC
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1473
-wordpress_url: http://imperugo.tostring.it/blog/post/gestire-httprequestvalidationexception-aspnet-mvc/
+redirect_from: 
+  - /blog/post/gestire-httprequestvalidationexception-aspnet-mvc/
+  - /Blog/Post/gestire-httprequestvalidationexception-aspnet-mvc/
+  - /2010/8/2/gestire-httprequestvalidationexception-aspnet-mvc/
 date: 2010-08-02 16:30:00.000000000 +01:00
 categories:
 - ASP.NET

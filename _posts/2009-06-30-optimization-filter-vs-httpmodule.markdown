@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Optimization Filter vs HttpModule
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1609
-wordpress_url: http://imperugo.tostring.it/blog/post/optimization-filter-vs-httpmodule/
+redirect_from: 
+  - /blog/post/optimization-filter-vs-httpmodule/
+  - /Blog/Post/optimization-filter-vs-httpmodule/
+  - /2009/6/30/optimization-filter-vs-httpmodule/
 date: 2009-06-30 07:10:26.000000000 +01:00
 categories:
 - ASP.NET

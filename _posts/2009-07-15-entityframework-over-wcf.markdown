@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: EntityFramework over WCF
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1602
-wordpress_url: http://imperugo.tostring.it/blog/post/entityframework-over-wcf/
+redirect_from: 
+  - /blog/post/entityframework-over-wcf/
+  - /Blog/Post/entityframework-over-wcf/
+  - /2009/7/15/entityframework-over-wcf/
 date: 2009-07-15 01:46:30.000000000 +01:00
 categories:
 - ASP.NET

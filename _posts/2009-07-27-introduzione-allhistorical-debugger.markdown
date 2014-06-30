@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Introduzione all'Historical Debugger
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1590
-wordpress_url: http://imperugo.tostring.it/blog/post/introduzione-all-historical-debugger/
+redirect_from: 
+  - /blog/post/introduzione-all-historical-debugger/
+  - /Blog/Post/introduzione-all-historical-debugger/
+  - /2009/7/27/introduzione-all-historical-debugger/
 date: 2009-07-27 06:22:48.000000000 +01:00
 categories:
 - .NET

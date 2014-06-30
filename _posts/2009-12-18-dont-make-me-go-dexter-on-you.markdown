@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Don’t make me go Dexter on you!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1530
-wordpress_url: http://imperugo.tostring.it/blog/post/dont-make-me-go-dexter-on-you/
+redirect_from: 
+  - /blog/post/dont-make-me-go-dexter-on-you/
+  - /Blog/Post/dont-make-me-go-dexter-on-you/
+  - /2009/12/19/dont-make-me-go-dexter-on-you/
 date: 2009-12-18 23:30:00.000000000 +00:00
 categories:
 - Various

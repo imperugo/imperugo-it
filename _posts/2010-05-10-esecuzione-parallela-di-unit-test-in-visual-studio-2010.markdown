@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Esecuzione parallela di Unit Test in Visual Studio 2010
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1503
-wordpress_url: http://imperugo.tostring.it/blog/post/esecuzione-parallela-di-unit-test-in-visual-studio-2010/
+redirect_from: 
+  - /blog/post/esecuzione-parallela-di-unit-test-in-visual-studio-2010/
+  - /Blog/Post/esecuzione-parallela-di-unit-test-in-visual-studio-2010/
+  - /2010/5/10/esecuzione-parallela-di-unit-test-in-visual-studio-2010/
 date: 2010-05-10 16:45:00.000000000 +01:00
 categories:
 - .NET

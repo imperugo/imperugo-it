@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Un Resource Manager molto fluent per migliorare le performance
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1510
-wordpress_url: http://imperugo.tostring.it/blog/post/resource-manager-molto-fluent-migliorare-le-performance/
+redirect_from: 
+  - /blog/post/resource-manager-molto-fluent-migliorare-le-performance/
+  - /Blog/Post/resource-manager-molto-fluent-migliorare-le-performance/
+  - /2010/3/16/resource-manager-molto-fluent-migliorare-le-performance/
 date: 2010-03-16 16:53:00.000000000 +00:00
 categories:
 - ASP.NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Alcuni problemi con l’AntiForgeryToken in ASP.NET MVC 2
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1504
-wordpress_url: http://imperugo.tostring.it/blog/post/alcuni-problemi-con-lantiforgerytoken-aspnet-mvc-2/
+redirect_from: 
+  - /blog/post/alcuni-problemi-con-lantiforgerytoken-aspnet-mvc-2/
+  - /Blog/Post/alcuni-problemi-con-lantiforgerytoken-aspnet-mvc-2/
+  - /2010/5/5/alcuni-problemi-con-lantiforgerytoken-aspnet-mvc-2/
 date: 2010-05-05 16:37:00.000000000 +01:00
 categories:
 - ASP.NET

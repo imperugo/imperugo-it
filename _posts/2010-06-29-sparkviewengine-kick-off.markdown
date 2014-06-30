@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: SparkViewEngine Kick Off
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1486
-wordpress_url: http://imperugo.tostring.it/blog/post/sparkviewengine-kick-off/
+redirect_from: 
+  - /blog/post/sparkviewengine-kick-off/
+  - /Blog/Post/sparkviewengine-kick-off/
+  - /2010/6/29/sparkviewengine-kick-off/
 date: 2010-06-29 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Log4Net ed un buon logging
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1514
-wordpress_url: http://imperugo.tostring.it/blog/post/log4net-ed-buon-logging/
+redirect_from: 
+  - /blog/post/log4net-ed-buon-logging/
+  - /Blog/Post/log4net-ed-buon-logging/
+  - /2010/3/9/log4net-ed-buon-logging/
 date: 2010-03-09 17:32:00.000000000 +00:00
 categories:
 - .NET

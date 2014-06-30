@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Primissime impressioni su Visual Studio 2010 Beta 2
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1551
-wordpress_url: http://imperugo.tostring.it/blog/post/primissime-impressioni-su-visual-studio-2010-beta-2/
+redirect_from: 
+  - /blog/post/primissime-impressioni-su-visual-studio-2010-beta-2/
+  - /Blog/Post/primissime-impressioni-su-visual-studio-2010-beta-2/
+  - /2009/10/21/primissime-impressioni-su-visual-studio-2010-beta-2/
 date: 2009-10-20 23:00:00.000000000 +01:00
 categories:
 - .NET

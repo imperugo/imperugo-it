@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Microsoft AJAX CDN
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1562
-wordpress_url: http://imperugo.tostring.it/blog/post/microsoft-ajax-cdn/
+redirect_from: 
+  - /blog/post/microsoft-ajax-cdn/
+  - /Blog/Post/microsoft-ajax-cdn/
+  - /2009/9/21/microsoft-ajax-cdn/
 date: 2009-09-21 14:01:15.000000000 +01:00
 categories:
 - ASP.NET

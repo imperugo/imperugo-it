@@ -3,9 +3,12 @@ layout: post
 status: publish
 published: true
 title: dexter su MVC 2.0 :)
+
+
 redirect_from: 
   - /blog/post/dexter-su-mvc-20/
-  - /2010/03/15/dexter-su-mvc-2-0/
+  - /Blog/Post/dexter-su-mvc-20/
+  - /2010/3/15/dexter-su-mvc-20/
 date: 2010-03-15 19:05:00.000000000 +00:00
 categories:
 - ASP.NET

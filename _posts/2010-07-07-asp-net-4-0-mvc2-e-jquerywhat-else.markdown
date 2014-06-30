@@ -3,10 +3,13 @@ layout: post
 status: publish
 published: true
 title: ASP.NET 4.0, MVC2 e jQuery…what else?
-redirect_from: 
-  - /2010/07/07/asp-net-4-0-mvc2-e-jquerywhat-else/
-  - /blog/post/aspnet-4-mvc2-jquery/
 
+
+
+redirect_from: 
+  - /blog/post/aspnet-4-mvc2-jquery/
+  - /Blog/Post/aspnet-4-mvc2-jquery/
+  - /2010/7/7/aspnet-4-mvc2-jquery/
 date: 2010-07-07 21:33:00.000000000 +01:00
 categories:
 - ASP.NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Visual Studio Team System 2008 GDR R2
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1568
-wordpress_url: http://imperugo.tostring.it/blog/post/visual-studio-team-system-2008-gdr-r2/
+redirect_from: 
+  - /blog/post/visual-studio-team-system-2008-gdr-r2/
+  - /Blog/Post/visual-studio-team-system-2008-gdr-r2/
+  - /2009/9/8/visual-studio-team-system-2008-gdr-r2/
 date: 2009-09-08 09:34:43.000000000 +01:00
 categories:
 - .NET

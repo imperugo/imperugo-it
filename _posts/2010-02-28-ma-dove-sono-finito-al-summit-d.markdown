@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Ma dove sono finito? al Summit :D
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1518
-wordpress_url: http://imperugo.tostring.it/blog/post/mvp-summit-2010/
+redirect_from: 
+  - /blog/post/mvp-summit-2010/
+  - /Blog/Post/mvp-summit-2010/
+  - /2010/2/28/mvp-summit-2010/
 date: 2010-02-28 20:27:24.000000000 +00:00
 categories:
 - Eventi

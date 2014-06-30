@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Gestire in semplicità le partial class dentro Visual Studio.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1574
-wordpress_url: http://imperugo.tostring.it/blog/post/gestire-in-semplicita-le-partial-class-dentro-visual-studio/
+redirect_from: 
+  - /blog/post/gestire-in-semplicita-le-partial-class-dentro-visual-studio/
+  - /Blog/Post/gestire-in-semplicita-le-partial-class-dentro-visual-studio/
+  - /2009/8/26/gestire-in-semplicita-le-partial-class-dentro-visual-studio/
 date: 2009-08-26 13:26:50.000000000 +01:00
 categories:
 - .NET

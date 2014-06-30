@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Microsoft Live Labs Pivot, stupendo!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1534
-wordpress_url: http://imperugo.tostring.it/blog/post/microsoft-live-labs-pivot-stupendo/
+redirect_from: 
+  - /blog/post/microsoft-live-labs-pivot-stupendo/
+  - /Blog/Post/microsoft-live-labs-pivot-stupendo/
+  - /2009/12/2/microsoft-live-labs-pivot-stupendo/
 date: 2009-12-02 17:30:00.000000000 +00:00
 categories:
 - Various

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: VS2010 Beta 2 e WCF RIA Services - problemi di compilazione
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1532
-wordpress_url: http://imperugo.tostring.it/blog/post/vs2010-beta-2-e-wcf-ria-services---problemi-di-compilazione/
+redirect_from: 
+  - /blog/post/vs2010-beta-2-e-wcf-ria-services---problemi-di-compilazione/
+  - /Blog/Post/vs2010-beta-2-e-wcf-ria-services---problemi-di-compilazione/
+  - /2009/12/10/vs2010-beta-2-e-wcf-ria-services---problemi-di-compilazione/
 date: 2009-12-10 03:22:13.000000000 +00:00
 categories:
 - .NET

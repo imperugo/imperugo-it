@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Disponibile il mio webcast su ASP.NET MVC 2
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1498
-wordpress_url: http://imperugo.tostring.it/blog/post/disponibile-il-mio-webcast-su-aspnet-mvc-2/
+redirect_from: 
+  - /blog/post/disponibile-il-mio-webcast-su-aspnet-mvc-2/
+  - /Blog/Post/disponibile-il-mio-webcast-su-aspnet-mvc-2/
+  - /2010/5/17/disponibile-il-mio-webcast-su-aspnet-mvc-2/
 date: 2010-05-17 16:39:00.000000000 +01:00
 categories:
 - ASP.NET

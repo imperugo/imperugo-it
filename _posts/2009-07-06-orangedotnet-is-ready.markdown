@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: OrangeDotNet is ready!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1607
-wordpress_url: http://imperugo.tostring.it/blog/post/orangedotnet-is-ready/
+redirect_from: 
+  - /blog/post/orangedotnet-is-ready/
+  - /Blog/Post/orangedotnet-is-ready/
+  - /2009/7/6/orangedotnet-is-ready/
 date: 2009-07-06 03:50:29.000000000 +01:00
 categories:
 - Eventi

@@ -3,11 +3,14 @@ layout: post
 status: publish
 published: true
 title: Il metodo GetHashCode
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1623
-wordpress_url: http://imperugo.tostring.it/blog/post/il-metodo-gethashcode/
+
+
+
+
+redirect_from: 
+  - /blog/post/il-metodo-gethashcode/
+  - /Blog/Post/il-metodo-gethashcode/
+  - /2009/6/11/il-metodo-gethashcode/
 date: 2009-06-11 03:00:33.000000000 +01:00
 categories:
 - .NET

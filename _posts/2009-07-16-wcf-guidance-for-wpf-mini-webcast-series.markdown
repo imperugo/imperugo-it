@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: WCF Guidance for WPF Mini Webcast Series
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1600
-wordpress_url: http://imperugo.tostring.it/blog/post/wcf-guidance-for-wpf-mini-webcast-series/
+redirect_from: 
+  - /blog/post/wcf-guidance-for-wpf-mini-webcast-series/
+  - /Blog/Post/wcf-guidance-for-wpf-mini-webcast-series/
+  - /2009/7/16/wcf-guidance-for-wpf-mini-webcast-series/
 date: 2009-07-16 02:00:42.000000000 +01:00
 categories:
 - .NET

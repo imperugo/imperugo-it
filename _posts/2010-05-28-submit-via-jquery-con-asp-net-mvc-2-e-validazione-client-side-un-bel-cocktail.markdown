@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Submit via jQuery con ASP.NET MVC 2 e Validazione Client Side, un bel cocktail
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1490
-wordpress_url: http://imperugo.tostring.it/blog/post/submit-via-jquery-con-aspnetmvc-2-e-validazione-client-side-un-bel-cocktail/
+redirect_from: 
+  - /blog/post/submit-via-jquery-con-aspnetmvc-2-e-validazione-client-side-un-bel-cocktail/
+  - /Blog/Post/submit-via-jquery-con-aspnetmvc-2-e-validazione-client-side-un-bel-cocktail/
+  - /2010/5/28/submit-via-jquery-con-aspnetmvc-2-e-validazione-client-side-un-bel-cocktail/
 date: 2010-05-28 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

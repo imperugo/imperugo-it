@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Utilizzare un RamDisk per l’esecuzione dei Test
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1554
-wordpress_url: http://imperugo.tostring.it/blog/post/utilizzare-un-ramdisk-per-l-and-rsquo-esecuzione-dei-test/
+redirect_from: 
+  - /blog/post/utilizzare-un-ramdisk-per-l-and-rsquo-esecuzione-dei-test/
+  - /Blog/Post/utilizzare-un-ramdisk-per-l-and-rsquo-esecuzione-dei-test/
+  - /2009/10/14/utilizzare-un-ramdisk-per-l-and-rsquo-esecuzione-dei-test/
 date: 2009-10-14 01:30:00.000000000 +01:00
 categories:
 - .NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Unit Test con SharpTestEx
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1508
-wordpress_url: http://imperugo.tostring.it/blog/post/unit-test-con-sharptestex/
+redirect_from: 
+  - /blog/post/unit-test-con-sharptestex/
+  - /Blog/Post/unit-test-con-sharptestex/
+  - /2010/4/7/unit-test-con-sharptestex/
 date: 2010-04-07 16:43:00.000000000 +01:00
 categories:
 - .NET

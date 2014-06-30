@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: How much Windows Azure?
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1601
-wordpress_url: http://imperugo.tostring.it/blog/post/how-much-windows-azure/
+redirect_from: 
+  - /blog/post/how-much-windows-azure/
+  - /Blog/Post/how-much-windows-azure/
+  - /2009/7/16/how-much-windows-azure/
 date: 2009-07-16 01:59:33.000000000 +01:00
 categories:
 - Various

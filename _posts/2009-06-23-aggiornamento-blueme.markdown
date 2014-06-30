@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Aggiornamento Blue&amp;Me
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1617
-wordpress_url: http://imperugo.tostring.it/blog/post/aggiornamento-blue-and-me/
+redirect_from: 
+  - /blog/post/aggiornamento-blue-and-me/
+  - /Blog/Post/aggiornamento-blue-and-me/
+  - /2009/6/23/aggiornamento-blue-and-me/
 date: 2009-06-23 01:29:12.000000000 +01:00
 categories:
 - Various

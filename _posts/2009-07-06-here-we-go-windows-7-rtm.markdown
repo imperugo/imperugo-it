@@ -4,9 +4,12 @@ status: publish
 published: true
 title: Here we go! Windows 7 RTM
 
+
+
 redirect_from: 
   - /blog/post/here-we-go-windows-7-rtm/
-
+  - /Blog/Post/here-we-go-windows-7-rtm/
+  - /2009/7/6/here-we-go-windows-7-rtm/
 date: 2009-07-06 03:39:29.000000000 +01:00
 categories:
 - Various

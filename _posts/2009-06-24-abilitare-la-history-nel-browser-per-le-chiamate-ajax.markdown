@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Abilitare la History nel browser per le chiamate AJAX
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1615
-wordpress_url: http://imperugo.tostring.it/blog/post/abilitare-la-history-nel-browser-per-le-chiamate-ajax/
+redirect_from: 
+  - /blog/post/abilitare-la-history-nel-browser-per-le-chiamate-ajax/
+  - /Blog/Post/abilitare-la-history-nel-browser-per-le-chiamate-ajax/
+  - /2009/6/24/abilitare-la-history-nel-browser-per-le-chiamate-ajax/
 date: 2009-06-24 02:27:03.000000000 +01:00
 categories:
 - ASP.NET

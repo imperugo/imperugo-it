@@ -3,9 +3,12 @@ layout: post
 status: publish
 published: true
 title: Riflessioni su NHibernate
+
+
 redirect_from: 
   - /blog/post/riflessioni-su-nhibernate/
-  - /2006/07/18/l-impersonate-di-aspnet-e-i-thread/
+  - /Blog/Post/riflessioni-su-nhibernate/
+  - /2006/7/18/riflessioni-su-nhibernate/
 date: 2006-07-18 01:00:00.000000000 +01:00
 categories:
 - ORM

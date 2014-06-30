@@ -3,9 +3,12 @@ layout: post
 status: publish
 published: true
 title: Un pannello per gestire la cache
+
+
 redirect_from: 
   - /blog/post/un-pannello-per-gestire-la-cache/
-  - /2006/03/20/un-pannello-per-gestire-la-cache/
+  - /Blog/Post/un-pannello-per-gestire-la-cache/
+  - /2006/3/20/un-pannello-per-gestire-la-cache/
 date: 2006-03-20 00:00:00.000000000 +00:00
 categories:
 - ASP.NET

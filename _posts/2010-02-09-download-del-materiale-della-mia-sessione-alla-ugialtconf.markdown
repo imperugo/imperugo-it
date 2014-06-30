@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Download del materiale della mia sessione alla UgiAltConf
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1519
-wordpress_url: http://imperugo.tostring.it/blog/post/download-del-materiale-della-mia-sessione-alla-ugialtconf/
+redirect_from: 
+  - /blog/post/download-del-materiale-della-mia-sessione-alla-ugialtconf/
+  - /Blog/Post/download-del-materiale-della-mia-sessione-alla-ugialtconf/
+  - /2010/2/9/download-del-materiale-della-mia-sessione-alla-ugialtconf/
 date: 2010-02-09 06:47:23.000000000 +00:00
 categories:
 - Eventi

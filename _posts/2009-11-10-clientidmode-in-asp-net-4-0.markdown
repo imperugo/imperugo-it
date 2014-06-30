@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: ClientIDMode in ASP.NET 4.0
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1540
-wordpress_url: http://imperugo.tostring.it/blog/post/clientidmode-in-aspnet-40/
+redirect_from: 
+  - /blog/post/clientidmode-in-aspnet-40/
+  - /Blog/Post/clientidmode-in-aspnet-40/
+  - /2009/11/10/clientidmode-in-aspnet-40/
 date: 2009-11-10 17:00:00.000000000 +00:00
 categories:
 - ASP.NET

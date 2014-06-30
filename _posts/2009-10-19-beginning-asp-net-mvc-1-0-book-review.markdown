@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Beginning ASP.NET MVC 1.0 Book Review
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1552
-wordpress_url: http://imperugo.tostring.it/blog/post/beginning-aspnet-mvc-10-book-review/
+redirect_from: 
+  - /blog/post/beginning-aspnet-mvc-10-book-review/
+  - /Blog/Post/beginning-aspnet-mvc-10-book-review/
+  - /2009/10/19/beginning-aspnet-mvc-10-book-review/
 date: 2009-10-19 17:30:00.000000000 +01:00
 categories:
 - ASP.NET

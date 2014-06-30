@@ -3,8 +3,11 @@ layout: post
 status: publish
 published: true
 title: Un Pager per ASP.NET MVC
+
 redirect_from: 
   - /blog/post/un-pager-per-aspnet-mvc/
+  - /Blog/Post/un-pager-per-aspnet-mvc/
+  - /2009/6/18/un-pager-per-aspnet-mvc/
 date: 2009-06-18 01:59:01.000000000 +01:00
 categories:
 - ASP.NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Anti-XSS Library v3.1 Released!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1560
-wordpress_url: http://imperugo.tostring.it/blog/post/anti-xss-library-v31-released/
+redirect_from: 
+  - /blog/post/anti-xss-library-v31-released/
+  - /Blog/Post/anti-xss-library-v31-released/
+  - /2009/9/24/anti-xss-library-v31-released/
 date: 2009-09-24 07:26:33.000000000 +01:00
 categories:
 - ASP.NET

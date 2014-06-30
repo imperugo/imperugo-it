@@ -4,10 +4,13 @@ status: publish
 published: true
 title: http o https?
 
+
+
+
 redirect_from: 
   - /blog/post/http-o-https/
-  - /2011/11/04/http-o-https/
-
+  - /Blog/Post/http-o-https/
+  - /2011/11/4/http-o-https/
 date: 2011-11-04 17:15:00.000000000 +00:00
 categories:
 - Web Dev

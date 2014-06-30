@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: FluentNHibernate 1.0 RTM
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1571
-wordpress_url: http://imperugo.tostring.it/blog/post/fluentnhibernate-10-rtm/
+redirect_from: 
+  - /blog/post/fluentnhibernate-10-rtm/
+  - /Blog/Post/fluentnhibernate-10-rtm/
+  - /2009/8/31/fluentnhibernate-10-rtm/
 date: 2009-08-31 10:36:37.000000000 +01:00
 categories:
 - ORM

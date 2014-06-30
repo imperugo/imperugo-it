@@ -4,11 +4,14 @@ status: publish
 published: true
 title: Usare IExceptionFilter per loggare le eccezioni.
 
+
+
+
+
 redirect_from: 
-  - /2011/05/19/usare-iexceptionfilter-per-loggare-le-eccezioni/
   - /blog/post/usare-iexceptionfilter-per-loggare-le-eccezioni/
-
-
+  - /Blog/Post/usare-iexceptionfilter-per-loggare-le-eccezioni/
+  - /2011/5/19/usare-iexceptionfilter-per-loggare-le-eccezioni/
 date: 2011-05-19 16:45:00.000000000 +01:00
 categories:
 - ASP.NET

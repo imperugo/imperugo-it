@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: .NET RIA Services e Silverlight
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1589
-wordpress_url: http://imperugo.tostring.it/blog/post/net-ria-services-e-silverlight/
+redirect_from: 
+  - /blog/post/net-ria-services-e-silverlight/
+  - /Blog/Post/net-ria-services-e-silverlight/
+  - /2009/7/27/net-ria-services-e-silverlight/
 date: 2009-07-27 18:01:36.000000000 +01:00
 categories:
 - SILVERLIGHT

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Statistiche dettagliate sull’indirizzo IP
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1563
-wordpress_url: http://imperugo.tostring.it/blog/post/statistiche-dettagliate-sull-and-rsquo-indirizzo-ip/
+redirect_from: 
+  - /blog/post/statistiche-dettagliate-sull-and-rsquo-indirizzo-ip/
+  - /Blog/Post/statistiche-dettagliate-sull-and-rsquo-indirizzo-ip/
+  - /2009/9/15/statistiche-dettagliate-sull-and-rsquo-indirizzo-ip/
 date: 2009-09-15 14:23:18.000000000 +01:00
 categories:
 - Various

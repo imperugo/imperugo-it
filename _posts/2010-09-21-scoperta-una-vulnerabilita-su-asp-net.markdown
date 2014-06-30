@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Scoperta una vulnerabilità su ASP.NET
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1468
-wordpress_url: http://imperugo.tostring.it/blog/post/scoperta-una-vulnerabilit%c3%a0-su-aspnet/
+redirect_from: 
+  - /blog/post/scoperta-una-vulnerabilit%C3%A0-su-aspnet/
+  - /Blog/Post/scoperta-una-vulnerabilit%C3%A0-su-aspnet/
+  - /2010/9/21/scoperta-una-vulnerabilit%C3%A0-su-aspnet/
 date: 2010-09-21 16:15:00.000000000 +01:00
 categories:
 - ASP.NET

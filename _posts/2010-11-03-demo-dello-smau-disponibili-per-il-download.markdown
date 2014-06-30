@@ -3,11 +3,13 @@ layout: post
 status: publish
 published: true
 title: Demo dello SMAU disponibili per il download.
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1464
-wordpress_url: http://imperugo.tostring.it/blog/post/demo-dello-smau-disponibili-il-download/
+
+
+
+redirect_from: 
+  - /blog/post/demo-dello-smau-disponibili-il-download/
+  - /Blog/Post/demo-dello-smau-disponibili-il-download/
+  - /2010/11/3/demo-dello-smau-disponibili-il-download/
 date: 2010-11-03 16:50:00.000000000 +00:00
 categories:
 - Eventi

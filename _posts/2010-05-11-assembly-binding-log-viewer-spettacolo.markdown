@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Assembly Binding Log Viewer (spettacolo).
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1502
-wordpress_url: http://imperugo.tostring.it/blog/post/assembly-binding-log-viewer-che-spettacolo/
+redirect_from: 
+  - /blog/post/assembly-binding-log-viewer-che-spettacolo/
+  - /Blog/Post/assembly-binding-log-viewer-che-spettacolo/
+  - /2010/5/11/assembly-binding-log-viewer-che-spettacolo/
 date: 2010-05-11 14:45:00.000000000 +01:00
 categories:
 - .NET

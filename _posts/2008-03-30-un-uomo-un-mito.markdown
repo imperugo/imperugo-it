@@ -3,10 +3,13 @@ layout: post
 status: publish
 published: true
 title: Un uomo un mito!
+
+
+
 redirect_from: 
   - /blog/post/un-uomo-un-mito/
-  - /2008/03/30/managed-services-engine/
-
+  - /Blog/Post/un-uomo-un-mito/
+  - /2008/3/30/un-uomo-un-mito/
 date: 2008-03-30 00:00:00.000000000 +00:00
 categories:
 - Various

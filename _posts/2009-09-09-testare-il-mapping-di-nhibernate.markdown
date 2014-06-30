@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Testare il mapping di NHibernate
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1566
-wordpress_url: http://imperugo.tostring.it/blog/post/testare-il-mapping-di-nhibernate/
+redirect_from: 
+  - /blog/post/testare-il-mapping-di-nhibernate/
+  - /Blog/Post/testare-il-mapping-di-nhibernate/
+  - /2009/9/9/testare-il-mapping-di-nhibernate/
 date: 2009-09-09 09:49:05.000000000 +01:00
 categories:
 - ORM

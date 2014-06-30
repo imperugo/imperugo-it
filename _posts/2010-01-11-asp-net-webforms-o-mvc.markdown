@@ -3,10 +3,13 @@ layout: post
 status: publish
 published: true
 title: ASP.NET WebForms o MVC?
+
+
+
 redirect_from: 
   - /blog/post/asp.net-webforms-o-mvc/
-  - /2010/01/11/asp.net-webforms-o-mvc/
-
+  - /Blog/Post/asp.net-webforms-o-mvc/
+  - /2010/1/12/asp.net-webforms-o-mvc/
 date: 2010-01-11 23:58:54.000000000 +00:00
 categories:
 - ASP.NET

@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Community Tour @Catania concluso, si torna a parlare di MVC!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1529
-wordpress_url: http://imperugo.tostring.it/blog/post/community-tour-catania-concluso-si-torna-a-parlare-di-mvc/
+redirect_from: 
+  - /blog/post/community-tour-catania-concluso-si-torna-a-parlare-di-mvc/
+  - /Blog/Post/community-tour-catania-concluso-si-torna-a-parlare-di-mvc/
+  - /2009/12/25/community-tour-catania-concluso-si-torna-a-parlare-di-mvc/
 date: 2009-12-25 00:21:00.000000000 +00:00
 categories:
 - Eventi

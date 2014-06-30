@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: UrlEncode e IIS7
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1584
-wordpress_url: http://imperugo.tostring.it/blog/post/urlencode-e-iis7/
+redirect_from: 
+  - /blog/post/urlencode-e-iis7/
+  - /Blog/Post/urlencode-e-iis7/
+  - /2009/8/4/urlencode-e-iis7/
 date: 2009-08-04 01:30:15.000000000 +01:00
 categories:
 - ASP.NET

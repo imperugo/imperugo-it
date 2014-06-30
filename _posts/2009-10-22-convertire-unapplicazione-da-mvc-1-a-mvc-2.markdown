@@ -3,8 +3,11 @@ layout: post
 status: publish
 published: true
 title: Convertire un’applicazione da MVC 1 a MVC 2
+
 redirect_from: 
   - /blog/post/convertire-un-and-rsquo-applicazione-da-mvc-1-a-mvc-2/
+  - /Blog/Post/convertire-un-and-rsquo-applicazione-da-mvc-1-a-mvc-2/
+  - /2009/10/22/convertire-un-and-rsquo-applicazione-da-mvc-1-a-mvc-2/
 date: 2009-10-22 07:00:00.000000000 +01:00
 categories:
 - ASP.NET

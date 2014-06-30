@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Implementare OpenSearch sul proprio sito
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1471
-wordpress_url: http://imperugo.tostring.it/blog/post/implementare-opensearch-sul-proprio-sito/
+redirect_from: 
+  - /blog/post/implementare-opensearch-sul-proprio-sito/
+  - /Blog/Post/implementare-opensearch-sul-proprio-sito/
+  - /2010/9/7/implementare-opensearch-sul-proprio-sito/
 date: 2010-09-07 16:00:00.000000000 +01:00
 categories:
 - ASP.NET

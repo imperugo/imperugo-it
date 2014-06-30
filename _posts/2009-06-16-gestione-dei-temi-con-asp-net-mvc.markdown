@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Gestione dei temi con ASP.NET MVC
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1622
-wordpress_url: http://imperugo.tostring.it/blog/post/gestione-dei-temi-con-aspnet-mvc/
+redirect_from: 
+  - /blog/post/gestione-dei-temi-con-aspnet-mvc/
+  - /Blog/Post/gestione-dei-temi-con-aspnet-mvc/
+  - /2009/6/16/gestione-dei-temi-con-aspnet-mvc/
 date: 2009-06-16 02:14:12.000000000 +01:00
 categories:
 - ASP.NET

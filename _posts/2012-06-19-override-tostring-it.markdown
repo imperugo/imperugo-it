@@ -3,10 +3,13 @@ layout: post
 status: publish
 published: true
 title: override.tostring.it
+
+
+  
 redirect_from: 
   - /blog/post/override.tostring.it/
-  - /2012/06/19/override.tostring.it/
-  
+  - /Blog/Post/override.tostring.it/
+  - /2012/6/19/override.tostring.it/
 date: 2012-06-19 17:15:00.000000000 +01:00
 categories:
 - Various

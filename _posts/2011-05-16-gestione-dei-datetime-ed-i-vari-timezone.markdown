@@ -4,10 +4,13 @@ status: publish
 published: true
 title: Gestione dei DateTime ed i vari TimeZone
 
+
+
+
 redirect_from: 
   - /blog/post/gestione-dei-datetime-ed-i-vari-timezone/
-  - /2011/05/16/gestione-dei-datetime-ed-i-vari-timezone/
-
+  - /Blog/Post/gestione-dei-datetime-ed-i-vari-timezone/
+  - /2011/5/16/gestione-dei-datetime-ed-i-vari-timezone/
 date: 2011-05-16 16:50:00.000000000 +01:00
 categories:
 - ORM

@@ -3,10 +3,13 @@ layout: post
 status: publish
 published: true
 title: Managed Services Engine
+
+
+
 redirect_from: 
   - /blog/post/managed-services-engine/
-  - /2008/02/21/managed-services-engine/
-
+  - /Blog/Post/managed-services-engine/
+  - /2008/2/21/managed-services-engine/
 date: 2008-02-21 01:00:00.000000000 +00:00
 categories:
 - .NET

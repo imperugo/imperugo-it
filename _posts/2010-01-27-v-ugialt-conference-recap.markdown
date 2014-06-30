@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: V UgiAlt Conference – recap
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1525
-wordpress_url: http://imperugo.tostring.it/blog/post/v-ugialt-conference-recap/
+redirect_from: 
+  - /blog/post/v-ugialt-conference-recap/
+  - /Blog/Post/v-ugialt-conference-recap/
+  - /2010/1/27/v-ugialt-conference-recap/
 date: 2010-01-27 17:30:00.000000000 +00:00
 categories:
 - Eventi

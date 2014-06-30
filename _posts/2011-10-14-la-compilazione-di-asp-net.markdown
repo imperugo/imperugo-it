@@ -4,10 +4,13 @@ status: publish
 published: true
 title: La compilazione di ASP.NET
 
+
+
+
 redirect_from: 
   - /blog/post/la-compilazione-di-asp.net/
+  - /Blog/Post/la-compilazione-di-asp.net/
   - /2011/10/14/la-compilazione-di-asp.net/
-
 date: 2011-10-14 17:00:00.000000000 +01:00
 categories:
 - ASP.NET

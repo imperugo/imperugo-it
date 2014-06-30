@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Loggare il ricliclo dell'Application Domain
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1591
-wordpress_url: http://imperugo.tostring.it/blog/post/loggare-il-ricliclo-dell-application-domain/
+redirect_from: 
+  - /blog/post/loggare-il-ricliclo-dell-application-domain/
+  - /Blog/Post/loggare-il-ricliclo-dell-application-domain/
+  - /2009/7/27/loggare-il-ricliclo-dell-application-domain/
 date: 2009-07-27 03:13:12.000000000 +01:00
 categories:
 - ASP.NET

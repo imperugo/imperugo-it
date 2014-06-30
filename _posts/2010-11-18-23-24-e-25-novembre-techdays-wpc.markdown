@@ -3,8 +3,11 @@ layout: post
 status: publish
 published: true
 title: 23, 24 e 25 novembre TechDays-WPC!
+
 redirect_from: 
   - /blog/post/23-24-25-novembre-techdayswpc/
+  - /Blog/Post/23-24-25-novembre-techdayswpc/
+  - /2010/11/18/23-24-25-novembre-techdayswpc/
 date: 2010-11-18 18:00:00.000000000 +00:00
 categories:
 - Web Dev

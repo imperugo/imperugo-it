@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: Esce la Beta2 di Visual Studio 2010 ed è tempo di studiare!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1550
-wordpress_url: http://imperugo.tostring.it/blog/post/esce-la-beta2-di-visual-studio-2010-ed-and-egrave-tempo-di-studiare/
+redirect_from: 
+  - /blog/post/esce-la-beta2-di-visual-studio-2010-ed-and-egrave-tempo-di-studiare/
+  - /Blog/Post/esce-la-beta2-di-visual-studio-2010-ed-and-egrave-tempo-di-studiare/
+  - /2009/10/21/esce-la-beta2-di-visual-studio-2010-ed-and-egrave-tempo-di-studiare/
 date: 2009-10-21 21:30:00.000000000 +01:00
 categories:
 - Eventi

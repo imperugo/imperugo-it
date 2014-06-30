@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: verso “ASP.NET MVC tra realtà e futuro”. Tutti a Bologna (ma passando dal via….)!
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1541
-wordpress_url: http://imperugo.tostring.it/blog/post/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
+redirect_from: 
+  - /blog/post/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
+  - /Blog/Post/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
+  - /2009/11/6/verso-and-ldquo-aspnet-mvc-tra-realt-and-agrave-e-futuro-and-rdquo-tutti-a-bologna-ma-passando-dal-via-and-hellip/
 date: 2009-11-06 06:30:00.000000000 +00:00
 categories:
 - ASP.NET

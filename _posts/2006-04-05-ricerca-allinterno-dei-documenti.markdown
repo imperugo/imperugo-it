@@ -4,11 +4,14 @@ status: publish
 published: true
 title: Ricerca all'interno dei documenti
 
-redirect_from: 
-  - /Blog/Post/Ricerca-all-interno-dei-documenti/
-  - /blog/post/ricerca-all-interno-dei-documenti/
-  - /2006/v/05/autorun-delle-applicazioni-web/
 
+
+
+
+redirect_from: 
+  - /blog/post/ricerca-all-interno-dei-documenti/
+  - /Blog/Post/ricerca-all-interno-dei-documenti/
+  - /2006/4/5/ricerca-all-interno-dei-documenti/
 date: 2006-04-05 01:00:00.000000000 +01:00
 categories:
 - .NET

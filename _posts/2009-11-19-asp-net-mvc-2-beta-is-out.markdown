@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: ASP.NET MVC 2 Beta is out
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1538
-wordpress_url: http://imperugo.tostring.it/blog/post/aspnet-mvc-2-beta-is-out/
+redirect_from: 
+  - /blog/post/aspnet-mvc-2-beta-is-out/
+  - /Blog/Post/aspnet-mvc-2-beta-is-out/
+  - /2009/11/19/aspnet-mvc-2-beta-is-out/
 date: 2009-11-19 10:17:18.000000000 +00:00
 categories:
 - ASP.NET

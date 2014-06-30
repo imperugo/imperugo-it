@@ -3,11 +3,10 @@ layout: post
 status: publish
 published: true
 title: BLinq (Linq to Bing)
-author: imperugo
-author_login: imperugo
-author_email: imperugo@gmail.com
-wordpress_id: 1575
-wordpress_url: http://imperugo.tostring.it/blog/post/blinq-linq-to-bing/
+redirect_from: 
+  - /blog/post/blinq-linq-to-bing/
+  - /Blog/Post/blinq-linq-to-bing/
+  - /2009/8/23/blinq-linq-to-bing/
 date: 2009-08-23 21:21:50.000000000 +01:00
 categories:
 - .NET
