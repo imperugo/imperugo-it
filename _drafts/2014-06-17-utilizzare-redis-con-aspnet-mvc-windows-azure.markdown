@@ -1,4 +1,4 @@
----
+side---
 layout: post
 title: "Utilizzare Redis con ASP.NET e Windows Azure"
 description: "Recentemente Windows Azure ha rilasciato il supporto a Redis. In questo post vedremo come sfruttarlo per effettuare caching distribuito"
